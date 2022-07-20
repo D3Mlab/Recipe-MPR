@@ -45,7 +45,13 @@ if not os.path.exists("indexdir"):
 ix = index.create_in("indexdir", schema)
 writer = ix.writer()
 
-paths = ["./resources/database1.txt","./resources/database2.txt","./resources/database3.txt"]
+#Open with ide (VScode)
+#paths = ["tools/Search/resources/database1.txt","tools/Search/resources/database2.txt","tools/Search/resources/database3.txt"]
+
+#Open with command line
+paths = ["../resources/database1.txt","../resources/database2.txt","../resources/database3.txt"]
+
+#paths = ["./resources/database1.txt","./resources/database2.txt","./resources/database3.txt"]
 
 for i in range (0,3):
     database_file = open(paths[i], "rb")
