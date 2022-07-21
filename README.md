@@ -1,3 +1,14 @@
+# Table of Contents
+1. [Introduction](#introduction)
+
+2. [Dataset](#dataset)
+    - [Data Format](#data-format)
+    - [Data Curation Methodology](#data-curation-methodology)
+
+3. [Baseline Methods](#baseline-methods)
+
+4. [Evaluation Metrics](#evaluation-metrics)
+
 # Introduction
 
 This repository is for the LGE FoodKG dataset and tools. It contains a custom recipe query dataset curated from [FoodKG](https://foodkg.github.io/), a dataset search tool, baseline methods, and evaluation tools.
@@ -85,7 +96,6 @@ Requirements for queries:
 ### Query Type Annotation
 
 After all queries have been generated, each query was labeled according to the query types below, for a total of 11 binary labels where 1/0 indicates true/false. For the first 4 pairs of query types, each query is guaranteed to have one and only one of each pair be labeled "1" or true.
-[add query definitions?]
 
 - General vs. Specific
   - Specific queries mention a certain dish or recipe name; anything else is considered General
@@ -141,7 +151,21 @@ Each incorrect option was augmented with an additional brief explanation for why
 
 ### Data Validation
 
-- [validation methodology]
+Two full rounds of data validation among curators were conducted. In each round of validation:
+
+- Each subset of 100 queries and the associated labels, options, and descriptions were validated by someone other than the original curator (Validator 1)
+
+- Data was validated to ensure:
+  - Queries, options, and text descriptions followed the guidelines established above
+  - Correctness and consistency of query type labels
+  - A single correct answer can be identified without ambiguity and without looking at the correct answer
+
+- During this validation process, conflicts, confusions, and comments on improvements were recorded by Validator 1
+
+- A second, different individual (Validator 2) then validated the same subset of data and helped resolve conflicts
+
+- Corrections to the data were then made by the individual originally responsible for that subset of data
+
 
 # Baseline Methods
 
@@ -152,6 +176,27 @@ A number of different evaluation methods were chosen and run on the data to serv
 - [results - per person and in aggregate]
 
 ## 2) TF-IDF Ranking
+
+Using the recipe text descriptions as a corpus, each of the five options were ranked according to TF-IDF scoring against the given query by summing up the TF-IDF scores of each query term.
+
+- The term frequency used was the logarithmically scaled frequency: $tf(t,d) = log(1+f_{t,d})$ where $f_{t,d}$ is the frequency of term $t$ in document $d$ (the text description of the recipe).
+
+- The inverse document frequency used was adjusted to avoid division-by-zero: $idf(t,D) = log(N/(1 + df))$ where $N$ is the total number of recipe descriptions and $df$ is the document frequency of the term $t$ (number of descriptions containing the term).
+
+The accuracy was computed for each query + set of options in aggregate across the whole dataset and individually across different data curators.
+
+[insert overall results in aggregate]
+
+Per-person results:
+
+| Data Curator | H@1 (accuracy) |
+| -------- |-------- |
+| K | |
+| Y | |
+| H | 25/100 |
+| Z | |
+| N | |
+
 
 ## 3) Word Embedding (Glove)
 
