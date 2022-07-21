@@ -84,8 +84,19 @@
     "answer": {
       "description": "Recipe ID of correct choice",
       "type": "string"
+    },
+    "explanations": {
+      "description": "Explanations for why incorrect options are wrong",
+      "type": "object",
+      "patternProperties": {
+        "^[a-zA-Z0-9]$": {
+          "type": "string"
+        }
+      },
+      "minProperties": 4,
+      "maxProperties": 4
     }
   },
-  "required": ["query", "query_type", "options", "answer"]
+  "required": ["query", "query_type", "options", "answer", "explanations"]
 }
 
