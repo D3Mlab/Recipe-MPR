@@ -103,15 +103,15 @@ while len(id_to_recipe) > 340000:
     id_to_recipe2[k] = v
 
 
-dbfile = open('database1.txt', 'wb')
+dbfile = open('../resources/database1.txt', 'wb')
 pickle.dump(id_to_recipe, dbfile)
 dbfile.close()
 
-dbfile = open('database2.txt', 'wb')
+dbfile = open('../resources/database2.txt', 'wb')
 pickle.dump(id_to_recipe2, dbfile)
 dbfile.close()
 
-dbfile = open('database3.txt', 'wb')
+dbfile = open('../resources/database3.txt', 'wb')
 pickle.dump(id_to_recipe2, dbfile)
 dbfile.close()
 
