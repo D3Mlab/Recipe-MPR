@@ -1,1 +1,0 @@
-# FoodKG Search Tool
