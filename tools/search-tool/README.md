@@ -1,12 +1,12 @@
-# foodkg-search-tool
+<h1>foodkg-search-tool </h1>
 A tool to search recipes in foodkg and display its data by specific search. 
 
-# How to set up the tool:
+<h1>How to set up the tool: </h1>
 Notes: The following steps assume you already have python installed.
 If you are using Windows, you may have to download Make. [Here's a guide.](https://www.technewstoday.com/install-and-use-make-in-windows/)
 
-1. Clone this repository
-2. Download the raw data
+<h2>1. Clone this repository </h2>
+<h2>2. Download the raw data </h2>
 
   The recipe data we used in the research is gathered from the [Im2recipe project](http://im2recipe.csail.mit.edu/). 
   It requires a simple registration to download the recipe data. Please follow [this link](http://im2recipe.csail.mit.edu/dataset/register/) to register.
@@ -21,4 +21,4 @@ If you are using Windows, you may have to download Make. [Here's a guide.](https
 
   After downloading the data, find <code>layer1.json</code>, <code>det_ingrs.json</code> and <code>recipes_with_nutritional_info.json</code> and move it into <code>/resources</code>.
 
-3. In the <code>/src</code> directory, run <code>make setup</code>. This will take a long time.
+<h2>3. In the <code>/src</code> directory, run <code>make setup</code>. This will take a long time. </h2>
