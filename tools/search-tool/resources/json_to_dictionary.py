@@ -39,7 +39,7 @@ Main function
 id_to_recipe = {}
 
 ''' parse through layer1 '''
-x = open('layer1.json')
+x = open('../resources/layer1.json')
 print("Loading recipe name and ids ...")
 layer1 = json.load(x)
 
@@ -54,7 +54,7 @@ print("Done adding recipe name and ids")
 
 
 ''' parse through det_igrs'''
-x = open('/Users/yixinlok/Desktop/det_ingrs.json')
+x = open('../resources/det_ingrs.json')
 print("Loading ingredients data ...")
 det_igrs = json.load(x)
 
@@ -75,7 +75,7 @@ for i in range(0, len(det_igrs)):
 print("Done adding ingredients data")
 
 ''' parse through nutritional info'''
-x = open('/Users/yixinlok/Desktop/recipes_with_nutritional_info.json')
+x = open('../resources/recipes_with_nutritional_info.json')
 print("Loading nutritional information ...")
 nutri_info = json.load(x)
 
