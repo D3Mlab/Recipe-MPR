@@ -6,8 +6,10 @@ Notes: The following steps assume you already have python installed.
 If you are using Windows, you may have to download Make. [Here's a guide.](https://www.technewstoday.com/install-and-use-make-in-windows/)
 
 1. Clone this repository
-2. Download a folder called <code>Layers</code> from the Recipe1m database [here](http://im2recipe.csail.mit.edu/dataset/download/). Find <code>layer1.json</code> and move it into <code>/resources</code>.
+2. Download <code>Layers</code>, and <code>det_ingrs.json</code> and <code>recipes_with_nutritional_info.json</code> from the Recipe1m database [here](http://im2recipe.csail.mit.edu/dataset/download/). Find <code>layer1.json</code>, <code>det_ingrs.json</code> and <code>recipes_with_nutritional_info.json</code> and move it into <code>/resources</code>.
+
 3. In the <code>/src</code> directory, run <code>make setup</code>. This will take a long time.
+
 
 # How to run the tool:
 In the <code>/src</code> directory, run <code>make</code>.
