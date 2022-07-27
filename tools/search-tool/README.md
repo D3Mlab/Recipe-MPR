@@ -31,4 +31,5 @@ The search tool window allows searching by recipe name, and ingredients to inclu
 
 In the example below, a search is made for chocolate cake recipes that contain flour and eggs but don't contain butter.
 
-![image](images/example_search.png.jpg)
+![image](images/example_search.png)
+
