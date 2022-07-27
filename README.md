@@ -2,6 +2,7 @@
 1. [Introduction](#introduction)
 
 2. [Dataset](#dataset)
+    - [Raw Data](#raw-data)
     - [Data Format](#data-format)
     - [Data Curation Methodology](#data-curation-methodology)
 
@@ -17,7 +18,7 @@ This repository is for the LGE FoodKG dataset and tools. It contains a custom re
 
 ## Raw Data
 
-All of the raw recipe data used by curators to create this dataset was accessed through a python-based search tool that was developed to easily search through recipe options. The search tool uses 3 publicly available JSON files: *layer1.json, det_ingrs.json*, and *recipes_with_nutritional_info.json*, originating from the [Recipe1M](http://im2recipe.csail.mit.edu/dataset/login/) dataset. These files are also what the FoodKG dataset is based off of as specified by the [FoodKG dataset construction](https://foodkg.github.io/foodkg.html#:~:text=preparation%20of%20foods.-,Construction,-Prerequisites). These files however, originate from . Details on how to download the data and setup the search tool can be found in the README under tools/search-tool.
+All of the raw recipe data used by curators to create this dataset was accessed through a python-based search tool that was developed to easily search through recipe options. The search tool uses 3 publicly available JSON files: *layer1.json, det_ingrs.json*, and *recipes_with_nutritional_info.json*, originating from the [Recipe1M](http://im2recipe.csail.mit.edu/dataset/login/) dataset. These files are also what the FoodKG dataset is based off of as specified by the [FoodKG dataset construction](https://foodkg.github.io/foodkg.html#:~:text=preparation%20of%20foods.-,Construction,-Prerequisites). Details on how to download the data and setup the search tool can be found in the README under tools/search-tool/.
 
 ## Data Format
 
@@ -202,6 +203,8 @@ Results:
 
 ## 4) Neural IR (BERT, TAS-B)
 - [brief description]
+
+Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
