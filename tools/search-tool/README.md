@@ -1,9 +1,9 @@
 <h1>FoodKG Search Tool </h1>
-A tool to search for recipe options in FoodKG dataset that displays recipe ID, name, ingredients, and nutrional information. Search is based on text-matching with recipe name and whether certain ingredients are specified to be included/excluded.
+A tool to search for recipe options in FoodKG dataset that displays recipe ID, name, ingredients, and nutrional information. Search is based on text-matching with recipe name and whether certain ingredients are specified to be included/excluded. The tool will display up to 50 recipes at a time.
 
-<h2>Set-up: </h2>
+<h2>Set Up: </h2>
 
-Notes: The following steps assume you already have python installed.
+Notes: The following steps assume you already have python installed. If not, it can be downloaded from [here](https://www.python.org/downloads/).
 If you are using Windows, you may have to [download Make](https://www.technewstoday.com/install-and-use-make-in-windows/).
 
 <h3>1. Clone this repository </h3>
@@ -21,4 +21,14 @@ If you are using Windows, you may have to [download Make](https://www.technewsto
 
   After downloading the files, place them under the <code>/resources</code> directory.
 
-<h3>3. In the <code>/src</code> directory, run <code>make setup</code>. This will take a long time. </h3>
+<h3>3. In the <code>/src</code> directory, run <code>make setup</code>. </h3>
+Note: It is normal for this to take a long time.
+
+
+<h2>Usage:</h2>
+
+The search tool window allows searching by recipe name, and ingredients to include or exclude. For specifying multiple ingredients, enter them as a comma separated list.
+
+In the example below, a search is made for chocolate cake recipes that contain flour and eggs but don't contain butter.
+
+![image](images/example_search.png.jpg)
