@@ -15,6 +15,10 @@ This repository is for the LGE FoodKG dataset and tools. It contains a custom re
 
 # Dataset
 
+## Raw Data
+
+All of the raw recipe data used by curators to create this dataset was accessed through a python-based search tool that was developed to easily search through recipe options. The search tool uses 3 publicly available JSON files: *layer1.json, det_ingrs.json*, and *recipes_with_nutritional_info.json*, originating from the [Recipe1M](http://im2recipe.csail.mit.edu/dataset/login/) dataset. These files are also what the FoodKG dataset is based off of as specified by the [FoodKG dataset construction](https://foodkg.github.io/foodkg.html#:~:text=preparation%20of%20foods.-,Construction,-Prerequisites). These files however, originate from . Details on how to download the data and setup the search tool can be found in the README under tools/search-tool.
+
 ## Data Format
 
 The format of the dataset is in JSON, where each JSON object consists of the query, query type labels, five options (recipe IDs and text descriptions), the recipe ID of the intended correct answer, and explanations of incorrectness for the other four options. In this way, each group of query and five recipe options form a "multiple-choice" problem. The JSON schema used can be found under data/.
@@ -55,10 +59,6 @@ One example of the data:
 ```
 
 ## Data Curation Methodology
-
-### FoodKG Search Tool
-
-A python-based search tool was developed to easily search through recipes in the FoodKG dataset when generating options for each query. It searched through the dataset using text matching to the recipe names and had the option to include/exclude certain ingredients. It returns a display of the recipe ID, recipe name, ingredients, and nutritional information for up to 50 recipes. See README under tools/foodkg-search-tool for more information on setup and usage.
 
 ### Query Generation
 
@@ -160,7 +160,7 @@ Two full rounds of data validation among curators were conducted. In each round 
   - Correctness and consistency of query type labels
   - A single correct answer can be identified without ambiguity and without looking at the correct answer
 
-- During this validation process, conflicts, confusions, and comments on improvements were recorded by Validator 1
+- During this validation process, conflicts, issues, and ways to improve were recorded by Validator 1
 
 - A second, different individual (Validator 2) then validated the same subset of data and helped resolve conflicts
 
@@ -185,22 +185,32 @@ Using the recipe text descriptions as a corpus, each of the five options were ra
 
 The accuracy was computed for each query + set of options in aggregate across the whole dataset and individually across different data curators.
 
-[insert overall results in aggregate]
-
-Per-person results:
+Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
-| K | |
-| Y | |
+| K | 28/100 |
+| Y | 8/100 |
 | H | 25/100 |
-| Z | |
-| N | |
-
+| Z | 27/100|
+| N | 30/98 |
+| **Total** | **118/498 (23.69%)** |
 
 ## 3) Word Embedding (Glove)
+- [brief description]
+- [results - per person and in aggregate]
 
 ## 4) Neural IR (BERT, TAS-B)
+- [brief description]
+
+| Data Curator | H@1 (accuracy) |
+| -------- |-------- |
+| K | 46/100 |
+| Y | 27/100 |
+| H | 42/100 |
+| Z | 43/100|
+| N | 33/98 |
+| **Total** | **199/498 (39.96%)** |
 
 # Evaluation Metrics
 
