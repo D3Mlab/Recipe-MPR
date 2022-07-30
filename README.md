@@ -195,7 +195,7 @@ Using the recipe text descriptions as a corpus, each of the five options were ra
 
 - The inverse document frequency used was adjusted to avoid division-by-zero: $idf(t,D) = log(N/(1 + df))$ where $N$ is the total number of recipe descriptions and $df$ is the document frequency of the term $t$ (number of descriptions containing the term).
 
-The code can be found in baselines/neural-IR/TFIDF.ipynb.
+The code can be found in baselines/TFIDF.ipynb
 
 Results:
 
@@ -216,7 +216,7 @@ Results:
 
 This baseline uses the [TASB Neural IR model](https://huggingface.co/sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco) trained on the MSMARCO-Passage dataset to score and rank options. Some background and walkthrough of the methods used can be found in [this blog post](https://python.plainenglish.io/how-to-build-your-own-neural-ir-system-from-scratch-in-python-4a1f30576582).
 
-The code can be found in baselines/neural-IR/TASB.ipynb
+The code can be found in baselines/TASB.ipynb
 
 Results:
 
