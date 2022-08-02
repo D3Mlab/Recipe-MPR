@@ -12,27 +12,7 @@
       "description": "Query type labels where true/false represented by 1/0",
       "type": "object",
       "properties": {
-        "General": {
-          "type": "number",
-          "maximum": 1,
-          "minimum": 0
-        },
         "Specific": {
-          "type": "number",
-          "maximum": 1,
-          "minimum": 0
-        },
-        "Indirect": {
-          "type": "number",
-          "maximum": 1,
-          "minimum": 0
-        },
-        "Direct": {
-          "type": "number",
-          "maximum": 1,
-          "minimum": 0
-        },
-        "Objective": {
           "type": "number",
           "maximum": 1,
           "minimum": 0
@@ -42,7 +22,7 @@
           "maximum": 1,
           "minimum": 0
         },
-        "Simple": {
+        "Indirect": {
           "type": "number",
           "maximum": 1,
           "minimum": 0
@@ -68,7 +48,7 @@
           "minimum": 0
         }
       },
-      "required": ["General", "Specific", "Indirect", "Direct", "Objective", "Subjective", "Simple", "Compound", "Negated", "Analogical", "Temporal"]
+      "required": ["Specific", "Subjective", "Indirect", "Compound", "Negated", "Analogical", "Temporal"]
     },
     "options": {
       "description": "Recipe ID and text description pairs",
@@ -85,7 +65,7 @@
       "description": "Recipe ID of correct choice",
       "type": "string"
     },
-    "explanations": {
+    "incorrectness_explanations": {
       "description": "Explanations for why incorrect options are wrong",
       "type": "object",
       "patternProperties": {
@@ -95,8 +75,22 @@
       },
       "minProperties": 4,
       "maxProperties": 4
+    },
+    "correctness_explanation": {
+      "description": "Mapping of query terms to terms in the answer description that makes it correct",
+      "type": "object",
+      "properties": {
+        "[.]": {
+            "type": "string",
+            "oneOf": [
+                {"type" : "string"},
+                {"type": "array"}
+            ]
+        }
+      },
+      "minProperties": 1
     }
   },
-  "required": ["query", "query_type", "options", "answer", "explanations"]
+  "required": ["query", "query_type", "options", "answer", "incorrectness_explanations", "correctness_explanation"]
 }
 

@@ -29,7 +29,7 @@ One example of the data:
 ```json
 {
   "query": "I would like meat lasagna but I'm watching my weight",
-  "query_type:": {
+  "query_type": {
     "Specific": 1,
     "Subjective": 0,
     "Indirect": 1,
