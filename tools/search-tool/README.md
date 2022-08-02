@@ -24,7 +24,7 @@ If you are using Windows, you may have to [download Make](https://www.technewsto
 <h3>3. In the <code>/src</code> directory, run <code>make setup</code>. </h3>
 Note: It is normal for this to take a long time.
 
-<h2>Running:</h2>
+<h2>Launching:</h2>
 <h3> In the <code>/src</code> directory, run <code>make</code>.</h3>
 
 <h2>Usage:</h2>
