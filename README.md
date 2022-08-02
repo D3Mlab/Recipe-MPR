@@ -194,12 +194,25 @@ Two full rounds of data validation among curators were conducted. In each round 
 A number of different evaluation methods were chosen and run on the data to serve as baseline results. These results also helped standardize the difficulty of queries across different individuals. For each baseline, the accuracy was computed for each query + set of options in aggregate across the whole dataset and individually across different data curators. The code for these baselines can be found under baselines/.
 
 ## 1) Overlapping Word Count
-- [brief description]
-- [results - per person and in aggregate]
+
+The simplest baseline chooses the option description containing the highest number of overlapping words with the query. Prior to this, the option descriptions and query are preprocessed using the [nltk platform](https://www.nltk.org/) for stopword removal and stemming using the [PorterStemmer](https://www.nltk.org/howto/stem.html).
+
+The code can be found in baselines/WordOverlap.ipynb
+
+Results:
+
+| Data Curator | H@1 (accuracy) |
+| -------- |-------- |
+| K | 22/100 |
+| Y | 5/100 |
+| H | 4/100 |
+| Z | 31/100|
+| N | 25/98 |
+| **Total** | **87/498 (17.47%)** |
 
 ## 2) TF-IDF Ranking
 
-Using the recipe text descriptions as a corpus, each of the five options were ranked according to TF-IDF scoring against the given query by summing up the TF-IDF scores of each query term.
+Using the recipe text descriptions as a corpus, each of the five options were ranked according to TF-IDF scoring against the given query by summing up the TF-IDF scores of each query term. This scoring was done on the data after stopword removal and lemmatization were applied using nltk.
 
 - The term frequency used was the logarithmically scaled frequency: $tf(t,d) = log(1+f_{t,d})$ where $f_{t,d}$ is the frequency of term $t$ in document $d$ (the text description of the recipe).
 
@@ -211,11 +224,11 @@ Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
-| K | 28/100 |
-| Y | 8/100 |
-| H | 25/100 |
-| Z | 27/100|
-| N | 30/98 |
+| K | 27/100 |
+| Y | 6/100 |
+| H | 12/100 |
+| Z | 28/100|
+| N | 35/98 |
 | **Total** | **118/498 (23.69%)** |
 
 ## 4) Neural IR (BERT, TAS-B)
