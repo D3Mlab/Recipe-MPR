@@ -24,9 +24,10 @@ If you are using Windows, you may have to [download Make](https://www.technewsto
 <h3>3. In the <code>/src</code> directory, run <code>make setup</code>. </h3>
 Note: It is normal for this to take a long time.
 
+<h2>Running:</h2>
+<h3> In the <code>/src</code> directory, run <code>make</code>.</h3>
 
 <h2>Usage:</h2>
-
 The search tool window allows searching by recipe name, and ingredients to include or exclude. For specifying multiple ingredients, enter them as a comma separated list.
 
 In the example below, a search is made for chocolate cake recipes that contain flour and eggs but don't contain butter.
