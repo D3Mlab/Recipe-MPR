@@ -83,11 +83,11 @@
         "type": "object",
         "properties": {
           "[.]": {
-              "type": "string",
-              "oneOf": [
-                  {"type" : "string"},
-                  {"type": "array"}
-              ]
+            "type": "string",
+            "oneOf": [
+              {"type" : "string"},
+              {"type": "array"}
+            ]
           }
         },
         "minProperties": 1
