@@ -26,7 +26,7 @@
         },
         "correctness_explanation": {
             "avocado": "avocado",
-            "baby food": "Mashed"
+            "baby food": "<INFERRED>"
         }
     },
     {
@@ -93,7 +93,10 @@
         },
         "correctness_explanation": {
             "snacks": "<INFERRED>",
-            "without making a mess": "<INFERRED>"
+            "leafy greens": [
+                "celery",
+                "broccoli florets"
+            ]
         }
     },
     {
@@ -318,7 +321,7 @@
         },
         "correctness_explanation": {
             "noodles": "noodles",
-            "Chinese takeaway": "Pan-Fried"
+            "Chinese takeaway": "<INFERRED>"
         }
     },
     {
@@ -655,7 +658,7 @@
             "1332ca8098": "Not dinner."
         },
         "correctness_explanation": {
-            "dinner": "<INFERRED",
+            "dinner": "<INFERRED>",
             "healthy": "<INFERRED>"
         }
     },
@@ -1470,10 +1473,8 @@
             "7ea2120399": "The recipe uses eggs."
         },
         "correctness_explanation": {
-            "meal to eat before dawn in Ramadan": [
-                "eggs",
-                "<INFERRED>"
-            ]
+            "cake": "cake",
+            "allergic to egg": "eggless"
         }
     },
     {
