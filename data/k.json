@@ -1,0 +1,3002 @@
+[
+    {
+        "query": "Can I have an Egyptian dessert?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "98d117ed45": "An Egyptian fruit cap made of dates and fruits",
+            "111fce4c44": "Rhubarb crumb cake",
+            "07d53adcee": "Fried Egypt Ridge Catfish",
+            "8edc438172": "A no bake pudding layered with vanilla wafer and bananas",
+            "a63291e765": "Soft and chewy M&M cookies"
+        },
+        "answer": "98d117ed45",
+        "incorrectness_explanations": {
+            "111fce4c44": NaN,
+            "07d53adcee": NaN,
+            "8edc438172": NaN,
+            "a63291e765": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want a South African vegetarian cuisine",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7f9e7ce033": "South African vegetable curry flavoured with curry powder and ground tumeric",
+            "9ec0365675": "Ribs made with south african spices",
+            "6010de609e": "Capetown spit roasted leg of lamb",
+            "6c7474919e": "Sauerkraut fermented cabbage salad that tastes sour from vinegar",
+            "39f3ff87d1": "South African styled smoothie made from cantaloupes and cherry"
+        },
+        "answer": "7f9e7ce033",
+        "incorrectness_explanations": {
+            "9ec0365675": NaN,
+            "6010de609e": NaN,
+            "6c7474919e": NaN,
+            "39f3ff87d1": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm a Kenyan long distance runner and I want a main dish full of protein",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a2fd0e7edc": "Kenyan chicken curry with sauce made from cream, honey and garam masala.",
+            "85fd7fec9a": "Kenyan mashed potatoes",
+            "63efe5b191": "Kenyan fresh tomato and onion salad",
+            "7936d6bcf4": "Kenyan collard greens simmered with tomatoes",
+            "7cf2b1cd76": "Light and fluffy Kenyan donuts that's usually served for breakfast with chai tea"
+        },
+        "answer": "a2fd0e7edc",
+        "incorrectness_explanations": {
+            "85fd7fec9a": NaN,
+            "63efe5b191": NaN,
+            "7936d6bcf4": NaN,
+            "7cf2b1cd76": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try a soup from West Africa",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9fdc30431d": "West Africa soup made of squash and flavoured with chili powder and smoothed out with coconut milk",
+            "18bae1b6d6": "West African dish of avocados filled with fish mixture and egg whites",
+            "a0d9be8c20": "Mali bissap: sweet drink from vanilla, ginger, and hibiscus",
+            "0302a9c63c": "Chowder soup made from corn, bacon, cornstarch and heavy cream ",
+            "778dd166fe": "African filling groundnut sauce made from peanut butter"
+        },
+        "answer": "9fdc30431d",
+        "incorrectness_explanations": {
+            "18bae1b6d6": NaN,
+            "a0d9be8c20": NaN,
+            "0302a9c63c": NaN,
+            "778dd166fe": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make Quebec poutine",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6aeb5140ab": "Large portion poutine with bacon ",
+            "3959e1aab8": "Fries fried in vegetable oil",
+            "693bced62f": "Creamy gravy made from bacon grease",
+            "5164182c9c": "Sweet Quebec beans made with maple syrup and molasses",
+            "731b92b761": "Quebec pie made from brown sugar and evaporated milk"
+        },
+        "answer": "6aeb5140ab",
+        "incorrectness_explanations": {
+            "3959e1aab8": NaN,
+            "693bced62f": NaN,
+            "5164182c9c": NaN,
+            "731b92b761": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm a vegan who hates tofu but wants to eat burgers",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "00baec31c9": "Chickpea burger made of only chickpea, beans, and potatoes",
+            "833990105f": "Burger made from only spinach and firm tofu",
+            "00c44f2a96": "Pizza burger made with pizza sauce and cheese",
+            "6a28fddc8b": "Vegan pasta salad made with chickpeas and artichoke hearts",
+            "0e29c2a160": "Vegan gelatin made from cornstarch"
+        },
+        "answer": "00baec31c9",
+        "incorrectness_explanations": {
+            "833990105f": NaN,
+            "00c44f2a96": NaN,
+            "6a28fddc8b": NaN,
+            "0e29c2a160": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want a Canadian meat dish that's filling",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1de78125c6": "Tourtiere french-Candian pie made from ground meat and onions",
+            "6890d42bfc": "Canadian coffee with whiskey and maple syrup",
+            "05c20feb59": "Meatloaf made from ground beef, pork, and veal",
+            "16b48ecd6b": "Filling beef and potatoes",
+            "8faf26938a": "Canadian maple flavoured cake with bacon crumbles in the frosting"
+        },
+        "answer": "1de78125c6",
+        "incorrectness_explanations": {
+            "6890d42bfc": NaN,
+            "05c20feb59": NaN,
+            "16b48ecd6b": NaN,
+            "8faf26938a": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I bought some fancy caviar to make a dip",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "739a467c9e": "Caviar dip from caviar and sour cream, nestled in ice",
+            "6aa16259b5": "Caviar served directly on ice",
+            "77ab19c2fb": "Potatoes stuffed with caviar",
+            "689fac0aea": "Scrambled egg and caviar mix, presented in eggshell cups",
+            "076ea35630": "Steamed sweet potato arranged with creme fraiche and caviar bites"
+        },
+        "answer": "739a467c9e",
+        "incorrectness_explanations": {
+            "6aa16259b5": NaN,
+            "77ab19c2fb": NaN,
+            "689fac0aea": NaN,
+            "076ea35630": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want healthy Mexican food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "099ae0fa87": "Low calories Mexican salad made from beans and corn",
+            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter that's high in sugar",
+            "08c86f8dd5": "Low calories vegetable chips made from sweet potatos",
+            "08c41efc14": "Mexican pizza with beans and ground beef that's high in calories",
+            "4a085ab56a": "Donuts made from whole wheat bread and honey with no processed sugar"
+        },
+        "answer": "099ae0fa87",
+        "incorrectness_explanations": {
+            "0ea477c6f9": NaN,
+            "08c86f8dd5": NaN,
+            "08c41efc14": NaN,
+            "4a085ab56a": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I miss Acadian dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6552ee872e": "Acadian syrup cake with cinnamon",
+            "579872a461": "Acadian styled chicken stew ",
+            "47f4e3284b": "A moist homestyled chocolate cake ",
+            "14fdc2f88d": "Low fat tiramisu made with ladyfingers, nonfat milk, and brandy",
+            "7fd4e18f0d": "Acadian styled crab salad with croissants "
+        },
+        "answer": "6552ee872e",
+        "incorrectness_explanations": {
+            "579872a461": NaN,
+            "47f4e3284b": NaN,
+            "14fdc2f88d": NaN,
+            "7fd4e18f0d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want something similar to food from Chipotle and also healthy",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "25e93f32e1": "Chiptole tofu that's low in cholesterol and high in protein ",
+            "211c7b683e": "Chiptole mayonnaise that's high in calories and fat",
+            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter that's high in sugar",
+            "3a52b5f915": "Healthy coleslaw side dish made from cabbage",
+            "3a75634dee": "Guacamole made from avocado and soft tofu"
+        },
+        "answer": "25e93f32e1",
+        "incorrectness_explanations": {
+            "211c7b683e": NaN,
+            "0ea477c6f9": NaN,
+            "3a52b5f915": NaN,
+            "3a75634dee": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make healthy guacamole",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "183273736c": "Guacamole made from avocado and onions",
+            "41ac07bbe0": "No salt salsa made from tomatoes and peppers",
+            "3a52b5f915": "Healthy coleslaw side dish made from cabbage",
+            "0ee168fa38": "Salsa made from avocado and tomatoes",
+            "17a3e20c58": "Creamy avocado dip for chips"
+        },
+        "answer": "183273736c",
+        "incorrectness_explanations": {
+            "41ac07bbe0": NaN,
+            "3a52b5f915": NaN,
+            "0ee168fa38": NaN,
+            "17a3e20c58": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want kebabs that are easy on the stomach",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0047cc5fcd": "Fruit kebab made of strawberry, kiwi, bananas, and more fruits",
+            "028b07e4f7": "Greasy and savory lamb kebab",
+            "0aff6a8ff0": "Flavorful teriyaki chicken kebab",
+            "0e29809831": "Spicy pork kebabs",
+            "182eb47c26": "Tukey kebab flavoured with salt and pepper"
+        },
+        "answer": "0047cc5fcd",
+        "incorrectness_explanations": {
+            "028b07e4f7": NaN,
+            "0aff6a8ff0": NaN,
+            "0e29809831": NaN,
+            "182eb47c26": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Can I have halal American snacks",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81422b128f": "Halal marshmallow peanut popcorn bars with maple syrup",
+            "6707f78bb2": "Halal Iraqi stuffed zucchini with rice",
+            "a4dceedae2": "Rye bread snack made from sausage and cheese",
+            "60883b1ad5": "Party snacks made from baking mix, sausage, and cheese",
+            "8d1a538445": "Zesty sausage snacks made with cayenne pepper and worcestershire sauce"
+        },
+        "answer": "81422b128f",
+        "incorrectness_explanations": {
+            "6707f78bb2": NaN,
+            "a4dceedae2": NaN,
+            "60883b1ad5": NaN,
+            "8d1a538445": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I need to use up the corn in my fridge",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0302a9c63c": "Chowder soup made from corn, bacon, cornstarch and heavy cream ",
+            "036f8a1d83": "Easy to make refrigerated garlic fridge pickle",
+            "2299a67ffd": "Chocolate fridge cake made with biscuits, nuts, and cherries",
+            "80cf34082f": "Fat free fridge fruit salad made with yogurt and granola",
+            "724772d056": "Soup made with carrots, pepper, celery, and egg noodles to use up the fridge leftovers"
+        },
+        "answer": "0302a9c63c",
+        "incorrectness_explanations": {
+            "036f8a1d83": NaN,
+            "2299a67ffd": NaN,
+            "80cf34082f": NaN,
+            "724772d056": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "My family wants vegetarian tacos for lunch",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81db102972": "Zesty vegetarian tacos from corn and black beans",
+            "6f24593c2c": "Tacos made with ground turkey",
+            "0e1a5f4075": "Halibut tacos from corn tortillas",
+            "92fe205b4e": "Lunch or breakfast tacos made from chicken breast and peppers",
+            "6249cc6902": "Taco salad made from ground beef and chili powder"
+        },
+        "answer": "81db102972",
+        "incorrectness_explanations": {
+            "6f24593c2c": NaN,
+            "0e1a5f4075": NaN,
+            "92fe205b4e": NaN,
+            "6249cc6902": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Make chili that's not spicy",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0f52af8d09": "Chili made from ground beef, tomatoes, kidney beans, and no peppers",
+            "45d7cb5c42": "Chili made from beans, chicken broth, bell peppers and cayenne pepper",
+            "5f53fc0b32": "Crockpot chili made with cayenne pepper, beans, ground beef, and cheese",
+            "02028b2cda": "Spicy seasoning made from black pepper, onion, and garlic",
+            "09ee5027f6": "Chili made from turkey stock, tomato, and hot red pepper flakes"
+        },
+        "answer": "0f52af8d09",
+        "incorrectness_explanations": {
+            "45d7cb5c42": NaN,
+            "5f53fc0b32": NaN,
+            "02028b2cda": NaN,
+            "09ee5027f6": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make popeyes styled chicken at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "3e51152920": "Popeyes fried chicken with outer layer made from flour, then fried and sprinkled with pepper and paprika",
+            "0016791ae7": "Popeyes biscuits made from biscuit mix, sour cream, and club soda",
+            "8d57068296": "Popeyes chicken salad with chicken, spinach, bean sprouts, bacon, and eggs.",
+            "30ac8d123f": "Fried home styled chicken with outer layer made from flour, paired together with jasmine rice",
+            "28757e714f": "Popeyes wrap from chicken breasts, spinach, and cheese; seasoned with mayonnaise and pepper"
+        },
+        "answer": "3e51152920",
+        "incorrectness_explanations": {
+            "0016791ae7": NaN,
+            "8d57068296": NaN,
+            "30ac8d123f": NaN,
+            "28757e714f": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Can I have some cheap junk food?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0a1ce6cce0": "Classic salted french fries made of only potatoes",
+            "168c263bc9": "Cheap bean sprout salad flavoured with mayonnaise and soy sauce",
+            "0feac71745": "Deluxe burger made from ground sirloin",
+            "8a2736a95e": "Fish burger made of breadcrumb wrapped pollock fillet",
+            "941caf1861": "A simple pasta with a drizzle of parmesan cheese"
+        },
+        "answer": "0a1ce6cce0",
+        "incorrectness_explanations": {
+            "168c263bc9": NaN,
+            "0feac71745": NaN,
+            "8a2736a95e": NaN,
+            "941caf1861": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want some filling American food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "342a8d609a": "A whole turkey for Thanksgiving",
+            "891e5e6978": "Cherry flavoured coke made from coke and kool-aid",
+            "415c191f07": "Caesar salad made from romaine lettuce and croutons",
+            "7d1325023d": "Dunkin donuts styled coffee with granulated sugar",
+            "9e4dfd210d": "McDonalds apple pie from puff pastry, apple, and cinnamon"
+        },
+        "answer": "342a8d609a",
+        "incorrectness_explanations": {
+            "891e5e6978": NaN,
+            "415c191f07": NaN,
+            "7d1325023d": NaN,
+            "9e4dfd210d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How do I make a banana split icecream for my kids?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4a13c4e253": "Banana split ice cream, ice cream and banana drizzled with chocolate syrup",
+            "7dd92674fa": "An alcoholic cocktail made of banana liqueur ",
+            "a65b74c7d2": "Fried bananas sprinkled with cinnamon",
+            "4f215a2694": "Banana smoothie made of milk, nutritious for kids",
+            "6e19304554": "Icecream sprinkled with oreo"
+        },
+        "answer": "4a13c4e253",
+        "incorrectness_explanations": {
+            "7dd92674fa": NaN,
+            "a65b74c7d2": NaN,
+            "4f215a2694": NaN,
+            "6e19304554": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a fancy grilled dish with my wild alaskan salmon",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1e5c94f511": "Grilled Alaskan salmon steak with soy sauce and vinegar as condiments ",
+            "153fb7517b": "Grilled salmon and linguine pasta",
+            "8bd350c9e8": "Barbecued Alaskan salmon",
+            "046842e753": "Smoked salmon chips made from smoked salmon wrapped in flour batter",
+            "272f66ed3a": "Salad made of grilled salmon and cucumbers"
+        },
+        "answer": "1e5c94f511",
+        "incorrectness_explanations": {
+            "153fb7517b": NaN,
+            "8bd350c9e8": NaN,
+            "046842e753": NaN,
+            "272f66ed3a": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make burgers and fries?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8061de698c": "Appetizer: burger made of ground beef and fries",
+            "1831e9d443": "Burger made of ground chuck",
+            "7e6767b6c2": "Fries made of russet potatoes",
+            "03ef043883": "Vegan burger made of beans and carrots",
+            "9c6345256c": "Burger with patty from fried meatloaf"
+        },
+        "answer": "8061de698c",
+        "incorrectness_explanations": {
+            "1831e9d443": NaN,
+            "7e6767b6c2": NaN,
+            "03ef043883": NaN,
+            "9c6345256c": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make loaded potato salad without sour cream?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2b6946a387": "Description: Loaded potato salad made with mayonnaise, buttermilk, cheddar and crumbled bacon",
+            "76eec2f82e": "Potato salad made from cream cheese and sour cream",
+            "8dfcf79c68": "Loaded potato salad that tastes creamy and savoury, made with sour cream and loaded with bacon",
+            "84f7badf33": "Potatoes mixed with sauce made from sour cream, butter and cheese",
+            "04b58d651c": "Sour cream dressing used for salads, made from sour cream, mayonnaise, and blue cheese"
+        },
+        "answer": "2b6946a387",
+        "incorrectness_explanations": {
+            "76eec2f82e": NaN,
+            "8dfcf79c68": NaN,
+            "84f7badf33": NaN,
+            "04b58d651c": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make vegan poke at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "99a5d0c3d0": "Poke of tofu and mushroom and tomatoes",
+            "62bc0c11e6": "Poke of salmon fillet with seasoning of tabasco sauce and brown sugar",
+            "854cb8ffca": "Poke made from tuna with soy sauce seasoning",
+            "7bf1a4bb47": "Poke made from tuna and peanuts",
+            "5cbf9c4b04": "Poke patties made from mixture of tuna, egg, and breadcrumbs"
+        },
+        "answer": "99a5d0c3d0",
+        "incorrectness_explanations": {
+            "62bc0c11e6": NaN,
+            "854cb8ffca": NaN,
+            "7bf1a4bb47": NaN,
+            "5cbf9c4b04": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make fries like the ones in McDonalds",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "32ed4d74f6": "McDonalds styled fries made from russet potatoes",
+            "3959e1aab8": "Fries fried in vegetable oil",
+            "67b8c5aad4": "Seasoning salt for fries, made from cumin, chili etc.",
+            "7ac3874cfa": "McGriddle sandwich filled with eggs, bacon, and cheese",
+            "9e4dfd210d": "McDonalds apple pie from puff pastry, apple, and cinnamon"
+        },
+        "answer": "32ed4d74f6",
+        "incorrectness_explanations": {
+            "3959e1aab8": NaN,
+            "67b8c5aad4": NaN,
+            "7ac3874cfa": NaN,
+            "9e4dfd210d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make pizza like Boston Pizza?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "64e2e44725": "Boston Pizza styled tropical pizza with bacon and pineapple",
+            "38f69f020a": "Boston cinnamon cookies with walnut and raisins",
+            "9d74d643cc": "Boston Cream filling made from sugar, lemon, tartaric, and egg whites",
+            "08c41efc14": "Mexican pizza with beans and ground beef that's high in calories",
+            "Fish and Chips Pizza": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings"
+        },
+        "answer": "64e2e44725",
+        "incorrectness_explanations": {
+            "38f69f020a": NaN,
+            "9d74d643cc": NaN,
+            "08c41efc14": NaN,
+            "Fish and Chips Pizza": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a lunch I can bring to school from leftover Thanksgiving turkey",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7d71c4a5df": "Sandwich from leftover turkey, hummus, and baby spinach",
+            "836ce325a0": "Rosted turkey made for Thanksgiving",
+            "07db8009c5": "Stuffing balls made of leftover meat stuffing, egg, and cheese",
+            "0ec1ad1d3f": "Soup from chicken broth, mushroom, and leftover turkey",
+            "615148538a": "Stuffing made of pork and cornbread to be used for Thanksgiving"
+        },
+        "answer": "7d71c4a5df",
+        "incorrectness_explanations": {
+            "836ce325a0": NaN,
+            "07db8009c5": NaN,
+            "0ec1ad1d3f": NaN,
+            "615148538a": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "What chili can I make if I'm vegan and don't want beans?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2f55089d6c": "Crockpot chili made with tomato, corn, mushroom, and pepper",
+            "0147c0e5d9": "Vegan chili made from veggie griller grounds, kidney beans, and chili powder",
+            "a1afd74269": "Texas chili made from lean beef, breakfast sausage and and paprika",
+            "49d5ab2765": "Vegan chili made from pinto beans, navy beans, and vegetable broth",
+            "32ca033a74": "Vegetarian chili made from pinto beans, chili beans, kidney beans, and tomatoes"
+        },
+        "answer": "2f55089d6c",
+        "incorrectness_explanations": {
+            "0147c0e5d9": NaN,
+            "a1afd74269": NaN,
+            "49d5ab2765": NaN,
+            "32ca033a74": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make butterbeer from Harry Potter that's also healthy",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "8b2ed7d09d": "Butterbeer drink from skim milk and sugar substitute",
+            "94d0995f92": "Butterbeer from sweetened condensed milk and butterscotch topping",
+            "2bcb83d222": "Frozen butterbeer from cream soda and butterscotch",
+            "187403a4a3": "Harry Potter pumpkin pasties filled with pumpkin pie",
+            "76dbfd157a": "Harry Potter chocolate flavoured cauldron cake with marshmallows"
+        },
+        "answer": "8b2ed7d09d",
+        "incorrectness_explanations": {
+            "94d0995f92": NaN,
+            "2bcb83d222": NaN,
+            "187403a4a3": NaN,
+            "76dbfd157a": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How do I make cookies that's not too sweet",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a2efa3fa05": "Cookies made from brown sugar and splenda sugar substitute",
+            "37b7462cfd": "Healthy chocolate brownies from unsweetened chocolate",
+            "8b2ed7d09d": "Butterbeer drink from skim milk and sugar substitute",
+            "17a59fead4": "Sweet M&M chocolate cookies with cookies made from brown sugar",
+            "04e65201a3": "Peruvian cookies sandwiched with caramel Dulce de Leche"
+        },
+        "answer": "a2efa3fa05",
+        "incorrectness_explanations": {
+            "37b7462cfd": NaN,
+            "8b2ed7d09d": NaN,
+            "17a59fead4": NaN,
+            "04e65201a3": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make subway sandwich at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "88510b467f": "Subway styled sandwich made from french baguette bread, ham, lettuce, and tomatoes",
+            "8c730efd18": "Subway salad made from salad greens, tomatoes, and olives",
+            "81f9908b62": "Subway brocoli soup made from chicken broth",
+            "1f189cdee4": "Pulled pork sandwich with bbq sauce",
+            "72cca33f4d": "Subway tuna with mayonnaise and lemon juice"
+        },
+        "answer": "88510b467f",
+        "incorrectness_explanations": {
+            "8c730efd18": NaN,
+            "81f9908b62": NaN,
+            "1f189cdee4": NaN,
+            "72cca33f4d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Could I make a refreshing lemonade for a hot summer day?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "01b07dda40": "Cool, sugary citrus soda made of lime and lemon",
+            "2fdaee5a88": "Poached figs flavoured with sugar and ginger for the summer",
+            "69d25c19b1": "Minty ginger ale with ice and a bit of orange juice",
+            "52bfdfc30b": "Iced strawberry smoothie with ginger, lime, and honey added",
+            "a1b8fc6ad8": "Refreshing drink made of carrot juice, applesauce, yogurt, lemon juice, and fresh ginger"
+        },
+        "answer": "01b07dda40",
+        "incorrectness_explanations": {
+            "2fdaee5a88": NaN,
+            "69d25c19b1": NaN,
+            "52bfdfc30b": NaN,
+            "a1b8fc6ad8": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to eat pizza but I'm watching my weight",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "27c6a03010": "Low calories pizza made of dry yeast, flour, and fat free mozzarella cheese",
+            "5501fbfc6e": "BLT pizza with lettuce, tomatoes, and bacon",
+            "506c8fe859": "Grilled pizza with chicken and BBQ sauce",
+            "296eb54011": "Healthy meat loaf made pizza style with marinara sauce, lean ground beef",
+            "952937b83d": "Low calories spinach salad with pizza sauce"
+        },
+        "answer": "27c6a03010",
+        "incorrectness_explanations": {
+            "5501fbfc6e": NaN,
+            "506c8fe859": NaN,
+            "296eb54011": NaN,
+            "952937b83d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make Caribbean cuisine for my kid so she can grow better",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "30ff2e9db5": "Caribbean styled chicken with sauce made from soy sauce, pepper sauce, and lime juice",
+            "347222fc27": "Strong black Caribbean coffee with rum",
+            "39d7f38487": "Caribbean dessert made of bananas, nutmeg, and brown sugar",
+            "43f32bcac6": "Caribbean styled lemonade from lemon juice, sugar, and a bit of red wine",
+            "33ba92197e": "Caribbean styled cream made of yogurt, heavy cream, banana, and coconut rum"
+        },
+        "answer": "30ff2e9db5",
+        "incorrectness_explanations": {
+            "347222fc27": NaN,
+            "39d7f38487": NaN,
+            "43f32bcac6": NaN,
+            "33ba92197e": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make dessert for my Peruvian guests",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "04e65201a3": "Peruvian cookies sandwiched with Dulce de Leche",
+            "05931c1f10": "Appetizer of Peruvian styled chicken soup with potatoes and bell pepper",
+            "26e4d0cfbe": "Roasted turkey with Peruvian spices",
+            "2a49752442": "Peruvian chicken breasts that's pan fried until brown on either side, with coca cola and lime juice sauces ",
+            "28dbb46c71": "Crispy biscotti cookies with hazelnut"
+        },
+        "answer": "04e65201a3",
+        "incorrectness_explanations": {
+            "05931c1f10": NaN,
+            "26e4d0cfbe": NaN,
+            "2a49752442": NaN,
+            "28dbb46c71": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want dessert with dulce de leche for a hot summer day",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6e1438b7be": "Popsicle made from applesauce and dulche de leche",
+            "38e7486d1a": "Caramel cupcake with dulche de leche",
+            "6a7da6e877": "Coffee spiked with dulce de leche",
+            "6e19304554": "Oreo icecream",
+            "21de73895c": "Summer meringue dessert made of strawberry and kiwi meringue"
+        },
+        "answer": "6e1438b7be",
+        "incorrectness_explanations": {
+            "38e7486d1a": NaN,
+            "6a7da6e877": NaN,
+            "6e19304554": NaN,
+            "21de73895c": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try churros but I'm not a fan of cinnamon",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "29f0ef8157": "Cocoa flavoured churros",
+            "9f54f4b87e": "Popcorn with churro and cinnamon flavours",
+            "1f268d55c3": "Banana wrapped in churro with cinnamon powder",
+            "95903b28c3": "Easy to make churros from refrigerated biscuits with cinnamon powder",
+            "014428b77b": "Sweet cinnamon roll made from frozen bread dough"
+        },
+        "answer": "29f0ef8157",
+        "incorrectness_explanations": {
+            "9f54f4b87e": NaN,
+            "1f268d55c3": NaN,
+            "95903b28c3": NaN,
+            "014428b77b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I have a gluten allergy and I want to have dim sum for breakfast",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "1abc1641cf": "Dim sum pork wrapped in lettuce rolls",
+            "071dda0503": "Dim sum wonton dumpling made from ground pork and shrimp",
+            "24f6103ce4": "Gluten free pancake from rice flour",
+            "21c1dd5cce": "Gluten free nachos from corn flour",
+            "8633236dbd": "Shanghainese dumpling with prawn, chicken, and chinese cabbage as filling"
+        },
+        "answer": "1abc1641cf",
+        "incorrectness_explanations": {
+            "071dda0503": NaN,
+            "24f6103ce4": NaN,
+            "21c1dd5cce": NaN,
+            "8633236dbd": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make Chinese stir fry but I ran out of soysauce",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1d51eaf661": "Stir fry made of bok choy and shrimp",
+            "010e5348c9": "Rice and shrimp stir fry with soy sauce and ground ginger for flavour",
+            "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
+            "59cb818e23": "Chicken and brocoli stir fry with soy sauce",
+            "0350df07b7": "Hawaiian vegetable stir fry with pineapple juice and soy sauce"
+        },
+        "answer": "1d51eaf661",
+        "incorrectness_explanations": {
+            "010e5348c9": NaN,
+            "1af424c116": NaN,
+            "59cb818e23": NaN,
+            "0350df07b7": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Could I have some sweet dim sum?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8be6b7fc04": "Dim sum red coloured almond cookies ",
+            "071dda0503": "Dim sum wonton dumpling made from ground pork and shrimp",
+            "8633236dbd": "Dim sum shanghainese dumpling with prawn, chicken, and chinese cabbage as filling",
+            "0fab1b497a": "Dim sum pot stickers stuffed from mushrooms and ground pork",
+            "2f25118380": "Dim sum bun stuffed with BBQ pork"
+        },
+        "answer": "8be6b7fc04",
+        "incorrectness_explanations": {
+            "071dda0503": NaN,
+            "8633236dbd": NaN,
+            "0fab1b497a": NaN,
+            "2f25118380": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How do I make halal Chinese fried noodle?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6acd3af717": "Chinese fried noodle with chicken breast and flavoured with garlic, spring onion, and ginger",
+            "a6479bb35f": "Filipino fried  wheat noodles with chicken and vegetables",
+            "796d4b418e": "Shanghainese fried noodle with pork and shiitake mushrooms",
+            "8f872606ad": "Singaporean fried noodles with shrimp and pork",
+            "3dc248e63e": "Spicy fried noodle with chicken, flavoured with red chili pepper"
+        },
+        "answer": "6acd3af717",
+        "incorrectness_explanations": {
+            "a6479bb35f": NaN,
+            "796d4b418e": NaN,
+            "8f872606ad": NaN,
+            "3dc248e63e": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a Chinese dessert with custard",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "28d60dd8d2": "Soft and sweet Chinese custard bun",
+            "a6e75460dd": "Custard pudding made from yogurt and custard",
+            "105409bca2": "Lemon custard from fresh lemon juice",
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "0b1e5daa3f": "Sweet and gooey chinese black sesame dumplings shaped like round balls"
+        },
+        "answer": "28d60dd8d2",
+        "incorrectness_explanations": {
+            "a6e75460dd": NaN,
+            "105409bca2": NaN,
+            "a5c681c4c9": NaN,
+            "0b1e5daa3f": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make an Asian dish with pork and rice",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2bcaa46e02": "Taiwanese minced pork and rice made from pork belly and rock sugar",
+            "4941524e04": "Caribbean pork and rice made from pork tenderloin and flavoured with pineapple chunks",
+            "a14ef82f62": "Casserole made of boneless pork and rice",
+            "9a41e95dda": "Polynesian pork and rice made from pork butt and pineapple bits",
+            "0d04caee4c": "Asian BBQ pork loin from boneless pork loin roast"
+        },
+        "answer": "2bcaa46e02",
+        "incorrectness_explanations": {
+            "4941524e04": NaN,
+            "a14ef82f62": NaN,
+            "9a41e95dda": NaN,
+            "0d04caee4c": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to cook some Asian food but I'm sick of eating beef",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1544d858d3": "Meat ball made from ground pork and water chestnut, together with a side of bok choy",
+            "86b46a493c": "Soup made with beef bones, potatos, carrots and celery",
+            "9cfa3ba3cc": "Comfort food made from ground beef, celery, and mushrooms",
+            "6b54d3af6f": "Noodles in a beef broth with baby bok choy and strip steaks",
+            "69159c9ccd": "Healthy dish made from lean beef and brocoli"
+        },
+        "answer": "1544d858d3",
+        "incorrectness_explanations": {
+            "86b46a493c": NaN,
+            "9cfa3ba3cc": NaN,
+            "6b54d3af6f": NaN,
+            "69159c9ccd": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm from Beijing and I want a meat dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4abc458244": "Deep fried lamb marinated with brown bean sauce and shaoxing wine",
+            "313edbd436": "Beijing styled noodles with shiitake mushrooms and firm tofu",
+            "9bbb8a62a7": "Beijing salad made from watermelon radishes and flavoured with soy sauce and sesame oil",
+            "55bd249a65": "Beijing bok choy with sauteed onions, bamboo shoots, and mushrooms",
+            "Beijing Banana Toffee (Deep Fried Bananas)": "Deep fried bananas made Beijing style"
+        },
+        "answer": "4abc458244",
+        "incorrectness_explanations": {
+            "313edbd436": NaN,
+            "9bbb8a62a7": NaN,
+            "55bd249a65": NaN,
+            "Beijing Banana Toffee (Deep Fried Bananas)": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How do I cook the simplest stir fry with eggs and tomatoes?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "72963b3928": "Egg and tomato stri fry garnished with green onion",
+            "995854dfde": "Stir fry of tomatoes, baby corn, and eggs; served with soba noodles",
+            "62c541eeb5": "Stir fry using shimeji mushrooms and cherry tomatoes, with tempura sauce used for flavour",
+            "71b3666924": "Stir fry made from tomatoes and eggs, flavoured with scallions, garlic, and peanut oil",
+            "67497d2dab": "Easy stir fry with green beans, tomatoes, and eggs, with garlic clove, salt, and sugar added for flavour"
+        },
+        "answer": "72963b3928",
+        "incorrectness_explanations": {
+            "995854dfde": NaN,
+            "62c541eeb5": NaN,
+            "71b3666924": NaN,
+            "67497d2dab": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Can I make an Asian dessert using red bean?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "1b788fae39": "Sweet red bean paste that can be used as filling",
+            "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
+            "460ef50ea2": "Savory and spicy chili made from tomatoes and red bean",
+            "45bbc72594": "Soft and smooth tasting Mung bean dessert"
+        },
+        "answer": "a5c681c4c9",
+        "incorrectness_explanations": {
+            "1b788fae39": NaN,
+            "4327b04b6e": NaN,
+            "460ef50ea2": NaN,
+            "45bbc72594": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want some savory Chinese festival food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "12fd743918": "Sticky rice wrapped pork shoulder for Chinese dragon boat festival",
+            "0b1e5daa3f": "Sweet and gooey chinese black sesame dumplings eaten during Chinese lantern festival",
+            "8e00b25764": "Sweet moon cake made from lotus seeds and walnuts, eaten for Chinese mid autumn festival",
+            "62c541eeb5": "Stir fry using shimeji mushrooms and cherry tomatoes, with tempura sauce used for flavour",
+            "1d51eaf661": "Stir fry made of bok choy and shrimp"
+        },
+        "answer": "12fd743918",
+        "incorrectness_explanations": {
+            "0b1e5daa3f": NaN,
+            "8e00b25764": NaN,
+            "62c541eeb5": NaN,
+            "1d51eaf661": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a chinese dish with meat but not chicken or beef",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1544d858d3": "Meat ball made from ground pork and water chestnut, together with a side of bok choy",
+            "7a98ee1c5a": "Chicken wings marinated with chinese spices",
+            "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
+            "005f166b5f": "Chinese pot roast made from beef and served with cabbage",
+            "01723a7bc7": "Chinese stir fried chicken with almonds"
+        },
+        "answer": "1544d858d3",
+        "incorrectness_explanations": {
+            "7a98ee1c5a": NaN,
+            "70e63cadd9": NaN,
+            "005f166b5f": NaN,
+            "01723a7bc7": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to prepare korean hot pot at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b72caae72": "Hot pot with pork, tofu, and korean cabbage kimchi",
+            "0d7108a4b8": "Korean styled hot dog with diced kimchi",
+            "099a5672d6": "Mongolian hot pot with lamb and napa cabbage",
+            "0f8b8cc61e": "Vegetarian hot pot full of mixed vegetables",
+            "a751dd0307": "Scottish hot pot with beef, potatoes, and flavoured with tomato paste"
+        },
+        "answer": "7b72caae72",
+        "incorrectness_explanations": {
+            "0d7108a4b8": NaN,
+            "099a5672d6": NaN,
+            "0f8b8cc61e": NaN,
+            "a751dd0307": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm on a diet and I'm craving dandan noodles",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "62f88ac2c2": "Low calories dandan noodles made with doubanjiang (spicy bean) sauce",
+            "551778add2": "Tasty and healthy diet food: chicken noodle goulash ",
+            "783feea9ca": "Dandan noodles made with ground beef and chinese sesame paste",
+            "0b7fca11bc": "Asian noodles fried and flavoured with soy sauce",
+            "0fe86a138b": "Egg noodles served with cabbage"
+        },
+        "answer": "62f88ac2c2",
+        "incorrectness_explanations": {
+            "551778add2": NaN,
+            "783feea9ca": NaN,
+            "0b7fca11bc": NaN,
+            "0fe86a138b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a halal chinese stir fry",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6707f78bb2": "Halal stuffed zucchini with rice",
+            "010e5348c9": "Rice and shrimp stir fry with soy sauce and ground ginger for flavour",
+            "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
+            "71b3666924": "Stir fry made from tomatoes and eggs, flavoured with scallions, garlic, and peanut oil"
+        },
+        "answer": "81f1929ff2",
+        "incorrectness_explanations": {
+            "6707f78bb2": NaN,
+            "010e5348c9": NaN,
+            "1af424c116": NaN,
+            "71b3666924": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a popular chinese dish like Kung Pao Chicken",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "06dddda4ee": "Savory and a little spicy kung pao chicken flavoured with soy sauce and red chilies",
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6b29d0d777": "Casserole mae Chinese style with chicken breast and water chestnut",
+            "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
+            "005f166b5f": "Chinese pot roast made from beef and served with cabbage"
+        },
+        "answer": "06dddda4ee",
+        "incorrectness_explanations": {
+            "81f1929ff2": NaN,
+            "6b29d0d777": NaN,
+            "70e63cadd9": NaN,
+            "005f166b5f": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make spicy korean soup",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4930046f48": "Korean soup containing beef brisket and flavoured with red pepper powder",
+            "2c05b3f52a": "Simple korean pumpkin soup flavoured with sugar and salt",
+            "00e237d00f": "Spicy soup containing primarily tomatoes",
+            "0d1bdd1ba7": "Spicy bean soup from cannellini beans",
+            "a677e7d025": "Healthy korean soup made of chicken filled with garlic, rice, jujube, and ginseng"
+        },
+        "answer": "4930046f48",
+        "incorrectness_explanations": {
+            "2c05b3f52a": NaN,
+            "00e237d00f": NaN,
+            "0d1bdd1ba7": NaN,
+            "a677e7d025": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Can I not have oily chinese food?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1903458afc": "Chinese salad made of eggplant and zucchini, flavoured with soysauce ",
+            "59384af83b": "Chinese vegetables cooked in peanut oil",
+            "34fe9e4f7f": "Chinese pancakes pan fried in sesame oil",
+            "9306e2de66": "Chinese meatballs made of lean pork and cooked in oil",
+            "23b1a42bd2": "Chinese shrimp deep fried in oil"
+        },
+        "answer": "1903458afc",
+        "incorrectness_explanations": {
+            "59384af83b": NaN,
+            "34fe9e4f7f": NaN,
+            "9306e2de66": NaN,
+            "23b1a42bd2": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try making some vegan Japanese dessert ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7f1ec174c7": "Sweet and soft Japanese red bean daifuku",
+            "3db0688b36": "Chewy and sweet japanese mochi",
+            "5492eb7651": "Japanese rice cake with sausage and cheese",
+            "6bb6a47b6e": "Japanese mochi and wafer cake with whipped cream and custard",
+            "611a6fcc2b": "Refreshing and cool peppermint and chocolate chip vegan dessert "
+        },
+        "answer": "7f1ec174c7",
+        "incorrectness_explanations": {
+            "3db0688b36": NaN,
+            "5492eb7651": NaN,
+            "6bb6a47b6e": NaN,
+            "611a6fcc2b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How can I make japanese rice balls?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0a6f61c2bb": "Japanese rice ball wrapped with nori (seaweed)",
+            "0ff089fe86": "Rice ball with corned beef and egg",
+            "3db0688b36": "Chewy and sweet japanese butter mochi",
+            "05a9e0cee2": "Japanese soft layered fruit cake from egg whites and cinnamon",
+            "26c6283df8": "Italian fried rice ball stuffed and coated with breadcrumbs "
+        },
+        "answer": "0a6f61c2bb",
+        "incorrectness_explanations": {
+            "0ff089fe86": NaN,
+            "3db0688b36": NaN,
+            "05a9e0cee2": NaN,
+            "26c6283df8": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I have leftover udon noodles and shrimp, what do I do?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6491f56289": "Udon noodles served with shrimp",
+            "6ee5f79460": "Beef curry flavoured udon",
+            "91748eb475": "Spicy shrimp and linguine noodles",
+            "7aa3ed3449": "Soba noodles with shrimp",
+            "6aa460e28b": "Garlic shrimp served with noodles"
+        },
+        "answer": "6491f56289",
+        "incorrectness_explanations": {
+            "6ee5f79460": NaN,
+            "91748eb475": NaN,
+            "7aa3ed3449": NaN,
+            "6aa460e28b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want a japanese dish with no carbs",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b9dcab9e6": "Japanese miso soup made of yellow miso, tofu, and scallions",
+            "6491f56289": "Udon noodles served with shrimp",
+            "6ee5f79460": "Beef curry flavoured udon",
+            "0a6f61c2bb": "Japanese rice ball wrapped with nori (seaweed)",
+            "5492eb7651": "Japanese rice cake with sausage and cheese"
+        },
+        "answer": "7b9dcab9e6",
+        "incorrectness_explanations": {
+            "6491f56289": NaN,
+            "6ee5f79460": NaN,
+            "0a6f61c2bb": NaN,
+            "5492eb7651": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want vegan sushi",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "171ef0df45": "Sushi filled with avoado, carrot, and cucumber",
+            "5932a8a20c": "Spicy tuna sushi",
+            "04ef7a5230": "Sushi filled with smoke salmon",
+            "82e5721601": "Octopus and caviar finger sushi",
+            "00a51e9ef5": "Shrimp sushi rolls"
+        },
+        "answer": "171ef0df45",
+        "incorrectness_explanations": {
+            "5932a8a20c": NaN,
+            "04ef7a5230": NaN,
+            "82e5721601": NaN,
+            "00a51e9ef5": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "Could I make either red bean or green tea flavored Asian dessert?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "2a389d7356": "Refreshing drink of iced green tea",
+            "2c9bf41e41": "Lemonade with green tea added",
+            "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
+            "460ef50ea2": "Savory and spicy chili made from tomatoes and red bean"
+        },
+        "answer": "a5c681c4c9",
+        "incorrectness_explanations": {
+            "2a389d7356": NaN,
+            "2c9bf41e41": NaN,
+            "4327b04b6e": NaN,
+            "460ef50ea2": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a korean main course with no kimchi",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4930046f48": "Korean soup containing beef brisket and flavoured with red pepper powder",
+            "7b72caae72": "Korean hot pot with pork, tofu, and korean cabbage kimchi",
+            "0d7108a4b8": "Korean styled hot dog with diced kimchi",
+            "60c1533589": "Korean kimchi stew made of pork",
+            "9797471b30": "Korean kimchi fried rice"
+        },
+        "answer": "4930046f48",
+        "incorrectness_explanations": {
+            "7b72caae72": NaN,
+            "0d7108a4b8": NaN,
+            "60c1533589": NaN,
+            "9797471b30": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try special New Year korean rice cake soup",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "77ffeae2b0": "Korean savoury soup made of rice cake and beef for festivals",
+            "4aee88a303": "Korean chewy and spicy stir-fried rice cake",
+            "489d5fea03": "Korean stew made of spicy rice cake, cabbage, and leek",
+            "55fe62c8a6": "Cheese flavoured Korean rice cake",
+            "6c0b4177f1": "Rice cake with fat free cream cheese and broccoli"
+        },
+        "answer": "77ffeae2b0",
+        "incorrectness_explanations": {
+            "4aee88a303": NaN,
+            "489d5fea03": NaN,
+            "55fe62c8a6": NaN,
+            "6c0b4177f1": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to cook a korean dish with seafood",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3f4238ec0c": "Korean fried fish flavoured with soy sauce",
+            "5932a8a20c": "Spicy tuna sushi",
+            "04ef7a5230": "Sushi filled with smoke salmon",
+            "0d7108a4b8": "Korean styled hot dog with diced kimchi",
+            "60c1533589": "Korean kimchi stew made of pork"
+        },
+        "answer": "3f4238ec0c",
+        "incorrectness_explanations": {
+            "5932a8a20c": NaN,
+            "04ef7a5230": NaN,
+            "0d7108a4b8": NaN,
+            "60c1533589": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a Japanese soup that doesn't contain seaweed",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "56be46ad9b": "Japanse mushroom soup from chicken stock",
+            "8790ecfbd1": "Japanese noodle soup with seaweed",
+            "6c0bf8d87a": "Miso soup containing seaweed and green onion",
+            "84ebd83707": "Scottish soup made of potatoes and seaweed",
+            "7ec1ca34f6": "Japanese seaweed soup"
+        },
+        "answer": "56be46ad9b",
+        "incorrectness_explanations": {
+            "8790ecfbd1": NaN,
+            "6c0bf8d87a": NaN,
+            "84ebd83707": NaN,
+            "7ec1ca34f6": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want a vegan asian dish that tastes like meat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan tikka masala curry that tastes like chicken",
+            "8166694968": "Vegan lettuce wraps of tofu ",
+            "89f8bc7775": "Vegan asian noodle salad",
+            "9540d5b87d": "Vegan pizza with toppings that tastes like meat ",
+            "658c226a87": "Vegan meat loaf made from vegetarian protein and vegetarian beef bouillon powder"
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "8166694968": NaN,
+            "89f8bc7775": NaN,
+            "9540d5b87d": NaN,
+            "658c226a87": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want curry but not indian or japanese",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "03c97249fc": "Thai curry with shrimp and coconut milk",
+            "188be1143b": "Indian vegan tikka masala curry that tastes like chicken",
+            "6ee5f79460": "Beef curry flavoured udon",
+            "725e80b8ca": "Savory and not very spicy japanese beef curry",
+            "044518cc98": "Japanese curry rice made of only vegetables"
+        },
+        "answer": "03c97249fc",
+        "incorrectness_explanations": {
+            "188be1143b": NaN,
+            "6ee5f79460": NaN,
+            "725e80b8ca": NaN,
+            "044518cc98": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want an Indian dish that I can dip naan in",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan curry that can be dipped with bread",
+            "03c97249fc": "Thai curry with shrimp and coconut milk that can be dipped with bread",
+            "7498a92b64": "Indian styled traditional flatbread",
+            "847ee9ab82": "Cold artichoke and zucchini dip",
+            "7aeec76158": "Pan fried dry chicken flavoured with coconut "
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "03c97249fc": NaN,
+            "7498a92b64": NaN,
+            "847ee9ab82": NaN,
+            "7aeec76158": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to cook an Asian dish that don't need utensils to eat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan curry that can be dipped with bread",
+            "8790ecfbd1": "Japanese noodle soup with seaweed",
+            "6c0bf8d87a": "Miso soup containing seaweed and green onion",
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6b29d0d777": "Casserole mae Chinese style with chicken breast and water chestnut"
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "8790ecfbd1": NaN,
+            "6c0bf8d87a": NaN,
+            "81f1929ff2": NaN,
+            "6b29d0d777": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make Pho but I ran out of meat",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a6db1f7569": "Vegetarian rice noodles with shiitake mushrooms, carrots, and vegetable sauce",
+            "8cf7db4798": "Rice noodles with beef knuckle and oxtails",
+            "78966eafdd": "Quick pho made with sliced beef",
+            "587510ce44": "Savory pho made with chicken",
+            "5b6c807198": "Savory pho made with turkey"
+        },
+        "answer": "a6db1f7569",
+        "incorrectness_explanations": {
+            "8cf7db4798": NaN,
+            "78966eafdd": NaN,
+            "587510ce44": NaN,
+            "5b6c807198": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I miss the egg tarts I had in Asia",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "875bbfd3cf": "Sweet and soft Chinese egg custard tart with crispy exterior",
+            "57c768f6a2": "Savory Mexican egg tart with crispy pastry",
+            "581eb5fb1e": "Custard egg tart made with eggs, honey, and heavy cream",
+            "0865b33f66": "Savory cheese tart with bacon and eggs",
+            "7650a73fd0": "Sweet baked egg custard tart with nutmeg and shortcrust pastry"
+        },
+        "answer": "875bbfd3cf",
+        "incorrectness_explanations": {
+            "57c768f6a2": NaN,
+            "581eb5fb1e": NaN,
+            "0865b33f66": NaN,
+            "7650a73fd0": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to cook polish sausage with sauerkraut",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6ce90e9b04": "Polish sausage with fermented cabbage ",
+            "6d76705678": "Polish quiche pie made of savory crust and sausage",
+            "a62601292e": "Savory soup made of vegetables and polish sausage",
+            "9c3e000203": "Sausage with fermented cabbage",
+            "343f338dd2": "Sweet and tangy dish, sausage baked with sauerkraut and apple"
+        },
+        "answer": "6ce90e9b04",
+        "incorrectness_explanations": {
+            "6d76705678": NaN,
+            "a62601292e": NaN,
+            "9c3e000203": NaN,
+            "343f338dd2": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want cheap swiss food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "371c13a806": "French bread made swiss style with swiss cheese",
+            "35f3ff33b8": "Swiss steak made from slow cooked beef braised in tomato sauce",
+            "3394295068": "Swiss meringue made from fluffy frosting",
+            "26eda207c4": "Swiss flan: cheese custard pudding ",
+            "3e3c2b13bb": "Baked chicken coated in swiss cheese"
+        },
+        "answer": "371c13a806",
+        "incorrectness_explanations": {
+            "35f3ff33b8": NaN,
+            "3394295068": NaN,
+            "26eda207c4": NaN,
+            "3e3c2b13bb": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm craving German snacks",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5f4f0e5750": "Baked German styled pretzels",
+            "18820852fb": "German meatball made from ground meat, bread crumbs in mustard gravy",
+            "1eaa640995": "German burger made with seasoned german patties from ground pork and ground beef",
+            "31fa57c7ea": "German casserole from potatoes, sauerkraut, and polish sausage",
+            "2646da3394": "German styled pan fried flat cut of beef"
+        },
+        "answer": "5f4f0e5750",
+        "incorrectness_explanations": {
+            "18820852fb": NaN,
+            "1eaa640995": NaN,
+            "31fa57c7ea": NaN,
+            "2646da3394": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "It's a cold evening in Germany, what should I eat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "69a8ff3d92": "German chicken soup with shell noodles",
+            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "0f1d68c793": "German puffed up breakfast pancake from eggs, milk, and flour",
+            "a0b7d11480": "German breakfast from bacon, ham, fried potatoes, eggs, onions",
+            "27a62d563b": "A German bread roll usually eaten in the morning"
+        },
+        "answer": "69a8ff3d92",
+        "incorrectness_explanations": {
+            "9bd8473005": NaN,
+            "0f1d68c793": NaN,
+            "a0b7d11480": NaN,
+            "27a62d563b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make italian snack",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1b696370fa": "Italian cracker similar to a pretzel",
+            "a1164b997e": "Sweet French dessert based on meringue",
+            "09d7c8b737": "Italian coffee with Amaretto and brandy added",
+            "0ab965336b": "Italian chicken made from chicken thighs. Flavoured with tomato paste",
+            "388c0507d5": "Italian chicken made from skinless chicken, cheese blend, and breadcrumbs"
+        },
+        "answer": "1b696370fa",
+        "incorrectness_explanations": {
+            "a1164b997e": NaN,
+            "09d7c8b737": NaN,
+            "0ab965336b": NaN,
+            "388c0507d5": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a soup from the Mediterranean",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6cd574ada4": "Greek styled meatball soup made from minced beef, egg, and rice",
+            "0ed5fd83cf": "Sweet and sour beet polish soup full of vegetables",
+            "03068e4d95": "Mediterranean salad of diced tomatoes, seasoned with olive oil and vinegar ",
+            "26ba85a729": "British onion soup with cheese and onion",
+            "07d9034669": "Meditarranean couscous salad with veggies and feta cheese"
+        },
+        "answer": "6cd574ada4",
+        "incorrectness_explanations": {
+            "0ed5fd83cf": NaN,
+            "03068e4d95": NaN,
+            "26ba85a729": NaN,
+            "07d9034669": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a French dish with red meat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "259e8c800c": "French steak with croutes and fries",
+            "9cfa86a48f": "French chicken casserole made from fried chicken and chicken broth",
+            "6fe11c60a7": "Oven baked French duck with sauce from jelly and creme de cassis ",
+            "9f0a71eb0f": "Savory French fish soup made of boneless fish fillet",
+            "a3379ac365": "Savory french soup made from white fish"
+        },
+        "answer": "259e8c800c",
+        "incorrectness_explanations": {
+            "9cfa86a48f": NaN,
+            "6fe11c60a7": NaN,
+            "9f0a71eb0f": NaN,
+            "a3379ac365": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm diabetic and I want to try spanish paella",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content",
+            "05f17e93c6": "Spanish seafood rice made from shrimp, squid, mussels, and vegetables",
+            "12427544a2": "Spanish rice made with mushroom and chicken",
+            "826ae0dd68": "Spanish rice made with chicken and seafood",
+            "88d4ad7318": "Spanish rice made with tomatoes, peas, artichokes"
+        },
+        "answer": "a6c5c1f5cb",
+        "incorrectness_explanations": {
+            "05f17e93c6": NaN,
+            "12427544a2": NaN,
+            "826ae0dd68": NaN,
+            "88d4ad7318": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want a spanish dish that doesn't contain seafood",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "10aeb060ef": "Spanish rice with chicken breast",
+            "141270771a": "Baked spanish halibut fillet coated with flour",
+            "30bf0227df": "Spanish chickpea and cod stew",
+            "06d1106b44": "Spanish styled garlic shrimp",
+            "8da6e83ff9": "Spanish fish stew from salt cod fish"
+        },
+        "answer": "10aeb060ef",
+        "incorrectness_explanations": {
+            "141270771a": NaN,
+            "30bf0227df": NaN,
+            "06d1106b44": NaN,
+            "8da6e83ff9": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How do I cook italian pasta and meatballs soup",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2c9474a993": "Italian meatball and pasta with cheese, cooked in soup stew",
+            "44cb2f209e": "Italian fish and pasta with sauted shallot",
+            "10b28435ba": "Italian meatballs and pasta sprinkled with parmesan",
+            "1769f9dd02": "Chinese meatball soup with meatball from ground turkey and breadcrumbs",
+            "1767d591f1": "Italian meatball from lean ground beef"
+        },
+        "answer": "2c9474a993",
+        "incorrectness_explanations": {
+            "44cb2f209e": NaN,
+            "10b28435ba": NaN,
+            "1769f9dd02": NaN,
+            "1767d591f1": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make an Italian vegan dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a8e28be186": "Vegan italian salad made from romain lettuce, artichokes, and tomatoes",
+            "2c9474a993": "Italian meatball and pasta with cheese, cooked in soup stew",
+            "10b28435ba": "Italian meatballs and pasta sprinkled with parmesan",
+            "1767d591f1": "Italian meatball from lean ground beef",
+            "6a28fddc8b": "Vegan pasta salad made with chickpeas and artichoke hearts"
+        },
+        "answer": "a8e28be186",
+        "incorrectness_explanations": {
+            "2c9474a993": NaN,
+            "10b28435ba": NaN,
+            "1767d591f1": NaN,
+            "6a28fddc8b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want milk-flavoured Russian snacks",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "10ada75a02": "Light and fluffy Russian milk souffle candy covered with white candy melt",
+            "5e5c5572f3": "Pirozhki russain snacks: small yeast dough bun stuffed with duck confit and plums",
+            "058e3ba2d2": "Soft and juicy russian meatball with creamy tomato sauce",
+            "07c53e91c9": "Thin pan sized russian pancakes",
+            "0c0be57248": "Russian caramel fudge made from sweetened milk, golden syrup, and butter"
+        },
+        "answer": "10ada75a02",
+        "incorrectness_explanations": {
+            "5e5c5572f3": NaN,
+            "058e3ba2d2": NaN,
+            "07c53e91c9": NaN,
+            "0c0be57248": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I'm on a diet but still want fish and chips",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2379f4b9df": "Cod fillet fish and Chips dipped in low fat mayonnaise ",
+            "Not Your Mama's Fish N' Chips (Halibut)": "Halibut sour cream dipped in sour cream and onion potato chips",
+            "Fried Cod for Fish and Chips With Tartar Sauce": "Cod fish fillet with tartar sauce",
+            "Fish and Chips Pizza": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings",
+            "3c99576dc3": "Chocolate chip cookies made with artificial sweetener and semi-sweet chocolate"
+        },
+        "answer": "2379f4b9df",
+        "incorrectness_explanations": {
+            "Not Your Mama's Fish N' Chips (Halibut)": NaN,
+            "Fried Cod for Fish and Chips With Tartar Sauce": NaN,
+            "Fish and Chips Pizza": NaN,
+            "3c99576dc3": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try making nordic dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "15c8484027": "Norway cake with lingonberry and whipped cream layers",
+            "a6864cf6b4": "Norway styled eggs pickled from a mixture of grated beet, sugar, salt, vinegar",
+            "39816165d9": "Norway pot roast from lean chuck beef",
+            "98d117ed45": "An Egyptian dessert made of dates and fruits",
+            "111fce4c44": "Rhubarb crumb cake for dessert"
+        },
+        "answer": "15c8484027",
+        "incorrectness_explanations": {
+            "a6864cf6b4": NaN,
+            "39816165d9": NaN,
+            "98d117ed45": NaN,
+            "111fce4c44": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make Greek cuisine but I forgot to buy cheese, tzatziki dip, or garlic",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "17eff23365": "Savory grilled greek lamb leg",
+            "12688946b0": "Chopped greek salad made from vegetables and tomatoes with feta cheese",
+            "1409eb0098": "Greek potatoes with tzatziki dip",
+            "141e08d28b": "Tomato and cheese flavoured greek pizza",
+            "1eb9559305": "Tangy, garlicky, and savory beef greek meatloaf"
+        },
+        "answer": "17eff23365",
+        "incorrectness_explanations": {
+            "12688946b0": NaN,
+            "1409eb0098": NaN,
+            "141e08d28b": NaN,
+            "1eb9559305": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make a vegan lasagna for dinner",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "0eebf3e4b4": "Vegan lasagna  made from vegan cheese",
+            "a8e28be186": "Vegan italian salad made from romain lettuce, artichokes, and tomatoes",
+            "642202b519": "Healthy lasagna made from ground beef, canned tomatoes, and cheese",
+            "4292b003fc": "Italian American lasagna made from Italian American meat sauce and milk ricotta cheese",
+            "526461104e": "Italian lasagna made of bacon, sausage, and cheese"
+        },
+        "answer": "0eebf3e4b4",
+        "incorrectness_explanations": {
+            "a8e28be186": NaN,
+            "642202b519": NaN,
+            "4292b003fc": NaN,
+            "526461104e": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make an Italian cuisine for my daughter who hates cheese",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0ab965336b": "Italian chicken made from chicken thighs. Flavoured with tomato paste",
+            "642202b519": "Healthy lasagna made from ground beef, canned tomatoes, and cheese",
+            "4292b003fc": "Italian American lasagna made from Italian American meat sauce and milk ricotta cheese",
+            "6a151c5e67": "Italian melted cheese pot made from mozzarella that's dipped with tomatoes, broccoli etc.",
+            "526461104e": "Italian lasagna made of bacon, sausage, and cheese"
+        },
+        "answer": "0ab965336b",
+        "incorrectness_explanations": {
+            "642202b519": NaN,
+            "4292b003fc": NaN,
+            "6a151c5e67": NaN,
+            "526461104e": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want gelato but I'm watching my carb intake",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9b8014d02f": "Gelato made from peach, heavy cream, egg yolks, truvia sweetener, and plain yogurt",
+            "45ed25b1b2": "Vanilla gelato made from egg yolk, sugar, cornstarch, milk, and whipping cream",
+            "5154e54573": "Kiwi gelato made from egg yolks, sugar, milk, whippig cream, and kiwi",
+            "335eae967e": "Pumpkin gelato made from milk, heavy cream, sugar, cinnamon, and pumpkin puree",
+            "01f614801d": "Gelato made from milk, egg yolk, sugar, pistachio paste"
+        },
+        "answer": "9b8014d02f",
+        "incorrectness_explanations": {
+            "45ed25b1b2": NaN,
+            "5154e54573": NaN,
+            "335eae967e": NaN,
+            "01f614801d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to cook pasta but not tortellini",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "44bb127bc7": "Angel hair pasta with fresh parmesan cheese and butter",
+            "4f6bb856d0": "Mexican cheese tortellini pasta made with plum tomatoes, mushrooms, and low fat cheddar cheese",
+            "967783c94c": "Tortellini pasta with bacon, heavy cream, and peas",
+            "21f59c114a": "Cheese tortellini pasta with artichoke hearts, tomatoes, and broccoli",
+            "10f7dc8488": "Cheese tortellini pasta salad with bacon, tomatoes, and ranch dressing"
+        },
+        "answer": "44bb127bc7",
+        "incorrectness_explanations": {
+            "4f6bb856d0": NaN,
+            "967783c94c": NaN,
+            "21f59c114a": NaN,
+            "10f7dc8488": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "How to make a french onion soup?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "02a044aea5": "French onion soup made from beef broth, sweet white onion, and gruyere cheese",
+            "079022a264": "French country soup from chicken broth, beans, lamb, carrots and celery",
+            "097d916575": "French meatball soup from ground beef round, eggs, beef broth",
+            "26ba85a729": "British onion soup made with cheddar cheese, and stock",
+            "0791dcee0b": "Savory soup made from miso and red onions"
+        },
+        "answer": "02a044aea5",
+        "incorrectness_explanations": {
+            "079022a264": NaN,
+            "097d916575": NaN,
+            "26ba85a729": NaN,
+            "0791dcee0b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "What French appetizers use wine?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "72e6203b52": "French potato salad from red potatos and flavoured with olive oil, salt and pepper, and white wine",
+            "7eebf0166a": "French cocktail made from sparkling wine, Bacardi rum, brown sugar, mint, lime, and ice",
+            "16f086d2e5": "French bread with mayonnaise, parmesan cheese, and green onions",
+            "1e313b1d44": "French artichoke hearts flavoured with salt and peppper, lemon juice, and white wine ",
+            "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
+        },
+        "answer": "72e6203b52",
+        "incorrectness_explanations": {
+            "7eebf0166a": NaN,
+            "16f086d2e5": NaN,
+            "1e313b1d44": NaN,
+            "5e10d5e88d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I have some chocolate, what french dessert can I make with it?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9ec29f06d6": "French chocolate cake made from chocolate baking squares, strong coffee, butter, and brown sugar",
+            "a1164b997e": "Sweet French dessert based on meringue",
+            "17194384f1": "Soft French flatbread made of flour, eggs, milk, rum, and salt",
+            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "47f4e3284b": "A moist homestyled chocolate cake "
+        },
+        "answer": "9ec29f06d6",
+        "incorrectness_explanations": {
+            "a1164b997e": NaN,
+            "17194384f1": NaN,
+            "9bd8473005": NaN,
+            "47f4e3284b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "For lunch, I want to cook a duck French-style",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "a263b56ecf": "Chopped French duck confit preserved by duck oil",
+            "9ec29f06d6": "French chocolate cake made from chocolate baking squares, strong coffee, butter, and brown sugar",
+            "17194384f1": "Soft French flatbread made of flour, eggs, milk, rum, and salt",
+            "038ebd90a6": "Chinese duck dish of duck and vegetable wrapped in flatbread",
+            "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
+        },
+        "answer": "a263b56ecf",
+        "incorrectness_explanations": {
+            "9ec29f06d6": NaN,
+            "17194384f1": NaN,
+            "038ebd90a6": NaN,
+            "5e10d5e88d": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "What can I make for a Belgian breakfast?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7b9badda2f": "Belgian waffle with crispy exterior and soft insides",
+            "5627fdf3a2": "Tomatoes dipped in french dressing",
+            "0f1d68c793": "Puffed up baked pancake from eggs, milk, and flour",
+            "a0b7d11480": "Filling breakfast from bacon, ham, fried potatoes, eggs, onions",
+            "27a62d563b": "A German bread roll usually eaten in the morning"
+        },
+        "answer": "7b9badda2f",
+        "incorrectness_explanations": {
+            "5627fdf3a2": NaN,
+            "0f1d68c793": NaN,
+            "a0b7d11480": NaN,
+            "27a62d563b": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to make a pizza baguette",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "62b85165ed": "French baguette cut into slices with each slice covered in cheese, tomato sauce, and pepperoni",
+            "858bbc0cda": "Toasted baguette with olive oil, salt, and pepper",
+            "80b775d8a0": "Baguette stuffed with italian sausage and spinach",
+            "9540d5b87d": "Vegan pizza with toppings that tastes like meat ",
+            "3d4745cce1": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings"
+        },
+        "answer": "62b85165ed",
+        "incorrectness_explanations": {
+            "858bbc0cda": NaN,
+            "80b775d8a0": NaN,
+            "9540d5b87d": NaN,
+            "3d4745cce1": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "What goes well with German beer for dinner?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "48539e5b5b": "German sausage made from beef and ground pork",
+            "10b6247565": "German tart made of citrus fruits",
+            "2c7b8d89f2": "German iced coffee made from whipped cream, sweet chocolate, wafer cookies, vanilla ice cream, coffee",
+            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "0f1d68c793": "Puffed up German baked pancake from eggs, milk, and flour"
+        },
+        "answer": "48539e5b5b",
+        "incorrectness_explanations": {
+            "10b6247565": NaN,
+            "2c7b8d89f2": NaN,
+            "9bd8473005": NaN,
+            "0f1d68c793": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I miss Australian damper bread",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a75e891193": "Australian thick homemade soda bread",
+            "0e6c029cfc": "Australian fruit cake from mixed fruit and flavoured with a bit of brandy",
+            "13e515bf75": "Australian fish cooked with cheese, sole fillets, mushrooms, and white wine",
+            "024ca59ee9": "Rye bread made from active dry yeast",
+            "02a8ebe77e": "Banana bread made from banana, honey, and active dry yeast"
+        },
+        "answer": "a75e891193",
+        "incorrectness_explanations": {
+            "0e6c029cfc": NaN,
+            "13e515bf75": NaN,
+            "024ca59ee9": NaN,
+            "02a8ebe77e": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    },
+    {
+        "query": "I want to try making Fijian dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b6feef9a0": "Sweet Fijian honey cake made from sour cream, sugar, and eggs",
+            "6e4a34a5a7": "Fijian curry chicken made from fryer chicken and flavoured with haldi powder and garam masala",
+            "9bb7fbe373": "Fijian Dhal soup from yellow split peas and curry powder",
+            "609f667584": "Fijian fish curry from fish, chilies, cumin, turmeric, and coconut milk",
+            "111fce4c44": "Rhubarb crumb cake for dessert"
+        },
+        "answer": "7b6feef9a0",
+        "incorrectness_explanations": {
+            "6e4a34a5a7": NaN,
+            "9bb7fbe373": NaN,
+            "609f667584": NaN,
+            "111fce4c44": NaN
+        },
+        "correctness_explanation": {
+            "warm dish": "soup",
+            "oysters": "oyster"
+        }
+    }
+]
