@@ -1,6 +1,6 @@
 [
     {
-        "query": "Can I have an Egyptian dessert?",
+        "query": "I miss the local dessert I had near the Nile River",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -11,26 +11,26 @@
             "Temporal": 0
         },
         "options": {
-            "98d117ed45": "An Egyptian fruit cap made of dates and fruits",
-            "111fce4c44": "Rhubarb crumb cake",
+            "98d117ed45": "An Egyptian fruit cup made of dates and fruits",
+            "111fce4c44": "Rhubarb crumb cake for dessert",
             "07d53adcee": "Fried Egypt Ridge Catfish",
             "8edc438172": "A no bake pudding layered with vanilla wafer and bananas",
             "a63291e765": "Soft and chewy M&M cookies"
         },
         "answer": "98d117ed45",
         "incorrectness_explanations": {
-            "111fce4c44": NaN,
-            "07d53adcee": NaN,
-            "8edc438172": NaN,
-            "a63291e765": NaN
+            "111fce4c44": "Rhubarb crumb cake is a dessert but is not Egyptian",
+            "07d53adcee": "It's an Egyptian dish but not a dessert",
+            "8edc438172": "A dessert but not Egyptian",
+            "a63291e765": "A dessert but not Egyptian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Nile River": "Egpytian",
+            "dessert": "fruit cup"
         }
     },
     {
-        "query": "I want a South African vegetarian cuisine",
+        "query": "I want to introduce my vegetarian friend to South African cuisine from my hometown",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -49,18 +49,18 @@
         },
         "answer": "7f9e7ce033",
         "incorrectness_explanations": {
-            "9ec0365675": NaN,
-            "6010de609e": NaN,
-            "6c7474919e": NaN,
-            "39f3ff87d1": NaN
+            "9ec0365675": "Ribs are not vegetarian",
+            "6010de609e": "Roasted lamb is not vegetarian",
+            "6c7474919e": "Salad is vegetarian but this is not South African cuisine",
+            "39f3ff87d1": "Smoothie is not a vegetarian cuisine"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "South African": "South African",
+            "vegetarian": "vegetable curry"
         }
     },
     {
-        "query": "I'm a Kenyan long distance runner and I want a main dish full of protein",
+        "query": "I'm a Kenyan long distance runner and I want a main dish full of protein from my hometown",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -79,18 +79,18 @@
         },
         "answer": "a2fd0e7edc",
         "incorrectness_explanations": {
-            "85fd7fec9a": NaN,
-            "63efe5b191": NaN,
-            "7936d6bcf4": NaN,
-            "7cf2b1cd76": NaN
+            "85fd7fec9a": "Does not have protein",
+            "63efe5b191": "Does not have protein",
+            "7936d6bcf4": "Does not have protein",
+            "7cf2b1cd76": "Donuts are not protein"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Kenyan": "Kenyan",
+            "protein": "chicken curry"
         }
     },
     {
-        "query": "I want to try a soup from West Africa",
+        "query": "I want to try something warm to drink from West Africa",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -109,14 +109,14 @@
         },
         "answer": "9fdc30431d",
         "incorrectness_explanations": {
-            "18bae1b6d6": NaN,
-            "a0d9be8c20": NaN,
-            "0302a9c63c": NaN,
-            "778dd166fe": NaN
+            "18bae1b6d6": "West African food but not a warm drinkable cuisine",
+            "a0d9be8c20": "A sweet drink but not warm",
+            "0302a9c63c": "A warm soup but not from West Africa",
+            "778dd166fe": "A west african dish but not a warm drink"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "West Africa": "West Africa",
+            "warm to drink": "soup"
         }
     },
     {
@@ -131,26 +131,25 @@
             "Temporal": 0
         },
         "options": {
-            "6aeb5140ab": "Large portion poutine with bacon ",
+            "6aeb5140ab": "Large portion fries with gravy and bacon ",
             "3959e1aab8": "Fries fried in vegetable oil",
-            "693bced62f": "Creamy gravy made from bacon grease",
+            "5c0694bd66": "Poutine styled baked potatoes with cheese",
             "5164182c9c": "Sweet Quebec beans made with maple syrup and molasses",
             "731b92b761": "Quebec pie made from brown sugar and evaporated milk"
         },
         "answer": "6aeb5140ab",
         "incorrectness_explanations": {
-            "3959e1aab8": NaN,
-            "693bced62f": NaN,
-            "5164182c9c": NaN,
-            "731b92b761": NaN
+            "3959e1aab8": "French fries without gravy are not poutine",
+            "5c0694bd66": "Scalloped potatoes are not poutine",
+            "5164182c9c": "Quebec cuisine but not poutine",
+            "731b92b761": "Quebece dessert but not poutine"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "fries and gravy": "poutine"
         }
     },
     {
-        "query": "I'm a vegan who hates tofu but wants to eat burgers",
+        "query": "I'm looking for a vegan burger without tofu",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -169,18 +168,19 @@
         },
         "answer": "00baec31c9",
         "incorrectness_explanations": {
-            "833990105f": NaN,
-            "00c44f2a96": NaN,
-            "6a28fddc8b": NaN,
-            "0e29c2a160": NaN
+            "833990105f": "Vegan burger but made of tofu",
+            "00c44f2a96": "Pizza burger contains cheese  wchich is non vegan",
+            "6a28fddc8b": "Vegan salad but not a burger",
+            "0e29c2a160": "Vegan gelatin but not a buger"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "without tofu": "<INFERRED>",
+            "vegan": "<INFERRED>",
+            "burger": "burger"
         }
     },
     {
-        "query": "I want a Canadian meat dish that's filling",
+        "query": "Is there a filling Canadian main course that's not poutine",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -193,24 +193,24 @@
         "options": {
             "1de78125c6": "Tourtiere french-Candian pie made from ground meat and onions",
             "6890d42bfc": "Canadian coffee with whiskey and maple syrup",
-            "05c20feb59": "Meatloaf made from ground beef, pork, and veal",
+            "6aeb5140ab": "Large portion fries with gravy and bacon ",
             "16b48ecd6b": "Filling beef and potatoes",
             "8faf26938a": "Canadian maple flavoured cake with bacon crumbles in the frosting"
         },
         "answer": "1de78125c6",
         "incorrectness_explanations": {
-            "6890d42bfc": NaN,
-            "05c20feb59": NaN,
-            "16b48ecd6b": NaN,
-            "8faf26938a": NaN
+            "6890d42bfc": "Canadian but not a filling dish",
+            "6aeb5140ab": "Query asked for non-poutine and this is poutine",
+            "16b48ecd6b": "Filling dish but not Canadian",
+            "8faf26938a": "Canadian but not a main course"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Canadian": "french-Canadian",
+            "filling Canadian dish": "<INFERRED>"
         }
     },
     {
-        "query": "I bought some fancy caviar to make a dip",
+        "query": "How can I eat caviar with crackers?",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -229,14 +229,14 @@
         },
         "answer": "739a467c9e",
         "incorrectness_explanations": {
-            "6aa16259b5": NaN,
-            "77ab19c2fb": NaN,
-            "689fac0aea": NaN,
-            "076ea35630": NaN
+            "6aa16259b5": "Directly served caviar, so not a dip for crackers",
+            "77ab19c2fb": "Not a caviar dip edible with crackers",
+            "689fac0aea": "Not a caviar dip edible with crackers",
+            "076ea35630": "Not a dip edible with crackers"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "caviar": "Caviar",
+            "with crackers": "dip"
         }
     },
     {
@@ -251,26 +251,26 @@
             "Temporal": 0
         },
         "options": {
-            "099ae0fa87": "Low calories Mexican salad made from beans and corn",
-            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter that's high in sugar",
+            "099ae0fa87": "Mexican salad made from beans and corn",
+            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter",
             "08c86f8dd5": "Low calories vegetable chips made from sweet potatos",
-            "08c41efc14": "Mexican pizza with beans and ground beef that's high in calories",
+            "08c41efc14": "Mexican pizza with beans and ground beef",
             "4a085ab56a": "Donuts made from whole wheat bread and honey with no processed sugar"
         },
         "answer": "099ae0fa87",
         "incorrectness_explanations": {
-            "0ea477c6f9": NaN,
-            "08c86f8dd5": NaN,
-            "08c41efc14": NaN,
-            "4a085ab56a": NaN
+            "0ea477c6f9": "S'mores are not healthy",
+            "08c86f8dd5": "Healthy chips but are not Mexican",
+            "08c41efc14": "Pizza is not healthy",
+            "4a085ab56a": "Not Mexican"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Mexican": "Mexican",
+            "healthy": "<INFERRED>"
         }
     },
     {
-        "query": "I miss Acadian dessert",
+        "query": "I miss my mom's homemade Acadian dessert",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -289,18 +289,18 @@
         },
         "answer": "6552ee872e",
         "incorrectness_explanations": {
-            "579872a461": NaN,
-            "47f4e3284b": NaN,
-            "14fdc2f88d": NaN,
-            "7fd4e18f0d": NaN
+            "579872a461": "Not a dessert",
+            "47f4e3284b": "Not Acadian",
+            "14fdc2f88d": "Not Acadian",
+            "7fd4e18f0d": "Crab salad is not a dessert"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Acadian": "Acadian",
+            "dessert": "syrup cake"
         }
     },
     {
-        "query": "I want something similar to food from Chipotle and also healthy",
+        "query": "I want something similar to Chipotle and also healthy",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -319,18 +319,18 @@
         },
         "answer": "25e93f32e1",
         "incorrectness_explanations": {
-            "211c7b683e": NaN,
-            "0ea477c6f9": NaN,
-            "3a52b5f915": NaN,
-            "3a75634dee": NaN
+            "211c7b683e": "Chipotle but high in fat so not healthy",
+            "0ea477c6f9": "S'mores are not healthy",
+            "3a52b5f915": "Not similar to Chipotle",
+            "3a75634dee": "Guacamole is not similar to Chipotle food"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chiptole": "Chipotle",
+            "healthy": "low in cholestrol and high in protein"
         }
     },
     {
-        "query": "I want to make healthy guacamole",
+        "query": "I want to make a healthy guacamole",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
@@ -344,19 +344,19 @@
             "183273736c": "Guacamole made from avocado and onions",
             "41ac07bbe0": "No salt salsa made from tomatoes and peppers",
             "3a52b5f915": "Healthy coleslaw side dish made from cabbage",
-            "0ee168fa38": "Salsa made from avocado and tomatoes",
+            "02dec458d8": "Deep fried guacamole coated in flour",
             "17a3e20c58": "Creamy avocado dip for chips"
         },
         "answer": "183273736c",
         "incorrectness_explanations": {
-            "41ac07bbe0": NaN,
-            "3a52b5f915": NaN,
-            "0ee168fa38": NaN,
-            "17a3e20c58": NaN
+            "41ac07bbe0": "Salsa is not guacamole",
+            "3a52b5f915": "Healthy but not guacamole",
+            "02dec458d8": "Unhealthy guacamole due to being deep fried",
+            "17a3e20c58": "Not guacamole"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Guacamole": "Guacamole",
+            "healthy": "<INFERRED>"
         }
     },
     {
@@ -372,21 +372,21 @@
         },
         "options": {
             "0047cc5fcd": "Fruit kebab made of strawberry, kiwi, bananas, and more fruits",
-            "028b07e4f7": "Greasy and savory lamb kebab",
+            "028b07e4f7": "Greasy lamb kebab",
             "0aff6a8ff0": "Flavorful teriyaki chicken kebab",
             "0e29809831": "Spicy pork kebabs",
             "182eb47c26": "Tukey kebab flavoured with salt and pepper"
         },
         "answer": "0047cc5fcd",
         "incorrectness_explanations": {
-            "028b07e4f7": NaN,
-            "0aff6a8ff0": NaN,
-            "0e29809831": NaN,
-            "182eb47c26": NaN
+            "028b07e4f7": "Lamb kebabs are greasy so not easy on the stomach",
+            "0aff6a8ff0": "Chicken kebabs are not easy on the stomach compared to fruits",
+            "0e29809831": "Pork kebabs are not easy on the stomach compared to fruit kebabs",
+            "182eb47c26": "Turkey kebabs are not easy on the stomach compared to fruits"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "kebabs": "kebab",
+            "easy on the stomach": "<INFERRED>"
         }
     },
     {
@@ -409,14 +409,14 @@
         },
         "answer": "81422b128f",
         "incorrectness_explanations": {
-            "6707f78bb2": NaN,
-            "a4dceedae2": NaN,
-            "60883b1ad5": NaN,
-            "8d1a538445": NaN
+            "6707f78bb2": "Iraqi food is not an American snack",
+            "a4dceedae2": "Sausage made of pork is not halal",
+            "60883b1ad5": "Sausage made of pork is not halal",
+            "8d1a538445": "Sausage snacks made of pork is not halal"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Halal": "Halal",
+            "American snacks": "marshmallow peanut popcorn bars"
         }
     },
     {
@@ -439,18 +439,18 @@
         },
         "answer": "0302a9c63c",
         "incorrectness_explanations": {
-            "036f8a1d83": NaN,
-            "2299a67ffd": NaN,
-            "80cf34082f": NaN,
-            "724772d056": NaN
+            "036f8a1d83": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "2299a67ffd": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "80cf34082f": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "724772d056": "Ingredients does not contain corn so cannot use up corn in my fridge"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "corn": "corn",
+            "use up": "<INFERRED>"
         }
     },
     {
-        "query": "My family wants vegetarian tacos for lunch",
+        "query": "my cousins are vegetarian and they are coming over for mexican food night",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -469,14 +469,14 @@
         },
         "answer": "81db102972",
         "incorrectness_explanations": {
-            "6f24593c2c": NaN,
-            "0e1a5f4075": NaN,
-            "92fe205b4e": NaN,
-            "6249cc6902": NaN
+            "6f24593c2c": "Turkey is not vegetarian",
+            "0e1a5f4075": "Tacos made with halibut is not vegetarian",
+            "92fe205b4e": "Chicken breast is not vegetarian",
+            "6249cc6902": "Ground beef is not vegetarian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "vegetarian": "vegetarian",
+            "mexican": "tacos"
         }
     },
     {
@@ -499,14 +499,14 @@
         },
         "answer": "0f52af8d09",
         "incorrectness_explanations": {
-            "45d7cb5c42": NaN,
-            "5f53fc0b32": NaN,
-            "02028b2cda": NaN,
-            "09ee5027f6": NaN
+            "45d7cb5c42": "Chili made with cayenne pepper so it's spicy",
+            "5f53fc0b32": "This chili is spicy because it's made with cayenne pepper",
+            "02028b2cda": "This is spicy seasoning but not chili",
+            "09ee5027f6": "Chili contains hot red pepper flakes so it's spicy"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chili": "Chili",
+            "not spicy": "<INFERRED>"
         }
     },
     {
@@ -529,14 +529,14 @@
         },
         "answer": "3e51152920",
         "incorrectness_explanations": {
-            "0016791ae7": NaN,
-            "8d57068296": NaN,
-            "30ac8d123f": NaN,
-            "28757e714f": NaN
+            "0016791ae7": "Popeyes food but not chicken",
+            "8d57068296": "Popeyes chicken salad is not chicken",
+            "30ac8d123f": "Not popeyes styled",
+            "28757e714f": "Not chicken"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "popeyes": "Popeyes",
+            "chicken": "fried chicken"
         }
     },
     {
@@ -559,14 +559,14 @@
         },
         "answer": "0a1ce6cce0",
         "incorrectness_explanations": {
-            "168c263bc9": NaN,
-            "0feac71745": NaN,
-            "8a2736a95e": NaN,
-            "941caf1861": NaN
+            "168c263bc9": "Bean sprout salad is not junk food",
+            "0feac71745": "Deluxe burger is not as cheap as french fries",
+            "8a2736a95e": "Dijon fish burger is not cheap compared to french fries",
+            "941caf1861": "Pasta is not junk food"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "junk food": "french fries",
+            "cheap": "<INFERRED>"
         }
     },
     {
@@ -589,14 +589,14 @@
         },
         "answer": "342a8d609a",
         "incorrectness_explanations": {
-            "891e5e6978": NaN,
-            "415c191f07": NaN,
-            "7d1325023d": NaN,
-            "9e4dfd210d": NaN
+            "891e5e6978": "Coke is not filling",
+            "415c191f07": "Salad is not filling",
+            "7d1325023d": "Coffee is not filling",
+            "9e4dfd210d": "Apple pie is not filling"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "filling": "whole",
+            "American food": "turkey"
         }
     },
     {
@@ -619,14 +619,13 @@
         },
         "answer": "4a13c4e253",
         "incorrectness_explanations": {
-            "7dd92674fa": NaN,
-            "a65b74c7d2": NaN,
-            "4f215a2694": NaN,
-            "6e19304554": NaN
+            "7dd92674fa": "Cocktail is not icecream",
+            "a65b74c7d2": "Not icecream",
+            "4f215a2694": "Not icecream",
+            "6e19304554": "Oreo icecream is not a banana split icecream"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "banana split icecream": "banana split icecream"
         }
     },
     {
@@ -649,18 +648,18 @@
         },
         "answer": "1e5c94f511",
         "incorrectness_explanations": {
-            "153fb7517b": NaN,
-            "8bd350c9e8": NaN,
-            "046842e753": NaN,
-            "272f66ed3a": NaN
+            "153fb7517b": "Not a pure salmon dish but slamon and pasta",
+            "8bd350c9e8": "Salmon is not grilled but barbecued",
+            "046842e753": "Salmon is not grilled",
+            "272f66ed3a": "Not a grilled salmon dish but a salad"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "alaskan salmon": "alaskan salmon",
+            "grilled": "grilled"
         }
     },
     {
-        "query": "How to make burgers and fries?",
+        "query": "How can I make burgers and fries?",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -679,14 +678,14 @@
         },
         "answer": "8061de698c",
         "incorrectness_explanations": {
-            "1831e9d443": NaN,
-            "7e6767b6c2": NaN,
-            "03ef043883": NaN,
-            "9c6345256c": NaN
+            "1831e9d443": "Does not include fries",
+            "7e6767b6c2": "Fries only recipe but doesn't include burger",
+            "03ef043883": "Veggie burger but doesn't contain fries",
+            "9c6345256c": "Fried meatloaf burger but doesn't include fries"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "burgers": "burgers",
+            "fries": "fries"
         }
     },
     {
@@ -709,14 +708,14 @@
         },
         "answer": "2b6946a387",
         "incorrectness_explanations": {
-            "76eec2f82e": NaN,
-            "8dfcf79c68": NaN,
-            "84f7badf33": NaN,
-            "04b58d651c": NaN
+            "76eec2f82e": "Creamy potato salad using sour cream",
+            "8dfcf79c68": "Loaded potato salad made with sour cream",
+            "84f7badf33": "Sour cream potatoes but not a potato salad",
+            "04b58d651c": "Not a loaded potato salad"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Loaded potato salad": "loaded potato salad",
+            "without sour cream": "<INFERRED>"
         }
     },
     {
@@ -731,22 +730,22 @@
             "Temporal": 0
         },
         "options": {
-            "99a5d0c3d0": "Poke of tofu and mushroom and tomatoes",
-            "62bc0c11e6": "Poke of salmon fillet with seasoning of tabasco sauce and brown sugar",
+            "99a5d0c3d0": "Poke of tofu, mushroom and tomatoes",
+            "62bc0c11e6": "Poke made from salmon fillet with seasoning of tabasco sauce and brown sugar",
             "854cb8ffca": "Poke made from tuna with soy sauce seasoning",
             "7bf1a4bb47": "Poke made from tuna and peanuts",
             "5cbf9c4b04": "Poke patties made from mixture of tuna, egg, and breadcrumbs"
         },
         "answer": "99a5d0c3d0",
         "incorrectness_explanations": {
-            "62bc0c11e6": NaN,
-            "854cb8ffca": NaN,
-            "7bf1a4bb47": NaN,
-            "5cbf9c4b04": NaN
+            "62bc0c11e6": "Salmon poke is not vegan",
+            "854cb8ffca": "Tuna poke is not vegan",
+            "7bf1a4bb47": "Ahi poke is tuna so it's not vegan",
+            "5cbf9c4b04": "Poke patties made of tuna so it's not vegan"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "poke": "poke",
+            "vegan": "tofu, mushrooms and tomatoes"
         }
     },
     {
@@ -769,14 +768,14 @@
         },
         "answer": "32ed4d74f6",
         "incorrectness_explanations": {
-            "3959e1aab8": NaN,
-            "67b8c5aad4": NaN,
-            "7ac3874cfa": NaN,
-            "9e4dfd210d": NaN
+            "3959e1aab8": "Normal fries not McDonalds style",
+            "67b8c5aad4": "Normal fries not McDonalds style",
+            "7ac3874cfa": "McDonald's styled food but not fries",
+            "9e4dfd210d": "McDonald's styled food but not fries"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "fries": "fries",
+            "like the ones in McDonalds": "McDonalds styled"
         }
     },
     {
@@ -799,14 +798,14 @@
         },
         "answer": "64e2e44725",
         "incorrectness_explanations": {
-            "38f69f020a": NaN,
-            "9d74d643cc": NaN,
-            "08c41efc14": NaN,
-            "Fish and Chips Pizza": NaN
+            "38f69f020a": "Boston cookies are not pizza",
+            "9d74d643cc": "Boston cream filling is not pizza",
+            "08c41efc14": "Mexican pizza is not Boston Pizza",
+            "Fish and Chips Pizza": "Not Boston Pizza styled"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "pizza": "tropical pizza",
+            "like Boston Pizza": "Boston Pizza styled"
         }
     },
     {
@@ -829,14 +828,15 @@
         },
         "answer": "7d71c4a5df",
         "incorrectness_explanations": {
-            "836ce325a0": NaN,
-            "07db8009c5": NaN,
-            "0ec1ad1d3f": NaN,
-            "615148538a": NaN
+            "836ce325a0": "Not leftover Turkey lunch",
+            "07db8009c5": "Not leftover turkey",
+            "0ec1ad1d3f": "Leftover turkey soup is not convenient to bring to the school",
+            "615148538a": "Not leftover turkey"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "leftover": "leftover",
+            "Thanksgiving turkey": "turkey",
+            "lunch": "<INFERRED>"
         }
     },
     {
@@ -859,14 +859,15 @@
         },
         "answer": "2f55089d6c",
         "incorrectness_explanations": {
-            "0147c0e5d9": NaN,
-            "a1afd74269": NaN,
-            "49d5ab2765": NaN,
-            "32ca033a74": NaN
+            "0147c0e5d9": "Vegan chili but contains beans",
+            "a1afd74269": "Chili that's not vegan because it contains lean beef",
+            "49d5ab2765": "Vegan chili made from beans ",
+            "32ca033a74": "Vegetarian chili made with beans"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "vegan": "<INFERRED>",
+            "chili": "chili",
+            "don't want beans": "<INFERRED>"
         }
     },
     {
@@ -889,18 +890,18 @@
         },
         "answer": "8b2ed7d09d",
         "incorrectness_explanations": {
-            "94d0995f92": NaN,
-            "2bcb83d222": NaN,
-            "187403a4a3": NaN,
-            "76dbfd157a": NaN
+            "94d0995f92": "Butterbeer made from sweetened condensed milk which is less healthy than butterbeer from skim milk due to higher sugar and fat content",
+            "2bcb83d222": "Frozen butterbeer from cream soda has more sugar than butterbeer from skim milk",
+            "187403a4a3": "Harry Potter styled food that's not butterbeer",
+            "76dbfd157a": "Harry Potter styled food that's not butterbeer"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "butterbeer": "Butterbeer",
+            "healthy": "skim milk and sugar substitute"
         }
     },
     {
-        "query": "How do I make cookies that's not too sweet",
+        "query": "I love cookies but most recipes out there are too unhealthy for my liking",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
@@ -919,14 +920,14 @@
         },
         "answer": "a2efa3fa05",
         "incorrectness_explanations": {
-            "37b7462cfd": NaN,
-            "8b2ed7d09d": NaN,
-            "17a59fead4": NaN,
-            "04e65201a3": NaN
+            "37b7462cfd": "Chocolate brownies are not cookies",
+            "8b2ed7d09d": "Healthy butterbeer is not cookies",
+            "17a59fead4": "M&M Cookies contains unhealthy M&Ms",
+            "04e65201a3": "These cookies are not healthy because they are made with caramel and is high in sugar"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "cookies": "cookies",
+            "too unhealthy for my liking": "splenda sugar substitute"
         }
     },
     {
@@ -949,18 +950,18 @@
         },
         "answer": "88510b467f",
         "incorrectness_explanations": {
-            "8c730efd18": NaN,
-            "81f9908b62": NaN,
-            "1f189cdee4": NaN,
-            "72cca33f4d": NaN
+            "8c730efd18": "Salad is not a sandwich",
+            "81f9908b62": "Soup is not a sandwich",
+            "1f189cdee4": "Home made pulled pork sandwich is not subway sandwich",
+            "72cca33f4d": "Subway tuna is not sandwich"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "subway": "Subway",
+            "sandwich": "sandwich"
         }
     },
     {
-        "query": "Could I make a refreshing lemonade for a hot summer day?",
+        "query": "I want to start a lemonade stand in my backyard to earn some money this summer",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
@@ -979,14 +980,13 @@
         },
         "answer": "01b07dda40",
         "incorrectness_explanations": {
-            "2fdaee5a88": NaN,
-            "69d25c19b1": NaN,
-            "52bfdfc30b": NaN,
-            "a1b8fc6ad8": NaN
+            "2fdaee5a88": "Poached figs are not lemonade",
+            "69d25c19b1": "Minty ginger ale is not lemonade",
+            "52bfdfc30b": "Strawberry summer smoothie  is not a lemonade",
+            "a1b8fc6ad8": "Carrot, Apple, and Ginger refresher is not lemonade"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "lemonade": "citrus soda made of lime and lemon"
         }
     },
     {
@@ -1009,14 +1009,14 @@
         },
         "answer": "27c6a03010",
         "incorrectness_explanations": {
-            "5501fbfc6e": NaN,
-            "506c8fe859": NaN,
-            "296eb54011": NaN,
-            "952937b83d": NaN
+            "5501fbfc6e": "BLT pizza has bacon so it's not good for weight watching",
+            "506c8fe859": "Grilled pizza uses BBQ sauce",
+            "296eb54011": "Low fat pizza styled meatloaf is not pizza",
+            "952937b83d": "Spinach salad is not pizza"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "pizza": "pizza",
+            "watching my weight": "low calories"
         }
     },
     {
@@ -1039,14 +1039,13 @@
         },
         "answer": "30ff2e9db5",
         "incorrectness_explanations": {
-            "347222fc27": NaN,
-            "39d7f38487": NaN,
-            "43f32bcac6": NaN,
-            "33ba92197e": NaN
+            "347222fc27": "coffee is not cuisine for kids to grow better",
+            "39d7f38487": "Bananas are not cuisine",
+            "43f32bcac6": "Lemonade is not cuisine",
+            "33ba92197e": "Creams is not a cuisine"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Caribbean cuisine": "Caribbean styled chicken"
         }
     },
     {
@@ -1069,14 +1068,13 @@
         },
         "answer": "04e65201a3",
         "incorrectness_explanations": {
-            "05931c1f10": NaN,
-            "26e4d0cfbe": NaN,
-            "2a49752442": NaN,
-            "28dbb46c71": NaN
+            "05931c1f10": "Chicken soup is not dessert",
+            "26e4d0cfbe": "Roast Peruvian Turkey is not dessert",
+            "2a49752442": "Chicken is not dessert",
+            "28dbb46c71": "Biscotti dessert cookies are not Peruvian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "dessert": "cookies"
         }
     },
     {
@@ -1099,14 +1097,14 @@
         },
         "answer": "6e1438b7be",
         "incorrectness_explanations": {
-            "38e7486d1a": NaN,
-            "6a7da6e877": NaN,
-            "6e19304554": NaN,
-            "21de73895c": NaN
+            "38e7486d1a": "This dessert is not refreshing for hot summer day",
+            "6a7da6e877": "Spiked coffee is not cold",
+            "6e19304554": "This dessert doesn't have dulche de leche",
+            "21de73895c": "Summer meringue dessert doesn't contain dulche de leche"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "dessert": "Popsicle",
+            "dulche de leche": "dulche de leche"
         }
     },
     {
@@ -1129,14 +1127,14 @@
         },
         "answer": "29f0ef8157",
         "incorrectness_explanations": {
-            "9f54f4b87e": NaN,
-            "1f268d55c3": NaN,
-            "95903b28c3": NaN,
-            "014428b77b": NaN
+            "9f54f4b87e": "Churro popcorn isn't churros",
+            "1f268d55c3": "Churros contain cinnamon",
+            "95903b28c3": "Churros contain cinnamon powder even though query does not want cinnamon",
+            "014428b77b": "Cinnamon rolls are not churros"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "churros": "churros",
+            "not a fan of cinnamon": "<INFERRED>"
         }
     },
     {
@@ -1159,14 +1157,14 @@
         },
         "answer": "1abc1641cf",
         "incorrectness_explanations": {
-            "071dda0503": NaN,
-            "24f6103ce4": NaN,
-            "21c1dd5cce": NaN,
-            "8633236dbd": NaN
+            "071dda0503": "Dim sum wonton dumpling contains gluten",
+            "24f6103ce4": "Pancakes are not dim sum",
+            "21c1dd5cce": "Nachos are not dim sum",
+            "8633236dbd": "Shanghainese dumplings have gluten allergy"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "gulten allergy": "<INFERRED>",
+            "dim sum": "dim sum pork"
         }
     },
     {
@@ -1189,14 +1187,14 @@
         },
         "answer": "1d51eaf661",
         "incorrectness_explanations": {
-            "010e5348c9": NaN,
-            "1af424c116": NaN,
-            "59cb818e23": NaN,
-            "0350df07b7": NaN
+            "010e5348c9": "This recipe requires soysauce when query doesn't have soysauce",
+            "1af424c116": "This is not Chinese stir fry",
+            "59cb818e23": "This recipe requires soysauce when query doesn't have soysauce",
+            "0350df07b7": "Hawaiian stir-fry is not Chinese stir-fry"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chinese stir fry": "Stir fry",
+            "ran out of soysauce": "<INFERRED>"
         }
     },
     {
@@ -1219,14 +1217,14 @@
         },
         "answer": "8be6b7fc04",
         "incorrectness_explanations": {
-            "071dda0503": NaN,
-            "8633236dbd": NaN,
-            "0fab1b497a": NaN,
-            "2f25118380": NaN
+            "071dda0503": "Dim sum that's not sweet",
+            "8633236dbd": "Shanghainese dumplings with prawn and chicken is not sweet",
+            "0fab1b497a": "Pot stickers are not sweet",
+            "2f25118380": "Dim sum bun with BBQ pork is not sweet"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "dim sum": "Dim sum",
+            "sweet": "cookies"
         }
     },
     {
@@ -1245,18 +1243,19 @@
             "a6479bb35f": "Filipino fried  wheat noodles with chicken and vegetables",
             "796d4b418e": "Shanghainese fried noodle with pork and shiitake mushrooms",
             "8f872606ad": "Singaporean fried noodles with shrimp and pork",
-            "3dc248e63e": "Spicy fried noodle with chicken, flavoured with red chili pepper"
+            "1d51eaf661": "Stir fry made of bok choy and shrimp"
         },
         "answer": "6acd3af717",
         "incorrectness_explanations": {
-            "a6479bb35f": NaN,
-            "796d4b418e": NaN,
-            "8f872606ad": NaN,
-            "3dc248e63e": NaN
+            "a6479bb35f": "Filipino fried noodles are not Chinese",
+            "796d4b418e": "Shanghai fried noodles are Chinese but are not halal because it contains pork",
+            "8f872606ad": "Singaporean fried noodle is not Chinese",
+            "1d51eaf661": "Chinese stir fry is not fried noodle"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chinese": "Chinese",
+            "fried noodle": "fried noodle",
+            "halal": "<INFERRED>"
         }
     },
     {
@@ -1279,14 +1278,14 @@
         },
         "answer": "28d60dd8d2",
         "incorrectness_explanations": {
-            "a6e75460dd": NaN,
-            "105409bca2": NaN,
-            "a5c681c4c9": NaN,
-            "0b1e5daa3f": NaN
+            "a6e75460dd": "Custard pudding is not Chinese",
+            "105409bca2": "Lemon custard is not Chinese",
+            "a5c681c4c9": "Dousha Bao doesn't contain custard",
+            "0b1e5daa3f": "Black Sesame Dumplings doesn't contain custard"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chinese": "Chinese",
+            "dessert with custard": "custard bun"
         }
     },
     {
@@ -1309,18 +1308,18 @@
         },
         "answer": "2bcaa46e02",
         "incorrectness_explanations": {
-            "4941524e04": NaN,
-            "a14ef82f62": NaN,
-            "9a41e95dda": NaN,
-            "0d04caee4c": NaN
+            "4941524e04": "Caribbean pork & rice is not Asian dish",
+            "a14ef82f62": "This is not an Asian dish",
+            "9a41e95dda": "This is not an Asian dish",
+            "0d04caee4c": "This dish doesn't contain rice"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Asian dish": "Taiwanese",
+            "pork and rice": "minced pork and rice"
         }
     },
     {
-        "query": "I want to cook some Asian food but I'm sick of eating beef",
+        "query": "I want to cook some Asian comfort food but I'm sick of eating beef",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -1331,22 +1330,22 @@
             "Temporal": 0
         },
         "options": {
-            "1544d858d3": "Meat ball made from ground pork and water chestnut, together with a side of bok choy",
+            "1544d858d3": "Chinese comfort food of meat balls made from ground pork and water chestnut, together with a side of bok choy",
             "86b46a493c": "Soup made with beef bones, potatos, carrots and celery",
             "9cfa3ba3cc": "Comfort food made from ground beef, celery, and mushrooms",
             "6b54d3af6f": "Noodles in a beef broth with baby bok choy and strip steaks",
-            "69159c9ccd": "Healthy dish made from lean beef and brocoli"
+            "55bd249a65": "Beijing bok choy with sauteed onions, bamboo shoots, and mushrooms"
         },
         "answer": "1544d858d3",
         "incorrectness_explanations": {
-            "86b46a493c": NaN,
-            "9cfa3ba3cc": NaN,
-            "6b54d3af6f": NaN,
-            "69159c9ccd": NaN
+            "86b46a493c": "Soup contains beef which is not part of the query",
+            "9cfa3ba3cc": "This comfort food contains beef",
+            "6b54d3af6f": "This contained beef",
+            "55bd249a65": "Beijing bok choy is not a comfort food"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Asian comfort food": "Chinese meat ball",
+            "sick of eating beef": "<INFERRED>"
         }
     },
     {
@@ -1369,14 +1368,14 @@
         },
         "answer": "4abc458244",
         "incorrectness_explanations": {
-            "313edbd436": NaN,
-            "9bbb8a62a7": NaN,
-            "55bd249a65": NaN,
-            "Beijing Banana Toffee (Deep Fried Bananas)": NaN
+            "313edbd436": "Not a meat dish",
+            "9bbb8a62a7": "Not a meat dish",
+            "55bd249a65": "Not a meat dish",
+            "Beijing Banana Toffee (Deep Fried Bananas)": "Not a meat dish"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Beijing": "<INFERRED>",
+            "meat dish": "lamb"
         }
     },
     {
@@ -1391,7 +1390,7 @@
             "Temporal": 0
         },
         "options": {
-            "72963b3928": "Egg and tomato stri fry garnished with green onion",
+            "72963b3928": "Egg and tomato stir fry garnished with green onion",
             "995854dfde": "Stir fry of tomatoes, baby corn, and eggs; served with soba noodles",
             "62c541eeb5": "Stir fry using shimeji mushrooms and cherry tomatoes, with tempura sauce used for flavour",
             "71b3666924": "Stir fry made from tomatoes and eggs, flavoured with scallions, garlic, and peanut oil",
@@ -1399,14 +1398,14 @@
         },
         "answer": "72963b3928",
         "incorrectness_explanations": {
-            "995854dfde": NaN,
-            "62c541eeb5": NaN,
-            "71b3666924": NaN,
-            "67497d2dab": NaN
+            "995854dfde": "Stir fry is more complicated than simple stir fry because it also contains baby corn and soba noodles",
+            "62c541eeb5": "Stir fry doesn't contain eggs",
+            "71b3666924": "Stir fry is complicated with seasoning",
+            "67497d2dab": "Stir fry contains more ingredients"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "eggs and tomatoes": "egg and tomato",
+            "simplest stir fry": "<INFERRED>"
         }
     },
     {
@@ -1424,19 +1423,19 @@
             "a5c681c4c9": "Sweet chinese red bean bun",
             "1b788fae39": "Sweet red bean paste that can be used as filling",
             "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
-            "460ef50ea2": "Savory and spicy chili made from tomatoes and red bean",
+            "08e1067093": "Sweet and cool white wood ear mushroom and pear dessert drink",
             "45bbc72594": "Soft and smooth tasting Mung bean dessert"
         },
         "answer": "a5c681c4c9",
         "incorrectness_explanations": {
-            "1b788fae39": NaN,
-            "4327b04b6e": NaN,
-            "460ef50ea2": NaN,
-            "45bbc72594": NaN
+            "1b788fae39": "Red bean paste is not an dessert by itself",
+            "4327b04b6e": "Red beans and rice are not dessert",
+            "08e1067093": "Asian pear and white wood ear mushroom dessert doesn't use red beans",
+            "45bbc72594": "Mung bean dessert doesn't use red beans"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Asian dessert": "chinese",
+            "red bean": "red bean bun"
         }
     },
     {
@@ -1459,14 +1458,14 @@
         },
         "answer": "12fd743918",
         "incorrectness_explanations": {
-            "0b1e5daa3f": NaN,
-            "8e00b25764": NaN,
-            "62c541eeb5": NaN,
-            "1d51eaf661": NaN
+            "0b1e5daa3f": "Black sesame dumplings are sweet instead of savory",
+            "8e00b25764": "Mid autumn moon cakes are sweet and not savory",
+            "62c541eeb5": "Stir fry mushroom is not a Chinese festival food",
+            "1d51eaf661": "Chinese stir fry is not a Chinese festival food"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Chinese festival food": "Chinese dragon boat festival",
+            "savory": "sticky rice wrapped pork shoulder"
         }
     },
     {
@@ -1481,22 +1480,22 @@
             "Temporal": 0
         },
         "options": {
-            "1544d858d3": "Meat ball made from ground pork and water chestnut, together with a side of bok choy",
-            "7a98ee1c5a": "Chicken wings marinated with chinese spices",
+            "1544d858d3": "Chinese meat ball made from ground pork and water chestnut, together with a side of bok choy",
+            "7a98ee1c5a": "Chinese chicken wings marinated with chinese spices",
             "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
             "005f166b5f": "Chinese pot roast made from beef and served with cabbage",
             "01723a7bc7": "Chinese stir fried chicken with almonds"
         },
         "answer": "1544d858d3",
         "incorrectness_explanations": {
-            "7a98ee1c5a": NaN,
-            "70e63cadd9": NaN,
-            "005f166b5f": NaN,
-            "01723a7bc7": NaN
+            "7a98ee1c5a": "It's a Chinese chicken dish so doesn't satisfy query requirement",
+            "70e63cadd9": "It's a Chinese beef dish so doesn't satisfy query requirement",
+            "005f166b5f": "Contains beef so doesn't satisfy query requirement",
+            "01723a7bc7": "Contains chicken so doesn't satisfy query requirement"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "chinese dish with meat": "Chinese meat ball",
+            "meat but not chicken or beef": "<INFERRED>"
         }
     },
     {
@@ -1519,14 +1518,14 @@
         },
         "answer": "7b72caae72",
         "incorrectness_explanations": {
-            "0d7108a4b8": NaN,
-            "099a5672d6": NaN,
-            "0f8b8cc61e": NaN,
-            "a751dd0307": NaN
+            "0d7108a4b8": "Hot dog is not hot pot",
+            "099a5672d6": "Not Korean styled hot pot",
+            "0f8b8cc61e": "Not Korean styled hot pot",
+            "a751dd0307": "Not Korean styled hot pot"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "korean": "korean",
+            "hot pot": "hot pot"
         }
     },
     {
@@ -1549,14 +1548,14 @@
         },
         "answer": "62f88ac2c2",
         "incorrectness_explanations": {
-            "551778add2": NaN,
-            "783feea9ca": NaN,
-            "0b7fca11bc": NaN,
-            "0fe86a138b": NaN
+            "551778add2": "Not dandan noodles",
+            "783feea9ca": "Not low calories compared to other dandan noodle option ",
+            "0b7fca11bc": "Not dandan noodles",
+            "0fe86a138b": "Not dandan noodles"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "on a diet": "Low calories",
+            "dandan noodles": "dandan noodles"
         }
     },
     {
@@ -1573,24 +1572,25 @@
         "options": {
             "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
             "6707f78bb2": "Halal stuffed zucchini with rice",
-            "010e5348c9": "Rice and shrimp stir fry with soy sauce and ground ginger for flavour",
+            "5424d7d703": "Teriyaki flavoured stir fry made of pork",
             "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
-            "71b3666924": "Stir fry made from tomatoes and eggs, flavoured with scallions, garlic, and peanut oil"
+            "a4b6108967": "Stir fry made of pork belly and flavoured with ginger and soysauce"
         },
         "answer": "81f1929ff2",
         "incorrectness_explanations": {
-            "6707f78bb2": NaN,
-            "010e5348c9": NaN,
-            "1af424c116": NaN,
-            "71b3666924": NaN
+            "6707f78bb2": "Not a chinese dish",
+            "5424d7d703": "Pork is not halal",
+            "1af424c116": "Not a Chinese stir fry",
+            "a4b6108967": "Pork is not halal"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "halal": "Muslim",
+            "chinese": "Chinese",
+            "stir fry": "stir fry"
         }
     },
     {
-        "query": "I want to make a popular chinese dish like Kung Pao Chicken",
+        "query": "I want to make a popular and famous chinese dish like Kung Pao Chicken",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
@@ -1601,7 +1601,7 @@
             "Temporal": 0
         },
         "options": {
-            "06dddda4ee": "Savory and a little spicy kung pao chicken flavoured with soy sauce and red chilies",
+            "06dddda4ee": "Kung pao chicken flavoured with soy sauce and red chilies",
             "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
             "6b29d0d777": "Casserole mae Chinese style with chicken breast and water chestnut",
             "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
@@ -1609,14 +1609,14 @@
         },
         "answer": "06dddda4ee",
         "incorrectness_explanations": {
-            "81f1929ff2": NaN,
-            "6b29d0d777": NaN,
-            "70e63cadd9": NaN,
-            "005f166b5f": NaN
+            "81f1929ff2": "Not a popular and famous chinese dish",
+            "6b29d0d777": "Not a popular and famous chinese dish",
+            "70e63cadd9": "Not a popular and famous chinese dish",
+            "005f166b5f": "Not a popular and famous chinese dish"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Kung Pao Chicken": "kung pao chicken",
+            "popular and famous": "<INFERRED>"
         }
     },
     {
@@ -1639,18 +1639,18 @@
         },
         "answer": "4930046f48",
         "incorrectness_explanations": {
-            "2c05b3f52a": NaN,
-            "00e237d00f": NaN,
-            "0d1bdd1ba7": NaN,
-            "a677e7d025": NaN
+            "2c05b3f52a": "Not spicy",
+            "00e237d00f": "Not a korean soup",
+            "0d1bdd1ba7": "Not a korean soup",
+            "a677e7d025": "Not a spicy soup"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "spicy": "red pepper powder",
+            "korean soup": "Korean soup"
         }
     },
     {
-        "query": "Can I not have oily chinese food?",
+        "query": "I want to cook something chinese but chinese cuisine largely consists of oily dishes, which I don't like",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -1665,22 +1665,22 @@
             "59384af83b": "Chinese vegetables cooked in peanut oil",
             "34fe9e4f7f": "Chinese pancakes pan fried in sesame oil",
             "9306e2de66": "Chinese meatballs made of lean pork and cooked in oil",
-            "23b1a42bd2": "Chinese shrimp deep fried in oil"
+            "23b1a42bd2": "Deep fried Chinese shrimp"
         },
         "answer": "1903458afc",
         "incorrectness_explanations": {
-            "59384af83b": NaN,
-            "34fe9e4f7f": NaN,
-            "9306e2de66": NaN,
-            "23b1a42bd2": NaN
+            "59384af83b": "This is an oily chinese dish",
+            "34fe9e4f7f": "This is an oily chinese dish",
+            "9306e2de66": "This is an oily chinese dish",
+            "23b1a42bd2": "This is an oily chinese dish"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "chinese": "Chinese",
+            "oily dishes, which I don't like": "<INFERRED>"
         }
     },
     {
-        "query": "I want to try making some vegan Japanese dessert ",
+        "query": "I want to try making some vegan Japanese desserts",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -1691,26 +1691,27 @@
             "Temporal": 0
         },
         "options": {
-            "7f1ec174c7": "Sweet and soft Japanese red bean daifuku",
-            "3db0688b36": "Chewy and sweet japanese mochi",
+            "7f1ec174c7": "Japanese red bean daifuku",
+            "3db0688b36": "Chewy and sweet japanese butter mochi",
             "5492eb7651": "Japanese rice cake with sausage and cheese",
             "6bb6a47b6e": "Japanese mochi and wafer cake with whipped cream and custard",
             "611a6fcc2b": "Refreshing and cool peppermint and chocolate chip vegan dessert "
         },
         "answer": "7f1ec174c7",
         "incorrectness_explanations": {
-            "3db0688b36": NaN,
-            "5492eb7651": NaN,
-            "6bb6a47b6e": NaN,
-            "611a6fcc2b": NaN
+            "3db0688b36": "Butter is non vegan",
+            "5492eb7651": "Sausage is non vegan",
+            "6bb6a47b6e": "Whipped cream is not vegan",
+            "611a6fcc2b": "It's a vegan dessert but not Japanese"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "vegan": "<INFERRED>",
+            "Japanese": "Japanese",
+            "desserts": "red bean daifuku"
         }
     },
     {
-        "query": "How can I make japanese rice balls?",
+        "query": "I want to pack a savory lunch for my Japanese boyfriend",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -1721,26 +1722,26 @@
             "Temporal": 0
         },
         "options": {
-            "0a6f61c2bb": "Japanese rice ball wrapped with nori (seaweed)",
+            "9aac2b3bd0": "Japanese rice ball containing tuna, wrapped with nori (seaweed)",
             "0ff089fe86": "Rice ball with corned beef and egg",
-            "3db0688b36": "Chewy and sweet japanese butter mochi",
+            "3db0688b36": "Japanese butter mochi",
             "05a9e0cee2": "Japanese soft layered fruit cake from egg whites and cinnamon",
             "26c6283df8": "Italian fried rice ball stuffed and coated with breadcrumbs "
         },
-        "answer": "0a6f61c2bb",
+        "answer": "9aac2b3bd0",
         "incorrectness_explanations": {
-            "0ff089fe86": NaN,
-            "3db0688b36": NaN,
-            "05a9e0cee2": NaN,
-            "26c6283df8": NaN
+            "0ff089fe86": "Not Japanese styled rice ball",
+            "3db0688b36": "Not a savory lunch",
+            "05a9e0cee2": "Not a savory lunch",
+            "26c6283df8": "Not a Japanese rice ball"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Japanese": "Japanese",
+            "savory lunch": "<INFERRED>"
         }
     },
     {
-        "query": "I have leftover udon noodles and shrimp, what do I do?",
+        "query": "Could I have a seafood udon noodles recipe?",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -1759,14 +1760,14 @@
         },
         "answer": "6491f56289",
         "incorrectness_explanations": {
-            "6ee5f79460": NaN,
-            "91748eb475": NaN,
-            "7aa3ed3449": NaN,
-            "6aa460e28b": NaN
+            "6ee5f79460": "Not seafood",
+            "91748eb475": "Not udon",
+            "7aa3ed3449": "Not udon",
+            "6aa460e28b": "Not udon"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "seafood": "shrimp",
+            "udon": "Udon"
         }
     },
     {
@@ -1789,14 +1790,14 @@
         },
         "answer": "7b9dcab9e6",
         "incorrectness_explanations": {
-            "6491f56289": NaN,
-            "6ee5f79460": NaN,
-            "0a6f61c2bb": NaN,
-            "5492eb7651": NaN
+            "6491f56289": "Udon noodles are carbs",
+            "6ee5f79460": "Udon noodles are carbs",
+            "0a6f61c2bb": "Rice is carbs",
+            "5492eb7651": "Rice cake contains carbs"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "japanese": "Japanese",
+            "no carbs": "<INFERRED>"
         }
     },
     {
@@ -1813,20 +1814,20 @@
         "options": {
             "171ef0df45": "Sushi filled with avoado, carrot, and cucumber",
             "5932a8a20c": "Spicy tuna sushi",
-            "04ef7a5230": "Sushi filled with smoke salmon",
+            "89f8bc7775": "Vegan asian noodle salad",
             "82e5721601": "Octopus and caviar finger sushi",
             "00a51e9ef5": "Shrimp sushi rolls"
         },
         "answer": "171ef0df45",
         "incorrectness_explanations": {
-            "5932a8a20c": NaN,
-            "04ef7a5230": NaN,
-            "82e5721601": NaN,
-            "00a51e9ef5": NaN
+            "5932a8a20c": "Tuna is not vegan",
+            "89f8bc7775": "This is not sushi",
+            "82e5721601": "Octopus and caviar is not vegan",
+            "00a51e9ef5": "Shrimp is not vegan"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Vegan": "<INFERRED>",
+            "sushi": "sushi"
         }
     },
     {
@@ -1843,24 +1844,24 @@
         "options": {
             "a5c681c4c9": "Sweet chinese red bean bun",
             "2a389d7356": "Refreshing drink of iced green tea",
-            "2c9bf41e41": "Lemonade with green tea added",
+            "3db0688b36": "Chewy and sweet japanese butter mochi",
             "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
             "460ef50ea2": "Savory and spicy chili made from tomatoes and red bean"
         },
         "answer": "a5c681c4c9",
         "incorrectness_explanations": {
-            "2a389d7356": NaN,
-            "2c9bf41e41": NaN,
-            "4327b04b6e": NaN,
-            "460ef50ea2": NaN
+            "2a389d7356": "Not a dessert",
+            "3db0688b36": "Not red bean or green tea flavoured",
+            "4327b04b6e": "Not a dessert",
+            "460ef50ea2": "Not a dessert"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "red bean": "red bean or green tea flavored",
+            "Asian": "chinese"
         }
     },
     {
-        "query": "I want to make a korean main course with no kimchi",
+        "query": "I want to make a korean dish with no kimchi",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -1879,18 +1880,18 @@
         },
         "answer": "4930046f48",
         "incorrectness_explanations": {
-            "7b72caae72": NaN,
-            "0d7108a4b8": NaN,
-            "60c1533589": NaN,
-            "9797471b30": NaN
+            "7b72caae72": "Contains kimichi",
+            "0d7108a4b8": "Contains kimichi",
+            "60c1533589": "Contains kimichi",
+            "9797471b30": "Contains kimichi"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Korean": "Korean",
+            "no kimichi": "<INFERRED>"
         }
     },
     {
-        "query": "I want to try special New Year korean rice cake soup",
+        "query": "I'm interested to try the rice cake soup that Koreans eat during the New Year",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -1904,19 +1905,20 @@
             "77ffeae2b0": "Korean savoury soup made of rice cake and beef for festivals",
             "4aee88a303": "Korean chewy and spicy stir-fried rice cake",
             "489d5fea03": "Korean stew made of spicy rice cake, cabbage, and leek",
-            "55fe62c8a6": "Cheese flavoured Korean rice cake",
+            "19bde46129": "Eggnog drank during New Year",
             "6c0b4177f1": "Rice cake with fat free cream cheese and broccoli"
         },
         "answer": "77ffeae2b0",
         "incorrectness_explanations": {
-            "4aee88a303": NaN,
-            "489d5fea03": NaN,
-            "55fe62c8a6": NaN,
-            "6c0b4177f1": NaN
+            "4aee88a303": "Not New Year food",
+            "489d5fea03": "Not New Year food",
+            "19bde46129": "Not Korean food",
+            "6c0b4177f1": "Not New Year food"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Koreans": "Korean",
+            "rice cake soup": "soup made of rice cake",
+            "eat during the New Year": "festivals"
         }
     },
     {
@@ -1939,14 +1941,14 @@
         },
         "answer": "3f4238ec0c",
         "incorrectness_explanations": {
-            "5932a8a20c": NaN,
-            "04ef7a5230": NaN,
-            "0d7108a4b8": NaN,
-            "60c1533589": NaN
+            "5932a8a20c": "Not Korean food",
+            "04ef7a5230": "Not korean food",
+            "0d7108a4b8": "Doesn't contain seafood",
+            "60c1533589": "Doesn't contain seafood"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Korean dish": "Korean",
+            "seafood": "fried fish"
         }
     },
     {
@@ -1969,14 +1971,15 @@
         },
         "answer": "56be46ad9b",
         "incorrectness_explanations": {
-            "8790ecfbd1": NaN,
-            "6c0bf8d87a": NaN,
-            "84ebd83707": NaN,
-            "7ec1ca34f6": NaN
+            "8790ecfbd1": "Contains seaweed",
+            "6c0bf8d87a": "Contains seaweed",
+            "84ebd83707": "Not Japanese soup",
+            "7ec1ca34f6": "Contains seaweed"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Japanese": "Japanese",
+            "soup": "soup",
+            "doesn't contain seaweed": "<INFERRED>"
         }
     },
     {
@@ -1991,7 +1994,7 @@
             "Temporal": 0
         },
         "options": {
-            "188be1143b": "Indian vegan tikka masala curry that tastes like chicken",
+            "188be1143b": "Indian vegan tikka masala curry that tastes like beyond chicken",
             "8166694968": "Vegan lettuce wraps of tofu ",
             "89f8bc7775": "Vegan asian noodle salad",
             "9540d5b87d": "Vegan pizza with toppings that tastes like meat ",
@@ -1999,14 +2002,15 @@
         },
         "answer": "188be1143b",
         "incorrectness_explanations": {
-            "8166694968": NaN,
-            "89f8bc7775": NaN,
-            "9540d5b87d": NaN,
-            "658c226a87": NaN
+            "8166694968": "Vegan lettuce wrap does not taste like meat",
+            "89f8bc7775": "Noodle salad does not taste like meat",
+            "9540d5b87d": "Pizza is not Asian",
+            "658c226a87": "Meat laof is not Asian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "vegan": "vegan",
+            "asian dish": "Indian",
+            "tastes like meat": "tastes like beyond chicken"
         }
     },
     {
@@ -2029,14 +2033,14 @@
         },
         "answer": "03c97249fc",
         "incorrectness_explanations": {
-            "188be1143b": NaN,
-            "6ee5f79460": NaN,
-            "725e80b8ca": NaN,
-            "044518cc98": NaN
+            "188be1143b": "Query did not want Indian curry",
+            "6ee5f79460": "Curry udon is Japanese",
+            "725e80b8ca": "Query did not want Japanese curry",
+            "044518cc98": "Query did not want Japanese curry"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "curry": "curry",
+            "not indian or japanese": "<INFERRED>"
         }
     },
     {
@@ -2051,7 +2055,7 @@
             "Temporal": 0
         },
         "options": {
-            "188be1143b": "Indian vegan curry that can be dipped with bread",
+            "188be1143b": "Indian vegan curry",
             "03c97249fc": "Thai curry with shrimp and coconut milk that can be dipped with bread",
             "7498a92b64": "Indian styled traditional flatbread",
             "847ee9ab82": "Cold artichoke and zucchini dip",
@@ -2059,18 +2063,18 @@
         },
         "answer": "188be1143b",
         "incorrectness_explanations": {
-            "03c97249fc": NaN,
-            "7498a92b64": NaN,
-            "847ee9ab82": NaN,
-            "7aeec76158": NaN
+            "03c97249fc": "Not Indian",
+            "7498a92b64": "Cannot dip naan in ",
+            "847ee9ab82": "Not Indian ",
+            "7aeec76158": "Cannot dip naan in fry chicken"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Indian dish": "Indian",
+            "can dip naan in": "<INFERRED>"
         }
     },
     {
-        "query": "I want to cook an Asian dish that don't need utensils to eat",
+        "query": "I want to cook an Asian dish that that I can eat without using utensils",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -2082,21 +2086,21 @@
         },
         "options": {
             "188be1143b": "Indian vegan curry that can be dipped with bread",
-            "8790ecfbd1": "Japanese noodle soup with seaweed",
-            "6c0bf8d87a": "Miso soup containing seaweed and green onion",
+            "8cf7db4798": "Rice noodles with beef knuckle and oxtails",
+            "78966eafdd": "Quick pho made with sliced beef",
             "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
             "6b29d0d777": "Casserole mae Chinese style with chicken breast and water chestnut"
         },
         "answer": "188be1143b",
         "incorrectness_explanations": {
-            "8790ecfbd1": NaN,
-            "6c0bf8d87a": NaN,
-            "81f1929ff2": NaN,
-            "6b29d0d777": NaN
+            "8cf7db4798": "Can't eat pho without utensils",
+            "78966eafdd": "Can't eat pho without utensils",
+            "81f1929ff2": "Can't eat stir fry without utensils",
+            "6b29d0d777": "Can't eat chicken casserole without utensils"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Asian dish": "Indian",
+            "eat without using utensils": "<INFERRED>"
         }
     },
     {
@@ -2119,14 +2123,14 @@
         },
         "answer": "a6db1f7569",
         "incorrectness_explanations": {
-            "8cf7db4798": NaN,
-            "78966eafdd": NaN,
-            "587510ce44": NaN,
-            "5b6c807198": NaN
+            "8cf7db4798": "Ran out of meat so can't use beef in recipe",
+            "78966eafdd": "Ran out of meat so can't use beef in recipe",
+            "587510ce44": "Ran out of meat so can't use chicken in recipe",
+            "5b6c807198": "Ran out of meat so can't use turkey in recipe"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "pho": "rice noodles",
+            "ran out of meat": "<INFERRED>"
         }
     },
     {
@@ -2149,14 +2153,14 @@
         },
         "answer": "875bbfd3cf",
         "incorrectness_explanations": {
-            "57c768f6a2": NaN,
-            "581eb5fb1e": NaN,
-            "0865b33f66": NaN,
-            "7650a73fd0": NaN
+            "57c768f6a2": "Not Asian styled tarts",
+            "581eb5fb1e": "Not Asian styled tarts",
+            "0865b33f66": "Not Asian styled tarts",
+            "7650a73fd0": "Not Asian styled tarts"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "egg tarts": "egg custard tart",
+            "had in Asia": "Chinese"
         }
     },
     {
@@ -2174,19 +2178,19 @@
             "6ce90e9b04": "Polish sausage with fermented cabbage ",
             "6d76705678": "Polish quiche pie made of savory crust and sausage",
             "a62601292e": "Savory soup made of vegetables and polish sausage",
-            "9c3e000203": "Sausage with fermented cabbage",
-            "343f338dd2": "Sweet and tangy dish, sausage baked with sauerkraut and apple"
+            "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content",
+            "7b72caae72": "Korean hot pot with pork, tofu, and korean fermented cabbage kimchi"
         },
         "answer": "6ce90e9b04",
         "incorrectness_explanations": {
-            "6d76705678": NaN,
-            "a62601292e": NaN,
-            "9c3e000203": NaN,
-            "343f338dd2": NaN
+            "6d76705678": "Does not include sauerkraut",
+            "a62601292e": "Does not include sauerkraut",
+            "a6c5c1f5cb": "Does not include sauerkraut",
+            "7b72caae72": "Does not include polish sausage"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "polish sausage": "polish sausage",
+            "sauerkraut": "fermented cabage"
         }
     },
     {
@@ -2201,7 +2205,7 @@
             "Temporal": 0
         },
         "options": {
-            "371c13a806": "French bread made swiss style with swiss cheese",
+            "371c13a806": "Bread made swiss style with swiss cheese",
             "35f3ff33b8": "Swiss steak made from slow cooked beef braised in tomato sauce",
             "3394295068": "Swiss meringue made from fluffy frosting",
             "26eda207c4": "Swiss flan: cheese custard pudding ",
@@ -2209,14 +2213,14 @@
         },
         "answer": "371c13a806",
         "incorrectness_explanations": {
-            "35f3ff33b8": NaN,
-            "3394295068": NaN,
-            "26eda207c4": NaN,
-            "3e3c2b13bb": NaN
+            "35f3ff33b8": "Steak is not cheap",
+            "3394295068": "Meringue is not cheap compared to bread",
+            "26eda207c4": "Flan is not cheap compared to bread",
+            "3e3c2b13bb": "Chicken is not cheap compared to bread"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "cheap": "<INFERRED>",
+            "swiss": "swiss style"
         }
     },
     {
@@ -2239,14 +2243,14 @@
         },
         "answer": "5f4f0e5750",
         "incorrectness_explanations": {
-            "18820852fb": NaN,
-            "1eaa640995": NaN,
-            "31fa57c7ea": NaN,
-            "2646da3394": NaN
+            "18820852fb": "Meatball is not a snack",
+            "1eaa640995": "Burger is not a snack",
+            "31fa57c7ea": "German casserole is not a snack",
+            "2646da3394": "Beefsteaks is not a snack"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "German": "German",
+            "snacks": "pretzels"
         }
     },
     {
@@ -2262,25 +2266,26 @@
         },
         "options": {
             "69a8ff3d92": "German chicken soup with shell noodles",
-            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "9bd8473005": "German chocolate cake mixed with sundae",
             "0f1d68c793": "German puffed up breakfast pancake from eggs, milk, and flour",
             "a0b7d11480": "German breakfast from bacon, ham, fried potatoes, eggs, onions",
             "27a62d563b": "A German bread roll usually eaten in the morning"
         },
         "answer": "69a8ff3d92",
         "incorrectness_explanations": {
-            "9bd8473005": NaN,
-            "0f1d68c793": NaN,
-            "a0b7d11480": NaN,
-            "27a62d563b": NaN
+            "9bd8473005": "Should not eat chocolate sundae on a cold day",
+            "0f1d68c793": "Breakfast pancake isn't usually eaten during evening",
+            "a0b7d11480": "Breakfast isn't eaten during evening",
+            "27a62d563b": "Breakfast roll isn't eaten during evening"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Germany": "German",
+            "cold evening": "<INFERRED>",
+            "evening": "<INFERRED>"
         }
     },
     {
-        "query": "I want to make italian snack",
+        "query": "I want to make an italian snack",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -2299,14 +2304,14 @@
         },
         "answer": "1b696370fa",
         "incorrectness_explanations": {
-            "a1164b997e": NaN,
-            "09d7c8b737": NaN,
-            "0ab965336b": NaN,
-            "388c0507d5": NaN
+            "a1164b997e": "Macarons are not Italian",
+            "09d7c8b737": "Coffee is not a snack",
+            "0ab965336b": "Chicken is not a snack",
+            "388c0507d5": "Cheese chicken is not a snack"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Italian": "Italian",
+            "snack": "cracker similar to a pretzel"
         }
     },
     {
@@ -2329,18 +2334,18 @@
         },
         "answer": "6cd574ada4",
         "incorrectness_explanations": {
-            "0ed5fd83cf": NaN,
-            "03068e4d95": NaN,
-            "26ba85a729": NaN,
-            "07d9034669": NaN
+            "0ed5fd83cf": "Polish soup is not Mediterranean",
+            "03068e4d95": "Salad is not a soup",
+            "26ba85a729": "Not Mediterranean",
+            "07d9034669": "Not a soup"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Mediterranean": "Greek styled",
+            "soup": "meatball soup"
         }
     },
     {
-        "query": "I want to make a French dish with red meat",
+        "query": "I want a French dish to go with a nice glass of red wine",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -2359,18 +2364,18 @@
         },
         "answer": "259e8c800c",
         "incorrectness_explanations": {
-            "9cfa86a48f": NaN,
-            "6fe11c60a7": NaN,
-            "9f0a71eb0f": NaN,
-            "a3379ac365": NaN
+            "9cfa86a48f": "Chicken is white meat so less suitable for red wine compared to steak which is red meat",
+            "6fe11c60a7": "Duck is white meat so less suitable for red wine compared to steak which is red meat",
+            "9f0a71eb0f": "Fish is white meat so less suitable for red wine compared to steak which is red meat",
+            "a3379ac365": "Fish is white meat so less suitable for red wine compared to steak which is red meat"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "French dish": "French",
+            "go with a nice glass of red wine": "<INFERRED>"
         }
     },
     {
-        "query": "I'm diabetic and I want to try spanish paella",
+        "query": "I want to make paella for my spanish mother-in-law who is diabetic",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -2384,19 +2389,19 @@
             "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content",
             "05f17e93c6": "Spanish seafood rice made from shrimp, squid, mussels, and vegetables",
             "12427544a2": "Spanish rice made with mushroom and chicken",
-            "826ae0dd68": "Spanish rice made with chicken and seafood",
-            "88d4ad7318": "Spanish rice made with tomatoes, peas, artichokes"
+            "0c0be57248": "Russian caramel fudge made from sweetened milk, golden syrup, and butter",
+            "9b8014d02f": "Gelato made from peach, heavy cream, egg yolks, truvia sweetener, and plain yogurt"
         },
         "answer": "a6c5c1f5cb",
         "incorrectness_explanations": {
-            "05f17e93c6": NaN,
-            "12427544a2": NaN,
-            "826ae0dd68": NaN,
-            "88d4ad7318": NaN
+            "05f17e93c6": "Seafood paella but doesn't take into consideration of sugar content",
+            "12427544a2": "Doesn't take into account sugar content",
+            "0c0be57248": "Very sweet so not healthy for diabetic patients",
+            "9b8014d02f": "Not a paella"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "diabetic": "low sugar content",
+            "paella for my spanish mother-in-law": "spanish rice with chicken, spicy sauasge, and seafood"
         }
     },
     {
@@ -2419,14 +2424,14 @@
         },
         "answer": "10aeb060ef",
         "incorrectness_explanations": {
-            "141270771a": NaN,
-            "30bf0227df": NaN,
-            "06d1106b44": NaN,
-            "8da6e83ff9": NaN
+            "141270771a": "Halibut is seafood",
+            "30bf0227df": "Cod is seafood",
+            "06d1106b44": "Shrimp is seafood",
+            "8da6e83ff9": "Cod is seafood"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "spanish dish": "spanish rice",
+            "doesn't contain seafood": "<INFERRED>"
         }
     },
     {
@@ -2449,14 +2454,13 @@
         },
         "answer": "2c9474a993",
         "incorrectness_explanations": {
-            "44cb2f209e": NaN,
-            "10b28435ba": NaN,
-            "1769f9dd02": NaN,
-            "1767d591f1": NaN
+            "44cb2f209e": "Not a pasta and meatball soup",
+            "10b28435ba": "Not a soup",
+            "1769f9dd02": "Not an Italian soup",
+            "1767d591f1": "Not a soup"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Italian pasta and meatballs soup": "Italian meatball and pasta with cheese, cooked in soup stew"
         }
     },
     {
@@ -2471,26 +2475,26 @@
             "Temporal": 0
         },
         "options": {
-            "a8e28be186": "Vegan italian salad made from romain lettuce, artichokes, and tomatoes",
+            "a8e28be186": "Italian salad made from romain lettuce, artichokes, and tomatoes",
             "2c9474a993": "Italian meatball and pasta with cheese, cooked in soup stew",
             "10b28435ba": "Italian meatballs and pasta sprinkled with parmesan",
             "1767d591f1": "Italian meatball from lean ground beef",
-            "6a28fddc8b": "Vegan pasta salad made with chickpeas and artichoke hearts"
+            "833990105f": "Burger made from only spinach and firm tofu"
         },
         "answer": "a8e28be186",
         "incorrectness_explanations": {
-            "2c9474a993": NaN,
-            "10b28435ba": NaN,
-            "1767d591f1": NaN,
-            "6a28fddc8b": NaN
+            "2c9474a993": "Not vegan because it contains meatball",
+            "10b28435ba": "Not vegan because it contains meatball",
+            "1767d591f1": "Not vegan because it contains meatball",
+            "833990105f": "Vegan burger is not Italian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Italian": "Italian",
+            "vegan": "<INFERRED>"
         }
     },
     {
-        "query": "I want milk-flavoured Russian snacks",
+        "query": "I remember trying this traditional candy that tastes just like milk when I visited Moscow",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -2509,14 +2513,14 @@
         },
         "answer": "10ada75a02",
         "incorrectness_explanations": {
-            "5e5c5572f3": NaN,
-            "058e3ba2d2": NaN,
-            "07c53e91c9": NaN,
-            "0c0be57248": NaN
+            "5e5c5572f3": "Pirozhki isn't a candy",
+            "058e3ba2d2": "Not a candy",
+            "07c53e91c9": "Not a candy",
+            "0c0be57248": "This Russian candy doesn't taste like milk"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Moscow": "Russian",
+            "traditional candy that tastes just like milk": "Light and fluffy Russian milk souffle candy"
         }
     },
     {
@@ -2532,21 +2536,21 @@
         },
         "options": {
             "2379f4b9df": "Cod fillet fish and Chips dipped in low fat mayonnaise ",
-            "Not Your Mama's Fish N' Chips (Halibut)": "Halibut sour cream dipped in sour cream and onion potato chips",
-            "Fried Cod for Fish and Chips With Tartar Sauce": "Cod fish fillet with tartar sauce",
-            "Fish and Chips Pizza": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings",
+            "0601731fb6": "Halibut sour cream dipped in sour cream and onion potato chips",
+            "40bae0778e": "Cod fish fillet with tartar sauce",
+            "3d4745cce1": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings",
             "3c99576dc3": "Chocolate chip cookies made with artificial sweetener and semi-sweet chocolate"
         },
         "answer": "2379f4b9df",
         "incorrectness_explanations": {
-            "Not Your Mama's Fish N' Chips (Halibut)": NaN,
-            "Fried Cod for Fish and Chips With Tartar Sauce": NaN,
-            "Fish and Chips Pizza": NaN,
-            "3c99576dc3": NaN
+            "0601731fb6": "Sour cream is not good for diet",
+            "40bae0778e": "Tartar sauce is not good for diet",
+            "3d4745cce1": "Not fish and chips",
+            "3c99576dc3": "Not fish and chips"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "on a diet": "low fat mayonnaise",
+            "fish and chips": "Cod fillet fish and Chips"
         }
     },
     {
@@ -2569,18 +2573,18 @@
         },
         "answer": "15c8484027",
         "incorrectness_explanations": {
-            "a6864cf6b4": NaN,
-            "39816165d9": NaN,
-            "98d117ed45": NaN,
-            "111fce4c44": NaN
+            "a6864cf6b4": "Not a dessert",
+            "39816165d9": "Not a dessert",
+            "98d117ed45": "Not Norwegian",
+            "111fce4c44": "Not Norwegian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "nordic": "Norway",
+            "dessert": "cake with lingonberry and whipped cream layers"
         }
     },
     {
-        "query": "I want to make Greek cuisine but I forgot to buy cheese, tzatziki dip, or garlic",
+        "query": "I want to cook Greek cuisine but I forgot to buy cheese, tzatziki dip, or garlic",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -2599,14 +2603,14 @@
         },
         "answer": "17eff23365",
         "incorrectness_explanations": {
-            "12688946b0": NaN,
-            "1409eb0098": NaN,
-            "141e08d28b": NaN,
-            "1eb9559305": NaN
+            "12688946b0": "Contains cheese ",
+            "1409eb0098": "Contains tzatziki dip",
+            "141e08d28b": "Contains cheese",
+            "1eb9559305": "Contains garlic"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Greek cuisine": "Greek",
+            "forgot to buy cheese, tzatziki dip, or garlic": "<INFERRED>"
         }
     },
     {
@@ -2621,7 +2625,7 @@
             "Temporal": 1
         },
         "options": {
-            "0eebf3e4b4": "Vegan lasagna  made from vegan cheese",
+            "0eebf3e4b4": "Vegan lasagna made from vegan cheese",
             "a8e28be186": "Vegan italian salad made from romain lettuce, artichokes, and tomatoes",
             "642202b519": "Healthy lasagna made from ground beef, canned tomatoes, and cheese",
             "4292b003fc": "Italian American lasagna made from Italian American meat sauce and milk ricotta cheese",
@@ -2629,18 +2633,18 @@
         },
         "answer": "0eebf3e4b4",
         "incorrectness_explanations": {
-            "a8e28be186": NaN,
-            "642202b519": NaN,
-            "4292b003fc": NaN,
-            "526461104e": NaN
+            "a8e28be186": "Not lasagna",
+            "642202b519": "Not vegan because it contains beef and cheese",
+            "4292b003fc": "Not vegan because it contains cheese",
+            "526461104e": "Not vegan because it contains cheese and meat"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "vegan": "vegan",
+            "lasagna": "lasagna"
         }
     },
     {
-        "query": "I want to make an Italian cuisine for my daughter who hates cheese",
+        "query": "I want to make Italian food for my daughter who hates cheese",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -2659,18 +2663,18 @@
         },
         "answer": "0ab965336b",
         "incorrectness_explanations": {
-            "642202b519": NaN,
-            "4292b003fc": NaN,
-            "6a151c5e67": NaN,
-            "526461104e": NaN
+            "642202b519": "Contains cheese ",
+            "4292b003fc": "Contains cheese",
+            "6a151c5e67": "Contains cheese",
+            "526461104e": "Contains cheese"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Italian food": "Italian",
+            "daughter who hates cheese": "<INFERRED>"
         }
     },
     {
-        "query": "I want gelato but I'm watching my carb intake",
+        "query": "Today's really hot and I'm craving for a peach flavoured treat",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
@@ -2683,20 +2687,20 @@
         "options": {
             "9b8014d02f": "Gelato made from peach, heavy cream, egg yolks, truvia sweetener, and plain yogurt",
             "45ed25b1b2": "Vanilla gelato made from egg yolk, sugar, cornstarch, milk, and whipping cream",
-            "5154e54573": "Kiwi gelato made from egg yolks, sugar, milk, whippig cream, and kiwi",
+            "0bfe892509": "A jar of peaches covered in peach wine and syrup",
             "335eae967e": "Pumpkin gelato made from milk, heavy cream, sugar, cinnamon, and pumpkin puree",
             "01f614801d": "Gelato made from milk, egg yolk, sugar, pistachio paste"
         },
         "answer": "9b8014d02f",
         "incorrectness_explanations": {
-            "45ed25b1b2": NaN,
-            "5154e54573": NaN,
-            "335eae967e": NaN,
-            "01f614801d": NaN
+            "45ed25b1b2": "Not peach flavoured",
+            "0bfe892509": "Not particularly good treat for summer",
+            "335eae967e": "Not peach flavoured",
+            "01f614801d": "Not peach flavoured"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "hot": "<INFERRED>",
+            "peach flavoured treat": "Gelato made from peach"
         }
     },
     {
@@ -2719,18 +2723,18 @@
         },
         "answer": "44bb127bc7",
         "incorrectness_explanations": {
-            "4f6bb856d0": NaN,
-            "967783c94c": NaN,
-            "21f59c114a": NaN,
-            "10f7dc8488": NaN
+            "4f6bb856d0": "query asked for non tortellini pasta",
+            "967783c94c": "query asked for non tortellini pasta",
+            "21f59c114a": "query asked for non tortellini pasta",
+            "10f7dc8488": "query asked for non tortellini pasta"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "pasta": "pasta",
+            "not tortellini": "<INFERRED>"
         }
     },
     {
-        "query": "How to make a french onion soup?",
+        "query": "How do I make french onion soup?",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -2749,14 +2753,14 @@
         },
         "answer": "02a044aea5",
         "incorrectness_explanations": {
-            "079022a264": NaN,
-            "097d916575": NaN,
-            "26ba85a729": NaN,
-            "0791dcee0b": NaN
+            "079022a264": "Not onion soup",
+            "097d916575": "Not onion soup",
+            "26ba85a729": "Not French",
+            "0791dcee0b": "Not French"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "french": "French",
+            "onion soup": "onion soup"
         }
     },
     {
@@ -2774,19 +2778,20 @@
             "72e6203b52": "French potato salad from red potatos and flavoured with olive oil, salt and pepper, and white wine",
             "7eebf0166a": "French cocktail made from sparkling wine, Bacardi rum, brown sugar, mint, lime, and ice",
             "16f086d2e5": "French bread with mayonnaise, parmesan cheese, and green onions",
-            "1e313b1d44": "French artichoke hearts flavoured with salt and peppper, lemon juice, and white wine ",
+            "0bfe892509": "A jar of peaches covered in peach wine and syrup",
             "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
         },
         "answer": "72e6203b52",
         "incorrectness_explanations": {
-            "7eebf0166a": NaN,
-            "16f086d2e5": NaN,
-            "1e313b1d44": NaN,
-            "5e10d5e88d": NaN
+            "7eebf0166a": "Not an appetizer",
+            "16f086d2e5": "Appetizer doesn't contain wine",
+            "0bfe892509": "Not French",
+            "5e10d5e88d": "Appetizer doesn't contain wine"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "French": "French",
+            "appetizers": "potato salad",
+            "use wine": "white wine"
         }
     },
     {
@@ -2809,14 +2814,15 @@
         },
         "answer": "9ec29f06d6",
         "incorrectness_explanations": {
-            "a1164b997e": NaN,
-            "17194384f1": NaN,
-            "9bd8473005": NaN,
-            "47f4e3284b": NaN
+            "a1164b997e": "Doesn't contain chocolate",
+            "17194384f1": "Doesn't contain chocolate",
+            "9bd8473005": "Not french",
+            "47f4e3284b": "Not french"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "french": "French",
+            "chocolate": "chocolate",
+            "dessert": "cake"
         }
     },
     {
@@ -2839,14 +2845,15 @@
         },
         "answer": "a263b56ecf",
         "incorrectness_explanations": {
-            "9ec29f06d6": NaN,
-            "17194384f1": NaN,
-            "038ebd90a6": NaN,
-            "5e10d5e88d": NaN
+            "9ec29f06d6": "Doesn't include duck",
+            "17194384f1": "Doesn't include duck",
+            "038ebd90a6": "Not French",
+            "5e10d5e88d": "Doesn't include duck"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "lunch": "<INFERRED>",
+            "duck": "duck",
+            "French-style": "French"
         }
     },
     {
@@ -2869,14 +2876,14 @@
         },
         "answer": "7b9badda2f",
         "incorrectness_explanations": {
-            "5627fdf3a2": NaN,
-            "0f1d68c793": NaN,
-            "a0b7d11480": NaN,
-            "27a62d563b": NaN
+            "5627fdf3a2": "Just tomatoes aren't typical breakfast food",
+            "0f1d68c793": "Not Belgian",
+            "a0b7d11480": "Not Belgian",
+            "27a62d563b": "Not Belgian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Belgian": "Belgian",
+            "breakfast": "<INFERRED>"
         }
     },
     {
@@ -2899,18 +2906,17 @@
         },
         "answer": "62b85165ed",
         "incorrectness_explanations": {
-            "858bbc0cda": NaN,
-            "80b775d8a0": NaN,
-            "9540d5b87d": NaN,
-            "3d4745cce1": NaN
+            "858bbc0cda": "Not a pizza baguette because it doesn't have typical pizza materials like cheese, pepperoni, and tomato sauce",
+            "80b775d8a0": "Not a pizza baguette because it doesn't have typical pizza materials like cheese, pepperoni, and tomato sauce",
+            "9540d5b87d": "Doesn't include baguette",
+            "3d4745cce1": "Doesn't include baguette"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "pizza baguette": "baguette cut into slices with each slice covered in cheese, tomato sauce, and pepperoni"
         }
     },
     {
-        "query": "What goes well with German beer for dinner?",
+        "query": "What German main course can I make for dinner",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
@@ -2929,14 +2935,15 @@
         },
         "answer": "48539e5b5b",
         "incorrectness_explanations": {
-            "10b6247565": NaN,
-            "2c7b8d89f2": NaN,
-            "9bd8473005": NaN,
-            "0f1d68c793": NaN
+            "10b6247565": "Not a main course",
+            "2c7b8d89f2": "Not a main course",
+            "9bd8473005": "Not a main course",
+            "0f1d68c793": "Not a main course"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "German": "German",
+            "main course": "<INFERRED>",
+            "dinner": "<INFERRED>"
         }
     },
     {
@@ -2959,14 +2966,14 @@
         },
         "answer": "a75e891193",
         "incorrectness_explanations": {
-            "0e6c029cfc": NaN,
-            "13e515bf75": NaN,
-            "024ca59ee9": NaN,
-            "02a8ebe77e": NaN
+            "0e6c029cfc": "Not bread",
+            "13e515bf75": "Not bread",
+            "024ca59ee9": "Not Australian",
+            "02a8ebe77e": "Not Australian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Australian": "Australian",
+            "damper bread": "soda bread"
         }
     },
     {
@@ -2989,14 +2996,14 @@
         },
         "answer": "7b6feef9a0",
         "incorrectness_explanations": {
-            "6e4a34a5a7": NaN,
-            "9bb7fbe373": NaN,
-            "609f667584": NaN,
-            "111fce4c44": NaN
+            "6e4a34a5a7": "Not dessert",
+            "9bb7fbe373": "Not dessert",
+            "609f667584": "Not dessert",
+            "111fce4c44": "Not Fijian"
         },
         "correctness_explanation": {
-            "warm dish": "soup",
-            "oysters": "oyster"
+            "Fijian": "Fijian",
+            "dessert": "honey cake"
         }
     }
 ]
