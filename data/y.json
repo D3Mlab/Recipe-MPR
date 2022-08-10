@@ -2216,7 +2216,7 @@
         }
     },
     {
-        "query": "I'm going on a picnic, what's something I can make with with all healthy ingredients?",
+        "query": "I'm going on a picnic, what's something I can make with all healthy ingredients?",
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
