@@ -203,12 +203,12 @@ Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
-| K | 22/100 |
-| Y | 5/100 |
-| H | 4/100 |
-| Z | 31/100|
-| N | 25/98 |
-| **Total** | **87/498 (17.47%)** |
+| K | 17/100 |
+| Y | 18/100 |
+| H | 17/100 |
+| Z | 15/100|
+| N | 18/100 |
+| **Total** | **85/500 (17%)** |
 
 ## 2) TF-IDF Ranking
 
@@ -224,12 +224,12 @@ Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
-| K | 27/100 |
-| Y | 6/100 |
-| H | 12/100 |
-| Z | 28/100|
-| N | 35/98 |
-| **Total** | **118/498 (23.69%)** |
+| K | 21/100 |
+| Y | 14/100 |
+| H | 23/100 |
+| Z | 25/100|
+| N | 20/100 |
+| **Total** | **103/500 (20.6%)** |
 
 ## 4) Neural IR (BERT, TAS-B)
 
@@ -241,12 +241,27 @@ Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
-| K | 46/100 |
-| Y | 27/100 |
-| H | 42/100 |
+| K | 21/100 |
+| Y | 20/100 |
+| H | 19/100 |
+| Z | 8/100|
+| N | 16/100 |
+| **Total** | **84/500 (16.8%)** |
+
+## 4) Zero-Shot QA with 
+
+This baseline applies a pretrained OPT-1.3b language model on the dataset for Question Answering (QA) using the [HuggingFace Transformers](https://arxiv.org/abs/1910.03771) library in Python.
+
+Results:
+
+| Data Curator | H@1 (accuracy) |
+| -------- |-------- |
+| K | 26/100 |
+| Y | 31/100 |
+| H | 32/100 |
 | Z | 43/100|
-| N | 33/98 |
-| **Total** | **199/498 (39.96%)** |
+| N | 21/100 |
+| **Total** | **153/500 (30.6%)** |
 
 # Evaluation Metrics
 
