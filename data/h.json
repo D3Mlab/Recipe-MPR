@@ -1334,7 +1334,7 @@
             "Temporal": 0
         },
         "options": {
-            "772e8338e9": "Creamy broccoli dish with mayonnaise and cheddar cheese for kids",
+            "772e8338e9": "Creamy broccoli dish with mayonnaise and cheddar cheese",
             "066bbbef87": "Carrots, tomatoes, pepper, onions, and spinach vegetable balls for kids",
             "1d5f95763f": "Broccoli and onions cooked with red wine",
             "03017f9de6": "Simple cauliflower fritters with flour, egg, salt, and pepper",
@@ -1478,7 +1478,7 @@
         }
     },
     {
-        "query": "Can I have buffalo cauliflower like the ones from Boston Pizza?",
+        "query": "Can I have cauliflower bites like the ones from Boston Pizza?",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -1489,22 +1489,22 @@
             "Temporal": 0
         },
         "options": {
-            "8a5766099b": "Boston Pizza-style breaded cauliflower bites with buffalo flavouring",
+            "8a5766099b": "Breaded cauliflower bites with buffalo flavouring",
             "029faae3e6": "Chicken wings with buffalo flavouring",
-            "64e2e44725": "Boston-Pizza style pizza with chicken, bacon, pineapple, and hot sauce",
+            "64e2e44725": "Boston Pizza style pizza with chicken, bacon, pineapple, and hot sauce",
             "02be3a3656": "Seasoned mashed cauliflower with fromage frais",
-            "12315d2d1b": "Cauliflower cooked with onions and tomatoes in curry sauce"
+            "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
         },
         "answer": "8a5766099b",
         "incorrectness_explanations": {
-            "029faae3e6": "It's not buffalo cauliflower",
-            "64e2e44725": "It's not buffalo cauliflower",
-            "02be3a3656": "It's not buffalo cauliflower",
-            "12315d2d1b": "It's not buffalo cauliflower"
+            "029faae3e6": "It's not cauliflower bites",
+            "64e2e44725": "It's not cauliflower bites",
+            "02be3a3656": "It's not like the ones from Boston Pizza",
+            "5e10d5e88d": "It's not cauliflower bites"
         },
         "correctness_explanation": {
-            "buffalo cauliflower": "buffalo cauliflower",
-            "Boston Pizza": "Boston Pizza-style"
+            "cauliflower bites": "cauliflower bites",
+            "Boston Pizza": "buffalo flavouring"
         }
     },
     {
@@ -1965,14 +1965,14 @@
         "options": {
             "06f254d36f": "Cheesecake made with cream cheese",
             "18012e9629": "Paneer cheese made with milk, lemons, and water for curry and desserts",
-            "0320455252": "Creamy fromage blanc cheese and herb spread with sourdough bread",
+            "31e11c1079": "Tortilla wrap with sun-dried tomatoes, spinach, olives and cream cheese",
             "07ebb0f8c3": "Dessert made with Bisquick, sugar, coconut, margarine, and cherry pie filling",
             "38d84ad6d3": "Recipe for dessert crepes containing rum"
         },
         "answer": "06f254d36f",
         "incorrectness_explanations": {
-            "18012e9629": "It isn't a dessert and doesn't have cream cheese",
-            "0320455252": "It isn't a dessert and doesn't have cream cheese",
+            "18012e9629": "It isn't a dessert by itself and doesn't have cream cheese",
+            "31e11c1079": "It isn't a dessert",
             "07ebb0f8c3": "It doesn't have cream cheese in it",
             "38d84ad6d3": "It doesn't have cream cheese in it"
         },
@@ -2087,15 +2087,15 @@
         "options": {
             "79282d7d4f": "Sugar cookies with icing containing butter and milk",
             "074001212d": "Fortune cookie recipe from scratch made using egg whites",
-            "40427cc1bc": "Ground pork dumplings with ginger and scallions",
-            "11732573c6": "Sweet iced tea drink",
+            "04c6645a2a": "Soup made with peanut butter and milk",
+            "0a635fdbe4": "Homemade butter made from heavy cream",
             "0a158066f5": "Orange, lemon, pineapple, strawberry fruit punch with sprite"
         },
         "answer": "79282d7d4f",
         "incorrectness_explanations": {
             "074001212d": "It doesn't use butter and milk",
-            "40427cc1bc": "It doesn't use butter and milk",
-            "11732573c6": "It doesn't use butter and milk",
+            "04c6645a2a": "Peanut butter is different from butter",
+            "0a635fdbe4": "Is recipe for butter itself but doesn't use butter and milk",
             "0a158066f5": "It doesn't use butter and milk"
         },
         "correctness_explanation": {
@@ -2366,14 +2366,14 @@
         "options": {
             "019e385afa": "Jam made from blackberries, lemon juice, and sugar",
             "526a1e251b": "Cookies with a jam filling",
-            "00ec233cff": "Chili sauce that uses fresh strawberries",
+            "47865479a4": "Healthy mixed berry cobbler containing walnuts that's made with whole wheat flour",
             "648d62a30e": "Fruit salad containing orange, strawberries, raspberries, blueberries, and kiwi",
             "0c5637cdb7": "Jam made from apples, lemon juice, and sugar"
         },
         "answer": "019e385afa",
         "incorrectness_explanations": {
             "526a1e251b": "It contains jam but not a recipe for jam",
-            "00ec233cff": "It isn't jam",
+            "47865479a4": "It isn't jam",
             "648d62a30e": "It isn't jam",
             "0c5637cdb7": "It isn't jam"
         },
@@ -2455,7 +2455,7 @@
         },
         "options": {
             "31ac8d0963": "Berry cobbler that uses frozen mixed berries",
-            "0679e58802": "Smoothie made from bananas, mixed berry yogurt, frozen mixed berries, and pomegranates",
+            "0679e58802": "Smoothie drink made from bananas, mixed berry yogurt, frozen mixed berries, and pomegranates",
             "08351fa1ce": "Sweet pizza with pineapple and cream cheese",
             "94ee2850e5": "Red wine sangria made with frozen mixed berries, lemon, and oranges",
             "514bc8536d": "Jam made from lemon juice, sugar, and fresh strawberries"
@@ -2510,7 +2510,7 @@
         }
     },
     {
-        "query": "I would like either apple or cherry pie recipes",
+        "query": "I would like to make either apple or cherry pie for dessert",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -2522,15 +2522,15 @@
         },
         "options": {
             "06c7af9340": "Cherry pie made with dark sweet cherries",
-            "2750993d5c": "Cake made with apples",
-            "1210e6056a": "Pie with pumpkin filling",
+            "9b47867a69": "No-Bake apple crumble dessert containing walnuts, dates, and raisins",
+            "0138cdb839": "Baked pumpkin dessert pie filled with a sweet pumpkin spice based custard",
             "01eee35005": "Cheesecake containing cherry pie filling",
             "03d3a3778d": "Dessert pie with lemon curd and meringue"
         },
         "answer": "06c7af9340",
         "incorrectness_explanations": {
-            "2750993d5c": "It isn't a pie",
-            "1210e6056a": "It isn't apple or cherry pie",
+            "9b47867a69": "It isn't a pie",
+            "0138cdb839": "It isn't apple or cherry pie",
             "01eee35005": "It isn't a pie",
             "03d3a3778d": "It isn't apple or cherry pie"
         },
@@ -2683,8 +2683,8 @@
             "Temporal": 0
         },
         "options": {
-            "9cbb92b844": "Banana bread made with whole wheat flour and contains walnuts",
-            "01d38d7f54": "Bread made from scratch containing dried cranberries and walnuts",
+            "9cbb92b844": "Banana bread made with whole wheat flour and walnuts",
+            "01d38d7f54": "Bread made from scratch that contains dried cranberries and walnuts",
             "024b4e6289": "Banana pudding made with instant pudding mix",
             "54dc119a25": "Nut-free banana bread containing sour cream",
             "954aaeac42": "Banana pancakes made using waffle mix"
@@ -2741,7 +2741,7 @@
         }
     },
     {
-        "query": "How do I make a classic French fruit tart?",
+        "query": "I'd like to make a classic French fruit tart but I don't like raspberries",
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
@@ -2756,27 +2756,28 @@
             "080bc872f3": "Classic French macarons containing orange flavouring",
             "9042730429": "Italian fruit tart with raspberries and mascarpone cheese",
             "76b2df0735": "Classic French-style mixed vegetable salad with salad dressing and brie cheese",
-            "49b518703b": "A mix of Asian pear, clementine, and pomegranate"
+            "648d62a30e": "Fruit salad containing orange, strawberries, raspberries, blueberries, and kiwi"
         },
         "answer": "37c25acd41",
         "incorrectness_explanations": {
             "080bc872f3": "It isn't a fruit tart",
-            "9042730429": "It's Italian so it isn't a French fruit tart",
+            "9042730429": "Isn't a French fruit tart and contains raspberries",
             "76b2df0735": "It isn't a fruit tart",
-            "49b518703b": "It isn't a fruit tart"
+            "648d62a30e": "It isn't a fruit tart"
         },
         "correctness_explanation": {
             "classic": "<INFERRED>",
             "French": "French",
-            "fruit tart": "fruit tart"
+            "fruit tart": "fruit tart",
+            "don't like raspberries": "<INFERRED>"
         }
     },
     {
-        "query": "I would like a pear cake recipe for beginners",
+        "query": "I would like to make a pear cake for dessert but I'm a beginner at baking",
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Indirect": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2799,7 +2800,7 @@
         "correctness_explanation": {
             "pear": "pears",
             "cake": "cake",
-            "for beginners": "Easy-to-make"
+            "beginner at baking": "Easy-to-make"
         }
     },
     {
@@ -3028,7 +3029,7 @@
         }
     },
     {
-        "query": "Can I have a tangy drink?",
+        "query": "Can I have a tangy summer drink?",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -3041,19 +3042,20 @@
         "options": {
             "1776c5b520": "Punch made from lemon-lime beverage, pineapple juice, drink mix, and lime",
             "2cdcd73aea": "Sweet drink with milk powder, sugar, and cocoa",
-            "88bf83567c": "Southern-style sweet tea",
+            "21de73895c": "Summer meringue dessert made of strawberry and kiwi meringue",
             "7dcdf62182": "Tangy beef meatballs containing Worcestershire sauce",
             "011e424359": "Barbecue pork ribs with a tangy sauce"
         },
         "answer": "1776c5b520",
         "incorrectness_explanations": {
             "2cdcd73aea": "It's not tangy",
-            "88bf83567c": "It's not tangy",
+            "21de73895c": "It's not a tangy drink",
             "7dcdf62182": "It's not a drink",
             "011e424359": "It's not a drink"
         },
         "correctness_explanation": {
             "tangy": "lemon-lime",
+            "summer": "<INFERRED>",
             "drink": "Punch"
         }
     },

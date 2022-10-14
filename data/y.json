@@ -11,7 +11,7 @@
             "Temporal": 1
         },
         "options": {
-            "06653f1315": "Standard hot chocolate drink",
+            "06653f1315": "Standard hot chocolate recipe",
             "6617a13bff": "Chocolate ice milk sundaes topped with chocolate vanilla sauce",
             "56ecf3f01c": "Baked cinnamon rolls with pecans",
             "15d5cb830e": "Classic baked chocolate brownies",
@@ -26,8 +26,8 @@
         },
         "correctness_explanation": {
             "chocolate": "chocolate",
-            "drink": "drink",
-            "cozy": "warm"
+            "drink": "hot chocolate",
+            "cozy": "hot"
         }
     },
     {
@@ -1113,7 +1113,7 @@
             "Temporal": 0
         },
         "options": {
-            "0bf6f6c3a2": "Fudge bars made from Snickers chocolates.",
+            "0bf6f6c3a2": "Fudge bars made from Snickers bars.",
             "17a59fead4": "Brown sugar chewy cookies topped with nuts and colourful M&M chocolates.",
             "732f963857": "Marshmallows on a stick decorated with assorted colourful candy ",
             "106f484afa": "Classic rice krispie treats - marshmallow and rice krispies cereal bar",
@@ -2427,7 +2427,7 @@
         }
     },
     {
-        "query": "I need to make food for my dog, but she's a bit sensitive to pesticides often found in commercially produced leafy greens.",
+        "query": "I need to make food for my dog, but she's a bit sensitive to pesticides often found in commercially produced leafy vegetables.",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
