@@ -1,0 +1,3017 @@
+[
+    {
+        "query": "I miss the local dessert I had near the Nile River",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "98d117ed45": "An Egyptian fruit cup made of dates and fruits",
+            "111fce4c44": "Rhubarb crumb cake for dessert",
+            "07d53adcee": "Fried Egypt Ridge Catfish",
+            "8edc438172": "A no bake pudding layered with vanilla wafer and bananas",
+            "a63291e765": "Soft and chewy M&M cookies"
+        },
+        "answer": "98d117ed45",
+        "incorrectness_explanations": {
+            "111fce4c44": "Rhubarb crumb cake is a dessert but is not Egyptian",
+            "07d53adcee": "It's an Egyptian dish but not a dessert",
+            "8edc438172": "A dessert but not Egyptian",
+            "a63291e765": "A dessert but not Egyptian"
+        },
+        "correctness_explanation": {
+            "Nile River": "Egpytian",
+            "dessert": "fruit cup"
+        }
+    },
+    {
+        "query": "I'm from Capetown and I want to introduce my vegetarian friend to cuisine from my country",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7f9e7ce033": "South African vegetable curry flavoured with curry powder and ground tumeric",
+            "9ec0365675": "Ribs made with south african spices",
+            "6010de609e": "Capetown spit roasted leg of lamb",
+            "6c7474919e": "Sauerkraut fermented cabbage salad that tastes sour from vinegar",
+            "39f3ff87d1": "South African styled smoothie made from cantaloupes and cherry"
+        },
+        "answer": "7f9e7ce033",
+        "incorrectness_explanations": {
+            "9ec0365675": "Ribs are not vegetarian",
+            "6010de609e": "Roasted lamb is not vegetarian",
+            "6c7474919e": "Salad is vegetarian but this is not South African cuisine",
+            "39f3ff87d1": "Smoothie is not a vegetarian cuisine"
+        },
+        "correctness_explanation": {
+            "my country": "South African",
+            "vegetarian": "vegetable curry"
+        }
+    },
+    {
+        "query": "I'm a Kenyan long distance runner and I want a main dish full of protein from my hometown",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a2fd0e7edc": "Kenyan chicken curry with sauce made from cream, honey and garam masala.",
+            "85fd7fec9a": "Kenyan mashed potatoes",
+            "63efe5b191": "Kenyan fresh tomato and onion salad",
+            "7936d6bcf4": "Kenyan collard greens simmered with tomatoes",
+            "7cf2b1cd76": "Light and fluffy Kenyan donuts that's usually served for breakfast with chai tea"
+        },
+        "answer": "a2fd0e7edc",
+        "incorrectness_explanations": {
+            "85fd7fec9a": "Does not have protein",
+            "63efe5b191": "Does not have protein",
+            "7936d6bcf4": "Does not have protein",
+            "7cf2b1cd76": "Donuts are not protein"
+        },
+        "correctness_explanation": {
+            "Kenyan": "Kenyan",
+            "protein": "chicken curry"
+        }
+    },
+    {
+        "query": "I want to try something warm to drink from West Africa",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9fdc30431d": "West African soup made of squash, flavoured with chili powder, and smoothed out with coconut milk",
+            "18bae1b6d6": "Dish of avocados filled with fish mixture and egg whites from West Africa",
+            "a0d9be8c20": "Mali bissap: sweet drink made from vanilla, ginger, and hibiscus",
+            "0302a9c63c": "Chowder soup made from corn, bacon, cornstarch and heavy cream ",
+            "778dd166fe": "African filling groundnut sauce made from peanut butter"
+        },
+        "answer": "9fdc30431d",
+        "incorrectness_explanations": {
+            "18bae1b6d6": "West African food but not a warm drinkable cuisine",
+            "a0d9be8c20": "A sweet drink but not warm",
+            "0302a9c63c": "A warm soup but not from West Africa",
+            "778dd166fe": "A west african dish but not a warm drink"
+        },
+        "correctness_explanation": {
+            "West Africa": "West African",
+            "warm to drink": "soup"
+        }
+    },
+    {
+        "query": "I want to make Quebec poutine",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6aeb5140ab": "Large portion fries with gravy and bacon ",
+            "3959e1aab8": "Fries fried in vegetable oil",
+            "5c0694bd66": "Poutine styled baked potatoes with cheese",
+            "5164182c9c": "Sweet Quebec beans made with maple syrup and molasses",
+            "731b92b761": "Quebec pie made from brown sugar and evaporated milk"
+        },
+        "answer": "6aeb5140ab",
+        "incorrectness_explanations": {
+            "3959e1aab8": "French fries without gravy are not poutine",
+            "5c0694bd66": "Scalloped potatoes are not poutine",
+            "5164182c9c": "Quebec cuisine but not poutine",
+            "731b92b761": "Quebece dessert but not poutine"
+        },
+        "correctness_explanation": {
+            "fries and gravy": "poutine"
+        }
+    },
+    {
+        "query": "I'm looking for a vegan burger without tofu",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "00baec31c9": "Chickpea burger made of only chickpea, beans, and potatoes",
+            "833990105f": "Burger made from only spinach and firm tofu",
+            "00c44f2a96": "Pizza burger made with pizza sauce and cheese",
+            "6a28fddc8b": "Vegan pasta salad made with chickpeas and artichoke hearts",
+            "0e29c2a160": "Vegan gelatin made from cornstarch"
+        },
+        "answer": "00baec31c9",
+        "incorrectness_explanations": {
+            "833990105f": "Vegan burger but made of tofu",
+            "00c44f2a96": "Pizza burger contains cheese  wchich is non vegan",
+            "6a28fddc8b": "Vegan salad but not a burger",
+            "0e29c2a160": "Vegan gelatin but not a buger"
+        },
+        "correctness_explanation": {
+            "without tofu": "<INFERRED>",
+            "vegan": "<INFERRED>",
+            "burger": "burger"
+        }
+    },
+    {
+        "query": "Is there a filling Canadian main course that's not poutine",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1de78125c6": "Tourtiere french-Candian pie made from ground meat and onions",
+            "6890d42bfc": "Canadian coffee with whiskey and maple syrup",
+            "6aeb5140ab": "Large portion fries with gravy and bacon ",
+            "16b48ecd6b": "Filling beef and potatoes",
+            "8faf26938a": "Canadian maple flavoured cake with bacon crumbles in the frosting"
+        },
+        "answer": "1de78125c6",
+        "incorrectness_explanations": {
+            "6890d42bfc": "Canadian but not a filling dish",
+            "6aeb5140ab": "Query asked for non-poutine and this is poutine",
+            "16b48ecd6b": "Filling dish but not Canadian",
+            "8faf26938a": "Canadian but not a main course"
+        },
+        "correctness_explanation": {
+            "Canadian": "french-Canadian",
+            "filling Canadian dish": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How can I eat caviar with crackers?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "739a467c9e": "Caviar dip from caviar and sour cream, nestled in ice",
+            "6aa16259b5": "Caviar served directly on ice",
+            "77ab19c2fb": "Potatoes stuffed with caviar",
+            "689fac0aea": "Scrambled egg and caviar mix, presented in eggshell cups",
+            "076ea35630": "Steamed sweet potato arranged with creme fraiche and caviar bites"
+        },
+        "answer": "739a467c9e",
+        "incorrectness_explanations": {
+            "6aa16259b5": "Directly served caviar, so not a dip for crackers",
+            "77ab19c2fb": "Not a caviar dip edible with crackers",
+            "689fac0aea": "Not a caviar dip edible with crackers",
+            "076ea35630": "Not a dip edible with crackers"
+        },
+        "correctness_explanation": {
+            "caviar": "Caviar",
+            "with crackers": "dip"
+        }
+    },
+    {
+        "query": "I want healthy Mexican food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "099ae0fa87": "Mexican salad made from beans and corn",
+            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter",
+            "08c86f8dd5": "Healthy vegetable chips made from sweet potatos",
+            "08c41efc14": "Mexican pizza made with beans and ground beef",
+            "4a085ab56a": "Healthier donuts made from whole wheat bread and honey with no processed sugar"
+        },
+        "answer": "099ae0fa87",
+        "incorrectness_explanations": {
+            "0ea477c6f9": "S'mores are not healthy",
+            "08c86f8dd5": "Healthy chips but are not Mexican",
+            "08c41efc14": "Pizza is not healthy",
+            "4a085ab56a": "Not Mexican"
+        },
+        "correctness_explanation": {
+            "Mexican": "Mexican",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I miss my mom's homemade Acadian dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6552ee872e": "Acadian syrup cake with cinnamon",
+            "579872a461": "Acadian styled chicken stew ",
+            "47f4e3284b": "A moist homestyled chocolate cake ",
+            "14fdc2f88d": "Low fat tiramisu made with ladyfingers, nonfat milk, and brandy",
+            "7fd4e18f0d": "Acadian styled crab salad with croissants "
+        },
+        "answer": "6552ee872e",
+        "incorrectness_explanations": {
+            "579872a461": "Not a dessert",
+            "47f4e3284b": "Not Acadian",
+            "14fdc2f88d": "Not Acadian",
+            "7fd4e18f0d": "Crab salad is not a dessert"
+        },
+        "correctness_explanation": {
+            "Acadian": "Acadian",
+            "dessert": "syrup cake"
+        }
+    },
+    {
+        "query": "I want something similar to Chipotle and also healthy",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "25e93f32e1": "Chiptole tofu that's low in cholesterol and high in protein ",
+            "211c7b683e": "Chiptole mayonnaise that's high in calories and fat",
+            "0ea477c6f9": "Mexican s'mores made from chocolate and peanut butter that's high in sugar",
+            "3a52b5f915": "Healthy coleslaw side dish made from cabbage",
+            "3a75634dee": "Guacamole made from avocado and soft tofu"
+        },
+        "answer": "25e93f32e1",
+        "incorrectness_explanations": {
+            "211c7b683e": "Chipotle but high in fat so not healthy",
+            "0ea477c6f9": "S'mores are not healthy",
+            "3a52b5f915": "Not similar to Chipotle",
+            "3a75634dee": "Guacamole is not similar to Chipotle food"
+        },
+        "correctness_explanation": {
+            "Chiptole": "Chipotle",
+            "healthy": "low in cholestrol and high in protein"
+        }
+    },
+    {
+        "query": "I want to make a healthy guacamole",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "183273736c": "Guacamole made from avocado and onions",
+            "41ac07bbe0": "No salt salsa made from tomatoes and peppers",
+            "3a52b5f915": "Healthy coleslaw side dish made from cabbage",
+            "02dec458d8": "Deep fried guacamole coated in flour",
+            "17a3e20c58": "Creamy avocado dip for chips"
+        },
+        "answer": "183273736c",
+        "incorrectness_explanations": {
+            "41ac07bbe0": "Salsa is not guacamole",
+            "3a52b5f915": "Healthy but not guacamole",
+            "02dec458d8": "Unhealthy guacamole due to being deep fried",
+            "17a3e20c58": "Not guacamole"
+        },
+        "correctness_explanation": {
+            "Guacamole": "Guacamole",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want kebabs that are easy on the stomach",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0047cc5fcd": "Fruit kebab made of strawberry, kiwi, bananas, and more fruits",
+            "028b07e4f7": "Greasy lamb kebab",
+            "0aff6a8ff0": "Flavorful teriyaki chicken kebab",
+            "0e29809831": "Spicy pork kebabs",
+            "182eb47c26": "Tukey kebab flavoured with salt and pepper"
+        },
+        "answer": "0047cc5fcd",
+        "incorrectness_explanations": {
+            "028b07e4f7": "Lamb kebabs are greasy so not easy on the stomach",
+            "0aff6a8ff0": "Chicken kebabs are not easy on the stomach compared to fruits",
+            "0e29809831": "Pork kebabs are not easy on the stomach compared to fruit kebabs",
+            "182eb47c26": "Turkey kebabs are not easy on the stomach compared to fruits"
+        },
+        "correctness_explanation": {
+            "kebabs": "kebab",
+            "easy on the stomach": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Can I have halal American snacks",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81422b128f": "Halal marshmallow peanut popcorn bars with maple syrup",
+            "6707f78bb2": "Halal Iraqi stuffed zucchini with rice",
+            "a4dceedae2": "Rye bread snack made from sausage and cheese",
+            "60883b1ad5": "Party snacks made from baking mix, sausage, and cheese",
+            "8d1a538445": "Zesty sausage snacks made with cayenne pepper and worcestershire sauce"
+        },
+        "answer": "81422b128f",
+        "incorrectness_explanations": {
+            "6707f78bb2": "Iraqi food is not an American snack",
+            "a4dceedae2": "Sausage made of pork is not halal",
+            "60883b1ad5": "Sausage made of pork is not halal",
+            "8d1a538445": "Sausage snacks made of pork is not halal"
+        },
+        "correctness_explanation": {
+            "Halal": "Halal",
+            "American snacks": "marshmallow peanut popcorn bars"
+        }
+    },
+    {
+        "query": "I need to use up the corn in my fridge",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0302a9c63c": "Chowder soup made from corn, bacon, cornstarch and heavy cream ",
+            "036f8a1d83": "Easy to make refrigerated garlic fridge pickle",
+            "2299a67ffd": "Chocolate fridge cake made with biscuits, nuts, and cherries",
+            "80cf34082f": "Fat free fridge fruit salad made with yogurt and granola",
+            "724772d056": "Soup made with carrots, pepper, celery, and egg noodles to use up the fridge leftovers"
+        },
+        "answer": "0302a9c63c",
+        "incorrectness_explanations": {
+            "036f8a1d83": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "2299a67ffd": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "80cf34082f": "Ingredients does not contain corn so cannot use up corn in my fridge",
+            "724772d056": "Ingredients does not contain corn so cannot use up corn in my fridge"
+        },
+        "correctness_explanation": {
+            "corn": "corn",
+            "use up": "<INFERRED>"
+        }
+    },
+    {
+        "query": "my cousins are vegetarian and they are coming over for mexican food night",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81db102972": "Zesty veggie tacos made from corn and black beans",
+            "6f24593c2c": "Tacos made with ground turkey",
+            "0e1a5f4075": "Halibut tacos from corn tortillas",
+            "92fe205b4e": "Lunch or breakfast tacos made from chicken breast and peppers",
+            "6249cc6902": "Mexican taco salad made from ground beef and chili powder"
+        },
+        "answer": "81db102972",
+        "incorrectness_explanations": {
+            "6f24593c2c": "Turkey is not vegetarian",
+            "0e1a5f4075": "Tacos made with halibut is not vegetarian",
+            "92fe205b4e": "Chicken breast is not vegetarian",
+            "6249cc6902": "Ground beef is not vegetarian"
+        },
+        "correctness_explanation": {
+            "vegetarian": "veggie",
+            "mexican": "tacos"
+        }
+    },
+    {
+        "query": "Make chili that's not spicy",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0f52af8d09": "Chili made from ground beef, tomatoes, kidney beans, and no peppers",
+            "45d7cb5c42": "Chili made from beans, chicken broth, bell peppers and cayenne pepper",
+            "5f53fc0b32": "Crockpot chili made with cayenne pepper, beans, ground beef, and cheese",
+            "02028b2cda": "Spicy seasoning made from black pepper, onion, and garlic",
+            "09ee5027f6": "Chili made from turkey stock, tomato, and hot red pepper flakes"
+        },
+        "answer": "0f52af8d09",
+        "incorrectness_explanations": {
+            "45d7cb5c42": "Chili made with cayenne pepper so it's spicy",
+            "5f53fc0b32": "This chili is spicy because it's made with cayenne pepper",
+            "02028b2cda": "This is spicy seasoning but not chili",
+            "09ee5027f6": "Chili contains hot red pepper flakes so it's spicy"
+        },
+        "correctness_explanation": {
+            "Chili": "Chili",
+            "not spicy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make popeyes styled chicken at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "3e51152920": "Popeyes fried chicken with outer layer made from flour, then fried and sprinkled with pepper and paprika",
+            "0016791ae7": "Popeyes biscuits made from biscuit mix, sour cream, and club soda",
+            "8d57068296": "Popeyes chicken salad with chicken, spinach, bean sprouts, bacon, and eggs.",
+            "30ac8d123f": "Fried home styled chicken with outer layer made from flour, paired together with jasmine rice",
+            "28757e714f": "Popeyes wrap from chicken breasts, spinach, and cheese; seasoned with mayonnaise and pepper"
+        },
+        "answer": "3e51152920",
+        "incorrectness_explanations": {
+            "0016791ae7": "Popeyes food but not chicken",
+            "8d57068296": "Popeyes chicken salad is not chicken",
+            "30ac8d123f": "Not popeyes styled",
+            "28757e714f": "Not chicken"
+        },
+        "correctness_explanation": {
+            "popeyes": "Popeyes",
+            "chicken": "fried chicken"
+        }
+    },
+    {
+        "query": "Can I have some cheap junk food?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0a1ce6cce0": "Classic salted french fries made of only potatoes",
+            "168c263bc9": "Cheap bean sprout salad flavoured with mayonnaise and soy sauce",
+            "0feac71745": "Deluxe burger made from ground sirloin",
+            "8a2736a95e": "Fish burger made of breadcrumb wrapped pollock fillet",
+            "941caf1861": "A simple pasta with a drizzle of parmesan cheese"
+        },
+        "answer": "0a1ce6cce0",
+        "incorrectness_explanations": {
+            "168c263bc9": "Bean sprout salad is not junk food",
+            "0feac71745": "Deluxe burger is not as cheap as french fries",
+            "8a2736a95e": "Dijon fish burger is not cheap compared to french fries",
+            "941caf1861": "Pasta is not junk food"
+        },
+        "correctness_explanation": {
+            "junk food": "french fries",
+            "cheap": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want some filling American food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "342a8d609a": "A whole turkey for Thanksgiving",
+            "891e5e6978": "Cherry flavoured coke made from coke and kool-aid",
+            "415c191f07": "Caesar salad made from romaine lettuce and croutons",
+            "7d1325023d": "Dunkin donuts styled coffee with granulated sugar",
+            "9e4dfd210d": "McDonalds apple pie from puff pastry, apple, and cinnamon"
+        },
+        "answer": "342a8d609a",
+        "incorrectness_explanations": {
+            "891e5e6978": "Coke is not filling",
+            "415c191f07": "Salad is not filling",
+            "7d1325023d": "Coffee is not filling",
+            "9e4dfd210d": "Apple pie is not filling"
+        },
+        "correctness_explanation": {
+            "filling": "whole",
+            "American food": "turkey"
+        }
+    },
+    {
+        "query": "How do I make a banana split icecream for my kids?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4a13c4e253": "Banana split ice cream, ice cream and banana drizzled with chocolate syrup",
+            "7dd92674fa": "An alcoholic cocktail made of banana liqueur ",
+            "a65b74c7d2": "Fried bananas sprinkled with cinnamon",
+            "4f215a2694": "Banana smoothie made of milk, nutritious for kids",
+            "6e19304554": "Icecream sprinkled with oreo"
+        },
+        "answer": "4a13c4e253",
+        "incorrectness_explanations": {
+            "7dd92674fa": "Cocktail is not icecream",
+            "a65b74c7d2": "Not icecream",
+            "4f215a2694": "Not icecream",
+            "6e19304554": "Oreo icecream is not a banana split icecream"
+        },
+        "correctness_explanation": {
+            "banana split icecream": "banana split icecream"
+        }
+    },
+    {
+        "query": "I want to make a fancy grilled fish entree",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1e5c94f511": "Grilled Alaskan salmon steak with soy sauce and vinegar as condiments",
+            "9f0a71eb0f": "Savory French fish soup made of boneless fish fillet",
+            "8bd350c9e8": "Barbecued Alaskan salmon",
+            "046842e753": "Smoked salmon chips made from smoked salmon wrapped in flour batter",
+            "5922dcd98d": "Fried fish made with fried potato chips"
+        },
+        "answer": "1e5c94f511",
+        "incorrectness_explanations": {
+            "9f0a71eb0f": "Not a grilled entree",
+            "8bd350c9e8": "Salmon is not grilled but barbecued",
+            "046842e753": "Salmon is not grilled",
+            "5922dcd98d": "Not a grilled fish recipe"
+        },
+        "correctness_explanation": {
+            "fancy": "salmon steak",
+            "grilled": "grilled",
+            "fish": "Alaskan salmon",
+            "entree": "salmon steak"
+        }
+    },
+    {
+        "query": "I want something like a big mac combo meal that I could get at McDonalds",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "8061de698c": "Recipe for fries and ground beef burger",
+            "1831e9d443": "Burger made of ground chuck",
+            "7e6767b6c2": "Fries made of russet potatoes",
+            "03ef043883": "Vegan burger made of beans and carrots",
+            "9e4dfd210d": "McDonalds apple pie from puff pastry, apple, and cinnamon"
+        },
+        "answer": "8061de698c",
+        "incorrectness_explanations": {
+            "1831e9d443": "Only has a burger so not a combo meal",
+            "7e6767b6c2": "Fries only recipe but doesn't include burger",
+            "03ef043883": "Veggie burger only so not a combo meal",
+            "9e4dfd210d": "Not a burger combo meal"
+        },
+        "correctness_explanation": {
+            "big mac": "burger",
+            "combo meal": "fries and burger",
+            "McDonalds": "fries and burger"
+        }
+    },
+    {
+        "query": "How to make loaded potato salad without sour cream?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2b6946a387": "Description: Loaded potato salad made with mayonnaise, buttermilk, cheddar and crumbled bacon",
+            "76eec2f82e": "Potato salad made from cream cheese and sour cream",
+            "8dfcf79c68": "Loaded potato salad that tastes creamy and savoury, made with sour cream and loaded with bacon",
+            "84f7badf33": "Potatoes mixed with sauce made from sour cream, butter and cheese",
+            "04b58d651c": "Sour cream dressing used for salads, made from sour cream, mayonnaise, and blue cheese"
+        },
+        "answer": "2b6946a387",
+        "incorrectness_explanations": {
+            "76eec2f82e": "Creamy potato salad using sour cream",
+            "8dfcf79c68": "Loaded potato salad made with sour cream",
+            "84f7badf33": "Sour cream potatoes but not a potato salad",
+            "04b58d651c": "Not a loaded potato salad"
+        },
+        "correctness_explanation": {
+            "Loaded potato salad": "loaded potato salad",
+            "without sour cream": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How to make vegan poke at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "99a5d0c3d0": "Poke of tofu, mushroom and tomatoes",
+            "62bc0c11e6": "Poke made from salmon fillet with seasoning of tabasco sauce and brown sugar",
+            "854cb8ffca": "Poke made from tuna with soy sauce seasoning",
+            "7bf1a4bb47": "Poke made from tuna and peanuts",
+            "5cbf9c4b04": "Poke patties made from mixture of tuna, egg, and breadcrumbs"
+        },
+        "answer": "99a5d0c3d0",
+        "incorrectness_explanations": {
+            "62bc0c11e6": "Salmon poke is not vegan",
+            "854cb8ffca": "Tuna poke is not vegan",
+            "7bf1a4bb47": "Ahi poke is tuna so it's not vegan",
+            "5cbf9c4b04": "Poke patties made of tuna so it's not vegan"
+        },
+        "correctness_explanation": {
+            "poke": "poke",
+            "vegan": "tofu, mushrooms and tomatoes"
+        }
+    },
+    {
+        "query": "I want to make fries like the ones in McDonalds",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "32ed4d74f6": "McDonalds-style fries made from russet potatoes",
+            "3959e1aab8": "Fries fried in vegetable oil",
+            "67b8c5aad4": "Seasoning salt for fries, made from cumin, chili etc.",
+            "7ac3874cfa": "McGriddle sandwich filled with eggs, bacon, and cheese",
+            "9e4dfd210d": "McDonalds apple pie from puff pastry, apple, and cinnamon"
+        },
+        "answer": "32ed4d74f6",
+        "incorrectness_explanations": {
+            "3959e1aab8": "Normal fries not McDonalds style",
+            "67b8c5aad4": "Normal fries not McDonalds style",
+            "7ac3874cfa": "McDonald's styled food but not fries",
+            "9e4dfd210d": "McDonald's styled food but not fries"
+        },
+        "correctness_explanation": {
+            "fries": "fries",
+            "like the ones in McDonalds": "McDonalds-style"
+        }
+    },
+    {
+        "query": "How to make pizza like the ones at Boston Pizza?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "64e2e44725": "Boston Pizza-style tropical pizza with bacon and pineapple",
+            "38f69f020a": "Boston cinnamon cookies with walnut and raisins",
+            "9d74d643cc": "Boston Cream filling made from sugar, lemon, tartaric, and egg whites",
+            "08c41efc14": "Mexican pizza with beans and ground beef that's high in calories",
+            "3d4745cce1": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings"
+        },
+        "answer": "64e2e44725",
+        "incorrectness_explanations": {
+            "38f69f020a": "Boston cookies are not pizza",
+            "9d74d643cc": "Boston cream filling is not pizza",
+            "08c41efc14": "Mexican pizza is not Boston Pizza",
+            "3d4745cce1": "Not Boston Pizza styled"
+        },
+        "correctness_explanation": {
+            "pizza": "tropical pizza",
+            "like Boston Pizza": "Boston Pizza-style"
+        }
+    },
+    {
+        "query": "I want to make a lunch I can bring to school from leftover Thanksgiving turkey",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7d71c4a5df": "Sandwich made from shredded turkey, hummus, and baby spinach",
+            "836ce325a0": "Rosted turkey made for Thanksgiving",
+            "07db8009c5": "Stuffing balls made of leftover meat stuffing, egg, and cheese",
+            "0ec1ad1d3f": "Soup from chicken broth, mushroom, and leftover turkey",
+            "615148538a": "Stuffing made of pork and cornbread to be used for Thanksgiving"
+        },
+        "answer": "7d71c4a5df",
+        "incorrectness_explanations": {
+            "836ce325a0": "Not leftover Turkey lunch",
+            "07db8009c5": "Not leftover turkey",
+            "0ec1ad1d3f": "Leftover turkey soup is not convenient to bring to the school",
+            "615148538a": "Not leftover turkey"
+        },
+        "correctness_explanation": {
+            "leftover Thanksgiving turkey": "shredded turkey",
+            "lunch": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What chili can I make if I'm vegan and don't want beans?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2f55089d6c": "Crockpot chili made with tomato, corn, mushroom, and pepper",
+            "0147c0e5d9": "Vegan chili made from veggie griller grounds, kidney beans, and chili powder",
+            "a1afd74269": "Texas chili made from lean beef, breakfast sausage and and paprika",
+            "49d5ab2765": "Vegan chili made from pinto beans, navy beans, and vegetable broth",
+            "32ca033a74": "Vegetarian chili made from pinto beans, chili beans, kidney beans, and tomatoes"
+        },
+        "answer": "2f55089d6c",
+        "incorrectness_explanations": {
+            "0147c0e5d9": "Vegan chili but contains beans",
+            "a1afd74269": "Chili that's not vegan because it contains lean beef",
+            "49d5ab2765": "Vegan chili made from beans ",
+            "32ca033a74": "Vegetarian chili made with beans"
+        },
+        "correctness_explanation": {
+            "vegan": "<INFERRED>",
+            "chili": "chili",
+            "don't want beans": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make butterbeer from Harry Potter that's also healthy",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "8b2ed7d09d": "Butterbeer drink from skim milk and sugar substitute",
+            "94d0995f92": "Butterbeer from sweetened condensed milk and butterscotch topping",
+            "2bcb83d222": "Frozen butterbeer from cream soda and butterscotch",
+            "187403a4a3": "Harry Potter pumpkin pasties filled with pumpkin pie",
+            "76dbfd157a": "Harry Potter chocolate flavoured cauldron cake with marshmallows"
+        },
+        "answer": "8b2ed7d09d",
+        "incorrectness_explanations": {
+            "94d0995f92": "Butterbeer made from sweetened condensed milk which is less healthy than butterbeer from skim milk due to higher sugar and fat content",
+            "2bcb83d222": "Frozen butterbeer from cream soda has more sugar than butterbeer from skim milk",
+            "187403a4a3": "Harry Potter styled food that's not butterbeer",
+            "76dbfd157a": "Harry Potter styled food that's not butterbeer"
+        },
+        "correctness_explanation": {
+            "butterbeer": "Butterbeer",
+            "healthy": "skim milk and sugar substitute"
+        }
+    },
+    {
+        "query": "I love cookies but most recipes out there are too unhealthy for my liking",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a2efa3fa05": "Cookies made from brown sugar and splenda sugar substitute",
+            "37b7462cfd": "Healthy chocolate brownies from unsweetened chocolate",
+            "8b2ed7d09d": "Butterbeer drink from skim milk and sugar substitute",
+            "17a59fead4": "Sweet M&M chocolate cookies with cookies made from brown sugar",
+            "04e65201a3": "Peruvian cookies sandwiched with caramel Dulce de Leche"
+        },
+        "answer": "a2efa3fa05",
+        "incorrectness_explanations": {
+            "37b7462cfd": "Chocolate brownies are not cookies",
+            "8b2ed7d09d": "Healthy butterbeer is not cookies",
+            "17a59fead4": "M&M Cookies contains unhealthy M&Ms",
+            "04e65201a3": "These cookies are not healthy because they are made with caramel and is high in sugar"
+        },
+        "correctness_explanation": {
+            "cookies": "cookies",
+            "too unhealthy for my liking": "splenda sugar substitute"
+        }
+    },
+    {
+        "query": "I want to make a sandwich at home similar to the ones from Subway",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "88510b467f": "Subway-style sandwich made from french baguette bread, ham, lettuce, and tomatoes",
+            "8c730efd18": "Subway salad made from salad greens, tomatoes, and olives",
+            "81f9908b62": "Subway broccoli soup made from chicken broth",
+            "1f189cdee4": "Pulled pork sandwich with bbq sauce",
+            "72cca33f4d": "Subway tuna with mayonnaise and lemon juice"
+        },
+        "answer": "88510b467f",
+        "incorrectness_explanations": {
+            "8c730efd18": "Salad is not a sandwich",
+            "81f9908b62": "Soup is not a sandwich",
+            "1f189cdee4": "Home made pulled pork sandwich is not subway sandwich",
+            "72cca33f4d": "Subway tuna is not sandwich"
+        },
+        "correctness_explanation": {
+            "sandwich": "sandwich",
+            "Subway": "Subway-style"
+        }
+    },
+    {
+        "query": "I want to start a lemonade stand in my backyard to earn some money this summer",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "01b07dda40": "Cool, sugary citrus soda made of lime and lemon",
+            "2fdaee5a88": "Poached figs flavoured with sugar and ginger for the summer",
+            "69d25c19b1": "Minty ginger ale with ice and a bit of orange juice",
+            "52bfdfc30b": "Iced strawberry smoothie with ginger, lime, and honey added",
+            "a1b8fc6ad8": "Refreshing drink made of carrot juice, applesauce, yogurt, lemon juice, and fresh ginger"
+        },
+        "answer": "01b07dda40",
+        "incorrectness_explanations": {
+            "2fdaee5a88": "Poached figs are not lemonade",
+            "69d25c19b1": "Minty ginger ale is not lemonade",
+            "52bfdfc30b": "Strawberry summer smoothie  is not a lemonade",
+            "a1b8fc6ad8": "Carrot, Apple, and Ginger refresher is not lemonade"
+        },
+        "correctness_explanation": {
+            "lemonade": "citrus soda made of lime and lemon"
+        }
+    },
+    {
+        "query": "I want to eat pizza but I'm watching my weight",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "27c6a03010": "Low calories pizza made of dry yeast, flour, and fat free mozzarella cheese",
+            "5501fbfc6e": "BLT pizza with lettuce, tomatoes, and bacon",
+            "506c8fe859": "Grilled pizza with chicken and BBQ sauce",
+            "296eb54011": "Healthy meat loaf made pizza style with marinara sauce, lean ground beef",
+            "952937b83d": "Low calories spinach salad with pizza sauce"
+        },
+        "answer": "27c6a03010",
+        "incorrectness_explanations": {
+            "5501fbfc6e": "BLT pizza has bacon so it's not good for weight watching",
+            "506c8fe859": "Grilled pizza uses BBQ sauce",
+            "296eb54011": "Low fat pizza styled meatloaf is not pizza",
+            "952937b83d": "Spinach salad is not pizza"
+        },
+        "correctness_explanation": {
+            "pizza": "pizza",
+            "watching my weight": "low calories"
+        }
+    },
+    {
+        "query": "I want to make Caribbean cuisine for my kid so she can grow better",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "30ff2e9db5": "Caribbean styled chicken with sauce made from soy sauce, pepper sauce, and lime juice",
+            "347222fc27": "Strong black Caribbean coffee with rum",
+            "39d7f38487": "Caribbean dessert made of bananas, nutmeg, and brown sugar",
+            "43f32bcac6": "Caribbean styled lemonade from lemon juice, sugar, and a bit of red wine",
+            "33ba92197e": "Caribbean styled cream made of yogurt, heavy cream, banana, and coconut rum"
+        },
+        "answer": "30ff2e9db5",
+        "incorrectness_explanations": {
+            "347222fc27": "coffee is not cuisine for kids to grow better",
+            "39d7f38487": "Bananas are not cuisine",
+            "43f32bcac6": "Lemonade is not cuisine",
+            "33ba92197e": "Creams is not a cuisine"
+        },
+        "correctness_explanation": {
+            "Caribbean cuisine": "Caribbean styled chicken"
+        }
+    },
+    {
+        "query": "I want to make a Peruvian dessert for my dinner guests",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "04e65201a3": "Peruvian cookies sandwiched with Dulce de Leche",
+            "05931c1f10": "Appetizer of Peruvian-style chicken soup with potatoes and bell pepper",
+            "26e4d0cfbe": "Roasted turkey with Peruvian spices",
+            "2a49752442": "Peruvian chicken breasts that's pan fried until brown on either side, with coca cola and lime juice sauces ",
+            "28dbb46c71": "Crispy biscotti cookies with hazelnut"
+        },
+        "answer": "04e65201a3",
+        "incorrectness_explanations": {
+            "05931c1f10": "Chicken soup is not dessert",
+            "26e4d0cfbe": "Roast Peruvian Turkey is not dessert",
+            "2a49752442": "Chicken is not dessert",
+            "28dbb46c71": "Biscotti dessert cookies are not Peruvian"
+        },
+        "correctness_explanation": {
+            "Peruvian": "Peruvian",
+            "dessert": "cookies"
+        }
+    },
+    {
+        "query": "I want dessert with dulce de leche for a hot summer day",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6e1438b7be": "Popsicle made from applesauce and dulche de leche",
+            "38e7486d1a": "Caramel cupcake with dulche de leche",
+            "6a7da6e877": "Coffee spiked with dulce de leche",
+            "6e19304554": "Oreo icecream",
+            "21de73895c": "Summer meringue dessert made of strawberry and kiwi meringue"
+        },
+        "answer": "6e1438b7be",
+        "incorrectness_explanations": {
+            "38e7486d1a": "This dessert is not refreshing for hot summer day",
+            "6a7da6e877": "Spiked coffee is not cold",
+            "6e19304554": "This dessert doesn't have dulche de leche",
+            "21de73895c": "Summer meringue dessert doesn't contain dulche de leche"
+        },
+        "correctness_explanation": {
+            "dessert": "Popsicle",
+            "dulche de leche": "dulche de leche"
+        }
+    },
+    {
+        "query": "I want to try churros but I'm not a fan of cinnamon",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "29f0ef8157": "Cocoa flavoured churros",
+            "9f54f4b87e": "Popcorn with churro and cinnamon flavours",
+            "1f268d55c3": "Banana wrapped in churro with cinnamon powder",
+            "95903b28c3": "Easy to make churros from refrigerated biscuits with cinnamon powder",
+            "014428b77b": "Sweet cinnamon roll made from frozen bread dough"
+        },
+        "answer": "29f0ef8157",
+        "incorrectness_explanations": {
+            "9f54f4b87e": "Churro popcorn isn't churros",
+            "1f268d55c3": "Churros contain cinnamon",
+            "95903b28c3": "Churros contain cinnamon powder even though query does not want cinnamon",
+            "014428b77b": "Cinnamon rolls are not churros"
+        },
+        "correctness_explanation": {
+            "churros": "churros",
+            "not a fan of cinnamon": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I have a gluten allergy and I want to have dim sum for breakfast",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "1abc1641cf": "Dim sum pork wrapped in lettuce rolls",
+            "071dda0503": "Dim sum wonton dumpling made from ground pork and shrimp",
+            "24f6103ce4": "Gluten free pancake from rice flour",
+            "21c1dd5cce": "Gluten free nachos from corn flour",
+            "8633236dbd": "Shanghainese dumpling with prawn, chicken, and chinese cabbage as filling"
+        },
+        "answer": "1abc1641cf",
+        "incorrectness_explanations": {
+            "071dda0503": "Dim sum wonton dumpling contains gluten",
+            "24f6103ce4": "Pancakes are not dim sum",
+            "21c1dd5cce": "Nachos are not dim sum",
+            "8633236dbd": "Shanghainese dumplings have gluten allergy"
+        },
+        "correctness_explanation": {
+            "gulten allergy": "<INFERRED>",
+            "dim sum": "dim sum pork"
+        }
+    },
+    {
+        "query": "I want to make Chinese stir fry but I ran out of soy sauce",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1d51eaf661": "Stir fried bok choy and shrimp",
+            "010e5348c9": "Rice and shrimp stir fry with soy sauce and ground ginger for flavour",
+            "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
+            "59cb818e23": "Chicken and brocoli stir fry with soy sauce",
+            "0350df07b7": "Hawaiian vegetable stir fry with pineapple juice and soy sauce"
+        },
+        "answer": "1d51eaf661",
+        "incorrectness_explanations": {
+            "010e5348c9": "This recipe requires soysauce when query doesn't have soysauce",
+            "1af424c116": "This is not Chinese stir fry",
+            "59cb818e23": "This recipe requires soysauce when query doesn't have soysauce",
+            "0350df07b7": "Hawaiian stir-fry is not Chinese stir-fry"
+        },
+        "correctness_explanation": {
+            "Chinese stir fry": "Stir fried",
+            "ran out of soysauce": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Could I have some sweet dim sum?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8be6b7fc04": "Dim sum red coloured almond cookies ",
+            "071dda0503": "Dim sum wonton dumpling made from ground pork and shrimp",
+            "8633236dbd": "Dim sum shanghainese dumpling with prawn, chicken, and chinese cabbage as filling",
+            "0fab1b497a": "Dim sum pot stickers stuffed from mushrooms and ground pork",
+            "2f25118380": "Dim sum bun stuffed with BBQ pork"
+        },
+        "answer": "8be6b7fc04",
+        "incorrectness_explanations": {
+            "071dda0503": "Dim sum that's not sweet",
+            "8633236dbd": "Shanghainese dumplings with prawn and chicken is not sweet",
+            "0fab1b497a": "Pot stickers are not sweet",
+            "2f25118380": "Dim sum bun with BBQ pork is not sweet"
+        },
+        "correctness_explanation": {
+            "dim sum": "Dim sum",
+            "sweet": "cookies"
+        }
+    },
+    {
+        "query": "How do I make halal Chinese fried noodle?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6acd3af717": "Chinese fried noodle with chicken breast and flavoured with garlic, spring onion, and ginger",
+            "a6479bb35f": "Filipino fried  wheat noodles with chicken and vegetables",
+            "796d4b418e": "Shanghainese fried noodle with pork and shiitake mushrooms",
+            "8f872606ad": "Singaporean fried noodles with shrimp and pork",
+            "1d51eaf661": "Stir fry made of bok choy and shrimp"
+        },
+        "answer": "6acd3af717",
+        "incorrectness_explanations": {
+            "a6479bb35f": "Filipino fried noodles are not Chinese",
+            "796d4b418e": "Shanghai fried noodles are Chinese but are not halal because it contains pork",
+            "8f872606ad": "Singaporean fried noodle is not Chinese",
+            "1d51eaf661": "Chinese stir fry is not fried noodle"
+        },
+        "correctness_explanation": {
+            "Chinese": "Chinese",
+            "fried noodle": "fried noodle",
+            "halal": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make a Chinese dessert with custard",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "28d60dd8d2": "Soft and sweet Chinese custard bun",
+            "a6e75460dd": "Custard pudding made from yogurt and custard",
+            "105409bca2": "Lemon custard from fresh lemon juice",
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "0b1e5daa3f": "Sweet and gooey Chinese black sesame dumplings shaped like round balls"
+        },
+        "answer": "28d60dd8d2",
+        "incorrectness_explanations": {
+            "a6e75460dd": "Custard pudding is not Chinese",
+            "105409bca2": "Lemon custard is not Chinese",
+            "a5c681c4c9": "Red bean bun doesn't contain custard",
+            "0b1e5daa3f": "Black sesame dumplings don't contain custard"
+        },
+        "correctness_explanation": {
+            "Chinese": "Chinese",
+            "dessert with custard": "custard bun"
+        }
+    },
+    {
+        "query": "I want to make an Asian dish with pork and rice",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2bcaa46e02": "Taiwanese minced pork and rice made from pork belly and rock sugar",
+            "4941524e04": "Caribbean pork and rice made from pork tenderloin and flavoured with pineapple chunks",
+            "a14ef82f62": "Casserole made of boneless pork and rice",
+            "9a41e95dda": "Polynesian pork and rice made from pork butt and pineapple bits",
+            "0d04caee4c": "Asian BBQ pork loin from boneless pork loin roast"
+        },
+        "answer": "2bcaa46e02",
+        "incorrectness_explanations": {
+            "4941524e04": "Caribbean pork & rice is not Asian dish",
+            "a14ef82f62": "This is not an Asian dish",
+            "9a41e95dda": "This is not an Asian dish",
+            "0d04caee4c": "This dish doesn't contain rice"
+        },
+        "correctness_explanation": {
+            "Asian dish": "Taiwanese",
+            "pork and rice": "minced pork and rice"
+        }
+    },
+    {
+        "query": "I want to cook some Asian comfort food but I'm sick of eating beef",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1544d858d3": "Chinese comfort food of meat balls made from ground pork and water chestnut, together with a side of bok choy",
+            "86b46a493c": "Soup made with beef bones, potatos, carrots and celery",
+            "9cfa3ba3cc": "Comfort food made from ground beef, celery, and mushrooms",
+            "6b54d3af6f": "Noodles in a beef broth with baby bok choy and strip steaks",
+            "55bd249a65": "Beijing bok choy with sauteed onions, bamboo shoots, and mushrooms"
+        },
+        "answer": "1544d858d3",
+        "incorrectness_explanations": {
+            "86b46a493c": "Soup contains beef which is not part of the query",
+            "9cfa3ba3cc": "This comfort food contains beef",
+            "6b54d3af6f": "This contained beef",
+            "55bd249a65": "Beijing bok choy is not a comfort food"
+        },
+        "correctness_explanation": {
+            "Asian comfort food": "Chinese meat ball",
+            "sick of eating beef": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm from Beijing and I want a meat dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4abc458244": "Deep fried lamb marinated with brown bean sauce and shaoxing wine",
+            "313edbd436": "Beijing styled noodles with shiitake mushrooms and firm tofu",
+            "9bbb8a62a7": "Beijing salad made from watermelon radishes and flavoured with soy sauce and sesame oil",
+            "55bd249a65": "Beijing bok choy with sauteed onions, bamboo shoots, and mushrooms",
+            "Beijing Banana Toffee (Deep Fried Bananas)": "Deep fried bananas made Beijing style"
+        },
+        "answer": "4abc458244",
+        "incorrectness_explanations": {
+            "313edbd436": "Not a meat dish",
+            "9bbb8a62a7": "Not a meat dish",
+            "55bd249a65": "Not a meat dish",
+            "Beijing Banana Toffee (Deep Fried Bananas)": "Not a meat dish"
+        },
+        "correctness_explanation": {
+            "Beijing": "<INFERRED>",
+            "meat dish": "lamb"
+        }
+    },
+    {
+        "query": "How do I cook the simplest stir fry with eggs and tomatoes?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "72963b3928": "Stir-fried egg and tomato garnished with green onion",
+            "995854dfde": "Stir fry of tomatoes, baby corn, and eggs; served with soba noodles",
+            "62c541eeb5": "Stir fry using shimeji mushrooms and cherry tomatoes, with tempura sauce used for flavour",
+            "71b3666924": "Stir fry made from tomatoes and eggs, flavoured with scallions, garlic, and peanut oil",
+            "67497d2dab": "Easy stir fry with green beans, tomatoes, and eggs, with garlic clove, salt, and sugar added for flavour"
+        },
+        "answer": "72963b3928",
+        "incorrectness_explanations": {
+            "995854dfde": "Stir fry is more complicated than simple stir fry because it also contains baby corn and soba noodles",
+            "62c541eeb5": "Stir fry doesn't contain eggs",
+            "71b3666924": "Stir fry is complicated with seasoning",
+            "67497d2dab": "Stir fry contains more ingredients"
+        },
+        "correctness_explanation": {
+            "simplest": "<INFERRED>",
+            "stir fry": "STir-fried",
+            "eggs and tomatoes": "egg and tomato"
+        }
+    },
+    {
+        "query": "Can I make an Asian dessert using red bean?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "1b788fae39": "Sweet red bean paste that can be used as filling",
+            "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
+            "08e1067093": "Sweet and cool white wood ear mushroom and pear dessert drink",
+            "45bbc72594": "Soft and smooth tasting Mung bean dessert"
+        },
+        "answer": "a5c681c4c9",
+        "incorrectness_explanations": {
+            "1b788fae39": "Red bean paste is not an dessert by itself",
+            "4327b04b6e": "Red beans and rice are not dessert",
+            "08e1067093": "Asian pear and white wood ear mushroom dessert doesn't use red beans",
+            "45bbc72594": "Mung bean dessert doesn't use red beans"
+        },
+        "correctness_explanation": {
+            "Asian dessert": "chinese",
+            "red bean": "red bean bun"
+        }
+    },
+    {
+        "query": "I want some savory Chinese festival food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "12fd743918": "Sticky rice wrapped pork shoulder for Chinese dragon boat festival",
+            "0b1e5daa3f": "Sweet and gooey chinese black sesame dumplings eaten during Chinese lantern festival",
+            "8e00b25764": "Sweet moon cake made from lotus seeds and walnuts, eaten for Chinese mid autumn festival",
+            "62c541eeb5": "Stir fry using shimeji mushrooms and cherry tomatoes, with tempura sauce used for flavour",
+            "1d51eaf661": "Stir fry made of bok choy and shrimp"
+        },
+        "answer": "12fd743918",
+        "incorrectness_explanations": {
+            "0b1e5daa3f": "Black sesame dumplings are sweet instead of savory",
+            "8e00b25764": "Mid autumn moon cakes are sweet and not savory",
+            "62c541eeb5": "Stir fry mushroom is not a Chinese festival food",
+            "1d51eaf661": "Chinese stir fry is not a Chinese festival food"
+        },
+        "correctness_explanation": {
+            "Chinese festival food": "Chinese dragon boat festival",
+            "savory": "sticky rice wrapped pork shoulder"
+        }
+    },
+    {
+        "query": "I want to make a chinese dish with meat but not chicken or beef",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1544d858d3": "Chinese meat ball made from ground pork and water chestnut, together with a side of bok choy",
+            "7a98ee1c5a": "Chinese chicken wings marinated with chinese spices",
+            "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
+            "005f166b5f": "Chinese pot roast made from beef and served with cabbage",
+            "01723a7bc7": "Chinese stir fried chicken with almonds"
+        },
+        "answer": "1544d858d3",
+        "incorrectness_explanations": {
+            "7a98ee1c5a": "It's a Chinese chicken dish so doesn't satisfy query requirement",
+            "70e63cadd9": "It's a Chinese beef dish so doesn't satisfy query requirement",
+            "005f166b5f": "Contains beef so doesn't satisfy query requirement",
+            "01723a7bc7": "Contains chicken so doesn't satisfy query requirement"
+        },
+        "correctness_explanation": {
+            "chinese dish with meat": "Chinese meat ball",
+            "meat but not chicken or beef": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to prepare a Korean-style hot pot at home",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b72caae72": "Hot pot with pork, tofu, and kimchi",
+            "0d7108a4b8": "Korean-style hot dog with diced kimchi",
+            "099a5672d6": "Mongolian hot pot with lamb and napa cabbage",
+            "0f8b8cc61e": "Vegetarian hot pot full of mixed vegetables",
+            "a751dd0307": "Scottish hot pot with beef, potatoes, and flavoured with tomato paste"
+        },
+        "answer": "7b72caae72",
+        "incorrectness_explanations": {
+            "0d7108a4b8": "Hot dog is not hot pot",
+            "099a5672d6": "Not Korean-style hot pot",
+            "0f8b8cc61e": "Not Korean-style hot pot",
+            "a751dd0307": "Not Korean-style hot pot"
+        },
+        "correctness_explanation": {
+            "Korean-style": "kimchi",
+            "hot pot": "hot pot"
+        }
+    },
+    {
+        "query": "I'm on a diet and I'm craving dandan noodles",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "62f88ac2c2": "Low calories dandan noodles made with doubanjiang (spicy bean) sauce",
+            "551778add2": "Tasty and healthy diet food: chicken noodle goulash ",
+            "783feea9ca": "Dandan noodles made with ground beef and chinese sesame paste",
+            "0b7fca11bc": "Asian noodles fried and flavoured with soy sauce",
+            "0fe86a138b": "Egg noodles served with cabbage"
+        },
+        "answer": "62f88ac2c2",
+        "incorrectness_explanations": {
+            "551778add2": "Not dandan noodles",
+            "783feea9ca": "Not low calories compared to other dandan noodle option ",
+            "0b7fca11bc": "Not dandan noodles",
+            "0fe86a138b": "Not dandan noodles"
+        },
+        "correctness_explanation": {
+            "on a diet": "Low calories",
+            "dandan noodles": "dandan noodles"
+        }
+    },
+    {
+        "query": "I want to make a halal stir-fried Chinese dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6707f78bb2": "Halal stuffed zucchini with rice",
+            "5424d7d703": "Teriyaki flavoured stir fry made of pork",
+            "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
+            "a4b6108967": "Stir fry made of pork belly and flavoured with ginger and soysauce"
+        },
+        "answer": "81f1929ff2",
+        "incorrectness_explanations": {
+            "6707f78bb2": "Not a chinese dish",
+            "5424d7d703": "Pork is not halal",
+            "1af424c116": "Not a Chinese stir fry",
+            "a4b6108967": "Pork is not halal"
+        },
+        "correctness_explanation": {
+            "halal": "Muslim",
+            "chinese": "Chinese",
+            "stir-fried": "stir fry"
+        }
+    },
+    {
+        "query": "I want to make a well-known Chinese chicken dish",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "06dddda4ee": "Kung pao chicken flavoured with soy sauce and red chilies",
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6b29d0d777": "Casserole made Chinese style with chicken breast and water chestnut",
+            "70e63cadd9": "Ground beef and rice made chinese style with soy sauce",
+            "005f166b5f": "Chinese pot roast made from beef and served with cabbage"
+        },
+        "answer": "06dddda4ee",
+        "incorrectness_explanations": {
+            "81f1929ff2": "Not a chicken dish",
+            "6b29d0d777": "Not a well-known Chinese dish",
+            "70e63cadd9": "Not a chicken dish",
+            "005f166b5f": "Not a chicken dish"
+        },
+        "correctness_explanation": {
+            "well-known": "<INFERRED>",
+            "Chinese chicken dish": "Kung pao chicken"
+        }
+    },
+    {
+        "query": "I want to make spicy korean soup",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4930046f48": "Korean soup containing beef brisket and flavoured with red pepper powder",
+            "2c05b3f52a": "Simple korean pumpkin soup flavoured with sugar and salt",
+            "00e237d00f": "Spicy soup containing primarily tomatoes",
+            "0d1bdd1ba7": "Spicy bean soup from cannellini beans",
+            "a677e7d025": "Healthy korean soup made of chicken filled with garlic, rice, jujube, and ginseng"
+        },
+        "answer": "4930046f48",
+        "incorrectness_explanations": {
+            "2c05b3f52a": "Not spicy",
+            "00e237d00f": "Not a korean soup",
+            "0d1bdd1ba7": "Not a korean soup",
+            "a677e7d025": "Not a spicy soup"
+        },
+        "correctness_explanation": {
+            "spicy": "red pepper powder",
+            "korean soup": "Korean soup"
+        }
+    },
+    {
+        "query": "I want to cook something chinese but chinese cuisine largely consists of oily dishes, which I don't like",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1903458afc": "Chinese salad made of eggplant and zucchini, flavoured with soysauce ",
+            "59384af83b": "Chinese vegetables cooked in peanut oil",
+            "34fe9e4f7f": "Chinese pancakes pan fried in sesame oil",
+            "9306e2de66": "Chinese meatballs made of lean pork and cooked in oil",
+            "23b1a42bd2": "Deep fried Chinese shrimp"
+        },
+        "answer": "1903458afc",
+        "incorrectness_explanations": {
+            "59384af83b": "This is an oily chinese dish",
+            "34fe9e4f7f": "This is an oily chinese dish",
+            "9306e2de66": "This is an oily chinese dish",
+            "23b1a42bd2": "This is an oily chinese dish"
+        },
+        "correctness_explanation": {
+            "chinese": "Chinese",
+            "oily dishes, which I don't like": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to try making some vegan Japanese desserts",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7f1ec174c7": "Japanese red bean daifuku",
+            "3db0688b36": "Chewy and sweet japanese butter mochi",
+            "5492eb7651": "Japanese rice cake with sausage and cheese",
+            "6bb6a47b6e": "Japanese mochi and wafer cake with whipped cream and custard",
+            "611a6fcc2b": "Refreshing and cool peppermint and chocolate chip vegan dessert "
+        },
+        "answer": "7f1ec174c7",
+        "incorrectness_explanations": {
+            "3db0688b36": "Butter is non vegan",
+            "5492eb7651": "Sausage is non vegan",
+            "6bb6a47b6e": "Whipped cream is not vegan",
+            "611a6fcc2b": "It's a vegan dessert but not Japanese"
+        },
+        "correctness_explanation": {
+            "vegan": "<INFERRED>",
+            "Japanese": "Japanese",
+            "desserts": "red bean daifuku"
+        }
+    },
+    {
+        "query": "I want to pack a savory Japanese lunch for my boyfriend",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9aac2b3bd0": "Japanese rice ball containing tuna, wrapped with nori (seaweed)",
+            "0ff089fe86": "Rice ball with corned beef and egg",
+            "3db0688b36": "Japanese butter mochi",
+            "05a9e0cee2": "Japanese soft layered fruit cake from egg whites and cinnamon",
+            "26c6283df8": "Italian fried rice ball stuffed and coated with breadcrumbs "
+        },
+        "answer": "9aac2b3bd0",
+        "incorrectness_explanations": {
+            "0ff089fe86": "Not Japanese-style",
+            "3db0688b36": "Not a savory lunch",
+            "05a9e0cee2": "Not a savory lunch",
+            "26c6283df8": "Not Japanese-style"
+        },
+        "correctness_explanation": {
+            "Japanese": "Japanese",
+            "savory lunch": ["tuna", "nori"]
+        }
+    },
+    {
+        "query": "Could I have a recipe for Japanese seafood noodles?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6491f56289": "Udon noodles served with shrimp",
+            "6ee5f79460": "Beef curry flavoured udon noodles",
+            "91748eb475": "Spicy shrimp and linguine noodles",
+            "08d17270b0": "Rice bowl with Japanese slow cooked beef in soy sauce, sugar and Japanese rice wine",
+            "84be79dc5d": "Creamy seafood chowder with onions and mushrooms"
+        },
+        "answer": "6491f56289",
+        "incorrectness_explanations": {
+            "6ee5f79460": "Not seafood noodles",
+            "91748eb475": "Not Japanese noodles",
+            "08d17270b0": "Not a seafood noodle dish",
+            "84be79dc5d": "Not a noodle dish"
+        },
+        "correctness_explanation": {
+            "Japanese": "Udon",
+            "seafood": "shrimp",
+            "noodles": "noodles"
+        }
+    },
+    {
+        "query": "I want a japanese dish with no carbs",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b9dcab9e6": "Japanese miso soup made of yellow miso, tofu, and scallions",
+            "6491f56289": "Udon noodles served with shrimp",
+            "6ee5f79460": "Beef curry flavoured udon",
+            "0a6f61c2bb": "Japanese rice ball wrapped with nori (seaweed)",
+            "5492eb7651": "Japanese rice cake with sausage and cheese"
+        },
+        "answer": "7b9dcab9e6",
+        "incorrectness_explanations": {
+            "6491f56289": "Udon noodles are carbs",
+            "6ee5f79460": "Udon noodles are carbs",
+            "0a6f61c2bb": "Rice is carbs",
+            "5492eb7651": "Rice cake contains carbs"
+        },
+        "correctness_explanation": {
+            "japanese": "Japanese",
+            "no carbs": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want vegan sushi",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "171ef0df45": "Sushi filled with avoado, carrot, and cucumber",
+            "5932a8a20c": "Spicy tuna sushi",
+            "89f8bc7775": "Vegan asian noodle salad",
+            "82e5721601": "Octopus and caviar finger sushi",
+            "00a51e9ef5": "Shrimp sushi rolls"
+        },
+        "answer": "171ef0df45",
+        "incorrectness_explanations": {
+            "5932a8a20c": "Tuna is not vegan",
+            "89f8bc7775": "This is not sushi",
+            "82e5721601": "Octopus and caviar is not vegan",
+            "00a51e9ef5": "Shrimp is not vegan"
+        },
+        "correctness_explanation": {
+            "Vegan": "<INFERRED>",
+            "sushi": "sushi"
+        }
+    },
+    {
+        "query": "Could I make either red bean or green tea flavored Asian dessert?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a5c681c4c9": "Sweet chinese red bean bun",
+            "2a389d7356": "Refreshing drink of iced green tea",
+            "3db0688b36": "Chewy and sweet japanese butter mochi",
+            "4327b04b6e": "Savory dish from red kidney beans, rice, and ham bone",
+            "460ef50ea2": "Savory and spicy chili made from tomatoes and red bean"
+        },
+        "answer": "a5c681c4c9",
+        "incorrectness_explanations": {
+            "2a389d7356": "Not a dessert",
+            "3db0688b36": "Not red bean or green tea flavoured",
+            "4327b04b6e": "Not a dessert",
+            "460ef50ea2": "Not a dessert"
+        },
+        "correctness_explanation": {
+            "red bean": "red bean or green tea flavored",
+            "Asian": "chinese"
+        }
+    },
+    {
+        "query": "I want to make a korean dish with no kimchi",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4930046f48": "Korean soup containing beef brisket and flavoured with red pepper powder",
+            "7b72caae72": "Korean hot pot with pork, tofu, and korean cabbage kimchi",
+            "0d7108a4b8": "Korean styled hot dog with diced kimchi",
+            "60c1533589": "Korean kimchi stew made of pork",
+            "9797471b30": "Korean kimchi fried rice"
+        },
+        "answer": "4930046f48",
+        "incorrectness_explanations": {
+            "7b72caae72": "Contains kimichi",
+            "0d7108a4b8": "Contains kimichi",
+            "60c1533589": "Contains kimichi",
+            "9797471b30": "Contains kimichi"
+        },
+        "correctness_explanation": {
+            "Korean": "Korean",
+            "no kimichi": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm interested to try the rice cake soup that Koreans eat during the New Year",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "77ffeae2b0": "Traditional savoury Tteokguk made with rice cake and beef for festivals",
+            "4aee88a303": "Korean chewy and spicy stir-fried rice cake",
+            "489d5fea03": "Korean stew made of spicy rice cake, cabbage, and leek",
+            "19bde46129": "Eggnog drank during New Year",
+            "6c0b4177f1": "Rice cake with fat free cream cheese and broccoli"
+        },
+        "answer": "77ffeae2b0",
+        "incorrectness_explanations": {
+            "4aee88a303": "Not New Year food",
+            "489d5fea03": "Not New Year food",
+            "19bde46129": "Not Korean food",
+            "6c0b4177f1": "Not New Year food"
+        },
+        "correctness_explanation": {
+            "Koreans": "Tteokguk",
+            "rice cake": "rice cake",
+            "soup": "Tteokguk",
+            "New Year": "festivals"
+        }
+    },
+    {
+        "query": "I want to cook a korean dish with seafood",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3f4238ec0c": "Korean fried fish flavoured with soy sauce",
+            "05f17e93c6": "Seafood paella - sauteed saffron-flavoured rice cooked with seafood",
+            "04ef7a5230": "Sushi filled with smoke salmon",
+            "0d7108a4b8": "Korean styled hot dog with diced kimchi",
+            "60c1533589": "Korean kimchi stew made of pork"
+        },
+        "answer": "3f4238ec0c",
+        "incorrectness_explanations": {
+            "05f17e93c6": "Not Korean food",
+            "04ef7a5230": "Not korean food",
+            "0d7108a4b8": "Doesn't contain seafood",
+            "60c1533589": "Doesn't contain seafood"
+        },
+        "correctness_explanation": {
+            "Korean dish": "Korean",
+            "seafood": "fried fish"
+        }
+    },
+    {
+        "query": "I want to make a Japanese soup that doesn't contain seaweed",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "56be46ad9b": "Japanse mushroom soup from chicken stock",
+            "8790ecfbd1": "Japanese noodle soup with seaweed",
+            "6c0bf8d87a": "Miso soup containing seaweed and green onion",
+            "84ebd83707": "Scottish soup made of potatoes and seaweed",
+            "7ec1ca34f6": "Japanese seaweed soup"
+        },
+        "answer": "56be46ad9b",
+        "incorrectness_explanations": {
+            "8790ecfbd1": "Contains seaweed",
+            "6c0bf8d87a": "Contains seaweed",
+            "84ebd83707": "Not Japanese soup",
+            "7ec1ca34f6": "Contains seaweed"
+        },
+        "correctness_explanation": {
+            "Japanese": "Japanese",
+            "soup": "soup",
+            "doesn't contain seaweed": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a vegan asian dish that tastes like meat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan tikka masala curry that tastes like beyond chicken",
+            "8166694968": "Vegan lettuce wraps of tofu ",
+            "89f8bc7775": "Vegan asian noodle salad",
+            "9540d5b87d": "Vegan pizza with toppings that tastes like meat ",
+            "658c226a87": "Vegan meat loaf made from vegetarian protein and vegetarian beef bouillon powder"
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "8166694968": "Vegan lettuce wrap does not taste like meat",
+            "89f8bc7775": "Noodle salad does not taste like meat",
+            "9540d5b87d": "Pizza is not Asian",
+            "658c226a87": "Meat laof is not Asian"
+        },
+        "correctness_explanation": {
+            "vegan": "vegan",
+            "asian dish": "Indian",
+            "tastes like meat": "tastes like beyond chicken"
+        }
+    },
+    {
+        "query": "I want curry but not indian or japanese",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "03c97249fc": "Thai curry with shrimp and coconut milk",
+            "188be1143b": "Indian vegan tikka masala curry that tastes like chicken",
+            "6ee5f79460": "Beef curry flavoured udon",
+            "725e80b8ca": "Savory and not very spicy japanese beef curry",
+            "044518cc98": "Japanese curry rice made of only vegetables"
+        },
+        "answer": "03c97249fc",
+        "incorrectness_explanations": {
+            "188be1143b": "Query did not want Indian curry",
+            "6ee5f79460": "Curry udon is Japanese",
+            "725e80b8ca": "Query did not want Japanese curry",
+            "044518cc98": "Query did not want Japanese curry"
+        },
+        "correctness_explanation": {
+            "curry": "curry",
+            "not indian or japanese": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want an Indian dish that I can dip naan in",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan curry",
+            "03c97249fc": "Thai curry with shrimp and coconut milk that can be dipped with bread",
+            "7498a92b64": "Indian styled traditional flatbread",
+            "847ee9ab82": "Cold artichoke and zucchini dip",
+            "7aeec76158": "Pan fried dry chicken flavoured with coconut "
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "03c97249fc": "Not Indian",
+            "7498a92b64": "Cannot dip naan in ",
+            "847ee9ab82": "Not Indian ",
+            "7aeec76158": "Cannot dip naan in fry chicken"
+        },
+        "correctness_explanation": {
+            "Indian dish": "Indian",
+            "can dip naan in": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to cook an Asian dish that that I can eat without using utensils",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "188be1143b": "Indian vegan curry that can be dipped with bread",
+            "8cf7db4798": "Rice noodles with beef knuckle and oxtails",
+            "78966eafdd": "Quick pho made with sliced beef",
+            "81f1929ff2": "Chinese Muslim stir fry using celery and beef",
+            "6b29d0d777": "Casserole mae Chinese style with chicken breast and water chestnut"
+        },
+        "answer": "188be1143b",
+        "incorrectness_explanations": {
+            "8cf7db4798": "Can't eat pho without utensils",
+            "78966eafdd": "Can't eat pho without utensils",
+            "81f1929ff2": "Can't eat stir fry without utensils",
+            "6b29d0d777": "Can't eat chicken casserole without utensils"
+        },
+        "correctness_explanation": {
+            "Asian dish": "Indian",
+            "eat without using utensils": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make Pho but I ran out of meat",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a6db1f7569": "Vegetarian rice noodles with shiitake mushrooms, carrots, and vegetable sauce",
+            "8cf7db4798": "Rice noodles with beef knuckle and oxtails",
+            "78966eafdd": "Quick pho made with sliced beef",
+            "587510ce44": "Savory pho made with chicken",
+            "5b6c807198": "Savory pho made with turkey"
+        },
+        "answer": "a6db1f7569",
+        "incorrectness_explanations": {
+            "8cf7db4798": "Ran out of meat so can't use beef in recipe",
+            "78966eafdd": "Ran out of meat so can't use beef in recipe",
+            "587510ce44": "Ran out of meat so can't use chicken in recipe",
+            "5b6c807198": "Ran out of meat so can't use turkey in recipe"
+        },
+        "correctness_explanation": {
+            "pho": "rice noodles",
+            "ran out of meat": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I miss the egg tarts I had in Asia",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "875bbfd3cf": "Sweet and soft Chinese egg custard tart with crispy exterior",
+            "57c768f6a2": "Savory Mexican egg tart with crispy pastry",
+            "581eb5fb1e": "Custard egg tart made with eggs, honey, and heavy cream",
+            "0865b33f66": "Savory cheese tart with bacon and eggs",
+            "7650a73fd0": "Sweet baked egg custard tart with nutmeg and shortcrust pastry"
+        },
+        "answer": "875bbfd3cf",
+        "incorrectness_explanations": {
+            "57c768f6a2": "Not Asian styled tarts",
+            "581eb5fb1e": "Not Asian styled tarts",
+            "0865b33f66": "Not Asian styled tarts",
+            "7650a73fd0": "Not Asian styled tarts"
+        },
+        "correctness_explanation": {
+            "egg tarts": "egg custard tart",
+            "had in Asia": "Chinese"
+        }
+    },
+    {
+        "query": "I want to cook polish sausage with sauerkraut",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6ce90e9b04": "Polish sausage with fermented cabbage ",
+            "6d76705678": "Polish quiche pie made of savory crust and sausage",
+            "a62601292e": "Savory soup made of vegetables and polish sausage",
+            "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content",
+            "7b72caae72": "Korean hot pot with pork, tofu, and korean fermented cabbage kimchi"
+        },
+        "answer": "6ce90e9b04",
+        "incorrectness_explanations": {
+            "6d76705678": "Does not include sauerkraut",
+            "a62601292e": "Does not include sauerkraut",
+            "a6c5c1f5cb": "Does not include sauerkraut",
+            "7b72caae72": "Does not include polish sausage"
+        },
+        "correctness_explanation": {
+            "polish sausage": "polish sausage",
+            "sauerkraut": "fermented cabage"
+        }
+    },
+    {
+        "query": "I want cheap swiss food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "371c13a806": "Bread made swiss style with swiss cheese",
+            "35f3ff33b8": "Swiss steak made from slow cooked beef braised in tomato sauce",
+            "3394295068": "Swiss meringue made from fluffy frosting",
+            "26eda207c4": "Swiss flan: cheese custard pudding ",
+            "3e3c2b13bb": "Baked chicken coated in swiss cheese"
+        },
+        "answer": "371c13a806",
+        "incorrectness_explanations": {
+            "35f3ff33b8": "Steak is not cheap",
+            "3394295068": "Meringue is not cheap compared to bread",
+            "26eda207c4": "Flan is not cheap compared to bread",
+            "3e3c2b13bb": "Chicken is not cheap compared to bread"
+        },
+        "correctness_explanation": {
+            "cheap": "<INFERRED>",
+            "swiss": "swiss style"
+        }
+    },
+    {
+        "query": "I'm craving German snacks",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5f4f0e5750": "Baked German-style pretzels",
+            "18820852fb": "German meatball made from ground meat, bread crumbs in mustard gravy",
+            "1eaa640995": "German burger made with seasoned german patties from ground pork and ground beef",
+            "31fa57c7ea": "German casserole from potatoes, sauerkraut, and polish sausage",
+            "2646da3394": "German styled pan fried flat cut of beef"
+        },
+        "answer": "5f4f0e5750",
+        "incorrectness_explanations": {
+            "18820852fb": "Meatball is not a snack",
+            "1eaa640995": "Burger is not a snack",
+            "31fa57c7ea": "German casserole is not a snack",
+            "2646da3394": "Beefsteaks is not a snack"
+        },
+        "correctness_explanation": {
+            "German": "German-style",
+            "snacks": "pretzels"
+        }
+    },
+    {
+        "query": "It's a cold evening in Germany, what should I eat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "69a8ff3d92": "Chicken soup with shell noodles",
+            "9bd8473005": "German chocolate cake mixed with sundae",
+            "0f1d68c793": "German puffed up breakfast pancake from eggs, milk, and flour",
+            "a0b7d11480": "German breakfast from bacon, ham, fried potatoes, eggs, onions",
+            "27a62d563b": "A German bread roll usually eaten in the morning"
+        },
+        "answer": "69a8ff3d92",
+        "incorrectness_explanations": {
+            "9bd8473005": "Should not eat chocolate sundae on a cold day",
+            "0f1d68c793": "Breakfast pancake isn't usually eaten during evening",
+            "a0b7d11480": "Breakfast isn't eaten during evening",
+            "27a62d563b": "Breakfast roll isn't eaten during evening"
+        },
+        "correctness_explanation": {
+            "cold evening": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make an italian snack",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1b696370fa": "Italian cracker similar to a pretzel",
+            "a1164b997e": "Sweet French dessert based on meringue",
+            "09d7c8b737": "Italian coffee with Amaretto and brandy added",
+            "0ab965336b": "Italian chicken made from chicken thighs. Flavoured with tomato paste",
+            "388c0507d5": "Italian chicken made from skinless chicken, cheese blend, and breadcrumbs"
+        },
+        "answer": "1b696370fa",
+        "incorrectness_explanations": {
+            "a1164b997e": "Macarons are not Italian",
+            "09d7c8b737": "Coffee is not a snack",
+            "0ab965336b": "Chicken is not a snack",
+            "388c0507d5": "Cheese chicken is not a snack"
+        },
+        "correctness_explanation": {
+            "Italian": "Italian",
+            "snack": "cracker similar to a pretzel"
+        }
+    },
+    {
+        "query": "I want to make a soup from the Mediterranean",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6cd574ada4": "Greek styled meatball soup made from minced beef, egg, and rice",
+            "0ed5fd83cf": "Sweet and sour beet polish soup full of vegetables",
+            "03068e4d95": "Mediterranean salad of diced tomatoes, seasoned with olive oil and vinegar ",
+            "26ba85a729": "British onion soup with cheese and onion",
+            "07d9034669": "Meditarranean couscous salad with veggies and feta cheese"
+        },
+        "answer": "6cd574ada4",
+        "incorrectness_explanations": {
+            "0ed5fd83cf": "Polish soup is not Mediterranean",
+            "03068e4d95": "Salad is not a soup",
+            "26ba85a729": "Not Mediterranean",
+            "07d9034669": "Not a soup"
+        },
+        "correctness_explanation": {
+            "Mediterranean": "Greek styled",
+            "soup": "meatball soup"
+        }
+    },
+    {
+        "query": "I want a French dish to go with a nice glass of red wine",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "259e8c800c": "French steak with croutes and fries",
+            "9cfa86a48f": "French chicken casserole made from fried chicken and chicken broth",
+            "6fe11c60a7": "Oven baked French duck with sauce from jelly and creme de cassis ",
+            "9f0a71eb0f": "Savory French fish soup made of boneless fish fillet",
+            "a3379ac365": "Savory french soup made from white fish"
+        },
+        "answer": "259e8c800c",
+        "incorrectness_explanations": {
+            "9cfa86a48f": "Chicken is white meat so less suitable for red wine compared to steak which is red meat",
+            "6fe11c60a7": "Duck is white meat so less suitable for red wine compared to steak which is red meat",
+            "9f0a71eb0f": "Fish is white meat so less suitable for red wine compared to steak which is red meat",
+            "a3379ac365": "Fish is white meat so less suitable for red wine compared to steak which is red meat"
+        },
+        "correctness_explanation": {
+            "French dish": "French",
+            "go with a nice glass of red wine": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make paella for my spanish mother-in-law who is diabetic",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content",
+            "05f17e93c6": "Spanish seafood rice made from shrimp, squid, mussels, and vegetables",
+            "12427544a2": "Spanish rice made with mushroom and chicken",
+            "0c0be57248": "Russian caramel fudge made from sweetened milk, golden syrup, and butter",
+            "9b8014d02f": "Gelato made from peach, heavy cream, egg yolks, truvia sweetener, and plain yogurt"
+        },
+        "answer": "a6c5c1f5cb",
+        "incorrectness_explanations": {
+            "05f17e93c6": "Seafood paella but doesn't take into consideration of sugar content",
+            "12427544a2": "Doesn't take into account sugar content",
+            "0c0be57248": "Very sweet so not healthy for diabetic patients",
+            "9b8014d02f": "Not a paella"
+        },
+        "correctness_explanation": {
+            "diabetic": "low sugar content",
+            "paella for my spanish mother-in-law": "spanish rice with chicken, spicy sauasge, and seafood"
+        }
+    },
+    {
+        "query": "I want a spanish dish that doesn't contain seafood",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "10aeb060ef": "Spanish rice with chicken breast",
+            "141270771a": "Baked spanish halibut fillet coated with flour",
+            "30bf0227df": "Spanish chickpea and cod stew",
+            "06d1106b44": "Spanish styled garlic shrimp",
+            "8da6e83ff9": "Spanish fish stew from salt cod fish"
+        },
+        "answer": "10aeb060ef",
+        "incorrectness_explanations": {
+            "141270771a": "Halibut is seafood",
+            "30bf0227df": "Cod is seafood",
+            "06d1106b44": "Shrimp is seafood",
+            "8da6e83ff9": "Cod is seafood"
+        },
+        "correctness_explanation": {
+            "spanish dish": "spanish rice",
+            "doesn't contain seafood": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How do I cook an Italian meatball soup?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2c9474a993": "Italian meatball and pasta with cheese, cooked in soup stew",
+            "44cb2f209e": "Italian fish and pasta with sauted shallot",
+            "10b28435ba": "Italian meatballs and pasta sprinkled with parmesan",
+            "1769f9dd02": "Chinese meatball soup with meatball from ground turkey and breadcrumbs",
+            "1767d591f1": "Italian meatball from lean ground beef"
+        },
+        "answer": "2c9474a993",
+        "incorrectness_explanations": {
+            "44cb2f209e": "Not a meatball soup",
+            "10b28435ba": "Not a soup",
+            "1769f9dd02": "Not an Italian soup",
+            "1767d591f1": "Not a soup"
+        },
+        "correctness_explanation": {
+            "Italian": "Italian",
+            "meatball": "meatball",
+            "soup": "soup stew"
+        }
+    },
+    {
+        "query": "I want to make an Italian vegan dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a8e28be186": "Italian salad made from romain lettuce, artichokes, and tomatoes",
+            "2c9474a993": "Italian meatball and pasta with cheese, cooked in soup stew",
+            "10b28435ba": "Italian meatballs and pasta sprinkled with parmesan",
+            "1767d591f1": "Italian meatball from lean ground beef",
+            "833990105f": "Burger made from only spinach and firm tofu"
+        },
+        "answer": "a8e28be186",
+        "incorrectness_explanations": {
+            "2c9474a993": "Not vegan because it contains meatball",
+            "10b28435ba": "Not vegan because it contains meatball",
+            "1767d591f1": "Not vegan because it contains meatball",
+            "833990105f": "Vegan burger is not Italian"
+        },
+        "correctness_explanation": {
+            "Italian": "Italian",
+            "vegan": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I remember trying this traditional candy that tastes just like milk when I visited Moscow, can I have a recipe for that?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "10ada75a02": "Light and fluffy Russian milk souffle candy covered with white candy melt",
+            "5e5c5572f3": "Pirozhki russian snacks: small yeast dough bun stuffed with duck confit and plums",
+            "058e3ba2d2": "Soft and juicy russian meatball with creamy tomato sauce",
+            "328f699550": "Classic peppermint candy canes",
+            "0c0be57248": "Russian caramel fudge made from sweetened milk, golden syrup, and butter"
+        },
+        "answer": "10ada75a02",
+        "incorrectness_explanations": {
+            "5e5c5572f3": "Pirozhki isn't a candy",
+            "058e3ba2d2": "Not a candy",
+            "328f699550": "Not a traditional Russian candy",
+            "0c0be57248": "This Russian candy doesn't taste like milk"
+        },
+        "correctness_explanation": {
+            "Moscow": "Russian",
+            "candy": "candy",
+            "milk": "milk souffle"
+        }
+    },
+    {
+        "query": "I'm on a diet but I still want fish and chips",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2379f4b9df": "Cod fillets and fries dipped in low fat mayonnaise ",
+            "0601731fb6": "Halibut sour cream dipped in sour cream and onion potato chips",
+            "40bae0778e": "Cod fish fillet with tartar sauce",
+            "3d4745cce1": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings",
+            "3c99576dc3": "Chocolate chip cookies made with artificial sweetener and semi-sweet chocolate"
+        },
+        "answer": "2379f4b9df",
+        "incorrectness_explanations": {
+            "0601731fb6": "Not fish and chips and not suitable for diet",
+            "40bae0778e": "Tartar sauce is not good for diet",
+            "3d4745cce1": "Not fish and chips",
+            "3c99576dc3": "Not fish and chips"
+        },
+        "correctness_explanation": {
+            "diet": "low fat mayonnaise",
+            "fish and chips": "Cod fillets and fries"
+        }
+    },
+    {
+        "query": "I want to try making nordic dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "15c8484027": "Norway cake with lingonberry and whipped cream layers",
+            "a6864cf6b4": "Norway styled eggs pickled from a mixture of grated beet, sugar, salt, vinegar",
+            "39816165d9": "Norway pot roast from lean chuck beef",
+            "98d117ed45": "An Egyptian dessert made of dates and fruits",
+            "111fce4c44": "Rhubarb crumb cake for dessert"
+        },
+        "answer": "15c8484027",
+        "incorrectness_explanations": {
+            "a6864cf6b4": "Not a dessert",
+            "39816165d9": "Not a dessert",
+            "98d117ed45": "Not Norwegian",
+            "111fce4c44": "Not Norwegian"
+        },
+        "correctness_explanation": {
+            "nordic": "Norway",
+            "dessert": "cake with lingonberry and whipped cream layers"
+        }
+    },
+    {
+        "query": "I want to cook Greek cuisine but I forgot to buy cheese, tzatziki dip, or garlic",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "17eff23365": "Savory grilled greek lamb leg",
+            "12688946b0": "Chopped greek salad made from vegetables and tomatoes with feta cheese",
+            "1409eb0098": "Greek potatoes with tzatziki dip",
+            "141e08d28b": "Tomato and cheese flavoured greek pizza",
+            "1eb9559305": "Tangy, garlicky, and savory beef greek meatloaf"
+        },
+        "answer": "17eff23365",
+        "incorrectness_explanations": {
+            "12688946b0": "Contains cheese ",
+            "1409eb0098": "Contains tzatziki dip",
+            "141e08d28b": "Contains cheese",
+            "1eb9559305": "Contains garlic"
+        },
+        "correctness_explanation": {
+            "Greek cuisine": "Greek",
+            "forgot to buy cheese, tzatziki dip, or garlic": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How to make a vegan lasagna for dinner",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "0eebf3e4b4": "Vegan lasagna made from vegan cheese",
+            "a8e28be186": "Vegan italian salad made from romain lettuce, artichokes, and tomatoes",
+            "642202b519": "Healthy lasagna made from ground beef, canned tomatoes, and cheese",
+            "4292b003fc": "Italian American lasagna made from Italian American meat sauce and milk ricotta cheese",
+            "526461104e": "Italian lasagna made of bacon, sausage, and cheese"
+        },
+        "answer": "0eebf3e4b4",
+        "incorrectness_explanations": {
+            "a8e28be186": "Not lasagna",
+            "642202b519": "Not vegan because it contains beef and cheese",
+            "4292b003fc": "Not vegan because it contains cheese",
+            "526461104e": "Not vegan because it contains cheese and meat"
+        },
+        "correctness_explanation": {
+            "vegan": "vegan",
+            "lasagna": "lasagna"
+        }
+    },
+    {
+        "query": "I want to make Italian food for my daughter who hates cheese",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0ab965336b": "Italian chicken made from chicken thighs. Flavoured with tomato paste",
+            "642202b519": "Healthy lasagna made from ground beef, canned tomatoes, and cheese",
+            "4292b003fc": "Italian American lasagna made from Italian American meat sauce and milk ricotta cheese",
+            "6a151c5e67": "Italian melted cheese pot made from mozzarella that's dipped with tomatoes, broccoli etc.",
+            "526461104e": "Italian lasagna made of bacon, sausage, and cheese"
+        },
+        "answer": "0ab965336b",
+        "incorrectness_explanations": {
+            "642202b519": "Contains cheese ",
+            "4292b003fc": "Contains cheese",
+            "6a151c5e67": "Contains cheese",
+            "526461104e": "Contains cheese"
+        },
+        "correctness_explanation": {
+            "Italian food": "Italian",
+            "daughter who hates cheese": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Today's really hot and I'm craving for a peach flavoured treat",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9b8014d02f": "Gelato made from peach, heavy cream, egg yolks, truvia sweetener, and plain yogurt",
+            "45ed25b1b2": "Vanilla gelato made from egg yolk, sugar, cornstarch, milk, and whipping cream",
+            "0bfe892509": "A jar of peaches covered in peach wine and syrup",
+            "335eae967e": "Pumpkin gelato made from milk, heavy cream, sugar, cinnamon, and pumpkin puree",
+            "01f614801d": "Gelato made from milk, egg yolk, sugar, pistachio paste"
+        },
+        "answer": "9b8014d02f",
+        "incorrectness_explanations": {
+            "45ed25b1b2": "Not peach flavoured",
+            "0bfe892509": "Not particularly good treat for summer",
+            "335eae967e": "Not peach flavoured",
+            "01f614801d": "Not peach flavoured"
+        },
+        "correctness_explanation": {
+            "hot": "<INFERRED>",
+            "peach flavoured treat": "Gelato made from peach"
+        }
+    },
+    {
+        "query": "I want to cook pasta but not tortellini",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "44bb127bc7": "Angel hair pasta with fresh parmesan cheese and butter",
+            "4f6bb856d0": "Mexican cheese tortellini pasta made with plum tomatoes, mushrooms, and low fat cheddar cheese",
+            "967783c94c": "Tortellini pasta with bacon, heavy cream, and peas",
+            "21f59c114a": "Cheese tortellini pasta with artichoke hearts, tomatoes, and broccoli",
+            "10f7dc8488": "Cheese tortellini pasta salad with bacon, tomatoes, and ranch dressing"
+        },
+        "answer": "44bb127bc7",
+        "incorrectness_explanations": {
+            "4f6bb856d0": "query asked for non tortellini pasta",
+            "967783c94c": "query asked for non tortellini pasta",
+            "21f59c114a": "query asked for non tortellini pasta",
+            "10f7dc8488": "query asked for non tortellini pasta"
+        },
+        "correctness_explanation": {
+            "pasta": "pasta",
+            "not tortellini": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What is a hearty French dish I can make for dinner?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "02a044aea5": "French onion soup made from beef broth, sweet white onion, and gruyere cheese",
+            "a1164b997e": "Sweet French dessert based on meringue",
+            "ccb6b68fc7": "French toast mix soaked bread and diced apples cooked in the oven",
+            "26ba85a729": "British onion soup made with cheddar cheese, and stock",
+            "0791dcee0b": "Savory soup made from miso and red onions"
+        },
+        "answer": "02a044aea5",
+        "incorrectness_explanations": {
+            "a1164b997e": "Not a dinner dish",
+            "ccb6b68fc7": "Not a hearty dish for dinner",
+            "26ba85a729": "Not French",
+            "0791dcee0b": "Not French"
+        },
+        "correctness_explanation": {
+            "hearty": "soup",
+            "French": "French",
+            "dinner": "soup"
+        }
+    },
+    {
+        "query": "What French appetizers use wine?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "72e6203b52": "French potato salad from red potatos and flavoured with olive oil, salt and pepper, and white wine",
+            "7eebf0166a": "French cocktail made from sparkling wine, Bacardi rum, brown sugar, mint, lime, and ice",
+            "16f086d2e5": "French bread with mayonnaise, parmesan cheese, and green onions",
+            "0bfe892509": "A jar of peaches covered in peach wine and syrup",
+            "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
+        },
+        "answer": "72e6203b52",
+        "incorrectness_explanations": {
+            "7eebf0166a": "Not an appetizer",
+            "16f086d2e5": "Appetizer doesn't contain wine",
+            "0bfe892509": "Not French",
+            "5e10d5e88d": "Appetizer doesn't contain wine"
+        },
+        "correctness_explanation": {
+            "French": "French",
+            "appetizers": "potato salad",
+            "use wine": "white wine"
+        }
+    },
+    {
+        "query": "I have some chocolate, what french dessert can I make with it?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9ec29f06d6": "French chocolate cake made from chocolate baking squares, strong coffee, butter, and brown sugar",
+            "a1164b997e": "Sweet French dessert based on meringue",
+            "17194384f1": "Soft French flatbread made of flour, eggs, milk, rum, and salt",
+            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "47f4e3284b": "A moist homestyled chocolate cake "
+        },
+        "answer": "9ec29f06d6",
+        "incorrectness_explanations": {
+            "a1164b997e": "Doesn't contain chocolate",
+            "17194384f1": "Doesn't contain chocolate",
+            "9bd8473005": "Not french",
+            "47f4e3284b": "Not french"
+        },
+        "correctness_explanation": {
+            "french": "French",
+            "chocolate": "chocolate",
+            "dessert": "cake"
+        }
+    },
+    {
+        "query": "For lunch, I want to cook a duck French-style",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "a263b56ecf": "Chopped French duck confit preserved by duck oil",
+            "9ec29f06d6": "French chocolate cake made from chocolate baking squares, strong coffee, butter, and brown sugar",
+            "17194384f1": "Soft French flatbread made of flour, eggs, milk, rum, and salt",
+            "038ebd90a6": "Chinese duck dish of duck and vegetable wrapped in flatbread",
+            "5e10d5e88d": "Baked French onion bites wrapped with cheese in wonton wrappers"
+        },
+        "answer": "a263b56ecf",
+        "incorrectness_explanations": {
+            "9ec29f06d6": "Doesn't include duck",
+            "17194384f1": "Doesn't include duck",
+            "038ebd90a6": "Not French",
+            "5e10d5e88d": "Doesn't include duck"
+        },
+        "correctness_explanation": {
+            "lunch": "<INFERRED>",
+            "duck": "duck",
+            "French-style": "French"
+        }
+    },
+    {
+        "query": "What can I make for a European-inspired breakfast?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7b9badda2f": "Belgian waffle with crispy exterior and soft insides",
+            "5627fdf3a2": "Tomatoes dipped in french dressing",
+            "1af424c116": "Stir fry from Italian sausage and flavoured with Italian cheese",
+            "7cf2b1cd76": "Light and fluffy Kenyan donuts that's usually served for breakfast with chai tea",
+            "a1afd74269": "Texas chili made from lean beef, breakfast sausage and and paprika"
+        },
+        "answer": "7b9badda2f",
+        "incorrectness_explanations": {
+            "5627fdf3a2": "Tomatoes alone aren't typical breakfast food",
+            "1af424c116": "Not a breakfast dish",
+            "7cf2b1cd76": "Not European-inspired",
+            "a1afd74269": "Not European and not a breakfast dish"
+        },
+        "correctness_explanation": {
+            "European-inspired": "Belgian",
+            "breakfast": "waffle"
+        }
+    },
+    {
+        "query": "I want to make a pizza baguette",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "62b85165ed": "French baguette cut into slices with each slice covered in cheese, tomato sauce, and pepperoni",
+            "858bbc0cda": "Toasted baguette with olive oil, salt, and pepper",
+            "80b775d8a0": "Baguette stuffed with italian sausage and spinach",
+            "9540d5b87d": "Vegan pizza with toppings that tastes like meat ",
+            "3d4745cce1": "Pizza with fish sticks, tater tots, and cheddar cheese as toppings"
+        },
+        "answer": "62b85165ed",
+        "incorrectness_explanations": {
+            "858bbc0cda": "Not a pizza baguette because it doesn't have typical pizza materials like cheese, pepperoni, and tomato sauce",
+            "80b775d8a0": "Not a pizza baguette because it doesn't have typical pizza materials like cheese, pepperoni, and tomato sauce",
+            "9540d5b87d": "Doesn't include baguette",
+            "3d4745cce1": "Doesn't include baguette"
+        },
+        "correctness_explanation": {
+            "pizza baguette": "baguette cut into slices with each slice covered in cheese, tomato sauce, and pepperoni"
+        }
+    },
+    {
+        "query": "What German main course can I make for dinner",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "48539e5b5b": "German sausage made from beef and ground pork",
+            "10b6247565": "German tart made of citrus fruits",
+            "2c7b8d89f2": "German iced coffee made from whipped cream, sweet chocolate, wafer cookies, vanilla ice cream, coffee",
+            "9bd8473005": "German chocolate cake mixed with icecream is sundae",
+            "0f1d68c793": "Puffed up German baked pancake from eggs, milk, and flour"
+        },
+        "answer": "48539e5b5b",
+        "incorrectness_explanations": {
+            "10b6247565": "Not a main course",
+            "2c7b8d89f2": "Not a main course",
+            "9bd8473005": "Not a main course",
+            "0f1d68c793": "Not a main course"
+        },
+        "correctness_explanation": {
+            "German": "German",
+            "main course": "<INFERRED>",
+            "dinner": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I miss Australian damper",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a75e891193": "Thick homemade soda bread",
+            "0e6c029cfc": "Australian fruit cake from mixed fruit and flavoured with a bit of brandy",
+            "13e515bf75": "Australian fish cooked with cheese, sole fillets, mushrooms, and white wine",
+            "024ca59ee9": "Rye bread made from active dry yeast",
+            "02a8ebe77e": "Banana bread made from banana, honey, and active dry yeast"
+        },
+        "answer": "a75e891193",
+        "incorrectness_explanations": {
+            "0e6c029cfc": "Not damper",
+            "13e515bf75": "Not damper",
+            "024ca59ee9": "Not Australian",
+            "02a8ebe77e": "Not Australian"
+        },
+        "correctness_explanation": {
+            "Australian": "Australian",
+            "damper": "thick soda bread"
+        }
+    },
+    {
+        "query": "I want to try making Fijian dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7b6feef9a0": "Sweet Fijian honey cake made from sour cream, sugar, and eggs",
+            "6e4a34a5a7": "Fijian curry chicken made from fryer chicken and flavoured with haldi powder and garam masala",
+            "9bb7fbe373": "Fijian Dhal soup from yellow split peas and curry powder",
+            "609f667584": "Fijian fish curry from fish, chilies, cumin, turmeric, and coconut milk",
+            "111fce4c44": "Rhubarb crumb cake for dessert"
+        },
+        "answer": "7b6feef9a0",
+        "incorrectness_explanations": {
+            "6e4a34a5a7": "Not dessert",
+            "9bb7fbe373": "Not dessert",
+            "609f667584": "Not dessert",
+            "111fce4c44": "Not Fijian"
+        },
+        "correctness_explanation": {
+            "Fijian": "Fijian",
+            "dessert": "honey cake"
+        }
+    }
+]

@@ -1,0 +1,3045 @@
+[
+    {
+        "query": "I want a drink with chocolate or cinnamon for a cosy night in.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "06653f1315": "Standard hot chocolate recipe",
+            "6617a13bff": "Chocolate ice milk sundaes topped with chocolate vanilla sauce",
+            "56ecf3f01c": "Baked cinnamon rolls with pecans",
+            "15d5cb830e": "Classic baked chocolate brownies",
+            "3b4fbed7d5": "Iced coffee with cinnamon and anise"
+        },
+        "answer": "06653f1315",
+        "incorrectness_explanations": {
+            "6617a13bff": "It is cold so it does not help to create a cozy atmosphere",
+            "56ecf3f01c": "It is not a drink.",
+            "15d5cb830e": "It is not a drink.",
+            "3b4fbed7d5": "It is cold so it does not help to create a cozy atmosphere"
+        },
+        "correctness_explanation": {
+            "chocolate": "chocolate",
+            "drink": "hot chocolate",
+            "cozy": "hot"
+        }
+    },
+    {
+        "query": "It's freezing and I'm a craving a thick soup.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "05a8d8f651": "Creamy onion soup",
+            "03d5cffe5a": "Kielbasa sausage stew with potato, carrots and shrimp",
+            "01f4f9324d": "Gazpacho - cold soup made of raw, blended vegetables",
+            "05fb116338": "Traditional chicken soup",
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers "
+        },
+        "answer": "05a8d8f651",
+        "incorrectness_explanations": {
+            "03d5cffe5a": "This is a stew, not a soup.",
+            "01f4f9324d": "It is cold, which does not help someone who is already cold.",
+            "05fb116338": "Traditional chicken soup is not thick. ",
+            "56c08f5841": "Broth is a watery soup."
+        },
+        "correctness_explanation": {
+            "freezing": "<INFERRED>",
+            "thick": "Creamy"
+        }
+    },
+    {
+        "query": "What are some snacks I can eat on the sofa without making a mess?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5884624f69": "Classic salted popcorn",
+            "2157481229": "Steak tacos with salsa verde and salsa roja",
+            "52c91fe089": "Butter croissants",
+            "85ea5bf974": "Ham and cheese sandwich with mayonnaise",
+            "1379726aaa": "Classic Salisbury Steak - grilled ground beef patties served with gravy"
+        },
+        "answer": "5884624f69",
+        "incorrectness_explanations": {
+            "2157481229": "Tacos are messy to eat.",
+            "52c91fe089": "Pastries are messy to eat.",
+            "85ea5bf974": "Not a snack.",
+            "1379726aaa": "Can't be eaten on the sofa - need a table and chair."
+        },
+        "correctness_explanation": {
+            "snacks": "<INFERRED>",
+            "without making a mess": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What can I make for dinner using winter vegetables?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "96b7375280": "Vegetable stew made with pumpkin, leek, onion, squash, turnips and potatoes",
+            "00f4df3e5d": "Grilled cabbage ",
+            "95ef8f9184": "Sweet winter melon jam",
+            "88c8a03b32": "Creamy, warm oatmeal with pumpkin and cinnamon",
+            "1d1c4293ae": "Classic fried rice with pineapple chunks"
+        },
+        "answer": "96b7375280",
+        "incorrectness_explanations": {
+            "00f4df3e5d": "Cabbage does not grow during the winter.",
+            "95ef8f9184": "The jam isn't enough for a dinner.",
+            "88c8a03b32": "Oatmeal is more for breakfast than dinner.",
+            "1d1c4293ae": "Pineapple is not a vegetable."
+        },
+        "correctness_explanation": {
+            "winter vegetables": [
+                "pumpkin",
+                "leek",
+                "onion",
+                "squash",
+                "turnips",
+                "potatoes"
+            ],
+            "dinner": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm in the mood to make a unique dessert with a Christmas themed flavour.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "18c081007c": "Peppermint chocolate bonbon",
+            "50bc560bb8": "Christmas log cake - chocolate sponge cake rolled with cream",
+            "0db058c575": "Cannoli - italian fried pastry dough filled with a sweet and creamy ricotta cheese filling",
+            "03b8d2164b": "Mille Feuilles - French confection that is made by layering pastry puff with vanilla cream.",
+            "2ec7dacd1b": "Classic gingerbread house"
+        },
+        "answer": "18c081007c",
+        "incorrectness_explanations": {
+            "50bc560bb8": "Log cake isn't that unique, it is a common Christmas dish.",
+            "0db058c575": "Cannoli isn't Christmas themed.",
+            "03b8d2164b": "Mille Feuilles aren't Christmas themed.",
+            "2ec7dacd1b": "Gingerbread houses aren't that unique, it is a common Christmas dish."
+        },
+        "correctness_explanation": {
+            "unique dessert": "<INFERRED>",
+            "Christmas themed flavour": "Peppermint chocolate"
+        }
+    },
+    {
+        "query": "What are some refreshing drinks that are perfect for the hot summer?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "258820bc84": "Fizzy lemon soda",
+            "0ce6f6d989": "Citrusy popsicle made from grapefruit, lime and tequila",
+            "09accc920a": "Warm latte with pumpkin and pumpkin spices",
+            "1ce8d38ec5": "Lemonade flavoured fluffy scones",
+            "97dac48240": "Classic oreo milkshake"
+        },
+        "answer": "258820bc84",
+        "incorrectness_explanations": {
+            "0ce6f6d989": "Popsicles are not a drink.",
+            "09accc920a": "It is warm so it is not refreshing.",
+            "1ce8d38ec5": "It is not a drink.",
+            "97dac48240": "It is a thick creamy drink, so it is not that refreshing."
+        },
+        "correctness_explanation": {
+            "refreshing": [
+                "lemon",
+                "soda"
+            ],
+            "drinks": "soda",
+            "perfect for the hot summer": "<INFERRED>"
+        }
+    },
+    {
+        "query": "My kids want to use the new popsicle maker I bought.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "42f3215618": "Popsicles made from yoghurt, apple juice and assorted fruit",
+            "01f614801d": "Pistachio gelato",
+            "331b55d96e": "Popsicles made from watermelon juice, lime juice and rum",
+            "0e828940a5": "Jello with cranberry jelly and applesauce",
+            "0aa3eaed15": "Real pomegranate juice"
+        },
+        "answer": "42f3215618",
+        "incorrectness_explanations": {
+            "01f614801d": "It is not a popsicle.",
+            "331b55d96e": "Rum contains alcohol, which is not appropriate for kids.",
+            "0e828940a5": "It is not a popsicle.",
+            "0aa3eaed15": "It is not a popsicle."
+        },
+        "correctness_explanation": {
+            "popsicle": "popsicle",
+            "kids": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I read online that some healthy juices can improve your digestion, and I'd be interested to try them.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "63ad58272f": "Detox green juice made from cilantro,ginger,lemon,lime,cucumbers",
+            "904826c0f9": "Juice made from kool aid and orange juice concentrate",
+            "374f4de56b": "Iced earl grey tea with lemon slices",
+            "77de7a7290": "Detox salad with berries, spinach, feta and grilled chicken",
+            "33e50e8852": "Punch made from rose syrup and vodka"
+        },
+        "answer": "63ad58272f",
+        "incorrectness_explanations": {
+            "904826c0f9": "Kool aid and juice concentrate are not healthy and will not help to detox.",
+            "374f4de56b": "It is not a juice.",
+            "77de7a7290": "It is not a juice.",
+            "33e50e8852": "Syrup and vodka are not healthy and will not help to detox."
+        },
+        "correctness_explanation": {
+            "digestion": [
+                "cilantro",
+                "ginger",
+                "cucumber"
+            ],
+            "juice": "juice",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What are some cocktails that can make me feel like I'm on an island vacation?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 1
+        },
+        "options": {
+            "0fbe9ce183": "Pina colada - cocktail made from coconut cream, pineapple juice and rum",
+            "226a2b9392": "Milkshake cocktail made from Bailey's irish cream liquor ",
+            "37738fd9a8": "Real passion fruit juice ",
+            "9774e1ebdb": "Moist coconut cake with coconut frosting",
+            "110c5d0a0a": "Classic vanilla milkshake"
+        },
+        "answer": "0fbe9ce183",
+        "incorrectness_explanations": {
+            "226a2b9392": "It has nothing to do with a tropical theme.",
+            "37738fd9a8": "It is not a cocktail.",
+            "9774e1ebdb": "It is not a cocktail.",
+            "110c5d0a0a": "It has nothing to do with a tropical theme."
+        },
+        "correctness_explanation": {
+            "cocktail": "Pina colada",
+            "island vacation": [
+                "pineapple juice",
+                "coconut cream"
+            ]
+        }
+    },
+    {
+        "query": "How do I make a slushie without artificial flavouring?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "22e9269352": "Slushie drink made from orange juice blended with ice",
+            "48c13956f7": "Slushie drink made from kool aid drink mix blended with ice",
+            "42f3215618": "Popsicles made from yoghurt, apple juice and assorted fruit",
+            "258820bc84": "Fizzy lemon soda",
+            "0fbe9ce183": "Pina colada - cocktail made from coconut cream, pineapple juice and rum"
+        },
+        "answer": "22e9269352",
+        "incorrectness_explanations": {
+            "48c13956f7": "It has artificial flavouring.",
+            "42f3215618": "It is not a slushie.",
+            "258820bc84": "It is not a slushie.",
+            "0fbe9ce183": "It is not a slushie."
+        },
+        "correctness_explanation": {
+            "slushie": "slushie",
+            "without artificial flavouring": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a nice warm drink or dessert with fall spices.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "09accc920a": "Classic pumpkin spice latte.",
+            "60f18620c0": "White chocolate and pumpkin spice ice cream",
+            "06653f1315": "Standard hot chocolate drink",
+            "0a11c3f14d": "Thick and creamy butternut squash soup with parmesan cheese",
+            "01e41e6b0e": "Pumpkin thai stir fry with peanuts, basil and fish sauce"
+        },
+        "answer": "09accc920a",
+        "incorrectness_explanations": {
+            "60f18620c0": "It is not warm.",
+            "06653f1315": "It doesn't have any fall spices.",
+            "0a11c3f14d": "It is not a drink or dessert.",
+            "01e41e6b0e": "It is not a drink or dessert."
+        },
+        "correctness_explanation": {
+            "warm": "<INFERRED>",
+            "drink": "latte",
+            "fall spices": "pumpkin spice"
+        }
+    },
+    {
+        "query": "What are the best fall inspired pastries and baked goods?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "0138cdb839": "Baked pumpkin dessert pie filled with a sweet pumpkin spice based custard",
+            "50bc560bb8": "Christmas log cake - chocolate sponge cake rolled with cream",
+            "60f18620c0": "White chocolate and pumpkin spice ice cream",
+            "03a44e60b7": "Classic baked apple pie",
+            "09accc920a": "Warm latte with pumpkin and pumpkin spices"
+        },
+        "answer": "0138cdb839",
+        "incorrectness_explanations": {
+            "50bc560bb8": "It is not fall inspired - instead this is a winter inspired dessert.",
+            "60f18620c0": "Ice cream is not baked.",
+            "03a44e60b7": "This is not fall inspired.",
+            "09accc920a": "This is not a pastry or baked good."
+        },
+        "correctness_explanation": {
+            "fall inspired": [
+                "pumpkin",
+                "pumpkin spice"
+            ],
+            "baked goods": "pie"
+        }
+    },
+    {
+        "query": "What are some fermented vegetables I can make to store during the winter?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0fec5cb3b3": "Kimchi - korean spicy fermented cabbage ",
+            "858850a426": "Pickled dill cucumbers",
+            "405f1fa387": "Kombucha (fermented tea) made from wildberry hibiscus pu-er tea",
+            "3b923d9322": "Kefir - fermented milk drink",
+            "00f4df3e5d": "Grilled cabbage "
+        },
+        "answer": "0fec5cb3b3",
+        "incorrectness_explanations": {
+            "858850a426": "This is pickled, not fermented.",
+            "405f1fa387": "This is a fermented tea, not exactly vegetables.",
+            "3b923d9322": "This is not a vegetable.",
+            "00f4df3e5d": "This is not fermented."
+        },
+        "correctness_explanation": {
+            "fermented": "fermented",
+            "vegetables": "cabbage"
+        }
+    },
+    {
+        "query": "I want a savoury snack after school, but I can't be too full because I'll be eating dinner soon.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "4803070f9d": "Chicken nuggets with string cheese",
+            "56ecf3f01c": "Baked cinnamon rolls with pecans",
+            "132e2e86b4": "Chocolate and caramel bare made with maple syrup",
+            "08d62f3586": "Spaghetti pasta with bolognese sauce",
+            "16edfc5b7b": "Chicken noodle soup with homemade noodles"
+        },
+        "answer": "4803070f9d",
+        "incorrectness_explanations": {
+            "56ecf3f01c": "This is not savoury.",
+            "132e2e86b4": "This is not savoury.",
+            "08d62f3586": "This is too filling.",
+            "16edfc5b7b": "This is too filling."
+        },
+        "correctness_explanation": {
+            "savoury": "<INFERRED>",
+            "snack": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I pack my lunch for school every day but I hate the hassle of bringing multiple containers.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "85ea5bf974": "Ham and cheese sandwich with mayonnaise",
+            "06c853e7db": "Mashed potatoes with herbs and sour cream",
+            "08d62f3586": "Spaghetti pasta with bolognese sauce",
+            "3dd3869ec6": "Classic poutine - french fries in gravy with cheese curds",
+            "16edfc5b7b": "Chicken noodle soup with homemade noodles"
+        },
+        "answer": "85ea5bf974",
+        "incorrectness_explanations": {
+            "06c853e7db": "Sour cream can't last two hours outside the fridge, so it should not be packed for lunch.",
+            "08d62f3586": "This has to be packed in multiple containers, or else it will turn soggy.",
+            "3dd3869ec6": "This will turn soggy if packed to school.",
+            "16edfc5b7b": "This has to be packed in multiple containers, or else it will turn soggy."
+        },
+        "correctness_explanation": {
+            "lunch": "<INFERRED>",
+            "hate the hassle of bringing multiple containers": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to pack a sandwich to school but I hate it when the bread gets soggy.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "695bee3da8": "Bacon, lettuce and tomato sandwich.",
+            "11ff5bff57": "Hotdog topped with chilli and onion",
+            "5994e1b659": "Pork belly sandwiched between Chinese steamed bread bun with hoisin sauce",
+            "02b1c041e8": "Peanut butter sandwich with baby carrots,sunflower seeds,currants and honey.",
+            "0242694490": "Pesto tuna sandwich - sandwich filled with canned tuna mixed with pesto and mayonnaise"
+        },
+        "answer": "695bee3da8",
+        "incorrectness_explanations": {
+            "11ff5bff57": "This is not exactly a sandwich.",
+            "5994e1b659": "This is not exactly a sandwich.",
+            "02b1c041e8": "The honey and peanut butter will make the bread soggy.",
+            "0242694490": "The tuna and mayonnaise will make the bread soggy."
+        },
+        "correctness_explanation": {
+            "sandwich": "sandwich",
+            "I hate it when the bread gets soggy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm in a rush to go to school this morning, what should I make?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7d59b6d82f": "Any cereal with milk",
+            "04d424289c": "Eggs benedict - poached eggs, prosciutto on top of English muffins topped with a creamy Hollandaise sauce",
+            "78ebeb03f1": "Instant ramen noodles with eggs, spinach and pickled cabbage",
+            "0a77dac796": "Breakfast pizza with sausage, cheddar, sour cream and jalepenos",
+            "0a1ce6cce0": "Classic salted french fries"
+        },
+        "answer": "7d59b6d82f",
+        "incorrectness_explanations": {
+            "04d424289c": "This is time consuming to make.",
+            "78ebeb03f1": "This is not for breakfast, ideally.",
+            "0a77dac796": "This is time consuming to make.",
+            "0a1ce6cce0": "This is not a breakfast food."
+        },
+        "correctness_explanation": {
+            "in a rush": "<INFERRED>",
+            "morning": "cereal"
+        }
+    },
+    {
+        "query": "I need breakfast but I have no cooking experience.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7d59b6d82f": "Any cereal with milk",
+            "04d424289c": "Eggs benedict - poached eggs, prosciutto on top of English muffins topped with a creamy Hollandaise sauce",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "0a77dac796": "Breakfast pizza with sausage, cheddar, sour cream and jalepenos",
+            "133f6a4526": "Lightly seared tuna steaks in ponzu sauce"
+        },
+        "answer": "7d59b6d82f",
+        "incorrectness_explanations": {
+            "04d424289c": "This is a difficult recipe.",
+            "128334eec1": "This is not for breakfast, ideally.",
+            "0a77dac796": "This is too difficult to make.",
+            "133f6a4526": "This is not a breakfast food."
+        },
+        "correctness_explanation": {
+            "breakfast": "cereal",
+            "no cooking experience": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What's something that I can just warm up the next morning?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "34f3bc7c61": "Breakfast wrap with scrambled eggs, smoked bacon and sharp cheddar",
+            "0887f2998a": "French meat pie - pie filled with ground meat, onions and savoury seasonings",
+            "32b59cdc22": "Classic beef lasagne - layered pasta sheets with beef bolognese sauce and ricotta cheese",
+            "7d59b6d82f": "Any cereal with milk",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons"
+        },
+        "answer": "34f3bc7c61",
+        "incorrectness_explanations": {
+            "0887f2998a": "This is not for breakfast, ideally.",
+            "32b59cdc22": "This is not for breakfast, ideally.",
+            "7d59b6d82f": "This can't bne warmed up.",
+            "128334eec1": "This can't bne warmed up."
+        },
+        "correctness_explanation": {
+            "just warm up": "<INFERRED>",
+            "morning": "Breakfast"
+        }
+    },
+    {
+        "query": "Can I have some Japanese lunch box ideas?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "5570b46221": "Stir-fried tofu, noodles and begetables Bento",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "32b59cdc22": "Classic beef lasagne - layered pasta sheets with beef bolognese sauce and ricotta cheese",
+            "8e45cb07c2": "Japanese ramen noodles with a soy sauce flavoured broth",
+            "133f6a4526": "Lightly seared tuna steaks in ponzu sauce"
+        },
+        "answer": "5570b46221",
+        "incorrectness_explanations": {
+            "128334eec1": "This is not Japanese.",
+            "32b59cdc22": "This is not Japanese.",
+            "8e45cb07c2": "This is not something you can put in a lunch box.",
+            "133f6a4526": "This is too fancy so it is not suitable to be lunch box food."
+        },
+        "correctness_explanation": {
+            "Japanese": "Bento",
+            "lunch box": "Bento"
+        }
+    },
+    {
+        "query": "What are some meals I can keep in the freezer for a week?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "88bc5ec028": "Steak chipotle burrito with basmati rice and beans ",
+            "0a1ce6cce0": "Classic salted french fries",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "01f614801d": "Pistachio gelato",
+            "04d424289c": "Eggs benedict - poached eggs, prosciutto on top of English muffins topped with a creamy Hollandaise sauce"
+        },
+        "answer": "88bc5ec028",
+        "incorrectness_explanations": {
+            "0a1ce6cce0": "This is not enough for a full meal.",
+            "128334eec1": "Raw vegetables can't be kept in the freezer.",
+            "01f614801d": "This is not enough for a full meal.",
+            "04d424289c": "Eggs can't be kept in the freezer."
+        },
+        "correctness_explanation": {
+            "meals": "burrito",
+            "keep in the freezer for a week": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a nutritious dish to be in good shape for a marathon.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "05fb116338": "Traditional chicken soup",
+            "8f78b28e1b": "Instant potato soup made from instant mashed potatoes and herbs",
+            "768e42a7d1": "Kombucha - fermented and sweetened black tea drink ",
+            "8e45cb07c2": "Japanese ramen noodles with a soy sauce flavoured broth",
+            "2f2c2578e2": "Mocktail made of energy drink,camomile tea,syrup and lemon juice"
+        },
+        "answer": "05fb116338",
+        "incorrectness_explanations": {
+            "8f78b28e1b": "Instant soup is not nutritious, since it has preservatives.",
+            "768e42a7d1": "This is a drink, not a dish.",
+            "8e45cb07c2": "Even though this is not unhealthy, it is not particularly nutritious.",
+            "2f2c2578e2": "Energy drinks are not nutritious."
+        },
+        "correctness_explanation": {
+            "nutritious": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Any ideas for a brunch that is easy to make in my dormitory kitchen?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "8abf5e0868": "Pancakes with berries",
+            "08d62f3586": "Spaghetti pasta with bolognese sauce",
+            "04d424289c": "Eggs benedict - poached eggs, prosciutto on top of English muffins topped with a creamy Hollandaise sauce",
+            "8f78b28e1b": "Instant potato soup made from instant mashed potatoes and herbs",
+            "78ebeb03f1": "Instant ramen noodles with eggs, spinach and pickled cabbage"
+        },
+        "answer": "8abf5e0868",
+        "incorrectness_explanations": {
+            "08d62f3586": "This is not a brunch item.",
+            "04d424289c": "This is difficult to make, regardless of the location.",
+            "8f78b28e1b": "This is not a brunch item.",
+            "78ebeb03f1": "This is not a brunch item."
+        },
+        "correctness_explanation": {
+            "brunch": "pancakes",
+            "easy to make in my dormitory kitchen": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What's the most simple meal I can make using just a rice cooker?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1cd635a823": "Standard plain porridge",
+            "08d17270b0": "Rice bowl with Japanese slow cooked beef in soy sauce, sugar and Japanese rice wine",
+            "113ce8f9b1": "Rice cooker Hainanese chicken rice ",
+            "78ebeb03f1": "Instant ramen noodles with eggs, spinach and pickled cabbage",
+            "08d62f3586": "Spaghetti pasta with bolognese sauce"
+        },
+        "answer": "1cd635a823",
+        "incorrectness_explanations": {
+            "08d17270b0": "This needs a pan or pot to be cooked.",
+            "113ce8f9b1": "This is not that simple to cook.",
+            "78ebeb03f1": "This needs a pan or pot to be cooked.",
+            "08d62f3586": "This needs a pan or pot to be cooked."
+        },
+        "correctness_explanation": {
+            "most simple": "<INFERRED>",
+            "rice cooker": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm about to start my weekend meal prep but my roommate only eats western food.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0b40853fcb": "Soup loaded with ground beef, sausage, beans, corn, vegetables, and a tomato-based broth flavored with spices",
+            "035e1bea0d": "Simple fried rice with carrots and peas",
+            "40427cc1bc": "Standard pork dumplings - boiled thin dough wrapped around seasoned mince pork filling",
+            "8f78b28e1b": "Instant potato soup made from instant mashed potatoes and herbs",
+            "0a1ce6cce0": "Classic salted french fries"
+        },
+        "answer": "0b40853fcb",
+        "incorrectness_explanations": {
+            "035e1bea0d": "This is not western food.",
+            "40427cc1bc": "This is not western food.",
+            "8f78b28e1b": "Instant soup defeats the purpose of advance meal preparation.",
+            "0a1ce6cce0": "This is not a full meal."
+        },
+        "correctness_explanation": {
+            "meal prep": "<INFERRED>",
+            "western": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a casserole recipe with minimal hassle - my fridge is almost empty and I'm lazy to go grocery shopping. ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1443c69124": "Baked potato casserole made from red potatoes and chicken broth",
+            "0cff3baa6d": "Baked potato casserole made from hash browns, mushroom soup, celery soup and sour cream",
+            "0b40853fcb": "Soup loaded with ground beef, sausage, beans, corn, vegetables, and a tomato-based broth flavored with spices",
+            "a2f647d688": "Baked casserole made from macaroni, turkey, sausage, bacon, potato and low-fat cheese",
+            "03d5cffe5a": "Kielbasa sausage stew with potato, carrots and shrimp"
+        },
+        "answer": "1443c69124",
+        "incorrectness_explanations": {
+            "0cff3baa6d": "This has too many ingredients.",
+            "0b40853fcb": "This is a stew, not a casserole.",
+            "a2f647d688": "This has too many ingredients.",
+            "03d5cffe5a": "This is a stew, not a casserole."
+        },
+        "correctness_explanation": {
+            "casserole": "casserole",
+            "minimal hassle": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What's a good lunch I can warm up in the microwave at my office?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "035e1bea0d": "Simple fried rice with carrots and peas",
+            "34f3bc7c61": "Breakfast wrap with scrambled eggs, smoked bacon and sharp cheddar",
+            "0bf4540f77": "Microwave chocolate cake in a mug",
+            "0a6f99d2b8": "Classic egg sandwich - mashed eggs with mayonnaise sandwiched between white bread",
+            "0d9b6d72ac": "Zaru Soba - Japanese cold noodles with tsuyu dipping sauce"
+        },
+        "answer": "035e1bea0d",
+        "incorrectness_explanations": {
+            "34f3bc7c61": "This is a breakfast item, not a lunch item.",
+            "0bf4540f77": "This is not enough for a full lunch.",
+            "0a6f99d2b8": "Egg sandwiches can't be put in the microwave, it will not taste good anymore.",
+            "0d9b6d72ac": "This should be eaten cold."
+        },
+        "correctness_explanation": {
+            "lunch": "fried rice",
+            "warm up in the microwave": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to eat lunch at my office desk but I'm worried that the smell of my food will affect my colleagues. ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "85ea5bf974": "Ham and cheese sandwich with mayonnaise",
+            "0242694490": "Tuna sandwich with pesto",
+            "43e35398bc": "Capellini pasta cooked in champagne vinegar, shallots and black truffle oil",
+            "34f3bc7c61": "Breakfast wrap with scrambled eggs, smoked bacon and sharp cheddar",
+            "32002fabc6": "Nachos with guacamole, salsa verde, refried beans , sour cream and jalepenos"
+        },
+        "answer": "85ea5bf974",
+        "incorrectness_explanations": {
+            "0242694490": "Tuna has a strong smell.",
+            "43e35398bc": "Truffle has a strong smell.",
+            "34f3bc7c61": "This is a breakfast item, not a lunch item.",
+            "32002fabc6": "This is not enough for a full lunch."
+        },
+        "correctness_explanation": {
+            "lunch": "sandwich",
+            "smell": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I hate it when my sandwiches make a huge mess after eating it.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "85ea5bf974": "Ham and cheese sandwich with mayonnaise",
+            "991fc36754": "Meatball submarine sandwich with parmesan and ricotta cheese and tomato sauce",
+            "8abf5e0868": "Pancakes with berries",
+            "9c01d352bc": "Hot dogs with hot pepper sauce and green chillies",
+            "0a6f99d2b8": "Classic egg sandwich - mashed eggs with mayonnaise sandwiched between white bread"
+        },
+        "answer": "85ea5bf974",
+        "incorrectness_explanations": {
+            "991fc36754": "Meatball sandwiches are very messy to eat.",
+            "8abf5e0868": "Not a sandwich.",
+            "9c01d352bc": "Not a sandwich.",
+            "0a6f99d2b8": "Egg sandwiches are messy to eat."
+        },
+        "correctness_explanation": {
+            "sandwiches": "sandwich",
+            "does not make a huge mess": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I need to prepare a traditional Valentine's main course for my significant other.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "05393bf4a0": "Juicy steak with cherry tomatoes, carrots, potatoes and broccoli",
+            "0981de04fa": "Chocolate fondue - melted Chocolate dip",
+            "84be79dc5d": "Creamy seafood chowder with onions and mushrooms",
+            "06a53b0796": "Classic baked macaroni and cheese",
+            "88bc5ec028": "Steak chipotle burrito - tortilla wrap filled with seasoned steaks, basmati rice, sour cream and beans with chipotle sauce"
+        },
+        "answer": "05393bf4a0",
+        "incorrectness_explanations": {
+            "0981de04fa": "Not a main course.",
+            "84be79dc5d": "Not a main course.",
+            "06a53b0796": "Too casual for Valentine's.",
+            "88bc5ec028": "Too casual and messy to eat for Valentine's."
+        },
+        "correctness_explanation": {
+            "Valentine's": "steak",
+            "main course": "steak"
+        }
+    },
+    {
+        "query": "I want to make those easter chocolate creme eggs at home.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4a7333d3be": "Milk chocolate eggs with cream like filling",
+            "4fcc5450bb": "Milk chocolate eggs filled with caramel",
+            "585ca2f8cc": "Easter chocolate bunnies made from milk chocolate",
+            "009bbe9493": "Chocolate creme brulee",
+            "4e2d976c6c": "Baked white chocolate cheesecake"
+        },
+        "answer": "4a7333d3be",
+        "incorrectness_explanations": {
+            "4fcc5450bb": "These chocolate eggs are filled with caramel, not creme.",
+            "585ca2f8cc": "These are not chocolate eggs.",
+            "009bbe9493": "This is not a chocolate egg.",
+            "4e2d976c6c": "This is not a chocolate egg."
+        },
+        "correctness_explanation": {
+            "chocolate creme eggs": "chocolate eggs with cream like filling"
+        }
+    },
+    {
+        "query": "I want to prepare a chocolate fountain for the kids to eat strawberries with.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0981de04fa": "Chocolate fondue - melted milk chocolate dip",
+            "0223fd0361": "Cheese fondue - melted gruyere and swiss cheese dip",
+            "4c12519b2b": "Strawberries dipped in chocolate and mascarpone cheese",
+            "8b8eb780bb": "Dip for strawberries made from cream cheese and marshmellow creme",
+            "0065c9574d": "Caramel dip to eat with fruits"
+        },
+        "answer": "0981de04fa",
+        "incorrectness_explanations": {
+            "0223fd0361": "This is not chocolate.",
+            "4c12519b2b": "This is not a chocolate fountain.",
+            "8b8eb780bb": "This is not a chocolate fountain.",
+            "0065c9574d": "This is not chocolate."
+        },
+        "correctness_explanation": {
+            "chocolate": "chocolate",
+            "fountain": "fondue"
+        }
+    },
+    {
+        "query": "I'm looking for pretty macarons that match the Easter pastel colour theme. ",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "63795f7216": "Pink macarons made from frozen strawberries",
+            "1b35ab8456": "Meringues flavoured with rose water ",
+            "98bc55cea2": "Coconut macaroons - mounded cookie made with shredded coconut",
+            "0cc167fdd4": "Macarons made from peanut butter and chocolate",
+            "5f2135cbd5": "Pink cupcakes with pink icing"
+        },
+        "answer": "63795f7216",
+        "incorrectness_explanations": {
+            "1b35ab8456": "These are not macarons.",
+            "98bc55cea2": "These are not macarons.",
+            "0cc167fdd4": "These are not in a pastel colour.",
+            "5f2135cbd5": "These are not macarons."
+        },
+        "correctness_explanation": {
+            "pretty": "pink",
+            "macarons": "macarons",
+            "pastel": "pink"
+        }
+    },
+    {
+        "query": "I'm looking to host a traditional British-style Sunday roast in my backyard this weekend.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9a38eae6b1": "Roasted pork loin with carrots, onion and celery",
+            "1ac7f2a69b": "Deep fried battered fish served with french fries",
+            "7dece0c95d": "Steak and ale pie - traditional British pie filled with beef and mushroom stew made with ale ",
+            "2d0fe1199e": "Roast beef sandwich with mozzarella, banana pepper rings and romaine lettuce",
+            "979b1fa8b8": "Baked pork with apples"
+        },
+        "answer": "9a38eae6b1",
+        "incorrectness_explanations": {
+            "1ac7f2a69b": "This is not roasted.",
+            "7dece0c95d": "This is not roasted.",
+            "2d0fe1199e": "This is not a traditional Sunday roast dish. ",
+            "979b1fa8b8": "This is not roasted."
+        },
+        "correctness_explanation": {
+            "Sunday roast": "roasted pork"
+        }
+    },
+    {
+        "query": "Any ideas for dye-free green desserts for St Patrick's day?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0467ff1e38": "Sweet kiwi tart made from real kiwis",
+            "515c388d5a": "Pistachio macarons (contains food colouring)",
+            "17a0cd371d": "Blueberries and cream ice cream made with real blueberries",
+            "271d275af0": "Classic avocado toast",
+            "5f2135cbd5": "Pink cupcakes with pink icing"
+        },
+        "answer": "0467ff1e38",
+        "incorrectness_explanations": {
+            "515c388d5a": "This has dye in it.",
+            "17a0cd371d": "This is blue, not green.",
+            "271d275af0": "This is not a dessert.",
+            "5f2135cbd5": "This is pink, not green."
+        },
+        "correctness_explanation": {
+            "dye-free": "real kiwi",
+            "desserts": "tart"
+        }
+    },
+    {
+        "query": "I'm looking for decorative treats for my Halloween party.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2a63214ef9": "Hard boiled eggs with olives and cream cheese, decorated to appear like eyeballs ",
+            "01e41e6b0e": "Pumpkin thai stir fry with peanuts, basil and fish sauce",
+            "2ec7dacd1b": "Classic gingerbread house",
+            "5f2135cbd5": "Pink cupcakes with pink icing",
+            "8f83d9114b": "Pink cocktail made from coconut rum, watermelon rum, pineapple juice, maraschino cherry juice, maraschino cherries and pineapple slices "
+        },
+        "answer": "2a63214ef9",
+        "incorrectness_explanations": {
+            "01e41e6b0e": "This is not decorative.",
+            "2ec7dacd1b": "This is not Halloween themed.",
+            "5f2135cbd5": "This is not Halloween themed.",
+            "8f83d9114b": "This is not Halloween themed."
+        },
+        "correctness_explanation": {
+            "decorative": "decorated to appear like eyeballs",
+            "Halloween": "eyeballs"
+        }
+    },
+    {
+        "query": "I have way too many leftover chocolate candy bars from Halloween.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0bf6f6c3a2": "Fudge bars made from Snickers bars.",
+            "17a59fead4": "Brown sugar chewy cookies topped with nuts and colourful M&M chocolates.",
+            "732f963857": "Marshmallows on a stick decorated with assorted colourful candy ",
+            "106f484afa": "Classic rice krispie treats - marshmallow and rice krispies cereal bar",
+            "16ed782fd9": "Classic chocolate cake"
+        },
+        "answer": "0bf6f6c3a2",
+        "incorrectness_explanations": {
+            "17a59fead4": "M&Ms are not candy bars, no chocolate candy bars used in recipe.",
+            "732f963857": "No chocolate candy bars used in recipe.",
+            "106f484afa": "No chocolate candy bars used in recipe.",
+            "16ed782fd9": "No chocolate candy bars used in recipe."
+        },
+        "correctness_explanation": {
+            "chocolate candy bars": "Snickers"
+        }
+    },
+    {
+        "query": "I just need to prepare traditional Thanksgiving poultry, with no frills or anything too difficult.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2e5385b157": "Classic stuffed turkey",
+            "0ab8f409c3": "Club sandwich made from turkey breast, smoked ham, bacon, tomatoes and lettuce",
+            "025fba1ead": "Baked chicken drumsticks in tomato sauce",
+            "0e45c2345a": "Chinese style crispy roast duck with hoisin sauce",
+            "64c04e4fb0": "Roasted turkey breast with hummus and herbs"
+        },
+        "answer": "2e5385b157",
+        "incorrectness_explanations": {
+            "0ab8f409c3": "Not a traditional Thanksgiving dish.",
+            "025fba1ead": "Not a traditional Thanksgiving dish.",
+            "0e45c2345a": "Not a traditional Thanksgiving dish.",
+            "64c04e4fb0": "This is more fancy and less traditional than a classic turkey."
+        },
+        "correctness_explanation": {
+            "Thanksgiving": "stuffed turkey",
+            "poultry": "turkey"
+        }
+    },
+    {
+        "query": "My grandma is coming over for Thanksgiving dinner and I remember from last year that she hates cranberry sauce.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "0a64575cbe": "Roast turkey with plum sauce",
+            "0f973a357b": "Roast turkey with sweet cranberry sauce",
+            "025fba1ead": "Baked chicken drumsticks in tomato sauce",
+            "0e45c2345a": "Chinese style crispy roast duck with hoisin sauce",
+            "10ce078486": "Classic seasoned roast beef with red pepper flakes"
+        },
+        "answer": "0a64575cbe",
+        "incorrectness_explanations": {
+            "0f973a357b": "This has cranberry sauce.",
+            "025fba1ead": "Not a traditional Thanksgiving dish.",
+            "0e45c2345a": "Not a traditional Thanksgiving dish.",
+            "10ce078486": "Not a traditional Thanksgiving dish."
+        },
+        "correctness_explanation": {
+            "Thanksgiving dinner": "roast turkey",
+            "hates cranberry sauce": "plum sauce"
+        }
+    },
+    {
+        "query": "I'm craving something with gingerbread - like cookies or tarts!",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 1,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "0a6eb02879": "Christmas gingerbread man with icing",
+            "10f9781959": "Classic gingerbread latte",
+            "01c0baf47f": "Classic chocolate chip cookies",
+            "0467ff1e38": "Sweet kiwi tart",
+            "0138cdb839": "Baked pumpkin dessert pie filled with a sweet pumpkin spice based custard"
+        },
+        "answer": "0a6eb02879",
+        "incorrectness_explanations": {
+            "10f9781959": "Not a baked good.",
+            "01c0baf47f": "Does not have gingerbread.",
+            "0467ff1e38": "Does not have gingerbread.",
+            "0138cdb839": "Does not have gingerbread."
+        },
+        "correctness_explanation": {
+            "gingerbread": "gingerbread",
+            "cookies": "gingerbread man"
+        }
+    },
+    {
+        "query": "I'm looking for a Christmas themed snack that will keep the kids busy and out of my way.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2ec7dacd1b": "Classic gingerbread house",
+            "10f9781959": "Classic gingerbread latte",
+            "005f5336e6": "Gingerbread flavoured waffles",
+            "01c0baf47f": "Classic chocolate chip cookies",
+            "2e5385b157": "Classic stuffed turkey"
+        },
+        "answer": "2ec7dacd1b",
+        "incorrectness_explanations": {
+            "10f9781959": "Not a snack.",
+            "005f5336e6": "Will not keep children busy - not as interesting to children.",
+            "01c0baf47f": "Not Christmas themed.",
+            "2e5385b157": "Not a snack."
+        },
+        "correctness_explanation": {
+            "Christmas": "gingerbread",
+            "keeps the kids busy": "gingerbread house"
+        }
+    },
+    {
+        "query": "I'm looking for a hearty Christmas dinner perfect for a family reunion. ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "72c618983e": "Pot roast meat loaf",
+            "01fb8bfe42": "Classic Christmas cookies - simple sugar cookies with colourful icing ",
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers ",
+            "14b919977a": "Peppermint hot chocolate drink",
+            "328f699550": "Classic Christmas peppermint candy canes"
+        },
+        "answer": "72c618983e",
+        "incorrectness_explanations": {
+            "01fb8bfe42": "Not a dinner item.",
+            "56c08f5841": "Not Christmas themed.",
+            "14b919977a": "Not a dinner item.",
+            "328f699550": "Not a dinner item."
+        },
+        "correctness_explanation": {
+            "Christmas dinner": "pot roast meat loaf",
+            "hearty": "meat loaf"
+        }
+    },
+    {
+        "query": "I think baking and decorating Christmas cookies this weekend sounds like a fun idea.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0a6eb02879": "Christmas gingerbread man with icing",
+            "005f5336e6": "Gingerbread flavoured waffles",
+            "72ece74720": "Baked cookies made from pink lemonade mix",
+            "328f699550": "Classic Christmas peppermint candy canes",
+            "01ae8114bb": "Gingersnaps - thin and brittle ginger cookies"
+        },
+        "answer": "0a6eb02879",
+        "incorrectness_explanations": {
+            "005f5336e6": "Not a cookie.",
+            "72ece74720": "Not a Christmas cookie.",
+            "328f699550": "Not a cookie.",
+            "01ae8114bb": "Not a cookie that is decorated."
+        },
+        "correctness_explanation": {
+            "Christmas cookies": "gingerbread man",
+            "decorating": "icing"
+        }
+    },
+    {
+        "query": "This year, I want to make my own candy canes for Christmas.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "328f699550": "Classic peppermint candy canes",
+            "5d7581fd92": "Grilled sugar cane skewered shrimp",
+            "6ed8636d67": "Rock candy (sugar crystals)",
+            "50c1df46ac": "Christmas candy cane pecan cookies",
+            "26c24a9915": "Meringues made from crushed candy canes"
+        },
+        "answer": "328f699550",
+        "incorrectness_explanations": {
+            "5d7581fd92": "Not a candy cane.",
+            "6ed8636d67": "Not a candy cane.",
+            "50c1df46ac": "Not a candy cane.",
+            "26c24a9915": "Not a candy cane."
+        },
+        "correctness_explanation": {
+            "candy canes": "candy canes"
+        }
+    },
+    {
+        "query": "Any traditional hotpot ideas for the Chinese new year?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers ",
+            "3c09ed73d5": "Dumplings filled with savoury pork broth and minced pork",
+            "0258bd3522": "Classic Chinese Sweet and Sour Pork",
+            "a242e7dbae": "Shabu shabu - Japanese hotpot dish with thinly sliced meat and vegetables, served with dipping sauces",
+            "5fda7131d0": "Nabemono - traditional Japanese hotpot with a broth that has a dashi and chicken base"
+        },
+        "answer": "56c08f5841",
+        "incorrectness_explanations": {
+            "3c09ed73d5": "This is not placed into hotpots, the fragile dumpling skin will break. ",
+            "0258bd3522": "This is not placed into hotpots.",
+            "a242e7dbae": "This is not traditional Chinese food.",
+            "5fda7131d0": "This is not traditional Chinese food."
+        },
+        "correctness_explanation": {
+            "hotpot": "hotpot",
+            "Chinese": "Sichuan"
+        }
+    },
+    {
+        "query": "What should I make to treat my parents for the new year? They aren't familiar with anything not American or European so I want to lean towards something safe. ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0786a6d1e5": "Lobster tails with angel hair pasta",
+            "06a53b0796": "Classic baked macaroni and cheese",
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers ",
+            "88bc5ec028": "Steak chipotle burrito with basmati rice and beans ",
+            "133f6a4526": "Tuna tataki - lightly seared tuna steaks in ponzu sauce"
+        },
+        "answer": "0786a6d1e5",
+        "incorrectness_explanations": {
+            "06a53b0796": "This is too casual for a new year's treat.",
+            "56c08f5841": "This is not part of American or European cuisine.",
+            "88bc5ec028": "This is too casual for a new year's treat.",
+            "133f6a4526": "This is not part of American or European cuisine."
+        },
+        "correctness_explanation": {
+            "treat": [
+                "Lobster",
+                "pasta"
+            ],
+            "American or European": "pasta"
+        }
+    },
+    {
+        "query": "What are some traditional Chinese new year dishes?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "40427cc1bc": "Standard pork dumplings - boiled thin dough wrapped around seasoned minced pork filling",
+            "80ad140679": "Japanese ramen noodles made with savoury pork bone broth",
+            "7d6d8c62e7": "Stir fried spicy korean rice cakes",
+            "72c618983e": "Pot roast meat loaf",
+            "0786a6d1e5": "Lobster tails with angel hair pasta"
+        },
+        "answer": "40427cc1bc",
+        "incorrectness_explanations": {
+            "80ad140679": "This is not traditional Chinese food.",
+            "7d6d8c62e7": "This is not traditional Chinese food.",
+            "72c618983e": "This is not traditional Chinese food.",
+            "0786a6d1e5": "This is not traditional Chinese food."
+        },
+        "correctness_explanation": {
+            "Chinese": "dumplings"
+        }
+    },
+    {
+        "query": "I want a meal to eat before dawn in Ramadan",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "248ec29976": "Shakshuka - Middle eastern dish of eggs poached in a sauce of tomatoes, olive oil, peppers, onion and garlic",
+            "04d424289c": "Eggs benedict - poached eggs, pork prosciutto on top of English muffins topped with a creamy Hollandaise sauce",
+            "7d59b6d82f": "Any cereal with milk",
+            "3f490b40d3": "Savory french toast with bacon, tomato and cheese",
+            "8abf5e0868": "Pancakes with berries"
+        },
+        "answer": "248ec29976",
+        "incorrectness_explanations": {
+            "04d424289c": "This has pork so it is non-halal, if someone is fasting they are muslim and can't eat this.",
+            "7d59b6d82f": "Not filling enough.",
+            "3f490b40d3": "This has pork so it is non-halal, if someone is fasting they are muslim and can't eat this.",
+            "8abf5e0868": "Not filling enough."
+        },
+        "correctness_explanation": {
+            "meal to eat before dawn in Ramadan": [
+                "eggs",
+                "<INFERRED>"
+            ]
+        }
+    },
+    {
+        "query": "I want to bake some colourful cookies to celebrate pride month.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "17a59fead4": "Brown sugar chewy cookies topped with nuts and M&M chocolates",
+            "72ece74720": "Baked cookies made from pink lemonade mix",
+            "01c0baf47f": "Classic chocolate chip cookies",
+            "214ca06665": "Red velvet cookies",
+            "2a53bc6082": "Classic rainbow layer cake with buttercream icing "
+        },
+        "answer": "17a59fead4",
+        "incorrectness_explanations": {
+            "72ece74720": "This is not colourful - it only has one colour.",
+            "01c0baf47f": "This is not colourful.",
+            "214ca06665": "This is not colourful - it only has one colour.",
+            "2a53bc6082": "This is not a cookie."
+        },
+        "correctness_explanation": {
+            "colourful": "M&Ms",
+            "cookies": "cookies"
+        }
+    },
+    {
+        "query": "I need to prepare a passionfruit punch bowl, although I don't think I'm able to find actual passionfruits in supermarkets near me. ",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3dc2282f6a": "Punch made from orange juice, lemons, ginger ale and passionfruit syrup",
+            "9865b93ea8": "Passionfruit punch made from real passionfruit",
+            "9ead3cc00f": "Passionfruit cocktail using real passionfruit",
+            "891abb3b67": "Passionfruit pudding",
+            "0a7be862c0": "Cranberry punch"
+        },
+        "answer": "3dc2282f6a",
+        "incorrectness_explanations": {
+            "9865b93ea8": "Requires real passionfruit.",
+            "9ead3cc00f": "Requires real passionfruit.",
+            "891abb3b67": "Not a punch.",
+            "0a7be862c0": "Not passionfruit punch."
+        },
+        "correctness_explanation": {
+            "punch": "punch",
+            "I don't think I am able to find actual passionfruits": "passionfruit syrup"
+        }
+    },
+    {
+        "query": "What's a good way to make jello shots with a bottle of Chandon?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "66627b96b7": "Jello shots with Champagne and fruit juice",
+            "22670b2d11": "Jello shots with Vodka",
+            "0da098066c": "Champagne mousse",
+            "32affd5e0d": "Peach Jello shots made with peach nectar and peach schnapps",
+            "6d93693007": "Key lime pie pudding shots with Vodka"
+        },
+        "answer": "66627b96b7",
+        "incorrectness_explanations": {
+            "22670b2d11": "This requires Vodka, not Champagne.",
+            "0da098066c": "Not jello.",
+            "32affd5e0d": "This requires peach nectar, not Champagne.",
+            "6d93693007": "Not jello."
+        },
+        "correctness_explanation": {
+            "jello shots": "Jello shots",
+            "Chandon": "Champagne"
+        }
+    },
+    {
+        "query": "I told my high school friends that I would be bringing a meat dish to the reunion potluck. ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips",
+            "1379726aaa": "Classic Salisbury Steak - grilled ground beef patties served with gravy",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "0035a53f58": "Crispy baked kale chips",
+            "8000a7b666": "Standard barbequed pork ribs with ketchup sauce"
+        },
+        "answer": "a0d64772d7",
+        "incorrectness_explanations": {
+            "1379726aaa": "Difficult to share at a potluck.",
+            "128334eec1": "Not a meat dish.",
+            "0035a53f58": "Not a meat dish.",
+            "8000a7b666": "Difficult to share at a potluck."
+        },
+        "correctness_explanation": {
+            "meat": "chicken",
+            "potluck": "chicken tenders"
+        }
+    },
+    {
+        "query": "I need to prepare finger food for the house party I'm hosting for my colleagues this weekend.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a09c299a23": "Shrimp canap\u00e9s - shrimp with monterey jack cheese, mayonnaise on white bread, sprinkled with thyme leaves",
+            "7da1373006": "Zucchini, pea and rice puree balls, meant for babies",
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers ",
+            "8f83d9114b": "Pink cocktail made from coconut rum, watermelon rum, pineapple juice, maraschino cherry juice, maraschino cherries and pineapple slices ",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons"
+        },
+        "answer": "a09c299a23",
+        "incorrectness_explanations": {
+            "7da1373006": "This is baby food, would not suitable for adults.",
+            "56c08f5841": "This is not finger food.",
+            "8f83d9114b": "This is a drink, not food.",
+            "128334eec1": "This is not finger food."
+        },
+        "correctness_explanation": {
+            "finger food": "canap\u00e9s"
+        }
+    },
+    {
+        "query": "My brother's birthday is coming up but he is picky and only likes the most traditional birthday cake.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "51bb72fe5b": "Classic confetti butter cake with buttercream icing",
+            "2a53bc6082": "Classic rainbow layer cake with buttercream icing ",
+            "6b477a56ff": "Confetti cupcakes with buttercream icing.",
+            "066ccdc736": "Standard angel food cake - egg white based sponge cake",
+            "0088f15391": "Classic strawberry shortcake - shortcake layered with strawberry slices and whipped cream"
+        },
+        "answer": "51bb72fe5b",
+        "incorrectness_explanations": {
+            "2a53bc6082": "Not traditional birthday cake.",
+            "6b477a56ff": "Since it is a cupcake, it is not a traditional cake.",
+            "066ccdc736": "Not traditional birthday cake.",
+            "0088f15391": "Not traditional birthday cake."
+        },
+        "correctness_explanation": {
+            "traditional birthday cake": "confetti butter cake"
+        }
+    },
+    {
+        "query": "My daughter told me she wants a cake with a lot of cream for her birthday, but my oven is broken - what should I do?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "902fe21ebf": "Mille crepe cake - layer cake made of crepes stacked with of custard and cream ",
+            "87de9082d1": "Strawberry ice cream cake with an angel food cake base",
+            "0088f15391": "Classic strawberry shortcake - shortcake layered with strawberry slices and whipped cream",
+            "138992031e": "Vanilla cream puffs",
+            "42e9be7f5a": "Peaches and cream ice cream"
+        },
+        "answer": "902fe21ebf",
+        "incorrectness_explanations": {
+            "87de9082d1": "Angel food cake base requires baking.",
+            "0088f15391": "Shortcake requires baking.",
+            "138992031e": "Not a cake.",
+            "42e9be7f5a": "Not a cake."
+        },
+        "correctness_explanation": {
+            "cake with lots of cream": "Mille crepe cake",
+            "oven is broken": "<INFERRED>"
+        }
+    },
+    {
+        "query": "My toddler's birthday party is next week and I want to prepare a fried snack that all his friends will love.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "011e2f2bd4": "Mini corndogs ",
+            "9d3fd92dc5": "Crispy baked chicken wings",
+            "0d53e06c77": "Stir fried shanghai noodles",
+            "37e3caaf1d": "Baked jacket potatoes stuffed with parmesan cheese, ham, yoghurt and onions",
+            "0a91f2c61f": "Deep fried eggplants covered in batter"
+        },
+        "answer": "011e2f2bd4",
+        "incorrectness_explanations": {
+            "9d3fd92dc5": "This is not fried.",
+            "0d53e06c77": "This is not a snack.",
+            "37e3caaf1d": "This is not fried.",
+            "0a91f2c61f": "Children don't usually like eggplants."
+        },
+        "correctness_explanation": {
+            "birthday party": "mini corndogs",
+            "fried snack": "corndogs"
+        }
+    },
+    {
+        "query": "What are some interesting cake ideas for a baby boy gender reveal?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7cd0e87004": "Chocolate cupcakes with blue vanilla custard filling hidden inside the cupcake",
+            "11ad5d0c40": "Blue punch made from blue kool aid, sprite and vanilla ice cream",
+            "5f2135cbd5": "Pink cupcakes with pink icing",
+            "2a53bc6082": "Classic rainbow layer cake with buttercream icing ",
+            "521815e44c": "Twist on red velvet cake to have a blue coloured appearance"
+        },
+        "answer": "7cd0e87004",
+        "incorrectness_explanations": {
+            "11ad5d0c40": "Not a cake.",
+            "5f2135cbd5": "This is pink, not suitable for baby boy gender reveal.",
+            "2a53bc6082": "This is rainbow, not suitable for baby boy gender reveal.",
+            "521815e44c": "This is too straightforward and not interesting enough."
+        },
+        "correctness_explanation": {
+            "interesting": "custard filling hidden inside",
+            "baby boy gender reveal": "blue",
+            "cake": "cupcakes"
+        }
+    },
+    {
+        "query": "My friends coming over to watch a football game, but even though they just had lunch they get hungry easily.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "37e3caaf1d": "Baked jacket potatoes stuffed with parmesan cheese, ham, yoghurt and onions",
+            "5884624f69": "Classic salted popcorn",
+            "0a1ce6cce0": "Classic salted french fries",
+            "8994922304": "Simple grilled cubed beef steaks with potatoes",
+            "0d53e06c77": "Stir fried shanghai noodles"
+        },
+        "answer": "37e3caaf1d",
+        "incorrectness_explanations": {
+            "5884624f69": "Not filling.",
+            "0a1ce6cce0": "Not filling.",
+            "8994922304": "More of a meal than a snack.",
+            "0d53e06c77": "More of a meal than a snack."
+        },
+        "correctness_explanation": {
+            "football game": "<INFERRED>",
+            "just had lunch but they get hungry easily": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to bake something sweet for my grandma's birthday.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "16ed782fd9": "Classic chocolate cake",
+            "0294e9e9ad": "Classic chicken potpie - pie with chicken and diced vegetables in gravy",
+            "0bf4540f77": "Microwave chocolate cake in a mug",
+            "4962b6675d": "No bake chocolate brownies",
+            "283491eae2": "Classic shephard's pie - casserole made from mashed potatoes and chicken stew"
+        },
+        "answer": "16ed782fd9",
+        "incorrectness_explanations": {
+            "0294e9e9ad": "Not sweet.",
+            "0bf4540f77": "Not baked.",
+            "4962b6675d": "Not baked.",
+            "283491eae2": "Not sweet."
+        },
+        "correctness_explanation": {
+            "sweet": "chocolate cake",
+            "bake": "cake"
+        }
+    },
+    {
+        "query": "My best friend called and asked me if I could prepare something sweet for her bridal shower brunch.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "8abf5e0868": "Pancakes with berries",
+            "3f490b40d3": "Savoury french toast with bacon, tomato and cheese",
+            "0258bd3522": "Classic Chinese Sweet and Sour Pork",
+            "7d72319230": "Egg omelet with bell peppers, ham and cheddar ",
+            "3794ab56ba": "Casserole made from hash brown and bacon"
+        },
+        "answer": "8abf5e0868",
+        "incorrectness_explanations": {
+            "3f490b40d3": "This is savoury.",
+            "0258bd3522": "This is not a brunch item.",
+            "7d72319230": "This is savoury.",
+            "3794ab56ba": "This is savoury."
+        },
+        "correctness_explanation": {
+            "sweet": "<INFERRED>",
+            "brunch": "pancakes"
+        }
+    },
+    {
+        "query": "I'm going to a cocktail party where they will host a competition for the guests to see who can make the prettiest drink.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8f83d9114b": "Pink cocktail made from coconut rum, watermelon rum, pineapple juice, maraschino cherry juice, maraschino cherries and pineapple slices ",
+            "0976c7616e": "Gin and tonic cocktail",
+            "0a90d9e978": "Blueberry banana smoothie",
+            "9865b93ea8": "Passionfruit punch made from real passionfruit",
+            "63ad58272f": "Detox green juice made from cilantro,ginger,lemon,lime,cucumbers"
+        },
+        "answer": "8f83d9114b",
+        "incorrectness_explanations": {
+            "0976c7616e": "Gin and tonic is a clear, colourless cocktail - it does not look special.",
+            "0a90d9e978": "Not a cocktail.",
+            "9865b93ea8": "Not a cocktail.",
+            "63ad58272f": "Not a cocktail."
+        },
+        "correctness_explanation": {
+            "cocktail": "cocktail",
+            "prettiest": "pink"
+        }
+    },
+    {
+        "query": "What pasta goes well with white wine?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "595efead77": "Fettuccine pasta with chicken in Alfredo sauce",
+            "4967d285a3": "Spaghetti pasta with beef bolognese sauce",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "06a53b0796": "Classic baked macaroni and cheese",
+            "9a38eae6b1": "Pork loin roasted with onions, carrots and celery"
+        },
+        "answer": "595efead77",
+        "incorrectness_explanations": {
+            "4967d285a3": "Beef is red meat - goes better with red wine",
+            "128334eec1": "Not a pasta.",
+            "06a53b0796": "Too casual to be eaten with white wine.",
+            "9a38eae6b1": "Not a pasta."
+        },
+        "correctness_explanation": {
+            "goes well with white wine": "chicken",
+            "pasta": "pasta"
+        }
+    },
+    {
+        "query": "I want to avoid getting bloated so I can look good in my prom dress later, so what should I eat for lunch? ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "3f710c98be": "Salted oven-baked potato chips",
+            "32020b66f5": "Chickpea and chilli soup for hangover cure",
+            "2893433e67": "Steak with thin fries.",
+            "006acb8382": "Baked apple crumble pastry"
+        },
+        "answer": "128334eec1",
+        "incorrectness_explanations": {
+            "3f710c98be": "High salt content causes bloating.",
+            "32020b66f5": "Chili contains beans which causes bloating.",
+            "2893433e67": "Steak and fries have high salt content which causes bloating.",
+            "006acb8382": "Not a lunch"
+        },
+        "correctness_explanation": {
+            "avoid getting bloated": "salad",
+            "lunch": "salad"
+        }
+    },
+    {
+        "query": "I heard eating at night makes you gain weight, but I need something to eat even if it is really light.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "9ef9149d8a": "Roasted almonds",
+            "7d59b6d82f": "Any cereal with milk",
+            "15ac40e717": "Deep fried onion rings",
+            "8abf5e0868": "Pancakes with berries",
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips"
+        },
+        "answer": "9ef9149d8a",
+        "incorrectness_explanations": {
+            "7d59b6d82f": "More of a breakfast meal, not a late night snack.",
+            "15ac40e717": "This will cause weight gain.",
+            "8abf5e0868": "More of a breakfast meal, not a late night snack.",
+            "a0d64772d7": "This will cause weight gain."
+        },
+        "correctness_explanation": {
+            "prevent weight gain": "almonds",
+            "light": "almonds"
+        }
+    },
+    {
+        "query": "I'm severely hungover and need to eat something solid, I feel like I will throw up if the food is too greasy or soft.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0b88ab2aac": "Toast with seasonings",
+            "21c1b8c4f6": "Pizza margherita - basic pizza with tomato sauce and mozzarella cheese",
+            "9c01d352bc": "Hot dogs with hot pepper sauce and green chillies",
+            "32020b66f5": "Chickpea and chilli soup for hangover cure",
+            "a08ebc749d": "Miso based Shijimi clam broth for hangover prevention "
+        },
+        "answer": "0b88ab2aac",
+        "incorrectness_explanations": {
+            "21c1b8c4f6": "This is greasy.",
+            "9c01d352bc": "This is greasy.",
+            "32020b66f5": "This is not solid food.",
+            "a08ebc749d": "This is not solid food."
+        },
+        "correctness_explanation": {
+            "hungover": [
+                "toast",
+                "<INFERRED>"
+            ],
+            "will throw up if the food is too greasy or soft": "toast"
+        }
+    },
+    {
+        "query": "What's a good hangover soup recipe?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "32020b66f5": "Chickpea and mexican chilli soup",
+            "03d5cffe5a": "Kielbasa sausage stew with potato, carrots and shrimp",
+            "01f4f9324d": "Gazpacho - cold soup made of raw, blended vegetables",
+            "1bb512cccd": "Thai Tom Yum Soup - spicy and sour broth made from shrimp, fish sauce and lemongrass",
+            "0613974a96": "Creamy mushroom soup"
+        },
+        "answer": "32020b66f5",
+        "incorrectness_explanations": {
+            "03d5cffe5a": "This is a stew, not a soup.",
+            "01f4f9324d": "This is cold - bad for hangover.",
+            "1bb512cccd": "This is spicy - bad for hangover.",
+            "0613974a96": "This is creamy - bad for hangover."
+        },
+        "correctness_explanation": {
+            "hangover": "<INFERRED>",
+            "soup": "soup"
+        }
+    },
+    {
+        "query": "What snacks should I have after cardio to avoid bulking?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "04a11045e3": "Fruit salad with peaches, blackberries, strawberries and lime",
+            "117a4f45f2": "Strawberry and banana protein smoothie",
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips",
+            "01598d3173": "Fragrant pilaf made from quinoa ",
+            "412d19a98d": "Stir fried Japanese Shirataki noodles (low calorie noodles)"
+        },
+        "answer": "04a11045e3",
+        "incorrectness_explanations": {
+            "117a4f45f2": "High protein content will cause bulking.",
+            "a0d64772d7": "High protein content will cause bulking.",
+            "01598d3173": "Not a snack.",
+            "412d19a98d": "Not a snack."
+        },
+        "correctness_explanation": {
+            "snacks": "fruit salad",
+            "avoid bulking": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm trying to increase my protein intake but cut down on my fat intake, to get leaner.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "242210dfad": "Chicken breast fajita tortilla wraps",
+            "7dece0c95d": "Steak and ale pie - pie filled with beef and mushroom stew made with ale ",
+            "8000a7b666": "Standard barbequed pork ribs with ketchup sauce",
+            "128334eec1": "Classic salad with creamy caesar dressing and croutons",
+            "05823563d4": "Banana and peanut butter oatmeal"
+        },
+        "answer": "242210dfad",
+        "incorrectness_explanations": {
+            "7dece0c95d": "Steas and pie crust have high fat content.",
+            "8000a7b666": "This has high fat content.",
+            "128334eec1": "This is low in protein.",
+            "05823563d4": "This is low in protein."
+        },
+        "correctness_explanation": {
+            "increase protein intake": "chicken breast",
+            "cut down on fat intake": "chicken breast"
+        }
+    },
+    {
+        "query": "I need a healthy preworkout snack and I can't be too full.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1c2ce335be": "Cheese (of choice) with crackers",
+            "a59714262e": "Rice bowl with edamame beans, cranberries and feta cheese",
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips",
+            "15ac40e717": "Deep fried onion rings",
+            "40ab5667d4": "Vegetarian spring rolls with noodles"
+        },
+        "answer": "1c2ce335be",
+        "incorrectness_explanations": {
+            "a59714262e": "This is too filling.",
+            "a0d64772d7": "This is high in sodium and fat, it is unhealthy.",
+            "15ac40e717": "This is high in sodium and fat, it is unhealthy.",
+            "40ab5667d4": "This is too filling."
+        },
+        "correctness_explanation": {
+            "can't be too full": "Cheese with crackers",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "What are some meals I could have after high intensity exercise for muscle gain? ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "242210dfad": "Chicken fajita tortilla wraps",
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips",
+            "2c63f3067f": "Deep fried portobello mushroom french fries",
+            "31e11c1079": "Tortilla wrap with sun-dried  tomatoes, spinach, olives and cream cheese",
+            "76658f1107": "Pita bread with falafel (deep fried ball made from chickpeas)"
+        },
+        "answer": "242210dfad",
+        "incorrectness_explanations": {
+            "a0d64772d7": "This is just a snack, not a meal.",
+            "2c63f3067f": "This is just a snack, not a meal.",
+            "31e11c1079": "This is low in protein, does not help muscle gain.",
+            "76658f1107": "This is low in protein, does not help muscle gain."
+        },
+        "correctness_explanation": {
+            "muscle gain": "chicken breast",
+            "meals": "wraps"
+        }
+    },
+    {
+        "query": "What meat dishes I can make using a campfire?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5e1874bd17": "Garlic grilled chicken in a foil packet ",
+            "8ca3151f1e": "Grilled mushrooms in foil packets",
+            "636d606725": "Grilled seasoned bell peppers, carrots and snow peas in foil packets",
+            "1019d28e16": "Classic baked chicken",
+            "7ba9c2b8d5": "Taiwanese deep fried crispy chicken cutlets"
+        },
+        "answer": "5e1874bd17",
+        "incorrectness_explanations": {
+            "8ca3151f1e": "Not a meat dish.",
+            "636d606725": "Not a meat dish.",
+            "1019d28e16": "Can't be made with a campfire.",
+            "7ba9c2b8d5": "Can't be made with a campfire."
+        },
+        "correctness_explanation": {
+            "meat": "chicken",
+            "campfire": "foil packet"
+        }
+    },
+    {
+        "query": "I'm going camping, so I need a recipe such that its ingredients won't spoil when kept in room temperature for three days.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8ca3151f1e": "Grilled mushrooms in foil packets",
+            "5e1874bd17": "Garlic grilled chicken in a foil packet ",
+            "3af27bffe3": "Grilled salmon fillets with hoisin sauce and soy sauce in foil packets",
+            "34c795df68": "Angelhair pasta with pomodoro sauce",
+            "774d4c56ce": "Fettuccini pasta with asparagus and creamy pesto sauce"
+        },
+        "answer": "8ca3151f1e",
+        "incorrectness_explanations": {
+            "5e1874bd17": "Chicken will spoil when stored in room temperature.",
+            "3af27bffe3": "Salmon will spoil when stored in room temperature.",
+            "34c795df68": "This can't be made with a campfire - not convenient to cook while camping.",
+            "774d4c56ce": "This can't be made with a campfire - not convenient to cook while camping."
+        },
+        "correctness_explanation": {
+            "won't spoil when kept in room temperature for three days": "mushrooms",
+            "camping": "foil packet"
+        }
+    },
+    {
+        "query": "Any ideas for a s'mores recipes, but with a small twist?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2423a84803": "Smores pops - smores on a stick with graham cracker crumbs instead of being sandwiched between graham crackers",
+            "5943cb5176": "Classic smores - marshmallows and chocolate sandwiched between graham crackers",
+            "20c1fb8564": "Smore macarons made with marshmallows, chocolate and graham crackers ",
+            "78b509d948": "Red velvet cake and smore milkshake",
+            "1955036c36": "Marshmallow whip spread"
+        },
+        "answer": "2423a84803",
+        "incorrectness_explanations": {
+            "5943cb5176": "This is classic s'mores, there is no twist.",
+            "20c1fb8564": "This isn't s'mores, its a macaron.",
+            "78b509d948": "This isn't s'mores, its a milkshake.",
+            "1955036c36": "This isn't s'mores."
+        },
+        "correctness_explanation": {
+            "s'mores": "Smores",
+            "small twist": "Smores pops"
+        }
+    },
+    {
+        "query": "I'm going on a picnic, what's something I can make with all healthy ingredients?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "04a11045e3": "Fruit salad with peaches, blackberries, strawberries and lime",
+            "8fe9bb47c9": "Cheddar and sausage cheese board",
+            "3f66c7e13d": "Bacon, lettuce and tomato waffle sandwich",
+            "0b42118565": "Cauliflower, peas and carrots stir fry",
+            "00f4df3e5d": "Grilled cabbage "
+        },
+        "answer": "04a11045e3",
+        "incorrectness_explanations": {
+            "8fe9bb47c9": "Sausage is processed meat which is unhealthy.",
+            "3f66c7e13d": "Bacon is processed meat which is unhealthy.",
+            "0b42118565": "This is not a picnic food.",
+            "00f4df3e5d": "This is not a picnic food."
+        },
+        "correctness_explanation": {
+            "picnic": "Fruit salad",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to prepare a charcuterie board with cold cut meat for a picnic.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8fe9bb47c9": "Cheddar and sausage cheese board",
+            "9c01d352bc": "Hot dogs with hot pepper sauce and green chillies",
+            "3f66c7e13d": "Bacon, lettuce and tomato waffle sandwich",
+            "4d52469916": "Cheese charcuterie board",
+            "9f25fe690b": "Tex-mex style veggie platter with bell pepper, radish, carrot, cucumber and mango"
+        },
+        "answer": "8fe9bb47c9",
+        "incorrectness_explanations": {
+            "9c01d352bc": "This is not a charcuterie board.",
+            "3f66c7e13d": "This is not a charcuterie board.",
+            "4d52469916": "This does not have cold cut meat.",
+            "9f25fe690b": "This is not a charcuterie board."
+        },
+        "correctness_explanation": {
+            "charcuterie board": "Cheddar and sausage cheese board",
+            "cold cut meat": "sausage"
+        }
+    },
+    {
+        "query": "I thought that preparing something on skewers would be a fun idea for a backyard barbeque.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "044a8c1b8b": "Grilled shrimps kebabs seasoned with green herbs ",
+            "8000a7b666": "Standard barbequed pork ribs with ketchup sauce",
+            "5cfd5c126f": "Spicy barbequed beef sandwich",
+            "5f5265827f": "Corn dogs - hot dog on sticks covered in a cornmeal batter and deep fried",
+            "9f4f1bcc6a": "Honeydew melon and cheddar cheese on skewers"
+        },
+        "answer": "044a8c1b8b",
+        "incorrectness_explanations": {
+            "8000a7b666": "This is not on skewers.",
+            "5cfd5c126f": "This is not on skewers.",
+            "5f5265827f": "This is not barbecued.",
+            "9f4f1bcc6a": "This is not barbecued."
+        },
+        "correctness_explanation": {
+            "skewers": "kebabs",
+            "barbeque": "Grilled"
+        }
+    },
+    {
+        "query": "How do I make barbequed ribs using Tabasco?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "121f9abff5": "Standard barbequed pork ribs with hot pepper sauce",
+            "8000a7b666": "Standard barbequed pork ribs with ketchup sauce",
+            "7133a758c5": "Barbequed cubed beef steaks with hot pepper sauce",
+            "5cfd5c126f": "Spicy barbequed beef sandwich",
+            "28c80170d9": "Grilled marinated spicy ribs with cayenne pepper."
+        },
+        "answer": "121f9abff5",
+        "incorrectness_explanations": {
+            "8000a7b666": "This does not use hot sauce.",
+            "7133a758c5": "This is not ribs.",
+            "5cfd5c126f": "This is not ribs.",
+            "28c80170d9": "This does not use hot sauce."
+        },
+        "correctness_explanation": {
+            "barbequed ribs": "barbequed pork ribs",
+            "Tabasco": "hot pepper sauce"
+        }
+    },
+    {
+        "query": "What side dishes can I barbeque along with the other main meat dish?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "01905a64b0": "Grilled squash, zucchinis, tomatoes and mushrooms seasoned with balsamic vinegar and herbs",
+            "121f9abff5": "Standard barbequed pork ribs with hot pepper sauce",
+            "29eecc4316": "Barbeque chicken eggrolls.",
+            "0b42118565": "Cauliflower, peas and carrots stir fry",
+            "01662bc9b7": "Sauerkraut - German fermented cabbage"
+        },
+        "answer": "01905a64b0",
+        "incorrectness_explanations": {
+            "121f9abff5": "This is not a side dish.",
+            "29eecc4316": "This is not a side dish.",
+            "0b42118565": "This is not barbequed.",
+            "01662bc9b7": "This is not barbequed."
+        },
+        "correctness_explanation": {
+            "side dish": "<INFERRED>",
+            "barbeque": "grill"
+        }
+    },
+    {
+        "query": "What are some lightweight and healthy snacks to bring on a backpacking trip?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9ef9149d8a": "Roasted almonds",
+            "0df6d34c93": "Rock candy",
+            "22fa1146c5": "Deep fried salted potato chips",
+            "a46d79cdf2": "Grilled chicken breasts",
+            "007e65267f": "Classic chicken salad with mayonnaise dressing"
+        },
+        "answer": "9ef9149d8a",
+        "incorrectness_explanations": {
+            "0df6d34c93": "This is not healthy.",
+            "22fa1146c5": "This is not healthy.",
+            "a46d79cdf2": "This is not lightweight.",
+            "007e65267f": "This is not lightweight."
+        },
+        "correctness_explanation": {
+            "healthy": "almonds",
+            "lightweight": "almonds",
+            "snack": "almonds"
+        }
+    },
+    {
+        "query": "What are some desserts I can make for my dog?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "42eba59ba6": "Muffins for dogs made from flour,milk,egg,beef bouillon granules,baking powder",
+            "6927f32a08": "Cat food with tuna and chicken livers",
+            "866e0024ea": "Dog food with turkey, yogurt, egg and mixed vegetables",
+            "9bdd9e7a36": "Cat food chicken biscuits",
+            "40dee6da2f": "Dog food meatloaf"
+        },
+        "answer": "42eba59ba6",
+        "incorrectness_explanations": {
+            "6927f32a08": "This is not dog food.",
+            "866e0024ea": "This is not a dessert.",
+            "9bdd9e7a36": "This is not dog food.",
+            "40dee6da2f": "This is not a dessert."
+        },
+        "correctness_explanation": {
+            "dessert": "Muffins",
+            "for my dog": "for dogs"
+        }
+    },
+    {
+        "query": "I need to make food for my dog, but she's a bit sensitive to pesticides often found in commercially produced leafy vegetables.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5f11520acb": "Dog food made from pork,green beans,cheddar cheese and brown rice.",
+            "5c6d5fc809": "Dog food made from ground turkey, mackerel, frozen vegetables, spinach, broccoli, cauliflower and pumpkin.",
+            "72d5b0765f": "Dog food with chocolate cake mix, chocolate chips and caramel ",
+            "9bdd9e7a36": "Cat food chicken biscuits",
+            "6927f32a08": "Cat food with tuna and chicken livers"
+        },
+        "answer": "5f11520acb",
+        "incorrectness_explanations": {
+            "5c6d5fc809": "Has leafy vegetables.",
+            "72d5b0765f": "Chocolate is bad for dogs.",
+            "9bdd9e7a36": "This is not dog food.",
+            "6927f32a08": "This is not dog food."
+        },
+        "correctness_explanation": {
+            "for my dog": "dog food",
+            "sensitive to pesticides often found in commercially produced leafy greens": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I need new menu items that are easy for takeout for my noodle restaurant.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a1c1096133": "Stir fried noodles with frozen vegetables",
+            "8e45cb07c2": "Japanese ramen noodles with a soy sauce flavoured broth",
+            "78ebeb03f1": "Instant ramen noodles with eggs, spinach and pickled cabbage",
+            "002a58ec3d": "Fettuccine pasta in Alfredo sauce",
+            "87d48d7a14": "Fried rice with crab meat, onions, spring onions and cucumber"
+        },
+        "answer": "a1c1096133",
+        "incorrectness_explanations": {
+            "8e45cb07c2": "Broth is easy to spill so it is hard to pack for takeout.",
+            "78ebeb03f1": "A noodle restaurant would not sell instant ramen.",
+            "002a58ec3d": "Pasta are generally not considered noodles.",
+            "87d48d7a14": "This is not noodles."
+        },
+        "correctness_explanation": {
+            "noodle": "noodles",
+            "easy for takeout": "stir fried"
+        }
+    },
+    {
+        "query": "I want an interesting fusion dish that will be difficult to find at other restaurants in Toronto.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "77a6569fc1": "A Mexican take of traditional Filipino Adobo chicken with noodles",
+            "147612ba38": "Gado-gado - indonesian traditional salad made with raw shredded cabbage topped with a peanut sauce",
+            "84b34437fb": "Grilled scallops with buttery and tangy beurre rouge (infused butter) sauce",
+            "204da2be87": "French fries topped with Mexican chili with ground beef",
+            "06d357effb": "Poutine with spaghetti sauce and cheese curds"
+        },
+        "answer": "77a6569fc1",
+        "incorrectness_explanations": {
+            "147612ba38": "This is not fusion food.",
+            "84b34437fb": "This is not fusion food.",
+            "204da2be87": "This is common.",
+            "06d357effb": "This can be easily found in Toronto."
+        },
+        "correctness_explanation": {
+            "interesting": "<INFERRED>",
+            "fusion": [
+                "Mexican",
+                "Filipino"
+            ],
+            "difficult to find in other restaurants in Toronto": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I would like something cheap but I get hungry all the time.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "035e1bea0d": "Simple fried rice with carrots and peas",
+            "8e9403043d": "Sweet dessert made from boiled black glutinous rice",
+            "04f1bc79a5": "Risotto topped with smoked salmon",
+            "106f484afa": "Classic rice krispie treats - marshmallow and rice krispies cereal bar",
+            "05f17e93c6": "Seafood paella - sauteed saffron-flavoured rice cooked with seafood"
+        },
+        "answer": "035e1bea0d",
+        "incorrectness_explanations": {
+            "8e9403043d": "This is not filling.",
+            "04f1bc79a5": "This is not that cheap.",
+            "106f484afa": "This is not filling.",
+            "05f17e93c6": "This is not cheap."
+        },
+        "correctness_explanation": {
+            "cheap": [
+                "fried rice",
+                "carrots",
+                "peas"
+            ],
+            "I get hungry all the time": "rice"
+        }
+    },
+    {
+        "query": "I need an easy meal under 10 dollars.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "035e1bea0d": "Fried rice with carrots and peas",
+            "87d48d7a14": "Fried rice with real crab meat, onions, spring onions and cucumber",
+            "8994922304": "Grilled cubed beef steaks with potatoes",
+            "106f484afa": "Classic rice krispie treats - marshmallow and rice krispies cereal bar",
+            "8e9403043d": "Sweet dessert made from boiled black glutinous rice"
+        },
+        "answer": "035e1bea0d",
+        "incorrectness_explanations": {
+            "87d48d7a14": "This is not cheap.",
+            "8994922304": "This is not that cheap.",
+            "106f484afa": "This is not filling.",
+            "8e9403043d": "This is not filling."
+        },
+        "correctness_explanation": {
+            "easy": "fried rice",
+            "under 10 dollars": [
+                "fried rice",
+                "carrots",
+                "peas"
+            ]
+        }
+    },
+    {
+        "query": "What desserts can I have while on a budget?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8cc3fbebb3": "Classic sugar donuts",
+            "515c388d5a": "Pistachio macarons",
+            "0a1ce6cce0": "Classic salted french fries",
+            "0db058c575": "Cannoli - italian fried pastry dough filled with a sweet and creamy ricotta cheese filling",
+            "4803070f9d": "Crispy chicken nuggets with string cheese"
+        },
+        "answer": "8cc3fbebb3",
+        "incorrectness_explanations": {
+            "515c388d5a": "This is not cheap.",
+            "0a1ce6cce0": "This is not a dessert.",
+            "0db058c575": "This is not cheap.",
+            "4803070f9d": "This is not a dessert."
+        },
+        "correctness_explanation": {
+            "dessert": "donuts",
+            "on a budget": "donuts"
+        }
+    },
+    {
+        "query": "I still have leftover white rice from last night.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "035e1bea0d": "Simple fried rice with carrots and peas",
+            "7d6d8c62e7": "Stir fried spicy korean rice cakes",
+            "9aed66a073": "Yellow rice made with rice cooker",
+            "01598d3173": "Fragrant pilaf made from quinoa ",
+            "0e5fe839dd": "Brown basmati rice"
+        },
+        "answer": "035e1bea0d",
+        "incorrectness_explanations": {
+            "7d6d8c62e7": "This is not made from cooked rice.",
+            "9aed66a073": "This is not made from white rice.",
+            "01598d3173": "This is not made from rice.",
+            "0e5fe839dd": "This is not made from white rice."
+        },
+        "correctness_explanation": {
+            "leftover white rice": "fried rice"
+        }
+    },
+    {
+        "query": "How do I spice up my instant noodles? I'm bored of following the plain recipe on the packaging.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "78ebeb03f1": "Instant ramen with eggs, spinach and pickled cabbage",
+            "80ad140679": "Japanese ramen noodles made with savoury pork bone broth",
+            "5d88008a2c": "Fancy bread pudding with vanilla extract, nutmeg and brandy",
+            "9d56fc52db": "Simple instant Japanese Miso soup",
+            "16edfc5b7b": "Standard chicken noodle soup with homemade noodles"
+        },
+        "answer": "78ebeb03f1",
+        "incorrectness_explanations": {
+            "80ad140679": "This is not made from instant noodles.",
+            "5d88008a2c": "This is not made from instant noodles.",
+            "9d56fc52db": "This is not made from instant noodles.",
+            "16edfc5b7b": "This is not made from instant noodles."
+        },
+        "correctness_explanation": {
+            "spice up": "<INFERRED>",
+            "instant noodles": "instant ramen"
+        }
+    },
+    {
+        "query": "How can I make some tasty yet affordable meals for a dinner date?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "002a58ec3d": "Fettuccine pasta in Alfredo sauce",
+            "78ebeb03f1": "Instant ramen noodles with eggs, spinach and pickled cabbage",
+            "43e35398bc": "Capellini pasta cooked in champagne vinegar, shallots and black truffle oil",
+            "03e49000ba": "Seafood paella - sauteed saffron-flavoured rice cooked with seafood",
+            "3a4f8677be": "Plain bagels "
+        },
+        "answer": "002a58ec3d",
+        "incorrectness_explanations": {
+            "78ebeb03f1": "This is not presentable enough for a date.",
+            "43e35398bc": "This is too expensive.",
+            "03e49000ba": "This is too expensive.",
+            "3a4f8677be": "This is not presentable enough for a date."
+        },
+        "correctness_explanation": {
+            "tasty": "Alfredo sauce",
+            "affordable": "<INFERRED>",
+            "dinner date": "pasta"
+        }
+    },
+    {
+        "query": "I want to prepare enough dinner for my family but we really need to save money right now.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1cd635a823": "Standard plain porridge",
+            "9a38eae6b1": "Pork loin roasted with onions, carrots and celery",
+            "03e49000ba": "Seafood paella - sauteed saffron-flavoured rice cooked with seafood",
+            "8994922304": "Simple grilled cubed beef steaks with potatoes",
+            "0a77dac796": "Breakfast pizza with sausage, cheddar, sour cream and jalepenos"
+        },
+        "answer": "1cd635a823",
+        "incorrectness_explanations": {
+            "9a38eae6b1": "This is expensive when serving many portions.",
+            "03e49000ba": "This is expensive when serving many portions.",
+            "8994922304": "This is expensive when serving many portions.",
+            "0a77dac796": "This is a breakfast item, not a dinner one."
+        },
+        "correctness_explanation": {
+            "dinner for my family": "porridge",
+            "need to save money": "porridge"
+        }
+    },
+    {
+        "query": "What are some Asian street food I can make at home?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7ba9c2b8d5": "Taiwanese deep fried crispy chicken cutlets",
+            "04e7a77515": "Corn dogs - deep fried sausages coated in thick batter ",
+            "09e7bdd8d0": "Classic churros (fried dough) covered in cinnamon sugar",
+            "133f6a4526": "Tuna tataki - lightly seared tuna steaks in ponzu sauce",
+            "038ebd90a6": "Peking Duck - Chinese style crispy roast duck with hoisin sauce"
+        },
+        "answer": "7ba9c2b8d5",
+        "incorrectness_explanations": {
+            "04e7a77515": "This is not asian.",
+            "09e7bdd8d0": "This is not asian.",
+            "133f6a4526": "This is not street food.",
+            "038ebd90a6": "This is not street food."
+        },
+        "correctness_explanation": {
+            "Asian": "Taiwanese",
+            "street food": "fried chicken cutlets"
+        }
+    },
+    {
+        "query": "What can I make for breakfast using SPAM?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1d7574ab8a": "Rolled omelet with SPAM",
+            "0660670c45": "Fried rice with sriracha and SPAM",
+            "078b056b0d": "Cheesy potato soup with ham and sharp cheddar",
+            "310f4ca2aa": "Fried vienna sausages with butter and garlic powder",
+            "0433fd70b1": "Hawaiian sushi made with SPAM"
+        },
+        "answer": "1d7574ab8a",
+        "incorrectness_explanations": {
+            "0660670c45": "This is not an ideal breakfast food.",
+            "078b056b0d": "This doesn't use SPAM.",
+            "310f4ca2aa": "This doesn't use SPAM.",
+            "0433fd70b1": "This is not an ideal breakfast food."
+        },
+        "correctness_explanation": {
+            "breakfast": "omelet",
+            "SPAM": "SPAM"
+        }
+    },
+    {
+        "query": "I want to cook a gourmet dish with seafood.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "84b34437fb": "Grilled scallops with buttery and tangy beurre rouge (infused butter) sauce",
+            "2d2ef90ae6": "Salad with mayonnaise sauce mixed with shredded imitation crab meat",
+            "044a8c1b8b": "Grilled shrimps kebabs seasoned with green herbs ",
+            "0242694490": "Tuna sandwich with pesto",
+            "774d4c56ce": "Fettuccini pasta with asparagus and creamy pesto sauce"
+        },
+        "answer": "84b34437fb",
+        "incorrectness_explanations": {
+            "2d2ef90ae6": "Imitation crab is not real seafood.",
+            "044a8c1b8b": "This is not gourmet.",
+            "0242694490": "This is not gourmet.",
+            "774d4c56ce": "This does not have seafood."
+        },
+        "correctness_explanation": {
+            "gourmet dish": [
+                "scallops",
+                "beurre rouge"
+            ],
+            "seafood": "scallops"
+        }
+    },
+    {
+        "query": "I want foie gras served with a sweet condiment, jam or sauce.",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1399bb7faa": "Foie Gras (goose liver) on brioche bread paired with a broiled date puree, sprinkled with pomegranate seeds",
+            "4d49a4e46f": "Dates stuffed with Foie Gras ",
+            "768372f0bc": "Beef wellington with Foie Gras",
+            "56b6babae1": "Caviar on potato with a creamy Champagne dressing",
+            "86017d922a": "Salmon caviar spread"
+        },
+        "answer": "1399bb7faa",
+        "incorrectness_explanations": {
+            "4d49a4e46f": "This isn't served with a condiment, jam or sauce.",
+            "768372f0bc": "This isn't served with a condiment, jam or sauce.",
+            "56b6babae1": "This doesn't have foie gras.",
+            "86017d922a": "This doesn't have foie gras."
+        },
+        "correctness_explanation": {
+            "foie gras": "foie gras",
+            "sweet condiment, jam, or sauce": "date puree"
+        }
+    },
+    {
+        "query": "I don't know how to use caviar to make anything other than canapes - how do I use it in a main course?  ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "585feea316": "Boiled scallops with leek sauce, sprinkled with caviar",
+            "00923d4458": "Sushi topped with salmon roe and salmon sashimi ",
+            "1399bb7faa": "Foie Gras on top of brioche paired with a broiled date puree, sprinkled with pomegranate seeds",
+            "6af9f9efd3": "Shrimp canapes with jumbo shrimp,French dressing,lemon mayonnaise,caviar and parsley.",
+            "364c5eed10": "Crisp potato canapes with sour cream,sevruga cavia and fresh chives."
+        },
+        "answer": "585feea316",
+        "incorrectness_explanations": {
+            "00923d4458": "This does not contain caviar.",
+            "1399bb7faa": "This does not contain caviar.",
+            "6af9f9efd3": "These are canapes.",
+            "364c5eed10": "These are canapes."
+        },
+        "correctness_explanation": {
+            "caviar": "caviar",
+            "other than canapes": "boiled scallops",
+            "main course": "<INFERRED>"
+        }
+    },
+    {
+        "query": "My friend is bringing a bottle of champagne over, what should I make for dinner to go with it?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "29e400e3bc": "Oysters rockefeller - baked oysters topped with breadcrumbs and a rich sauce of butter and herbs",
+            "56c08f5841": "Spicy hotpot broth with Sichuan chili peppers ",
+            "34c795df68": "Angelhair pasta with pomodoro sauce",
+            "9ead3cc00f": "Passionfruit cocktail using real passionfruit",
+            "095addb74c": "Classic pavlova - meringue cake layered with cream"
+        },
+        "answer": "29e400e3bc",
+        "incorrectness_explanations": {
+            "56c08f5841": "This will not go well with champagne - it has a strong and intense flavour which would completely offset the flavours of the champagne. ",
+            "34c795df68": "Not an ideal pairing with Champagne as they are both acidic and could clash.",
+            "9ead3cc00f": "This is not a main course.",
+            "095addb74c": "This is not a main course."
+        },
+        "correctness_explanation": {
+            "goes with champagne": "oysters",
+            "dinner": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a pasta that doesn't taste cheap.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "14db1de478": "Fettuccine pasta with white truffles",
+            "80fa99770f": "Risotto with white truffles",
+            "34c795df68": "Angelhair pasta with pomodoro sauce",
+            "1f0dbc881d": "Omelets with black truffle",
+            "08d62f3586": "Spaghetti pasta with bolognese sauce"
+        },
+        "answer": "14db1de478",
+        "incorrectness_explanations": {
+            "80fa99770f": "This isn't pasta.",
+            "34c795df68": "Pasta with pomodoro sauce is common and cheap.",
+            "1f0dbc881d": "This is not pasta.",
+            "08d62f3586": "Spaghetti bolognese is common and cheap."
+        },
+        "correctness_explanation": {
+            "pasta": "pasta",
+            "doesn't taste cheap": "white truffles"
+        }
+    },
+    {
+        "query": "I need a meal that would impress my client, who is a CEO of a multinational company.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "84b34437fb": "Grilled scallops with buttery and tangy beurre rouge sauce",
+            "2d2ef90ae6": "Salad with mayonnaise sauce mixed with shredded imitation crab meat",
+            "0242694490": "Tuna sandwich with pesto",
+            "595efead77": "Fettuccine pasta with chicken in Alfredo sauce",
+            "0528f8682c": "Swedish meatballs - beef and pork meatballs with savoury mushroom gravy"
+        },
+        "answer": "84b34437fb",
+        "incorrectness_explanations": {
+            "2d2ef90ae6": "This is cheap so it is not that impressive.",
+            "0242694490": "This is cheap so it is not that impressive.",
+            "595efead77": "This is common so it is not that impressive.",
+            "0528f8682c": "This is common so it is not that impressive."
+        },
+        "correctness_explanation": {
+            "impress my client": "<INFERRED>",
+            "meal": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want an uncommon household dish that only uses the best ingredients",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "84b34437fb": "Grilled scallops with buttery and tangy beurre rouge sauce",
+            "2d2ef90ae6": "Salad with mayonnaise sauce mixed with shredded imitation crab meat",
+            "06c853e7db": "Mashed potatoes with herbs and sour cream",
+            "595efead77": "Fettuccine pasta with chicken in Alfredo sauce",
+            "0528f8682c": "Swedish meatballs - beef and pork meatballs with savoury mushroom gravy"
+        },
+        "answer": "84b34437fb",
+        "incorrectness_explanations": {
+            "2d2ef90ae6": "Imitation crab is not real seafood, it can be better.",
+            "06c853e7db": "This is a common dish. ",
+            "595efead77": "This is common.",
+            "0528f8682c": "This is common."
+        },
+        "correctness_explanation": {
+            "uncommon": "beurre rouge",
+            "only the best ingredients": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to emulate the fine dining experience at home with expensive seafood.",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "84b34437fb": "Grilled scallops with buttery and tangy beurre rouge sauce",
+            "2d2ef90ae6": "Salad with mayonnaise sauce mixed with shredded imitation crab meat",
+            "0242694490": "Tuna sandwich with pesto",
+            "43e35398bc": "Capellini pasta cooked in champagne vinegar, shallots and black truffle oil",
+            "0528f8682c": "Swedish meatballs - beef and pork meatballs with savoury mushroom gravy"
+        },
+        "answer": "84b34437fb",
+        "incorrectness_explanations": {
+            "2d2ef90ae6": "Imitation crab is not real seafood, it can be better.",
+            "0242694490": "This might sound fancy but it is cheap.",
+            "43e35398bc": "This does not have seafood.",
+            "0528f8682c": "This does not have seafood."
+        },
+        "correctness_explanation": {
+            "expensive seafood": "scallops",
+            "fine dining": "beurre rouge"
+        }
+    }
+]

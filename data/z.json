@@ -1,0 +1,3074 @@
+[
+    {
+        "query": "I'm looking for avocado based baby food",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1146eca54c": "Mashed avocado that is soft and savory",
+            "6205d00920": "Meat burgers with avocado and eggs",
+            "3402fc4dab": "Beer-battered fried avocado Wedges",
+            "1b1a6f9c7b": "Pizza with avocado and cheese",
+            "1c5a779885": "Dressing made with lemon juice,evaporated milk and avocado"
+        },
+        "answer": "1146eca54c",
+        "incorrectness_explanations": {
+            "6205d00920": "Babies cannot eat meat burgers",
+            "3402fc4dab": "Babies cannot eat foods with beer",
+            "1b1a6f9c7b": "Babies cannot eat pizza",
+            "1c5a779885": "It's just a dressing"
+        },
+        "correctness_explanation": {
+            "avocado": "avocado",
+            "baby food": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a baby food recipe that contains a variety of vitamins from natural sources, such as fruits",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "1dd0628e05": "A blend of mashed banana with pear and blueberry",
+            "7bf0ef2014": "Bananas blended with chocolate syrup",
+            "188e092f2b": "Salad with banana slices and pecans",
+            "45a724891d": "Cake made with apples, eggs, and flour",
+            "3bd5a034bc": "A milk punch made with banana, egg yolk, vanilla and spiked with brandy"
+        },
+        "answer": "1dd0628e05",
+        "incorrectness_explanations": {
+            "7bf0ef2014": "Lacks variety of vitamins since there is only one fruit in the ingredients",
+            "188e092f2b": "Contains pecans which are hard for babies to chew",
+            "45a724891d": "Lacks variety of vitamins since there is only one fruit in the ingredients",
+            "3bd5a034bc": "Babies cannot consume alcohol"
+        },
+        "correctness_explanation": {
+            "baby food": ["mashed", "<INFERRED>"],
+            "contains a variety of vitamins from natural sources": "<INFERRED>",
+            "fruits": [
+                "banana",
+                "pear",
+                "blueberry"
+            ]
+        }
+    },
+    {
+        "query": "I'm looking for a way to introduce a source of greens into my kids' diets",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4937a89ad0": "Soup made with cabbage, celery, onions, broccoli florets, and vegetable broth",
+            "04c8eae5b1": "Chicken breasts with green chili",
+            "20b77f3205": "A high-protein dessert that uses Tofu with crushed almond",
+            "0ca3c462b7": "Mini muffins with mashed carrots and applesauce",
+            "0b39996fd6": "Ground turkey blended and rolled into meatballs on a skewer along with apples pieces"
+        },
+        "answer": "4937a89ad0",
+        "incorrectness_explanations": {
+            "04c8eae5b1": "Mainly a meat-based dish instead of vegetables",
+            "20b77f3205": "Doesn't contain any greens (vegetables)",
+            "0ca3c462b7": "Doesn't contain any greens (vegetables)",
+            "0b39996fd6": "Doesn't contain any greens (vegetables)"
+        },
+        "correctness_explanation": {
+            "kids' diets": "<INFERRED>",
+            "greens": [
+                "cabbage",
+                "celery",
+                "broccoli florets"
+            ]
+        }
+    },
+    {
+        "query": "What foods should I prepare for my one year old to eat for lunch?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "6c40c9e2aa": "Mashed pumpkin that is sweet",
+            "06354fc0d3": "Grilled pork spare ribs",
+            "3358152415": "Strips of steak heavily seasoned with pepper",
+            "47af66900e": "Fried chicken breast halves and chicken legs",
+            "338324783f": "Crunchy deep fried chicken breasts"
+        },
+        "answer": "6c40c9e2aa",
+        "incorrectness_explanations": {
+            "06354fc0d3": "Babies don't have teeth, so they can't chew ribs",
+            "3358152415": "A one year old baby cannot chew steak",
+            "47af66900e": "A one year old baby cannot chew chicken legs",
+            "338324783f": "Difficult for one year old to eat crunchy food"
+        },
+        "correctness_explanation": {
+            "for my one year old": ["Mashed", "<INFERRED>"],
+            "lunch": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want to make a sweet milkshake for the kids",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0bd950bcbd": "Milkshake made with fresh strawberries and ice cream",
+            "9866d9ef46": "Milkshake made with chocolate, milk and butterscotch blended with alcohol",
+            "88bf83567c": "Southern-style sweet tea",
+            "1c1aa53efd": "Spicy chocolate milkshakes",
+            "3e506ead95": "Sweet milk cake with fruit"
+        },
+        "answer": "0bd950bcbd",
+        "incorrectness_explanations": {
+            "9866d9ef46": "The milkshake contains alcohol, and children cannot drink alcohol",
+            "88bf83567c": "Not a milkshake",
+            "1c1aa53efd": "The milkshake is spicy",
+            "3e506ead95": "Not a milkshake"
+        },
+        "correctness_explanation": {
+            "milkshake": "milkshake",
+            "sweet": [
+                "strawberries",
+                "ice cream"
+            ]
+        }
+    },
+    {
+        "query": "What's a smoothie with plenty of fruits I can make for my kid's party?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "081424a0d7": "Smoothie made from light cranberry juice, banana, strawberries, and blueberries",
+            "2222f1d56a": "Smoothie made with bananas blended with rum and ice cream",
+            "95c6c8faaf": "Smoothie with tomato juice and cucumbers",
+            "0e4059d2ce": "Lime water with mint",
+            "102ee63704": "Smoothie made with sweet potatoes and milk"
+        },
+        "answer": "081424a0d7",
+        "incorrectness_explanations": {
+            "2222f1d56a": "The smoothie contains alcohol, and children cannot drink alcohol",
+            "95c6c8faaf": "Doesn't contain plenty of fruits",
+            "0e4059d2ce": "It is not a smoothie",
+            "102ee63704": "Doesn't contain any fruits"
+        },
+        "correctness_explanation": {
+            "plenty of fruits": [
+                "cranberry juice",
+                "banana",
+                "strawberries",
+                "blueberries"
+            ],
+            "smoothie": "smoothie"
+        }
+    },
+    {
+        "query": "Could I have a potato recipe for my baby who is teething?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "88761278df": "Mashed potatoes with butter and salt",
+            "565e109e8a": "Mashed carrot that is soft and sweet",
+            "4907d43eb0": "Crispy potato pancakes with bacon.",
+            "878370ead7": "Sweet potato soft tacos",
+            "3cdd6239f7": "Fried potatoes with bacon and onion"
+        },
+        "answer": "88761278df",
+        "incorrectness_explanations": {
+            "565e109e8a": "It is not a potato recipe",
+            "4907d43eb0": "Crispy foods aren't good for teething babies",
+            "878370ead7": "Uses sweet potatoes instead of potatoes",
+            "3cdd6239f7": "Not soft enough for teething babies"
+        },
+        "correctness_explanation": {
+            "potato": "potatoes",
+            "teething": "<INFERRED>"
+        }
+    },
+    {
+        "query": "It's summer, and I wanted to make something sweet that will help me cool down",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0f56a80c6d": "Ice cream made from vanilla and sweetened cream churned at home",
+            "7285256c27": "Bitter melon side dish with chili peppers",
+            "7b9325a970": "Homemade salad with potato blended with milk, egg yolk, and onions",
+            "011adeeaac": "Bread recipe from scratch made with sweet potatoes",
+            "15dd889cd7": "Cucumbers mixed with mayonnaise and sour cream"
+        },
+        "answer": "0f56a80c6d",
+        "incorrectness_explanations": {
+            "7285256c27": "Not sweet",
+            "7b9325a970": "Not sweet",
+            "011adeeaac": "Doesn't help cool down",
+            "15dd889cd7": "Not sweet"
+        },
+        "correctness_explanation": {
+            "sweet": [
+                "ice cream",
+                "sweetened cream"
+            ],
+            "cool down": "<INFERRRED>"
+        }
+    },
+    {
+        "query": "I want a healthy lunch dish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "7e32f3aab4": "Nutritious meal made with sweet potato slices and ham",
+            "730a537b5b": "Deep fried mac and cheese with quinoa",
+            "6aeb5140ab": "Large portion fries with gravy and bacon",
+            "0dc5a67192": "Breakfast sandwich made with eggs and ham",
+            "16af1b09b3": "Bananas and strawberries blended in milk"
+        },
+        "answer": "7e32f3aab4",
+        "incorrectness_explanations": {
+            "730a537b5b": "Deep fried is not healthy",
+            "6aeb5140ab": "Not a healthy dish",
+            "0dc5a67192": "Not a lunch dish",
+            "16af1b09b3": "Not a lunch dish"
+        },
+        "correctness_explanation": {
+            "healthy": "<INFERRED>",
+            "lunch": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How to make noodles like Chinese takeaway?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "8f99fe76ba": "Pan-fried pork noodles with chicken broth",
+            "967f75147f": "Thin spaghetti with cooked chicken and carrots",
+            "91748eb475": "Spicy shrimp and linguine noodles",
+            "038ebd90a6": "Chinese duck dish of duck and vegetable wrapped in flatbread",
+            "5994e1b659": "Pork belly sandwiched between Chinese steamed bread bun with hoisin sauce"
+        },
+        "answer": "8f99fe76ba",
+        "incorrectness_explanations": {
+            "967f75147f": "Spaghetti isn't typical for Chinese takeaway",
+            "91748eb475": "Linguine noodles aren't typical for Chinese takeaway",
+            "038ebd90a6": "It's not noodles",
+            "5994e1b659": "It's not noodles'"
+        },
+        "correctness_explanation": {
+            "noodles": "noodles",
+            "Chinese takeaway": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm craving a snack that is fried, yet still somewhat healthy",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a1584a4251": "Crispy onion rings make with whole wheat flour, egg white, buttermilk, and onions",
+            "016c32e55a": "Fluffy dinner rolls made with milk, sugar and eggs",
+            "4dafcc5cf8": "Shrimp balls made with pork fat deep fried in oil",
+            "1d1c4293ae": "Classic fried rice with pineapple chunks",
+            "035e1bea0d": "Simple fried rice with carrots and peas"
+        },
+        "answer": "a1584a4251",
+        "incorrectness_explanations": {
+            "016c32e55a": "Isn't fried",
+            "4dafcc5cf8": "Isn't somewhat healthy",
+            "1d1c4293ae": "Isn't a snack",
+            "035e1bea0d": "Isn't a snack"
+        },
+        "correctness_explanation": {
+            "fried": "Crispy",
+            "snack": "onion rings",
+            "healthy": [
+                "whole wheat flour",
+                "egg white",
+                "onions"
+            ]
+        }
+    },
+    {
+        "query": "I want to make chips that are healthier than regular potato chips",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "12baddfccc": "Baked crunchy vegetable chips",
+            "4de3729699": "Cupcakes made with chocolate chips and chocolate frosting",
+            "9f25fe690b": "Tex-mex style veggie platter with bell pepper, radish, carrot, cucumber and mango",
+            "22fa1146c5": "Deep fried salted potato chips",
+            "05760b4e80": "Fried fish in crispy batter, served with chips"
+        },
+        "answer": "12baddfccc",
+        "incorrectness_explanations": {
+            "4de3729699": "Not a recipe for chips",
+            "9f25fe690b": "Not a recipe for chips",
+            "22fa1146c5": "Not a recipe for a healthier alternative to potato chips",
+            "05760b4e80": "Not a recipe for chips"
+        },
+        "correctness_explanation": {
+            "healthier than regular potato chips": ["Baked", "vegetable"],
+            "chips": "chips"
+        }
+    },
+    {
+        "query": "Surprise me with an unconventional vegan noodle recipe ",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5570b46221": "Stir-fried tofu, vegetables, and noodle bento",
+            "95c6c8faaf": "Tomato juice blended with cucumbers",
+            "5110e415eb": "Noodles with chicken and eggs",
+            "862ce44a8f": "Noodles with beef and chicken soup",
+            "99401af98c": "Fast and easy vegan-friendly pizza recipe"
+        },
+        "answer": "5570b46221",
+        "incorrectness_explanations": {
+            "95c6c8faaf": "It is not a noodle dish",
+            "5110e415eb": "It isn't vegan since it contains chicken and eggs",
+            "862ce44a8f": "It isn't vegan since it contains beef",
+            "99401af98c": "It is not a noodle dish"
+        },
+        "correctness_explanation": {
+            "vegan": ["tofu", "vegetables", "<INFERRED>"],
+            "noodle": "noodle",
+            "unconventional": "bento"
+        }
+    },
+    {
+        "query": "Find me a pasta recipe for my vegan dinner guests",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0eebf3e4b4": "Vegan lasagna made from vegan cheese",
+            "9540d5b87d": "Pizza with vegan beyond meat",
+            "7530619603": "Pasta with lamb meat and pork sausage",
+            "4cf5818e26": "Dinner waffles with deli turkey",
+            "6f3099f3e9": "Vegan drink made from tropical fruit"
+        },
+        "answer": "0eebf3e4b4",
+        "incorrectness_explanations": {
+            "9540d5b87d": "Not a pasta recipe",
+            "7530619603": "Contains meat so it's not vegan",
+            "4cf5818e26": "Contains meat so it's not vegan",
+            "6f3099f3e9": "Not a pasta recipe"
+        },
+        "correctness_explanation": {
+            "pasta": "lasagna",
+            "vegan": "Vegan",
+            "dinner": "lasagna"
+        }
+    },
+    {
+        "query": "What snack can I eat if I just got braces?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3d32fbf542": "Fluffy cake made with vanilla flavour",
+            "12caf612a9": "Chewy beef ribs",
+            "357d68289f": "Hard candy",
+            "81422b128f": "Snack bars made with marshmallows, peanuts, and popcorn",
+            "394f09dc90": "Milk blended with bananas and strawberries"
+        },
+        "answer": "3d32fbf542",
+        "incorrectness_explanations": {
+            "12caf612a9": "Chewy foods aren't good for braces",
+            "357d68289f": "Hard candies aren't good for braces",
+            "81422b128f": "Sticky foods, nuts, and popcorn aren't supposed to be eaten with braces",
+            "394f09dc90": "Drink instead of a snack to eat"
+        },
+        "correctness_explanation": {
+            "just got braces": "Fluffy",
+            "snack": "cake"
+        }
+    },
+    {
+        "query": "I want to make use of the extra bottle of beer I have to bake some bread",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "11dda06ada": "Beer bread made with honey, beer, flour, and sugar",
+            "148675aff6": "Burger made with ground beef, vegetables, and beer",
+            "3ba683d045": "Sausages cooked in a beer sauce",
+            "54d25c2f2a": "Fake beer made from butterscotch",
+            "3534ab65be": "Alcoholic tea with shots of whiskey"
+        },
+        "answer": "11dda06ada",
+        "incorrectness_explanations": {
+            "148675aff6": "It is not a bread recipe",
+            "3ba683d045": "It is not a bread recipe",
+            "54d25c2f2a": "It is not a bread recipe",
+            "3534ab65be": "It is not a bread recipe"
+        },
+        "correctness_explanation": {
+            "bread": "bread",
+            "beer": "beer"
+        }
+    },
+    {
+        "query": "I want a seafood soup recipe",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "99d5c40821": "Soup made with shrimp, onions, and scallops",
+            "05f17e93c6": "Seafood paella - sauteed saffron-flavoured rice cooked with seafood",
+            "27ad189b8d": "Pie made with various kinds of seafood",
+            "9d56fc52db": "Simple instant Japanese miso soup",
+            "05a8d8f651": "Soup made from onions and beef broth"
+        },
+        "answer": "99d5c40821",
+        "incorrectness_explanations": {
+            "05f17e93c6": "Not a soup",
+            "27ad189b8d": "Not a soup",
+            "9d56fc52db": "Doesn't contain seafood",
+            "05a8d8f651": "Doesn't contain seafood"
+        },
+        "correctness_explanation": {
+            "seafood": [
+                "shrimp",
+                "scallops"
+            ],
+            "soup": "soup"
+        }
+    },
+    {
+        "query": "Give me a Subway-style beef sandwich recipe",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "2d0fe1199e": "Sandwich made with cooked beef ",
+            "88510b467f": "Subway-style sandwich made from french baguette bread, ham, lettuce, and tomatoes",
+            "1a55e7ec9f": "Spicy beef curry with onions",
+            "3a1e880d13": "Grilled sandwich made with vegetables and cheese",
+            "019a97b553": "Sandwich with fried chicken pieces"
+        },
+        "answer": "2d0fe1199e",
+        "incorrectness_explanations": {
+            "88510b467f": "Not a beef sandwich",
+            "1a55e7ec9f": "Not a sandwich",
+            "3a1e880d13": "Not a beef sandwich",
+            "019a97b553": "Not a beef sandwich"
+        },
+        "correctness_explanation": {
+            "sandwich": "Sandwich",
+            "beef": "beef",
+            "Subway-style": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Get me a dessert recipe that is digestion friendly",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "284db04fbe": "High fiber muffins made with oats and fruit",
+            "394f09dc90": "Milk blended with bananas and strawberries",
+            "62e660a869": "Salad made with lettuce and tomatoes",
+            "399526926b": "Cooked sweet potatoes with sweet and spicy taste",
+            "3916e8c271": "High fiber salad with peas and quinoa"
+        },
+        "answer": "284db04fbe",
+        "incorrectness_explanations": {
+            "394f09dc90": "Not a dessert",
+            "62e660a869": "Not a dessert",
+            "399526926b": "Not a dessert",
+            "3916e8c271": "Not a dessert"
+        },
+        "correctness_explanation": {
+            "dessert": "muffins",
+            "digestion friendly": "High fiber"
+        }
+    },
+    {
+        "query": "I need to prepare a meal for my friend who's diabetic",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "242322a378": "Diabetes-friendly soup made with pumpkin and vegetable broth",
+            "1ff38cdff2": "High sugar sweet potatoes",
+            "04e65201a3": "Peruvian cookies sandwiched with caramel Dulce de Leche",
+            "0555a30695": "High sugar sweet cookies",
+            "2c41188a69": "Fruits that are sugar frosted"
+        },
+        "answer": "242322a378",
+        "incorrectness_explanations": {
+            "1ff38cdff2": "Sugar is restricted for diabetics",
+            "04e65201a3": "Contains high sugar which isn't good for diabetics and it's not a meal",
+            "0555a30695": "Sugar is restricted for diabetics and it's not a meal",
+            "2c41188a69": "Sugar is restricted for diabetics and it's not a meal"
+        },
+        "correctness_explanation": {
+            "meal": "soup",
+            "diabetic": "Diabetes-friendly"
+        }
+    },
+    {
+        "query": "I want to prepare a healthy dinner for my grandparents",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "1cc110d554": "Salmon salad with horseradish dressing and garlic bread on the side",
+            "324c406768": "High calorie smoothie made with fruit and whole milk",
+            "730a537b5b": "Deep fried mac and cheese with quinoa",
+            "3e51152920": "Popeyes fried chicken with outer layer made from flour, then fried and sprinkled with pepper and paprika",
+            "6890d42bfc": "Canadian coffee with whiskey and maple syrup"
+        },
+        "answer": "1cc110d554",
+        "incorrectness_explanations": {
+            "324c406768": "High calorie is not healthy and it's not a dinner dish",
+            "730a537b5b": "Deep fried is not healthy",
+            "3e51152920": "Fried chicken isn't healthy",
+            "6890d42bfc": "Not a dinner dish"
+        },
+        "correctness_explanation": {
+            "dinner": "Salmon salad",
+            "healthy": ["salad", "<INFERRED>"]
+        }
+    },
+    {
+        "query": "What snack can I bring to the hospital for my friend who just had an appendectomy?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "759e279a77": "Digestion-friendly waffles",
+            "347222fc27": "Strong black Caribbean coffee with rum",
+            "a0d64772d7": "Classic chicken tenders - deep fried boneless chicken strips",
+            "283491eae2": "Classic shephard's pie - casserole made from mashed potatoes and chicken stew",
+            "035efbae6a": "Pizza with eggs and cheese for breakfast"
+        },
+        "answer": "759e279a77",
+        "incorrectness_explanations": {
+            "347222fc27": "Not a snack and caffeine/alcohol aren't good after a surgery",
+            "a0d64772d7": "Deep fried foods aren't good after a surgery",
+            "283491eae2": "Not a snack",
+            "035efbae6a": "Not a snack"
+        },
+        "correctness_explanation": {
+            "snack": "waffles",
+            "for my friend who just had an appendectomy": ["Digestion-friendly", "<INFERRED>"]
+        }
+    },
+    {
+        "query": "I want to prepare a warm soup for my sick friend, and I need to consider the fact that he is vegan",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "81a85a9b8d": "Soup made with onions, potatoes, and salt",
+            "385be72e21": "Soup made with vegetables and chicken",
+            "7997c5b11e": "Salad made with carrots and vegetables",
+            "899a6d9cdb": "Vegetable soup with beef bouillon cube",
+            "019312b9d1": "pasta with vegetables"
+        },
+        "answer": "81a85a9b8d",
+        "incorrectness_explanations": {
+            "385be72e21": "Contains chicken so it isn't vegan",
+            "7997c5b11e": "It is not a soup recipe",
+            "899a6d9cdb": "Contains beef so it isn't vegan",
+            "019312b9d1": "It is not a soup recipe"
+        },
+        "correctness_explanation": {
+            "vegan": [
+                "onions",
+                "potatoes",
+                "<INFERRED>"
+            ],
+            "soup": "soup"
+        }
+    },
+    {
+        "query": "The chicken I brought is about to expire, and I want to use it in a soup",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "385be72e21": "Soup with carrots and chicken",
+            "316bdc99a8": "Cabbage soup made with chicken broth and cabbage",
+            "5c04d7ce92": "Chicken pieces that are deep fried",
+            "5f99f60f7b": "Crispy chicken with walnuts",
+            "60bc7c1c16": "Soup made with beef broth"
+        },
+        "answer": "385be72e21",
+        "incorrectness_explanations": {
+            "316bdc99a8": "Doesn't use chicken as an ingredient",
+            "5c04d7ce92": "It is not a soup recipe",
+            "5f99f60f7b": "It is not a soup recipe",
+            "60bc7c1c16": "Doesn't contain chicken"
+        },
+        "correctness_explanation": {
+            "soup": "soup",
+            "chicken": "chicken"
+        }
+    },
+    {
+        "query": "I'm recovering from a wisdom tooth extraction, give me something healthy to eat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9a70d96b46": "Smoothie made from banana puree with milk",
+            "798f68676a": "Healthy patties made from vegetables",
+            "098485481c": "High protein chicken salad made with vegetables",
+            "338324783f": "Crunchy deep fried chicken breasts",
+            "12baddfccc": "Baked crunchy vegetable chips"
+        },
+        "answer": "9a70d96b46",
+        "incorrectness_explanations": {
+            "798f68676a": "Patties are hard to eat after a wisdom tooth extraction",
+            "098485481c": "Meat is hard to chew after a wisdom tooth extraction",
+            "338324783f": "Not healthy and crunchy foods are hard to eat after a wisdom tooth extraction",
+            "12baddfccc": "Crunchy foods are hard to eat after a wisdom tooth extraction"
+        },
+        "correctness_explanation": {
+            "wisdom tooth extraction": "Smoothie",
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I need to prepare a lunch to eat in the car after my training session at the gym",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "2d9c3e3fe5": "Protein box made from eggs, fruit, and yogurt",
+            "37b7462cfd": "Healthy chocolate brownies from unsweetened chocolate",
+            "0d24b92b78": "Snack made from avocado",
+            "099a5672d6": "Mongolian hot pot with lamb and napa cabbage",
+            "9a70d96b46": "Healthy smoothies made from banana puree with milk"
+        },
+        "answer": "2d9c3e3fe5",
+        "incorrectness_explanations": {
+            "37b7462cfd": "It's a snack or dessert, not a full lunch recipe",
+            "0d24b92b78": "It is a snack, not a full lunch recipe",
+            "099a5672d6": "Hot pot can't be eaten in the car",
+            "9a70d96b46": "It is not a full lunch recipe"
+        },
+        "correctness_explanation": {
+            "lunch": "<INFERRED>",
+            "eat in the car": "box",
+            "after my training session at the gym": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'd like a dumpling recipe that contains an unconventional meat",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "25da8fe85d": "Chinese traditional dumplings made with duck breasts",
+            "43f37cf9c3": "A small potato dough dumpling that is Italian in origin",
+            "0887f2998a": "French meat pie - pie filled with ground meat, onions and savoury seasonings",
+            "03a4750a79": "Chinese style ribs made from sparerib racks, fresh ginger, and honey",
+            "40427cc1bc": "Standard pork dumplings - boiled thin dough wrapped around seasoned mince pork filling"
+        },
+        "answer": "25da8fe85d",
+        "incorrectness_explanations": {
+            "43f37cf9c3": "Doesn't have meat",
+            "0887f2998a": "It is not a dumpling recipe",
+            "03a4750a79": "It is not a dumpling recipe",
+            "40427cc1bc": "Pork is a typical dumpling meat"
+        },
+        "correctness_explanation": {
+            "dumpling": "dumplings",
+            "unconventional meat": "duck breasts"
+        }
+    },
+    {
+        "query": "My uncle who is a Buddhist monk is coming over for lunch and I have no idea what I should cook for him",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "458476b982": "Soup made with pumpkin, sweet potatoes",
+            "02e982ec87": "Sauce made from ground turkey",
+            "43c1960bdb": "Lasagna made with ground beef and vegetables",
+            "6fe7906cff": "Vegetable soup with ground beef",
+            "74a44dc91d": "Korean style dumplings made with meat and vegetables"
+        },
+        "answer": "458476b982",
+        "incorrectness_explanations": {
+            "02e982ec87": "Contains turkey and buddhists don't eat meat, and it is not a meal",
+            "43c1960bdb": "Contains beef and buddhists don't eat meat",
+            "6fe7906cff": "Contains beef and buddhists don't eat meat",
+            "74a44dc91d": "Contains meat and buddhists don't eat meat"
+        },
+        "correctness_explanation": {
+            "lunch": "soup",
+            "buddhist monk": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Do you have a Kosher meat recipe for Shabbat?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "826e30e428": "Meat cholent made with beef",
+            "95ec488168": "High fiber kosher chocolate roll",
+            "2501f0f2ae": "Kosher cholent made from vegetables",
+            "9b31d85c0d": "Kosher pickles made from cucumber, dill, vinegar, and gralic cloves",
+            "a11b8ada78": "Oven cooked thin pork meat with orange and maple flavoring"
+        },
+        "answer": "826e30e428",
+        "incorrectness_explanations": {
+            "95ec488168": "Not a meat recipe",
+            "2501f0f2ae": "Not a meat recipe",
+            "9b31d85c0d": "Not a meat recipe",
+            "a11b8ada78": "Pork isn't kosher"
+        },
+        "correctness_explanation": {
+            "kosher meat": "beef",
+            "Shabbat": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Give me a halal salad recipe",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "57139ff9fe": "Street-cart-style chicken salad",
+            "d70cb1b1b6": "Pasta salad with chicken meat, bacon, turkey, tomatoes, onions, and scallions",
+            "aab9dd06db": "Broccoli salad with bacon",
+            "47af66900e": "Fried chicken breast halves and chicken legs",
+            "086f8795ae": "Chilled soup pasta with minestrone soup"
+        },
+        "answer": "57139ff9fe",
+        "incorrectness_explanations": {
+            "d70cb1b1b6": "Bacon isn't halal",
+            "aab9dd06db": "Bacon isn't halal",
+            "47af66900e": "Not a salad",
+            "086f8795ae": "Not a salad"
+        },
+        "correctness_explanation": {
+            "halal": "<INFERRED>",
+            "chicken": "chicken"
+        }
+    },
+    {
+        "query": "Do you have some vegan friendly dinner ideas",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "03687907f4": "Spaghetti made from grated vegetables",
+            "6ba0497bea": "Beef stew and potatoes ",
+            "246ca98ed9": "Soup with carrots and meat",
+            "6a6e4b8b4d": "Baked vegan cake with nuts and bananas",
+            "02a044aea5": "French onion soup made from beef broth, sweet white onion, and gruyere cheese"
+        },
+        "answer": "03687907f4",
+        "incorrectness_explanations": {
+            "6ba0497bea": "Contains beef so it's not vegan",
+            "246ca98ed9": "Contains meat so it's not vegan",
+            "6a6e4b8b4d": "Not a dinner dish",
+            "02a044aea5": "Contains cheese so it's not vegan"
+        },
+        "correctness_explanation": {
+            "vegan friendly": "vegetables",
+            "dinner": "Spaghetti"
+        }
+    },
+    {
+        "query": "I'm lacto-vegetarian and want a dish for dinner",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a8b91d1de4": "Northern Italian style lacto-vegetarian lasagna",
+            "16b48ecd6b": "A dish made made with beef and potatoes",
+            "812ee8bade": "Indian-style beef curry with coconut milk",
+            "17194384f1": "Soft French flatbread made of flour, eggs, milk, rum, and salt",
+            "123955e56e": "Soup made with vegetables and Chicken"
+        },
+        "answer": "a8b91d1de4",
+        "incorrectness_explanations": {
+            "16b48ecd6b": "Contains beef so it's not vegetarian",
+            "812ee8bade": "Contains beef so it's not vegetarian",
+            "17194384f1": "Contains eggs so it's not vegetarian",
+            "123955e56e": "Contains chicken so it's not vegetarian"
+        },
+        "correctness_explanation": {
+            "lacto-vegetarian": "lacto-vegetarian",
+            "dinner": "lasagna"
+        }
+    },
+    {
+        "query": "What's a good cheesecake recipe if I'm considering going keto?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "6217b3e93d": "Low carb sugar-free cheesecake ",
+            "96a2a7f65b": "Keto friendly sandwich made with meat, cucumber, and cheese",
+            "6300e4adfd": "European-style cheesecake with a graham cracker crust",
+            "99d9e6c2fd": "Keto chocolate peanut butter fudge",
+            "2c25eedd2c": "Astragalus vegetable soup (detox soup)"
+        },
+        "answer": "6217b3e93d",
+        "incorrectness_explanations": {
+            "96a2a7f65b": "It is not a cheesecake recipe",
+            "6300e4adfd": "It doesn't indicate being keto",
+            "99d9e6c2fd": "It is not a cheesecake recipe",
+            "2c25eedd2c": "It is not a cheesecake recipe"
+        },
+        "correctness_explanation": {
+            "keto": "Low carb",
+            "dessert": "chessecake"
+        }
+    },
+    {
+        "query": "I want a soup that is vitamin rich and healthy",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0fc87c234c": "Soup made from onions, carrots, and celery ribs",
+            "5f07aa6f55": "Round steak with cream of mushroom soup",
+            "85f3e0f6b5": "Comfort food diet Italian chicken wraps",
+            "1860f776c3": "Vegan low fat mocha smoothie",
+            "cda0737db1": "Assorted cheese soup with chicken"
+        },
+        "answer": "0fc87c234c",
+        "incorrectness_explanations": {
+            "5f07aa6f55": "Not vitamin rich or particularly healthy",
+            "85f3e0f6b5": "It's not a soup recipe",
+            "1860f776c3": "It's not a soup recipe",
+            "cda0737db1": "Not vitamin rich or healthy"
+        },
+        "correctness_explanation": {
+            "soup": "soup",
+            "vitamin rich": ["onions", "carrots", "celery"],
+            "healthy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm on a paleo diet and want a breakfast I can grab and go",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "39bc46d7ce": "Baked breakfast bars made with nuts and seeds",
+            "91f37c23ec": "Paleo taco salad made with ground beef",
+            "3545bb0e98": "Chocolate ice cream",
+            "2390529a80": "Paleo creamy kale, sausage and sweet potato soup",
+            "a1afd74269": "Texas chili made from lean beef, breakfast sausage and and paprika"
+        },
+        "answer": "39bc46d7ce",
+        "incorrectness_explanations": {
+            "91f37c23ec": "Not a typical breakfast dish and hard to grab and go",
+            "3545bb0e98": "Ice cream isn't paleo and isn't a breakfast dish",
+            "2390529a80": "Not a breakfast dish and hard to grab and go",
+            "a1afd74269": "Not a breakfast dish and hard to grab and go"
+        },
+        "correctness_explanation": {
+            "breakfast": "breakfast",
+            "grab and go": "bars",
+            "paleo": ["nuts", "seeds", "<INFERRED>"]
+        }
+    },
+    {
+        "query": "I want to make a hearty paleo stew for my grandchildren",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1780edaf1d": "Paleo beef stew and sweet potatoes",
+            "21b5d099bd": "Paleo pork chili verde",
+            "6c27fc136e": "Baked eggs with goat cheese (Paleo)",
+            "19bc514b09": "Paleo waffles made from eggs, butter, and coconut flour",
+            "489d5fea03": "Korean stew made of spicy rice cake, cabbage, and leek"
+        },
+        "answer": "1780edaf1d",
+        "incorrectness_explanations": {
+            "21b5d099bd": "Not a stew",
+            "6c27fc136e": "Not a stew",
+            "19bc514b09": "Not a stew",
+            "489d5fea03": "Contains processed foods so it isn't paleo"
+        },
+        "correctness_explanation": {
+            "hearty": "stew",
+            "stew": "stew",
+            "paleo": "paleo"
+        }
+    },
+    {
+        "query": "What's a good dinner recipe if I want to build up my muscles?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "920b949d45": "High protein pizza made with whole wheat pizza crusts, cheese, onions, and tofu",
+            "0d615896ac": "3-ingredient kale and peach salad with vinaigrette dressing",
+            "a3fca9963a": "Protein snacks made with peanut butter, raisins, and dry milk",
+            "690392fdc1": "Protein-packed cottage cheese pineapple snack",
+            "954aaeac42": "Banana pancakes made using waffle mix"
+        },
+        "answer": "920b949d45",
+        "incorrectness_explanations": {
+            "0d615896ac": "Doesn't help with muscle building (no protein)",
+            "a3fca9963a": "It's a snack not a dinner",
+            "690392fdc1": "It's a snack not a dinner",
+            "954aaeac42": "It's a breakfast recipe instead of dinner"
+        },
+        "correctness_explanation": {
+            "dinner": "pizza",
+            "build up my muscles": "High protein"
+        }
+    },
+    {
+        "query": "I want a recipe for something I can bake that's oil-free",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4defd0c67f": "Whole wheat banana muffins without the use of oil",
+            "567dcd03f7": "Vegan pizza made with vegetables, flour, and oil",
+            "7e6767b6c2": "Russet potato fries made with peanut oil and salt",
+            "9b47867a69": "No-Bake apple crumble containing walnuts, dates, and raisins",
+            "3506b312a0": "Vanilla pudding salad containing cantaloupe, watermelon, nectarines, strawberries, blueberries, and grapes"
+        },
+        "answer": "4defd0c67f",
+        "incorrectness_explanations": {
+            "567dcd03f7": "It uses oil",
+            "7e6767b6c2": "It uses oil",
+            "9b47867a69": "It isn't baked",
+            "3506b312a0": "It isn't baked"
+        },
+        "correctness_explanation": {
+            "oil-free": "without the use of oil",
+            "something I can bake": "muffins"
+        }
+    },
+    {
+        "query": "I'm vegan but I miss eating steak",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "803be1d5b3": "Fake steak made from seitan",
+            "72ae911e6c": "Vegan chocolate cake with vegan icing",
+            "3358152415": "Spicy peppered steaks with steak sauce and mustard",
+            "678ab8c57d": "Skillet beef steak With vegetables and rice",
+            "31a3f5b990": "Vegan pancakes made from fruits and maple syrup"
+        },
+        "answer": "803be1d5b3",
+        "incorrectness_explanations": {
+            "72ae911e6c": "It is not a steak recipe",
+            "3358152415": "It contains meat so it's not vegan",
+            "678ab8c57d": "It contains beef so it's not vegan",
+            "31a3f5b990": "It is not a steak recipe"
+        },
+        "correctness_explanation": {
+            "steak": "steak",
+            "vegan": ["Fake steak", "seitan"]
+        }
+    },
+    {
+        "query": "I want a keto dinner for weight loss",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "006dbad7d9": "Pizza made from soy flour, eggs and cream for low carb diet",
+            "14bd57315c": "Breakfast tea for keto diet",
+            "0b581f2f5a": "Soup made with ground turkey that is low fat, high carb",
+            "9042730429": "Italian fruit tart with raspberries and mascarpone cheese",
+            "1ed4fc9234": "Fried chicken seasoned with salt and pepper"
+        },
+        "answer": "006dbad7d9",
+        "incorrectness_explanations": {
+            "14bd57315c": "Not a dinner recipe",
+            "0b581f2f5a": "It is high carb which isn't keto",
+            "9042730429": "Isn't a dinner recipe",
+            "1ed4fc9234": "Doesn't help with weight loss"
+        },
+        "correctness_explanation": {
+            "keto": "low carb",
+            "dinner": "Pizza",
+            "weight loss": ["soy flour", "low carb diet"]
+        }
+    },
+    {
+        "query": "I'm craving a nut flavoured ice cream, maybe something like white chocolate macadamia or peanut butter",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "0d58d5a016": "Ice cream with sugar, cream, egg yolks, and pistachios",
+            "3288fabe00": "Sandwich made with nutty carrots",
+            "3545bb0e98": "Chocolate ice cream",
+            "7300a89ca2": "Nutties made from rolled oats and flaked coconuts",
+            "17a59fead4": "Brown sugar chewy cookies topped with nuts and colourful M&M chocolates"
+        },
+        "answer": "0d58d5a016",
+        "incorrectness_explanations": {
+            "3288fabe00": "It is not ice cream",
+            "3545bb0e98": "It isn't nut flavoured",
+            "7300a89ca2": "It is not ice cream",
+            "17a59fead4": "It is not ice cream"
+        },
+        "correctness_explanation": {
+            "ice cream": "ice cream",
+            "nut flavoured": "pistachios"
+        }
+    },
+    {
+        "query": "I'm craving a light snack but I would prefer something salty over something sweet",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a0da16690d": "Almonds coated with butter and salt",
+            "399526926b": "Cooked sweet potatoes with sweet and spicy taste",
+            "0c4499c604": "Avocado puree blended with lemon juice, soy milk, and salt",
+            "0011d3e235": "Crunchy snack beans with spicy chili variation",
+            "a4d86fa1b3": "Spicy cheddar cheese crackers"
+        },
+        "answer": "a0da16690d",
+        "incorrectness_explanations": {
+            "399526926b": "It is not salty",
+            "0c4499c604": "It isn't a light snack",
+            "0011d3e235": "It is not salty",
+            "a4d86fa1b3": "It is not salty"
+        },
+        "correctness_explanation": {
+            "snack": "Almonds",
+            "savoury": "salt"
+        }
+    },
+    {
+        "query": "I want to eat spicy seafood but I am sick of Tom Yum",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "99c1d16975": "Shrimp with chili sauce and crushed red pepper flakes",
+            "84be79dc5d": "Creamy seafood chowder with onions and mushrooms",
+            "0690179028": "Steamed sea bass with green onions and ginger",
+            "7d6d8c62e7": "Stir fried spicy korean rice cakes",
+            "1e488fee0f": "Spicy broccoli made with broccoli and green chili pepper"
+        },
+        "answer": "99c1d16975",
+        "incorrectness_explanations": {
+            "84be79dc5d": "It is not spicy",
+            "0690179028": "It is not spicy",
+            "7d6d8c62e7": "It is not seafood",
+            "1e488fee0f": "It is not seafood"
+        },
+        "correctness_explanation": {
+            "seafood": "shrimp",
+            "spicy": [
+                "chili sauce",
+                "red pepper flake"
+            ]
+        }
+    },
+    {
+        "query": "I ran out of flour but I promised my kids would bake them chocolate cake today",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "06ad9392b9": "Flourless chocolate cake with butter",
+            "15b107ce92": "Chocolate cake made from plain flour, cocona powder, eggs, and milk",
+            "0a0acccdb2": "Walnut cake made without flour",
+            "1002b4b090": "Almond flour chocolate chip cookies",
+            "1a32a96fd4": "Glaze made from semisweet chocolate and water"
+        },
+        "answer": "06ad9392b9",
+        "incorrectness_explanations": {
+            "15b107ce92": "The recipe uses flour",
+            "0a0acccdb2": "It isn't chocolate cake",
+            "1002b4b090": "It isn't a cake recipe",
+            "1a32a96fd4": "It isn't a cake recipe"
+        },
+        "correctness_explanation": {
+            "ran out of flour": "Flourless",
+            "chocolate cake": "chocolate cake"
+        }
+    },
+    {
+        "query": "How do I make a spicy soup with chicken?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "74859e42d8": "Soup made with chicken breast, chili powder, and chili beans",
+            "17a3554c67": "Spicy soup that made with ground beef and potatoes",
+            "263392b3ea": "Spicy chicken made with chicken breasts and chicken thighs",
+            "73b2ca4ca2": "Spicy pork made from pork tenderloin and hot pepper flakes",
+            "02735d8ac5": "Spicy soup made from vegetables"
+        },
+        "answer": "74859e42d8",
+        "incorrectness_explanations": {
+            "17a3554c67": "Doesn't contain chicken",
+            "263392b3ea": "It is not a soup recipe",
+            "73b2ca4ca2": "Doesn't contain chicken",
+            "02735d8ac5": "Doesn't contain chicken"
+        },
+        "correctness_explanation": {
+            "soup": "Soup",
+            "chicken": "chicken",
+            "spicy": ["chili powder", "chili beans"]
+        }
+    },
+    {
+        "query": "Give me a dairy-free milkshake recipe",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "94985a56ba": "Milkshake made from soy milk and cocona powder",
+            "08dd0d779c": "Milk blended with banana puree",
+            "064ac3e1f9": "Quinoa cake with fruits and nuts that is diary-free",
+            "0bd950bcbd": "Milkshake made with fresh strawberries and ice cream",
+            "538a69a398": "Dairy-free banana ice cream"
+        },
+        "answer": "94985a56ba",
+        "incorrectness_explanations": {
+            "08dd0d779c": "It contains milk so it isn't dairy-free",
+            "064ac3e1f9": "It is not a milkshake recipe",
+            "0bd950bcbd": "It contains ice cream so it isn't dairy-free",
+            "538a69a398": "It is not a milkshake recipe"
+        },
+        "correctness_explanation": {
+            "dairy-free": ["soy milk","<INFERRED>"],
+            "milkshake": "Milkshake"
+        }
+    },
+    {
+        "query": "I'm allergic to dairy but I really love ice cream",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "538a69a398": "Dairy-free banana ice cream",
+            "94985a56ba": "Milkshake made from non dairy milk and cocona powder",
+            "163a8b39cd": "Ice cream made with whole milk and Oreo cookies",
+            "0dee15fcd6": "Iced coffee made with milk and ice cream",
+            "34c016f490": "Gluten-free, dairy-free, egg-free pancakes"
+        },
+        "answer": "538a69a398",
+        "incorrectness_explanations": {
+            "94985a56ba": "It isn't an ice cream recipe",
+            "163a8b39cd": "It contains milk so it isn't dairy-free",
+            "0dee15fcd6": "It contains milk so it isn't dairy free",
+            "34c016f490": "It isn't an ice cream recipe"
+        },
+        "correctness_explanation": {
+            "ice cream": "ice cream",
+            "allergic to dairy": "dairy-free"
+        }
+    },
+    {
+        "query": "I'm allergic to eggs but want to make a cake",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a02998e13a": "Eggless sauerkraut cake",
+            "7d8a459bcb": "Egg peeling for egg salad",
+            "091b10ff87": "Pasta without eggs",
+            "88bea40028": "Cake made from flour and eggs",
+            "15b107ce92": "Chocolate cake made from plain flour, cocona powder, eggs, and milk"
+        },
+        "answer": "a02998e13a",
+        "incorrectness_explanations": {
+            "7d8a459bcb": "It is not a cake recipe",
+            "091b10ff87": "It is not a cake recipe",
+            "88bea40028": "It contains eggs",
+            "15b107ce92": "It contains eggs"
+        },
+        "correctness_explanation": {
+            "cake": "cake",
+            "allergic to eggs": "Eggless"
+        }
+    },
+    {
+        "query": "What snack can I have if I am allergic to soy?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "99a2ec51be": "Chocolate cupcakes made with flour, sugar, and cocoa",
+            "1df267929e": "Whole grain gluten-free spinach and soy bread",
+            "8188d05a9f": "Hard boiled eggs with soy sauce",
+            "3091ad9409": "Cream puffs made with soy milk",
+            "477ddf6e02": "Roasted soy beans with soy sauce"
+        },
+        "answer": "99a2ec51be",
+        "incorrectness_explanations": {
+            "1df267929e": "The recipe is not soy-free",
+            "8188d05a9f": "The recipe is not soy-free",
+            "3091ad9409": "The recipe is not soy-free",
+            "477ddf6e02": "The recipe is not soy-free"
+        },
+        "correctness_explanation": {
+            "snack": "cupcakes",
+            "allergic to soy": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I need a breakfast that won't trigger my Celiac disease",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "34c016f490": "Gluten-free, dairy-free, egg-free pancakes",
+            "9b881611f8": "Gluten-free chicken rice-a-roni dinner",
+            "925872de8b": "Gluten, dairy, egg and soy-free dinner made with roasted vegetables",
+            "05894f022d": "Breakfast english muffin sandwich with egg, cheese, and ham",
+            "9ebe6afa4e": "Chinese stir fry made with gluten"
+        },
+        "answer": "34c016f490",
+        "incorrectness_explanations": {
+            "9b881611f8": "It is not a breakfast recipe",
+            "925872de8b": "It is not a breakfast recipe",
+            "05894f022d": "Contains gluten so not suitable for someone celiac disease",
+            "9ebe6afa4e": "Contains gluten so not suitable for someone celiac disease"
+        },
+        "correctness_explanation": {
+            "breakfast": "pancakes",
+            "won't trigger my Celiac disease": "Gluten-free"
+        }
+    },
+    {
+        "query": "I want to try sushi but I am not comfortable with eating raw fish",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0509b65958": "Vegetarian sushi rolls",
+            "a40e170c59": "Chirashi sushi made with salmon roe",
+            "00923d4458": "Sushi topped with salmon roe and salmon sashimi",
+            "1a386cbc18": "Cajun seafood gumbo made with rice and shrimp",
+            "0061dfd018": "Salmon fish cooked in the oven with garlic, soy sauce, and lemon juice"
+        },
+        "answer": "0509b65958",
+        "incorrectness_explanations": {
+            "a40e170c59": "It contains raw fish",
+            "00923d4458": "It contains raw fish",
+            "1a386cbc18": "It is not a sushi recipe",
+            "0061dfd018": "It is not a sushi recipe"
+        },
+        "correctness_explanation": {
+            "sushi": "sushi",
+            "Not comfortable with eating raw fish": "vegetarian"
+        }
+    },
+    {
+        "query": "I want to make pancakes but most recipes out there contain wheat",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "05406dce22": "Pancake recipe made with buckwheat flour, eggs and milk",
+            "2788b4636c": "Vegan, wheat-free brownies",
+            "7fba0cb99a": "Dairy-free, wheat-free, egg-free Snickerdoodles cookies",
+            "0442faf137": "Wheat rolls made with whole wheat flour, water, and honey",
+            "131af85fb8": "Pancakes made with whole wheat flour and vegetable oil"
+        },
+        "answer": "05406dce22",
+        "incorrectness_explanations": {
+            "2788b4636c": "It isn't pancakes",
+            "7fba0cb99a": "It isn't pancakes",
+            "0442faf137": "It contains wheat",
+            "131af85fb8": "It contains wheat"
+        },
+        "correctness_explanation": {
+            "pancakes": "Pancake",
+            "but most recipes out there contain wheat": "<INFERRED>"
+        }
+    },
+    {
+        "query": "It is surprisingly difficult to find snacks that don't contain peanuts at the supermarket, so I think I'll have to resort to making my own",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1533bb2a92": "Gluten-free, egg-free, dairy-free, nut-free fudge",
+            "343246d913": "Peanut butter cookies that are gluten-free and sugar-free",
+            "04c6645a2a": "Soup made with peanut butter and milk",
+            "0ad017a594": "Tuna with onions and cooked rice",
+            "957e9efc19": "Cookies made with peanuts"
+        },
+        "answer": "1533bb2a92",
+        "incorrectness_explanations": {
+            "343246d913": "It contains peanut butter so it isn't peanut-free",
+            "04c6645a2a": "It contains peanut butter so it isn't peanut-free",
+            "0ad017a594": "It isn't a snack",
+            "957e9efc19": "It contains peanuts"
+        },
+        "correctness_explanation": {
+            "snack": "fudge",
+            "don't contain peanuts": "nut-free"
+        }
+    },
+    {
+        "query": "I wanted to make myself a beef burger, similar to the one I had at Harvey's",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 1,
+            "Temporal": 0
+        },
+        "options": {
+            "0b89896b7b": "Hamburger with ground beef and vegetables",
+            "840e1a39fa": "Hamburger strudel made with ham, eggs and onions",
+            "04eee0689e": "Roasted vegetable sandwich",
+            "15a91190b9": "Harvey's Ranger cookies with raisins",
+            "5ac94aaa3b": "Harvey's coconut macaroons"
+        },
+        "answer": "0b89896b7b",
+        "incorrectness_explanations": {
+            "840e1a39fa": "Not similar to what Harvey's would serve",
+            "04eee0689e": "Is a sandwich instead of a burger",
+            "15a91190b9": "It is not a burger recipe",
+            "5ac94aaa3b": "It is not a burger recipe"
+        },
+        "correctness_explanation": {
+            "burger": "Hamburger",
+            "beef": "beef",
+            "similar to the one I had at Harvey's": "<INFERRED>"
+        }
+    },
+    {
+        "query": "Give me a sandwich recipe that's vegetarian",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0e55986ae4": "Croissant sandwich made with vegetables",
+            "261068a915": "Italian style sandwiches made with beef",
+            "10ad90c348": "Sandwiches made with cooked pork",
+            "086a475819": "Vegetarian chili",
+            "899a6d9cdb": "Soup made with vegetables"
+        },
+        "answer": "0e55986ae4",
+        "incorrectness_explanations": {
+            "261068a915": "Contains beef so it isn't vegetarian",
+            "10ad90c348": "Contains pork so it isn't vegetarian",
+            "086a475819": "It is not a sandwich recipe",
+            "899a6d9cdb": "It is not a sandwich recipe"
+        },
+        "correctness_explanation": {
+            "sandwich": "sandwich",
+            "vegetarian": "made with vegetables"
+        }
+    },
+    {
+        "query": "I love milkshakes but I'm lactose intolerant",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "95c75334c2": "Milkshakes made with lactose-free milk",
+            "a185ea2a75": "Fluffy milk cake made from whole milk",
+            "a699e71673": "Oreo cookie crust made from Oreo cookie crumbs and whole milk",
+            "0f2ae88b9a": "Milkshake made from strawberry syrup and whole milk",
+            "19d0248fa3": "Milkshakes made from vanilla ice cream, malted milk balls, and whole milk"
+        },
+        "answer": "95c75334c2",
+        "incorrectness_explanations": {
+            "a185ea2a75": "Isn't a milkshake and contains lactose",
+            "a699e71673": "Isn't a milkshake",
+            "0f2ae88b9a": "Is not lactose-free because it uses whole milk",
+            "19d0248fa3": "Is not lactose-free because it uses whole milk"
+        },
+        "correctness_explanation": {
+            "milkshake": "Milkshakes",
+            "lactose intolerant": "lactose-free"
+        }
+    },
+    {
+        "query": "I want have some diabetes friendly cookies",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "298e519f47": "Sugar-free peanut butter cookies",
+            "8876a88802": "High sugar sweet cookies",
+            "9074764867": "High sugar sweet cakes",
+            "81bfe69853": "Sugar-free cake made with carrots",
+            "189b76d057": "Gluten-free sugar-free waffles"
+        },
+        "answer": "298e519f47",
+        "incorrectness_explanations": {
+            "8876a88802": "High sugar isn't suitable for diabetics",
+            "9074764867": "High sugar isn't suitable for diabetics",
+            "81bfe69853": "It is not a cookie recipe",
+            "189b76d057": "It is not a cookie recipe"
+        },
+        "correctness_explanation": {
+            "cookies": "cookies",
+            "diabetes friendly": "Sugar-free"
+        }
+    },
+    {
+        "query": "Do you have a cookie recipe that's good for someone with a nut allergy?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "44c99b3cf4": "Nut-free cookies without baking",
+            "1533bb2a92": "Gluten-free, egg-free, dairy-free, nut-free fudge",
+            "49a8d7676b": "Gluten-free and grain-free nut bread",
+            "3432684886": "Gluten-free apple and nut cake",
+            "4031488820": "Mocha cookies with nuts"
+        },
+        "answer": "44c99b3cf4",
+        "incorrectness_explanations": {
+            "1533bb2a92": "It is not a cookie recipe",
+            "49a8d7676b": "It is not a cookie recipe and contains nuts",
+            "3432684886": "It is not a cookie recipe and contains nuts",
+            "4031488820": "It contains nuts"
+        },
+        "correctness_explanation": {
+            "cookie": "cookies",
+            "good for someone with a nut allergy": "Nut-free"
+        }
+    },
+    {
+        "query": "I want to make a weight loss friendly dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8d1197f537": "Fat-free high fiber muffins",
+            "421aafaa99": "Sweet dessert nachos with peanut butter, sugar, chocolate chips, marshmallows and coconut",
+            "5c9b303043": "Salad made with tuna that is low fat and protein-packed",
+            "76b6e41859": "Onion dip potato salad",
+            "418a0a48f3": "Weight loss tea"
+        },
+        "answer": "8d1197f537",
+        "incorrectness_explanations": {
+            "421aafaa99": "It isn't weight loss friendly",    
+            "5c9b303043": "It's a salad and not a dessert",
+            "76b6e41859": "It's a salad and not a dessert",
+            "418a0a48f3": "It's not a dessert"
+        },
+        "correctness_explanation": {
+            "dessert": "muffins",
+            "weight loss friendly": "Fat-free"
+        }
+    },
+    {
+        "query": "Do you have a breakfast recipe for people with dysphagia?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "189945b6ab": "Pumpkin puree",
+            "12caf612a9": "Chewy beef ribs",
+            "64bb8a0823": "Savoury seasoned snack mix with popcorn, Cheez-Its, Chex, pretzel twists, and smoked almonds",
+            "9b160af386": "Candy that is chewy and hard with a butterscotch flavour",
+            "03a44e60b7": "Classic baked apple pie"
+        },
+        "answer": "189945b6ab",
+        "incorrectness_explanations": {
+            "12caf612a9": "It is hard to swallow for someone with dysphagia",
+            "64bb8a0823": "It is hard to swallow for someone with dysphagia",
+            "9b160af386": "It is hard to swallow for someone with dysphagia",
+            "03a44e60b7": "It is hard to swallow for someone with dysphagia"
+        },
+        "correctness_explanation": {
+            "breakfast": "<INFERRED>",
+            "people with Dysphagia": "puree"
+        }
+    },
+    {
+        "query": "I want some roasted vegetables",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4812e96cdb": "Oven-roasted potatoes, carrots, and fresh green beans",
+            "026ce10bc6": "Oven-roasted peaches and plums",
+            "35ee2de86b": "Pan-roasted lobsters",
+            "1d342aa25a": "Roasted garlic chicken pizza",
+            "bbcdcdc481": "Cheese and vegetable soup with a beer broth"
+        },
+        "answer": "4812e96cdb",
+        "incorrectness_explanations": {
+            "026ce10bc6": "Peaches and plums are not vegetables",
+            "35ee2de86b": "Doesn't contain vegetables",
+            "1d342aa25a": "It is not a vegetable recipe",
+            "bbcdcdc481": "It isn't roasted vegetables"
+        },
+        "correctness_explanation": {
+            "roasted": "Oven-roasted",
+            "vegetables": [
+                "potatoes",
+                "carrots",
+                "green beans"
+            ]
+        }
+    },
+    {
+        "query": "Give me a weight loss cabbage soup recipe",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "20a3c99d0c": "Soup made with cabbage, carrots, potatoes, and onions",
+            "70fc5e9e6d": "Weight loss friendly eggnog that is sugar-free",
+            "418a0a48f3": "Weight loss tea made with carrots and plums",
+            "2ddb86e8b5": "Soup made from buttermilk and walnut",
+            "3633264877": "Smoothies made from non fat milk and strawberries"
+        },
+        "answer": "20a3c99d0c",
+        "incorrectness_explanations": {
+            "70fc5e9e6d": "It doesn't contain cabbage",
+            "418a0a48f3": "It is not a soup recipe and doesn't contain cabbage",
+            "2ddb86e8b5": "It doesn't contain cabbage",
+            "3633264877": "It is not a soup recipe and doesn't contain cabbage"
+        },
+        "correctness_explanation": {
+            "soup": "soup",
+            "cabbage": "cabbage",
+            "weight loss": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want some mushy peas to go with my steak and kidney pie",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "88822955f2": "Mushy peas that are soft",
+            "99fe08ffdc": "Mushy potatoes made from potatoes, cream, and cheese",
+            "9439f2d1cc": "Stir fried pea pods with soy sauce",
+            "79158b0328": "Steak and kidney pie",
+            "0581e6c980": "Roast beef with peas and potatoes"
+        },
+        "answer": "88822955f2",
+        "incorrectness_explanations": {
+            "99fe08ffdc": "Doesn't have peas",
+            "9439f2d1cc": "Isn't mushy peas",
+            "79158b0328": "Isn't a recipe for mushy peas",
+            "0581e6c980": "Isn't a recipe for mushy peas"
+        },
+        "correctness_explanation": {
+            "mushy": "mushy",
+            "peas": "peas"
+        }
+    },
+    {
+        "query": "I want a creamy pasta recipe that doesn't contain cheese",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "267f2a13cb": "Pasta made with vegetables, Philadelphia savory garlic cooking creme, and rotini pasta",
+            "5e1ab8f689": "Creamy pasta made with spaghetti and cheese",
+            "0a1c8755a4": "Creamy cheese souffle made with eggs and cheese",
+            "88fc85a12c": "Creamy cheese cake recipe",
+            "a7c0b87840": "Creamy macaroni and cheese"
+        },
+        "answer": "267f2a13cb",
+        "incorrectness_explanations": {
+            "5e1ab8f689": "It contains cheese",
+            "0a1c8755a4": "It isn't a pasta recipe and it contains cheese",
+            "88fc85a12c": "It isn't a pasta recipe and it contains cheese",
+            "a7c0b87840": "It isn't a pasta recipe and it contains cheese"
+        },
+        "correctness_explanation": {
+            "pasta": "Pasta",
+            "creamy": "Philadelphia savory garlic cooking creme",
+            "doesn't contain cheese": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want a detox salad",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "038ca690f6": "Salad made from broccoli, cauliflower, carrots, and sunflower seeds",
+            "099ae43388": "Refreshing detox water made from grapefruit, cucumbers, and ginger",
+            "89f71c44da": "Salad made from cooked salmon, eggs, and creams",
+            "2d52df53ae": "Detox smoothies made from strawberries, avocados, beet, apple, and water",
+            "9b1b85a8bc": "Fresh water blended with apple cider vinegar, ground ginger, and bath salts"
+        },
+        "answer": "038ca690f6",
+        "incorrectness_explanations": {
+            "099ae43388": "It is not a salad recipe",
+            "89f71c44da": "It isn't a detox salad",
+            "2d52df53ae": "It is not a salad recipe",
+            "9b1b85a8bc": "It is not a salad recipe"
+        },
+        "correctness_explanation": {
+            "salad": "Salad",
+            "detox": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I want muffins for breakfast but I'm out of butter",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3b9743e2f7": "Moist banana muffins that don't contain butter",
+            "298be0606a": "Moist roll cake with milk, butter and cream",
+            "96f24aef86": "Muffins made from flour, salt, powder, and butter",
+            "7387d63b90": "Butter cake made without butter (replaced with vanilla extract)",
+            "05823563d4": "Banana and peanut butter breakfast oatmeal"
+        },
+        "answer": "3b9743e2f7",
+        "incorrectness_explanations": {
+            "298be0606a": "It is not a muffin recipe",
+            "96f24aef86": "It uses butter",
+            "7387d63b90": "It is not a muffin recipe",
+            "05823563d4": "It is not a muffin recipe"
+        },
+        "correctness_explanation": {
+            "muffins": "muffins",
+            "out of butter": "don't contain butter"
+        }
+    },
+    {
+        "query": "Give me a low-glycemic dish for dinner",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "6427ac518b": "Stir-fried ginger chicken that is low-glycemic",
+            "a4bf69e663": "Low-glycemic dessert made from apples and butter",
+            "00c2039872": "Breakfast bars made with eggs and flour",
+            "7195d03521": "Rum and coffee cream after dinner drink recipe",
+            "549a08a991": "Long-grain white rice dish with onions"
+        },
+        "answer": "6427ac518b",
+        "incorrectness_explanations": {
+            "a4bf69e663": "It is not a dinner recipe",
+            "00c2039872": "It is not a dinner recipe",
+            "7195d03521": "It is not a dinner recipe",
+            "549a08a991": "It contains white rice which is high-glycemic"
+        },
+        "correctness_explanation": {
+            "dish for dinner": "ginger chicken",
+            "low-glycemic": "low-glycemic"
+        }
+    },
+    {
+        "query": "I want a salad made with all organic ingredients",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9261e1d685": "AMIEs organic green salad",
+            "47605b090f": "Organic chocolate cupcakes",
+            "743fea0b63": "Soup made with organic carrots",
+            "74e3486b1c": "Pancakes made from organic whole wheat flour",
+            "0a8842605a": "Salad dressing made with oil and vinegar"
+        },
+        "answer": "9261e1d685",
+        "incorrectness_explanations": {
+            "47605b090f": "It isn't a salad",
+            "743fea0b63": "It isn't a salad",
+            "74e3486b1c": "It isn't a salad",
+            "0a8842605a": "It isn't a salad"
+        },
+        "correctness_explanation": {
+            "salad": "salad",
+            "organic": "organic"
+        }
+    },
+    {
+        "query": "I want a dinner recipe that's not too salty",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "1b45b0c948": "Low salt Italian chicken and rice",
+            "2654a943be": "No salt added snack bars made with pecans",
+            "398ac504a4": "Salty snack made with butter, garlic salt, sea salt, and pecans",
+            "9139114b4e": "Low salt spaghetti sauce",
+            "8778d53731": "Sweet and salty pasta salad"
+        },
+        "answer": "1b45b0c948",
+        "incorrectness_explanations": {
+            "2654a943be": "It's a snack, not a dinner recipe",
+            "398ac504a4": "It's a snack, not a dinner recipe",
+            "9139114b4e": "It's a sauce, not a dinner recipe",
+            "8778d53731": "It isn't low in salt"
+        },
+        "correctness_explanation": {
+            "dinner": "chicken and rice",
+            "not too salty": "Low salt"
+        }
+    },
+    {
+        "query": "I wanted to make something salty to season my pea soup",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "222db9125c": "Herbs mixed with salt",
+            "141642b681": "Gluten-free salted chocolate chip cookies",
+            "69854a8643": "Beef roasted in salt crust",
+            "1f4eed7165": "Simple yogurt and lemon dressing recipe that can be used for salads",
+            "2654a943be": "No salt added snack bars made with pecans"
+        },
+        "answer": "222db9125c",
+        "incorrectness_explanations": {
+            "141642b681": "Not something to use as seasoning",
+            "69854a8643": "Not something to use as seasoning",
+            "1f4eed7165": "Not a salty dressing and dressing isn't usually for soup",
+            "2654a943be": "Not something to use as seasoning"
+        },
+        "correctness_explanation": {
+            "to season": "herbs",
+            "salty": "salt"
+        }
+    },
+    {
+        "query": "I want fast food but my doctor says I shouldn't eat too much salty foods",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "8865cbafaa": "Low sodium soft tacos",
+            "869cf92b01": "Low sodium breakfast made from sliced mushroom, onions, and egg whites",
+            "7c5d0d852a": "Deep fried vegetables",
+            "0a1ce6cce0": "Classic salted french fries",
+            "a2ee8663b8": "low salt ranch dressing"
+        },
+        "answer": "8865cbafaa",
+        "incorrectness_explanations": {
+            "869cf92b01": "It isn't fast food",
+            "7c5d0d852a": "It isn't fast food",
+            "0a1ce6cce0": "Isn't low on salt",
+            "a2ee8663b8": "Just a dressing and not fast food itself"
+        },
+        "correctness_explanation": {
+            "fast food": "tacos",
+            "shouldn't eat too much salty foods": "Low sodium"
+        }
+    },
+    {
+        "query": "I want a diabetes friendly dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "88dbfc6049": "Low sugar applesauce cupcakes",
+            "4b9c92eec9": "Dessert pizza made from sugar, fruit, salt, eggs, milk, and flour",
+            "1be94c2b1a": "Cookies made from sugar, eggs, and flour",
+            "090f94ea5b": "Salad made from lettuce and sugar",
+            "969cddc559": "Rice with chicken stock and onion"
+        },
+        "answer": "88dbfc6049",
+        "incorrectness_explanations": {
+            "4b9c92eec9": "Doesn't have low sugar so not as diabetes friendly",
+            "1be94c2b1a": "Doesn't have low sugar so not as diabetes friendly",
+            "090f94ea5b": "It isn't a dessert",
+            "969cddc559": "It isn't a dessert"
+        },
+        "correctness_explanation": {
+            "dessert": "cupcakes",
+            "diabetes friendly": "Low sugar"
+        }
+    },
+    {
+        "query": "I want to cook a simple lunch but I'm trying to lose weight",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "5431d56b75": "Low calorie low fat tuna salad",
+            "884fcfa1eb": "Low calorie chocolate chip cookies",
+            "324c406768": "High calorie smoothie made with banana, honey, and milk",
+            "5c0694bd66": "Poutine styled baked potatoes with cheese",
+            "917cd5e59f": "Fruit milk shake that is low calorie"
+        },
+        "answer": "5431d56b75",
+        "incorrectness_explanations": {
+            "884fcfa1eb": "Isn't a lunch recipe",
+            "324c406768": "Has high calories which doesn't help with weight loss",
+            "5c0694bd66": "Has high calories/fat which doesn't help with weight loss",
+            "917cd5e59f": "Isn't a lunch recipe"
+        },
+        "correctness_explanation": {
+            "simple": "<INFERRED>",
+            "lunch": "salad",
+            "trying to lose weight": [
+                "Low calorie",
+                "low fat"
+            ]
+        }
+    },
+    {
+        "query": "I want healthy fast food for dinner",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "3605f03f94": "Low fat vegan burgers made with tofu, vegetables, and seasoning",
+            "92320e9478": "Healthy green drink made from cucumber and fruit",
+            "59d92807e6": "Fast and healthy cauliflower soup",
+            "20b2248291": "Drink made from peach and orange juice",
+            "019a97b553": "Sandwich with fried chicken pieces"
+        },
+        "answer": "3605f03f94",
+        "incorrectness_explanations": {
+            "92320e9478": "Isn't fast food",
+            "59d92807e6": "Isn't fast food",
+            "20b2248291": "Is a drink and not dinner",
+            "019a97b553": "Fried food isn't healthy"
+        },
+        "correctness_explanation": {
+            "fast food": "hamburgers",
+            "healthy": ["Low fat", "vegan", "<INFERRED>"]
+        }
+    },
+    {
+        "query": "I want a vegetarian meal that still gets me the nutrients I would get with meat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7481d2a59b": "High protein skillet with rice and vegetables",
+            "85568e7441": "High protein buger made from ground beef, eggs, and butter",
+            "4812e96cdb": "Oven-Roasted potatoes, carrots, and fresh green beans",
+            "1c7cb30ebf": "High protein burger made with vegetables, ground beef, and eggs",
+            "08c86f8dd5": "Low calories vegetable chips made from sweet potatoes"
+        },
+        "answer": "7481d2a59b",
+        "incorrectness_explanations": {
+            "85568e7441": "Contains beef so it isn't vegetarian",
+            "4812e96cdb": "Doesn't contain protein (nutrient in meat)",
+            "1c7cb30ebf": "Contains beef so it isn't vegetarian",
+            "08c86f8dd5": "Doesn't contain protein (nutrient in meat)"
+        },
+        "correctness_explanation": {
+            "vegetarian": "vegetables",
+            "nutrients I would get with meat": "High protein"
+        }
+    },
+    {
+        "query": "I wanted to add some flavor to my homemade pizza",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3b4a85c8a4": "Pizza sauce that can be made at home",
+            "46519a9833": "Pizza that can be made at home",
+            "99bb73551e": "Homemade pumpkin pie",
+            "05f399fc5a": "Homemade pancakes made from flour, sugar, salt, and eggs",
+            "0a635fdbe4": "Butter that can be made at home"
+        },
+        "answer": "3b4a85c8a4",
+        "incorrectness_explanations": {
+            "46519a9833": "It is pizza itself and not a sauce for pizza",
+            "99bb73551e": "It isn't a sauce for pizza",
+            "05f399fc5a": "It isn't a sauce for pizza",
+            "0a635fdbe4": "It isn't a sauce for pizza"
+        },
+        "correctness_explanation": {
+            "flavor": "sauce",
+            "pizza": "Pizza"
+        }
+    },
+    {
+        "query": "I want to make ribs but I don't have a grill",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9438b707a6": "Pork ribs baked in the oven",
+            "91b0a015ed": "Grilled ribs with ground black pepper",
+            "6d142ffe3a": "Grilled barbeque ribs",
+            "7f799f8398": "Hash brown baked in oven",
+            "03c2e612da": "Barbeque sauce for ribs"
+        },
+        "answer": "9438b707a6",
+        "incorrectness_explanations": {
+            "91b0a015ed": "It requires a grill",
+            "6d142ffe3a": "It requires a grill",
+            "7f799f8398": "It isn't ribs",
+            "03c2e612da": "It is a sauce and not a recipe for ribs"
+        },
+        "correctness_explanation": {
+            "ribs": "ribs",
+            "don't have a grill": "baked in the oven"
+        }
+    },
+    {
+        "query": "Can I have a recipe for grilled fish that's not tuna",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1689dd7fd9": "Grilled salmon seasoned with salt and pepper",
+            "909be673a6": "Grilled tuna with grilled bread and Aioli",
+            "01905a64b0": "Grilled vegetables",
+            "6e6340ee39": "Raw salmon marinated in Amontillado Sherry",
+            "133f6a4526": "Tuna tataki - lightly seared tuna steaks in ponzu sauce"
+        },
+        "answer": "1689dd7fd9",
+        "incorrectness_explanations": {
+            "909be673a6": "It is tuna",
+            "01905a64b0": "It isn't grilled fish",
+            "6e6340ee39": "It isn't grilled",
+            "133f6a4526": "It is tuna"
+        },
+        "correctness_explanation": {
+            "grilled": "grilled",
+            "fish": "salmon",
+            "not tuna": "<INFERRED>"
+        }
+    },
+    {
+        "query": "How do I make pan-fried noodles with seafood?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "47f26aeb7c": "Pan-fried noodles made with shrimp, scallops, and carrots",
+            "a2386f6948": "Pan-fried rice noodles with pork and vegetables",
+            "80a041491d": "Pan-fried noodles with hoisin beef",
+            "23a95e4b1e": "Pan-fried cabbage with bacon",
+            "a6c5c1f5cb": "Spanish rice with chicken, spicy sausage, and seafood with low sugar content"
+        },
+        "answer": "47f26aeb7c",
+        "incorrectness_explanations": {
+            "a2386f6948": "It doesn't contain seafood",
+            "80a041491d": "It doesn't contain seafood",
+            "23a95e4b1e": "It isn't noodles and doesn't contain seafood",
+            "a6c5c1f5cb": "It isn't noodles"
+        },
+        "correctness_explanation": {
+            "pan-fried": "Pan-fried",
+            "noodles": "noodles",
+            "seafood": [
+                "shrimp",
+                "scallops"
+            ]
+        }
+    },
+    {
+        "query": "I want to bake a sweet lemon tart",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "a838baef39": "Lemon and goat cheese tart",
+            "9ba985f6aa": "Sweet potato tarts",
+            "22972e2a45": "Sweet potatoes with lemon juice",
+            "1cf8751733": "Lemon loaf made with flour, baking powder, salt, shortening, sugar, eggs, lemons, milk",
+            "0467ff1e38": "Sweet kiwi tart made from real kiwis"
+        },
+        "answer": "a838baef39",
+        "incorrectness_explanations": {
+            "9ba985f6aa": "It isn't a lemon tart",
+            "22972e2a45": "It isn't a tart",
+            "1cf8751733": "It isn't a tart",
+            "0467ff1e38": "It isn't a lemon tart"
+        },
+        "correctness_explanation": {
+            "sweet": "<INFERRED>",
+            "lemon": "Lemon",
+            "tart": "tart"
+        }
+    },
+    {
+        "query": "Do you know how to cook bitter melon the Chinese way?",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5fb91f8f02": "Bitter melon stir-fry",
+            "3d6de78487": "Tuna salad with bitter melon",
+            "55b627bdf0": "No-fry karela crispies (bitter melon)",
+            "3e3ab90f0f": "Bitter compote made with orange and honey",
+            "6c723a95a8": "Bitter herbs salad"
+        },
+        "answer": "5fb91f8f02",
+        "incorrectness_explanations": {
+            "3d6de78487": "It's not Chinese style",
+            "55b627bdf0": "It's not Chinese style",
+            "3e3ab90f0f": "It doesn't contain bitter melon",
+            "6c723a95a8": "It doesn't contain bitter melon"
+        },
+        "correctness_explanation": {
+            "bitter melon": "bitter melon",
+            "Chinese way": "stir-fry"
+        }
+    },
+    {
+        "query": "Give me a non-spicy hot pot recipe",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "9c5be89ab9": "Hot pot that is not spicy",
+            "4c1f89784f": "Spicy hot pot with pork and pepper",
+            "0192788e7c": "Spicy hot chocolate",
+            "9a95588667": "Nuts made with almond and chili powder",
+            "9e89d96daa": "Hot and spicy ribs"
+        },
+        "answer": "9c5be89ab9",
+        "incorrectness_explanations": {
+            "4c1f89784f": "It is spicy",
+            "0192788e7c": "It isn't hot pot and it is spicy",
+            "9a95588667": "It isn't hot pot",
+            "9e89d96daa": "It isn't hot pot"
+        },
+        "correctness_explanation": {
+            "hot pot": "hot pot",
+            "non-spicy": "not spicy"
+        }
+    },
+    {
+        "query": "Give me a recommendation for a drink people usually bring to the gym",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "324c406768": "High calorie smoothie made with fruit",
+            "14b919977a": "Peppermint hot chocolate drink",
+            "1103ea2a92": "Low calorie okara tart",
+            "884fcfa1eb": "Low calorie chocolate chip cookies",
+            "098485481c": "High protein chicken salad made with vegetables"
+        },
+        "answer": "324c406768",
+        "incorrectness_explanations": {
+            "14b919977a": "Hot drinks are not usually brought to the gym",
+            "1103ea2a92": "Not a drink recipe",
+            "884fcfa1eb": "Not a drink recipe",
+            "098485481c": "Not a drink recipe"
+        },
+        "correctness_explanation": {
+            "drink": "smoothie",
+            "bring to the gym": "High calorie"
+        }
+    },
+    {
+        "query": "I want a lunch I can eat cold",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "51c55a401e": "Taco salad with vegetables",
+            "7013f45ec8": "Steak fingers made with sirloin steaks, flour, and pepper",
+            "262878bbe2": "Korean style hot pot made with vegetables",
+            "832a8fdbf9": "Iced coffee made with cold coffee and ice cream",
+            "4a13c4e253": "Banana split ice cream, ice cream and banana drizzled with chocolate syrup"
+        },
+        "answer": "51c55a401e",
+        "incorrectness_explanations": {
+            "7013f45ec8": "Steak is usually best served warm",
+            "262878bbe2": "Hot pot needs to be heated up to eat",
+            "832a8fdbf9": "Isn't a lunch recipe",
+            "4a13c4e253": "Isn't a lunch recipe"
+        },
+        "correctness_explanation": {
+            "lunch": "Taco salad",
+            "can eat cold": "salad"
+        }
+    },
+    {
+        "query": "Can I have a recipe for fried seafood?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "7f9b44338a": "Fried shrimp and scallops",
+            "2a49752442": "Peruvian chicken breasts that's pan fried until brown on either side, with coca cola and lime juice sauces",
+            "4abc458244": "Deep fried lamb marinated with brown bean sauce and shaoxing wine",
+            "05f17e93c6": "Spanish seafood rice made from shrimp, squid, mussels, and vegetables",
+            "25692e4d25": "Seafood linguine recipe containing shrimp"
+        },
+        "answer": "7f9b44338a",
+        "incorrectness_explanations": {
+            "2a49752442": "It's fried chicken instead of seafood",
+            "4abc458244": "It's fried lamb instead of seafood",
+            "05f17e93c6": "Isn't fried seafood",
+            "25692e4d25": "It isn't fried seafood"
+        },
+        "correctness_explanation": {
+            "fried": "fried",
+            "seafood": [
+                "shrimp",
+                "scallops"
+            ]
+        }
+    },
+    {
+        "query": "Do you have an idea for a vegetarian dish I can bring to a summer picnic?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 1
+        },
+        "options": {
+            "97831761b5": "Pasta salad made with vegetables",
+            "96b7375280": "Vegetable stew made with pumpkin, leek, onion, squash, turnips and potatoes",
+            "8479a668af": "Picnic chicken made with sugar, ginger powder, and salt",
+            "8f6e08bad4": "Picnic sausage made with ground beef and sausage",
+            "6fe7906cff": "Vegetable soup with ground beef"
+        },
+        "answer": "97831761b5",
+        "incorrectness_explanations": {
+            "96b7375280": "Stew is not a typical picnic dish since it's eaten warm",
+            "8479a668af": "It contains chicken so it's not vegetarian",
+            "8f6e08bad4": "It contains beef so it's not vegetarian",
+            "6fe7906cff": "It contains beef so it's not vegetarian"
+        },
+        "correctness_explanation": {
+            "vegetarian": "made with vegetables",
+            "can bring to a summer picnic": "Pasta salad"
+        }
+    },
+    {
+        "query": "Is there anything I can drink if I have high blood pressure?",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "4e9897f093": "Broccoli soup with low sodium chicken broth",
+            "0caba61123": "Salad that can lower the blood sugar level",
+            "1685189720": "Cheesecake with blood orange",
+            "39d79732f3": "Cold drink made with mint, ice cubes, vodka, Midori melon liqueur, lime, and club soda for the summer heat",
+            "3f120df9d5": "A drink made with Vodka and orange"
+        },
+        "answer": "4e9897f093",
+        "incorrectness_explanations": {
+            "0caba61123": "Not a drink recipe",
+            "1685189720": "Not a drink recipe",
+            "39d79732f3": "Alcohol elevates blood pressure",
+            "3f120df9d5": "Alcohol elevates blood pressure"
+        },
+        "correctness_explanation": {
+            "drink": "soup",
+            "high blood pressue": "low sodium"
+        }
+    },
+    {
+        "query": "I'm craving a hamburger with a juicy beef patty",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0d22436952": "Succulent burger with ground beef and sauce",
+            "068f2be85e": "Juicy pie made with peaches, blueberries, and lemon juice",
+            "41a92df7fb": "Sauce made from the pan drippings of cooked beef",
+            "459268974f": "Burger buns made with flour, baking soda, water, salt, and butter",
+            "058e3ba2d2": "Soft and juicy russian meatball with creamy tomato sauce"
+        },
+        "answer": "0d22436952",
+        "incorrectness_explanations": {
+            "068f2be85e": "Isn't a burger",
+            "41a92df7fb": "Isn't a burger",
+            "459268974f": "Isn't a burger",
+            "058e3ba2d2": "Isn't a burger"
+        },
+        "correctness_explanation": {
+            "hamburger": "burger",
+            "juicy": "Succulent",
+            "beef": "ground beef"
+        }
+    },
+    {
+        "query": "Give me a post-workout recovery recipe",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0b581f2f5a": "Soup made with ground turkey that is low fat and high carb",
+            "2f49826fdd": "Low-carb cornbread",
+            "9552625d0c": "Wraps that are low in carb",
+            "40489cf028": "Low carb pizza",
+            "06051d0091": "Low carb flatbread"
+        },
+        "answer": "0b581f2f5a",
+        "incorrectness_explanations": {
+            "2f49826fdd": "Low in carbohydrates which isn't good for post-workout recovery",
+            "9552625d0c": "Low in carbohydrates which isn't good for post-workout recovery",
+            "40489cf028": "Low in carbohydrates which isn't good for post-workout recovery",
+            "06051d0091": "Low in carbohydrates which isn't good for post-workout recovery"
+        },
+        "correctness_explanation": {
+            "post-workout recovery": [
+                "low fat",
+                "high carb"
+            ]
+        }
+    },
+    {
+        "query": "I'm craving Asian style meat pancakes",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "5c0b92f270": "Pancakes with chicken breast and vegetables",
+            "280c99ac07": "Vegetable based potato pancakes",
+            "07c53e91c9": "Thin pan sized russian pancakes",
+            "17b3df5090": "Vegan pumpkin pancakes",
+            "0115f36655": "Asian bolognese made of ground chicken, tofu, and tomatoes with jasmine rice"
+        },
+        "answer": "5c0b92f270",
+        "incorrectness_explanations": {
+            "280c99ac07": "Doesn't contain meat",
+            "07c53e91c9": "Doesn't contain meat",
+            "17b3df5090": "Doesn't contain meat",
+            "0115f36655": "Not a pancake recipe"
+        },
+        "correctness_explanation": {
+            "pancakes": "Pancakes",
+            "meat": "chicken breast",
+            "Asian style": "<INFERRED>"
+        }
+    },
+    {
+        "query": "My father likes spicy food and I wanted to find a beef recipe that I could make for our family gathering this week",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "3acdf64c3b": "Corned beef with chili sauce",
+            "4eb6107a1f": "Sweet and sour beef",
+            "8df18fda8c": "Sweet BBQ Beef Kabobs",
+            "1a9a4191e5": "Spicy Chicken Fajitas",
+            "43f4928c1d": "Spicy chicken with chili oil"
+        },
+        "answer": "3acdf64c3b",
+        "incorrectness_explanations": {
+            "4eb6107a1f": "It isn't spicy",
+            "8df18fda8c": "It isn't spicy",
+            "1a9a4191e5": "It isn't beef",
+            "43f4928c1d": "It isn't beef"
+        },
+        "correctness_explanation": {
+            "beef": "beef",
+            "spicy": "chili sauce"
+        }
+    },
+    {
+        "query": "I want a soup that is a good for my bones since I have Osteoporosis",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "39fdf87117": "Calcium-rich soup made with broccoli and beans",
+            "7ca59394d4": "High calcium toast recipe for breakfast",
+            "064b8429bf": "Vegetable soup using chicken broth and cauliflower",
+            "8819bff596": "Calcium rich daikon radish salad",
+            "4244b4888a": "Boneless boston pork roasted and marinated for 6 hours"
+        },
+        "answer": "39fdf87117",
+        "incorrectness_explanations": {
+            "7ca59394d4": "Not a soup recipe",
+            "064b8429bf": "Low in calcium which isn't good for bones",
+            "8819bff596": "Not a soup recipe",
+            "4244b4888a": "Not a soup recipe or high in calcium"
+        },
+        "correctness_explanation": {
+            "soup": "soup",
+            "good for my bones": "Calcium-rich"
+        }
+    },
+    {
+        "query": "I want a salad rich with antioxidants",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "349b73482f": "Potato salad with extra virgin olive oil dressing",
+            "21f1dcdcff": "Vitamin-rich soup made with vegetables",
+            "9f311a1174": "Vitamin-rich smoothies made with cranberries, carrot, mango, strawberries, and cantaloupe",
+            "7caa750de0": "Easy chicken legs made with Italian salad dressing",
+            "171c4c9469": "Caesar salad dressing recipe made from scratch using raw cashews"
+        },
+        "answer": "349b73482f",
+        "incorrectness_explanations": {
+            "21f1dcdcff": "Not a salad recipe",
+            "9f311a1174": "Not a salad recipe",
+            "7caa750de0": "Not a salad recipe and not rich in antioxidants",
+            "171c4c9469": "Is just dressing and not a salad"
+        },
+        "correctness_explanation": {
+            "salad": "salad",
+            "rich with antioxidants": "extra virgin olive oil"
+        }
+    },
+    {
+        "query": "I want cookies I can eat despite having a grain allergy",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "691fb65c17": "Grain-free cookies made with flour, peanut and eggs",
+            "6ad3855d29": "Grain burgers made with whole wheat flour, rice, and vegetables",
+            "60c97f7867": "Gluten-free whole grain bread",
+            "1978bd70c4": "Grain-free bread made with banana, almond flour, and eggs",
+            "7d09f98349": "Cookies and cream ice cream made with oreo cookies"
+        },
+        "answer": "691fb65c17",
+        "incorrectness_explanations": {
+            "6ad3855d29": "It contains grain",
+            "60c97f7867": "It contains grain",
+            "1978bd70c4": "It's not a cookie recipe",
+            "7d09f98349": "It's not a cookie recipe"
+        },
+        "correctness_explanation": {
+            "cookies": "cookies",
+            "despite having a grain allergy": "Grain-free"
+        }
+    },
+    {
+        "query": "I want a beef stew with at least two different vegetables",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 1,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "19377fae88": "Beef stew made with beef, carrots and potatoes",
+            "a874748867": "Pie with vegetables and ground beef",
+            "90557eb775": "Burger made with vegetables and ground beef",
+            "8c69262176": "Stew made with chicken thighs, vegetables, and chicken broth",
+            "6990d1bdad": "Beef and carrot stew with dark beer"
+        },
+        "answer": "19377fae88",
+        "incorrectness_explanations": {
+            "a874748867": "It isn't a stew",
+            "90557eb775": "It isn't a stew",
+            "8c69262176": "It doesn't contain beef",
+            "6990d1bdad": "It only has one vegetable"
+        },
+        "correctness_explanation": {
+            "beef stew": "Beef stew",
+            "at least two different vegetables": [
+                "carrots",
+                "potatoes"
+            ]
+        }
+    },
+    {
+        "query": "I want to make dinner rolls with some extra flavour in it",
+        "query_type": {
+            "Specific": 1,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "1aa15dee27": "Orange dinner rolls made with flour, sugar, eggs, and orange zest",
+            "67788618d7": "A fluffy cocoa Swiss roll sponge recipe",
+            "016c32e55a": "Fluffy dinner rolls made with milk, sugar and eggs",
+            "7c38687b66": "Regular dinner rolls with honey",
+            "3d32fbf542": "Fluffy cake made with vanilla flavour"
+        },
+        "answer": "1aa15dee27",
+        "incorrectness_explanations": {
+            "67788618d7": "It isn't a dinner roll recipe",
+            "016c32e55a": "It is plain and doesn't have additional flavour",
+            "7c38687b66": "It is plain and doesn't have additional flavour",
+            "3d32fbf542": "It isn't a dinner roll recipe"
+        },
+        "correctness_explanation": {
+            "dinner rolls": "dinner rolls",
+            "extra flavour": "Orange"
+        }
+    },
+    {
+        "query": "I have some extra milk and I want to use it for baking",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "32acd68e7c": "Chocolate brownie recipe with milk and maple syrup",
+            "17964c7c95": "Milk blended with chocolate syrup",
+            "a8fe9e0932": "Strawberry milk shake",
+            "981c1107e0": "Ramen noodles made from base ingredients made with: wheat flour, baking soda, and water",
+            "06e0f3189a": "Zucchini baked with onion, poppy seeds, and cheese"
+        },
+        "answer": "32acd68e7c",
+        "incorrectness_explanations": {
+            "17964c7c95": "It isn't baked",
+            "a8fe9e0932": "It isn't baked",
+            "981c1107e0": "It isn't baked and doesn't use milk",
+            "06e0f3189a": "Doesn't use milk"
+        },
+        "correctness_explanation": {
+            "milk": "milk",
+            "baking": "<INFERRED>"
+        }
+    },
+    {
+        "query": "It's my cheat day today and I'm craving some junk food for dinner",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 1,
+            "Indirect": 1,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "34e43ad759": "Crunchy greasy beefy potato tacos",
+            "a699e71673": "Oreo cookie crust made from Oreo cookie crumbs and whole milk",
+            "798f68676a": "Healthy patties made from vegetables",
+            "62e660a869": "Salad made with lettuce and tomatoes",
+            "3545bb0e98": "Chocolate ice cream"
+        },
+        "answer": "34e43ad759",
+        "incorrectness_explanations": {
+            "a699e71673": "It's not suitable for dinner",
+            "798f68676a": "It's not junk food",
+            "62e660a869": "It's not junk food",
+            "3545bb0e98": "It's not suitable for dinner"
+        },
+        "correctness_explanation": {
+            "cheat day": "<INFERRED>",
+            "junk food": ["greasy", "tacos"],
+            "dinner": "tacos"
+        }
+    },
+    {
+        "query": "I want a kebab that isn't meat",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 1,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "0047cc5fcd": "Kebabs with fresh strawberries, kiwi, bananas, and pineapple",
+            "a80aa76d01": "Kebab with ground beef",
+            "911092213d": "Fruit drink with apples, oranges and strawberries",
+            "790befb273": "Spicy meat kebabs",
+            "3fbee18505": "West African meat kebabs"
+        },
+        "answer": "0047cc5fcd",
+        "incorrectness_explanations": {
+            "a80aa76d01": "It contains meat",
+            "911092213d": "It isn't a kebab recipe",
+            "790befb273": "It contains meat",
+            "3fbee18505": "It contains meat"
+        },
+        "correctness_explanation": {
+            "kebab": "Kebabs",
+            "isn't meat": "<INFERRED>"
+        }
+    },
+    {
+        "query": "I'm craving an egg-based dessert",
+        "query_type": {
+            "Specific": 0,
+            "Subjective": 0,
+            "Indirect": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0
+        },
+        "options": {
+            "581eb5fb1e": "Custard egg tart made with eggs, honey, and heavy cream",
+            "102eaa3ef9": "Egg noodles with chicken and water chestnuts",
+            "0a6f99d2b8": "Classic egg sandwich - mashed eggs with mayonnaise sandwiched between white bread",
+            "0c5fbcfcdc": "Dessert made with pumpkin and sugar",
+            "34bb2c06e1": "Strawberry granita dessert with rose water"
+        },
+        "answer": "581eb5fb1e",
+        "incorrectness_explanations": {
+            "102eaa3ef9": "It's not a dessert.",
+            "0a6f99d2b8": "It's not a dessert",
+            "0c5fbcfcdc": "It's not an egg-based dessert",
+            "34bb2c06e1": "It's not an egg-based dessert"
+        },
+        "correctness_explanation": {
+            "dessert": ["Custard", "tart"],
+            "egg-based": "egg tart"
+        }
+    }
+]
