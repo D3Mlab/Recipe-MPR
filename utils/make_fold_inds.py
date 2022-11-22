@@ -7,7 +7,7 @@ Inputs
 	- data_path: string, default = ../data/500QA.json
 
 Outputs
-- return indicies for folds as 3 level list: [[[list of train indicies for fold 1],[list of val indicies for fold 1],[list of test indicies for fold 1]], [fold 2], ...]
+- writes indicies for folds as 3 level list: [[[list of train indicies for fold 1],[list of val indicies for fold 1],[list of test indicies for fold 1]], [fold 2], ...]
 '''
 
 import argparse
@@ -41,11 +41,11 @@ def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path 
 		kth_fold_inds = [train_inds,val_inds,test_inds]
 		all_fold_inds.append(kth_fold_inds)
 
-	with open(write_path,w) as f:
+	with open(write_path, 'w') as f:
 		for i in range(k):
-			f.writeline(all_fold_inds[i])
+			f.write(f"{all_fold_inds[i]}\n")
 
-	return all_fold_inds
+	#return all_fold_inds
 
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
