@@ -15,7 +15,7 @@ import random
 import math
 import json
 
-def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path = "../data/500QA.json", write_path = "../data/fold_inds"):
+def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path = "../data/500QA.json", write_path = "../data/fold_inds.txt"):
 	random.seed(seed)
 
 	all_fold_inds = []
@@ -54,7 +54,7 @@ if __name__ == '__main__':
 	parser.add_argument('-val_frac', default = 0.1)
 	parser.add_argument('-seed', default = 0)
 	parser.add_argument('-data_path', default = "../data/500QA.json")
-	parser.add_argument('-write_path', default = "../data/fold_inds")
+	parser.add_argument('-write_path', default = "../data/fold_inds.txt")
 
 	args = parser.parse_args()
 
