@@ -14,9 +14,8 @@ import argparse
 import random
 import math
 import json
-import torch
 
-def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path = "../data/500QA.json"):
+def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path = "../data/500QA.json", write_path = "../data/fold_inds"):
 	random.seed(seed)
 
 	all_fold_inds = []
@@ -42,6 +41,10 @@ def make_fold_inds(k = 1, train_frac = 0.1, val_frac = 0.5, seed = 0, data_path 
 		kth_fold_inds = [train_inds,val_inds,test_inds]
 		all_fold_inds.append(kth_fold_inds)
 
+	with open(write_path,w) as f:
+		for i in range(k):
+			f.writeline(all_fold_inds[i])
+
 	return all_fold_inds
 
 if __name__ == '__main__':
@@ -51,8 +54,9 @@ if __name__ == '__main__':
 	parser.add_argument('-val_frac', default = 0.1)
 	parser.add_argument('-seed', default = 0)
 	parser.add_argument('-data_path', default = "../data/500QA.json")
+	parser.add_argument('-write_path', default = "../data/fold_inds")
 
 	args = parser.parse_args()
 
-	make_fold_inds(k = int(args.k), train_frac = float(args.train_frac), val_frac = float(args.val_frac), seed = float(args.seed), data_path = args.data_path)
+	make_fold_inds(k = int(args.k), train_frac = float(args.train_frac), val_frac = float(args.val_frac), seed = float(args.seed), data_path = args.data_path, write_path = args.write_path)
 
