@@ -46,7 +46,7 @@ class NeuralSearchEngine():
 		agg_scores = self._aggregate(all_scores, agg_fcn)
 
 		agg_scores, self.documents = shuffle(agg_scores, self.documents, random_state=0)
-		args = np.argsort(scores)[::-1]
+		args = np.argsort(agg_scores)[::-1]
 
 		predicted = ""
 		for i in range(3):

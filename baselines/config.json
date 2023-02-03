@@ -1,0 +1,6 @@
+{
+    "K":1,
+    "data_path":"../../data/500QA.json",
+    "folds_path":"../fold_inds.json",
+    "zeroshot_model":"facebook/opt-1.3b"
+}
