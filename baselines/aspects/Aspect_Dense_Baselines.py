@@ -2,6 +2,9 @@ from transformers import AutoTokenizer, AutoModel
 from sklearn.utils import shuffle
 import numpy as np
 import torch
+import sys
+sys.path.append('..')
+from helper import *
 
 class NeuralEmbedder():
 	def __init__(self, model_name, tokenizer_name):
@@ -24,17 +27,6 @@ class NeuralSearchEngine():
 			encoded_docs.append(d_encoded.reshape(-1,768))
 		self.index = np.concatenate(encoded_docs,axis=0)
   
-  # aggregation function
-	def _aggregate(self, scores, fcn):
-		agg_scores = []
-
-		for ind in range(len(scores[0])):
-			l = [float(sublst[ind]) for sublst in scores]
-			val = fcn(l)
-			agg_scores.append(val)
-
-		return agg_scores
-  
 	def search(self, aspects, agg_fcn):
 		all_scores = []
 		for a in aspects:
@@ -43,7 +35,7 @@ class NeuralSearchEngine():
 			scores = q_encoded.dot(self.index.T)[0]
 			all_scores.append(scores)
 
-		agg_scores = self._aggregate(all_scores, agg_fcn)
+		agg_scores = aggregate(all_scores, agg_fcn)
 
 		agg_scores, self.documents = shuffle(agg_scores, self.documents, random_state=0)
 		args = np.argsort(agg_scores)[::-1]

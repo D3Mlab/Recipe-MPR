@@ -13,6 +13,9 @@ import json
 import torch
 from nltk.tokenize import word_tokenize
 from scipy import sparse
+import sys
+sys.path.append('..')
+from helper import *
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -56,17 +59,6 @@ class Sparse_Baseline():
         self.descriptions = all_descriptions
         return self.descriptions
     
-    # aggregation function
-    def aggregate(self, scores, fcn):
-        agg_scores = []
-
-        for ind in range(len(scores[0])):
-            l = [float(sublst[ind]) for sublst in scores]
-            val = fcn(l)
-            agg_scores.append(val)
-
-        return agg_scores
-    
     def get_results(self, score_fcn, agg_fcn):
         correct = 0
         total = len(self.data)
@@ -86,7 +78,7 @@ class Sparse_Baseline():
                 doc_scores = score_fcn(a, options_str)
                 all_scores.append(doc_scores)
             
-            agg_scores = self.aggregate(all_scores, agg_fcn)
+            agg_scores = aggregate(all_scores, agg_fcn)
             agg_scores, options = shuffle(agg_scores, options, random_state=0)
             ind = np.argmax(agg_scores) 
 
