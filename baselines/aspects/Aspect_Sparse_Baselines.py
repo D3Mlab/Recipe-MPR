@@ -51,7 +51,6 @@ class Sparse_Baseline():
     def clean_data(self):
         all_descriptions = []
         for d in self.data:
-            d["query"] = self._filter(d["query"])
             for o in d["options"]:
                 d["options"][o] = self._filter(d["options"][o])
                 all_descriptions.append(d["options"][o])
@@ -59,7 +58,7 @@ class Sparse_Baseline():
         self.descriptions = all_descriptions
         return self.descriptions
     
-    def get_results(self, score_fcn, agg_fcn):
+    def get_results(self, score_fcn, agg_fcn, aspect_dict=None):
         correct = 0
         total = len(self.data)
 
@@ -67,9 +66,13 @@ class Sparse_Baseline():
             try:
                 options = [val for val in d['options'].values()]
                 query = d['query']
-                aspects = [str(a) for a in d['correctness_explanation'].keys()]
+                if aspect_dict == None:
+                    aspects = [str(a) for a in d['correctness_explanation'].keys()]
+                else:
+                    aspects = aspect_dict[query]
                 answer = d['options'][d['answer']]
-            except:
+            except Exception as e: 
+                print(e)
                 continue
             
             options_str = [str(i) for i in options]

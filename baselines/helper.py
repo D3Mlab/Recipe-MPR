@@ -1,5 +1,5 @@
 import json
-from transformers import  AutoTokenizer, OPTForCausalLM, GPT2Tokenizer, GPT2LMHeadModel, OpenAIGPTLMHeadModel, OpenAIGPTTokenizer
+#from transformers import  AutoTokenizer, OPTForCausalLM, GPT2Tokenizer, GPT2LMHeadModel, OpenAIGPTLMHeadModel, OpenAIGPTTokenizer
 
 def load_config(config_path):
 	with open(config_path) as cf:
