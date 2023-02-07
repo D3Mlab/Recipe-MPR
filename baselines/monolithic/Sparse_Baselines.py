@@ -26,7 +26,15 @@ class Sparse_Baseline():
         self.type_correct = {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
+            "Compound": 0,
+            "Negated": 0,
+            "Analogical": 0,
+            "Temporal": 0}
+        self.type_count = {
+            "Specific": 0,
+            "Subjective": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -67,6 +75,10 @@ class Sparse_Baseline():
                 answer = d['options'][d['answer']]
             except:
                 continue
+
+            for key in d['query_type']:
+                if d['query_type'][key] == 1:
+                    self.type_count[key] += 1
             
             options_str = [str(i) for i in options]
             doc_scores = score_fcn(query, options_str)
@@ -80,9 +92,7 @@ class Sparse_Baseline():
                     if d['query_type'][key] == 1:
                         self.type_correct[key] += 1
 
-        print("Total correct answers: {} out of {}".format(correct, total))
-        print(self.type_correct)
-        return correct, total
+        return correct, total, self.type_correct, self.type_count
 
 class OWC(Sparse_Baseline):
     def __init__(self, data):

@@ -16,37 +16,17 @@ from scipy import sparse
 import sys
 sys.path.append('..')
 from helper import *
+from monolithic.Sparse_Baselines import *
 
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet')
 nltk.download('omw-1.4')
 
-# Base class for sparse IR methods
-class Sparse_Baseline():
+# Inherit from base class for sparse IR methods
+class Aspect_Sparse_Baseline(Sparse_Baseline):
     def __init__(self, data):
-        self.descriptions = []
-        self.type_correct = {
-            "Specific": 0,
-            "Subjective": 0,
-            "Indirect": 0,
-            "Compound": 0,
-            "Negated": 0,
-            "Analogical": 0,
-            "Temporal": 0}
-        self.data = data
-
-    def _filter(self, text):
-        lemmatizer = WordNetLemmatizer()
-        stop = set(stopwords.words('english') + list(string.punctuation))
-
-        lst_tokens = [i for i in word_tokenize(text.lower()) if i not in stop]
-        lemmatized_lst = []
-        for token in lst_tokens:
-            lemmatized_token = lemmatizer.lemmatize(token)
-            lemmatized_lst.append(lemmatized_token)
-        lemmatized_sentence = " ".join(lemmatized_lst)
-        return lemmatized_sentence
+        super().__init__(data)
     
     def clean_data(self):
         all_descriptions = []
@@ -74,6 +54,10 @@ class Sparse_Baseline():
             except Exception as e: 
                 print(e)
                 continue
+        
+            for key in d['query_type']:
+                if d['query_type'][key] == 1:
+                    self.type_count[key] += 1
             
             options_str = [str(i) for i in options]
             all_scores = []
@@ -91,11 +75,9 @@ class Sparse_Baseline():
                     if d['query_type'][key] == 1:
                         self.type_correct[key] += 1
 
-        print("Total correct answers: {} out of {}".format(correct, total))
-        print(self.type_correct)
-        return correct, total
+        return correct, total, self.type_correct, self.type_count
 
-class OWC(Sparse_Baseline):
+class OWC(Aspect_Sparse_Baseline):
     def __init__(self, data):
         super().__init__(data)
 
@@ -112,7 +94,7 @@ class OWC(Sparse_Baseline):
         
         return overlap
 
-class TFIDF(Sparse_Baseline):
+class TFIDF(Aspect_Sparse_Baseline):
     def __init__(self, data):
         self.doc_freq = {}
         super().__init__(data)
@@ -150,7 +132,7 @@ class TFIDF(Sparse_Baseline):
 
         return doc_scores
 
-class BM25(Sparse_Baseline):
+class BM25(Aspect_Sparse_Baseline):
     def __init__(self, data, b=0.75, k1=1.6):
         self.vectorizer = TfidfVectorizer(norm=None, smooth_idf=False)
         self.b = b
