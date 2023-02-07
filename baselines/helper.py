@@ -31,6 +31,10 @@ def load_data(config):
 
   return all_train, all_val, all_test
 
+def custom_gmean(lst):
+  gmean = np.prod(lst)**(1/len(lst))
+  return gmean
+
 # aggregation function
 def aggregate(scores, fcn):
   agg_scores = []
