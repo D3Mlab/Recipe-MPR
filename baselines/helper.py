@@ -13,15 +13,23 @@ def load_data(config):
   with open(config['data_path']) as f:
     all_data = json.load(f)
 
-  train_inds = folds[0][0]
-  val_inds = folds[0][1]
-  test_inds = folds[0][2]
+  all_train = []
+  all_val = []
+  all_test = []
 
-  train_data = [all_data[i] for i in train_inds]
-  val_data = [all_data[i] for i in val_inds]
-  test_data = [all_data[i] for i in test_inds]
+  for i in range(len(folds)):
+    train_inds = folds[i][0]
+    val_inds = folds[i][1]
+    test_inds = folds[i][2]
 
-  return train_data, val_data, test_data
+    train_data = [all_data[j] for j in train_inds]
+    val_data = [all_data[j] for j in val_inds]
+    test_data = [all_data[j] for j in test_inds]
+    all_train.append(train_data)
+    all_val.append(val_data)
+    all_test.append(test_data)
+
+  return all_train, all_val, all_test
 
 # aggregation function
 def aggregate(scores, fcn):
