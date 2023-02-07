@@ -4,7 +4,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -34,7 +34,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -64,7 +64,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -94,7 +94,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -124,7 +124,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -155,7 +155,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -185,7 +185,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -215,7 +215,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -248,7 +248,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -278,7 +278,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -308,7 +308,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -338,7 +338,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -369,7 +369,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -399,7 +399,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -429,7 +429,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -459,7 +459,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -489,7 +489,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -520,7 +520,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -550,7 +550,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -584,7 +584,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -614,7 +614,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -644,7 +644,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -674,7 +674,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -709,7 +709,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -740,7 +740,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -770,7 +770,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -800,7 +800,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -833,7 +833,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -863,7 +863,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -893,7 +893,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -923,7 +923,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -953,7 +953,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -986,7 +986,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1016,7 +1016,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1049,7 +1049,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1083,7 +1083,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1113,7 +1113,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1143,7 +1143,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1173,7 +1173,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1206,7 +1206,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1237,7 +1237,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1267,7 +1267,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1297,7 +1297,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1327,7 +1327,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1357,7 +1357,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1387,7 +1387,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1417,7 +1417,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -1451,7 +1451,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1482,7 +1482,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -1512,7 +1512,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1542,7 +1542,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1572,7 +1572,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1606,7 +1606,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1636,7 +1636,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1672,7 +1672,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1707,7 +1707,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -1737,7 +1737,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -1767,7 +1767,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1802,7 +1802,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -1832,7 +1832,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1862,7 +1862,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1896,7 +1896,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1926,7 +1926,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1956,7 +1956,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -1986,7 +1986,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2017,7 +2017,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2047,7 +2047,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2078,7 +2078,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -2108,7 +2108,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2139,7 +2139,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2169,7 +2169,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2199,7 +2199,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2235,7 +2235,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2265,7 +2265,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2296,7 +2296,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2327,7 +2327,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2357,7 +2357,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2387,7 +2387,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -2417,7 +2417,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2447,7 +2447,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2477,7 +2477,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2514,7 +2514,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -2544,7 +2544,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2581,7 +2581,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2612,7 +2612,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2646,7 +2646,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2676,7 +2676,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2706,7 +2706,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2745,7 +2745,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2777,7 +2777,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2808,7 +2808,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -2839,7 +2839,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -2869,7 +2869,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2899,7 +2899,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -2935,7 +2935,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2969,7 +2969,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -2999,7 +2999,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -3033,7 +3033,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3064,7 +3064,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3098,7 +3098,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3128,7 +3128,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3158,7 +3158,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3188,7 +3188,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3218,7 +3218,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3248,7 +3248,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3278,7 +3278,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -3309,7 +3309,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3340,7 +3340,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3370,7 +3370,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3400,7 +3400,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3430,7 +3430,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3460,7 +3460,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3490,7 +3490,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3520,7 +3520,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3550,7 +3550,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3580,7 +3580,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -3610,7 +3610,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -3640,7 +3640,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -3670,7 +3670,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3700,7 +3700,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3730,7 +3730,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3760,7 +3760,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3792,7 +3792,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -3823,7 +3823,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -3853,7 +3853,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3883,7 +3883,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -3913,7 +3913,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -3943,7 +3943,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -3973,7 +3973,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -4004,7 +4004,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -4034,7 +4034,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4064,7 +4064,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -4094,7 +4094,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4124,7 +4124,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4154,7 +4154,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4184,7 +4184,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4214,7 +4214,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4244,7 +4244,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4274,7 +4274,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -4304,7 +4304,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4334,7 +4334,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4364,7 +4364,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4395,7 +4395,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4425,7 +4425,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -4455,7 +4455,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4485,7 +4485,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -4515,7 +4515,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -4546,7 +4546,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4576,7 +4576,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4606,7 +4606,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -4637,7 +4637,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4667,7 +4667,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -4697,7 +4697,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4728,7 +4728,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -4758,7 +4758,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4788,7 +4788,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4818,7 +4818,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4849,7 +4849,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4879,7 +4879,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4910,7 +4910,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -4940,7 +4940,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -4970,7 +4970,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -5000,7 +5000,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5030,7 +5030,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5062,7 +5062,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5092,7 +5092,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5123,7 +5123,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5154,7 +5154,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -5184,7 +5184,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5214,7 +5214,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5244,7 +5244,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5274,7 +5274,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5304,7 +5304,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -5334,7 +5334,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5364,7 +5364,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5394,7 +5394,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -5424,7 +5424,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5454,7 +5454,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5484,7 +5484,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5514,7 +5514,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5544,7 +5544,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5574,7 +5574,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5605,7 +5605,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5635,7 +5635,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -5666,7 +5666,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5696,7 +5696,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5726,7 +5726,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -5756,7 +5756,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5786,7 +5786,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5816,7 +5816,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -5846,7 +5846,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -5876,7 +5876,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5907,7 +5907,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5938,7 +5938,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -5969,7 +5969,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6000,7 +6000,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6030,7 +6030,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6060,7 +6060,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6091,7 +6091,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6121,7 +6121,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6151,7 +6151,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -6182,7 +6182,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -6212,7 +6212,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6242,7 +6242,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6279,7 +6279,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6309,7 +6309,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6343,7 +6343,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6373,7 +6373,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6408,7 +6408,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -6441,7 +6441,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6471,7 +6471,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -6501,7 +6501,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -6534,7 +6534,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6564,7 +6564,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6594,7 +6594,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6624,7 +6624,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6654,7 +6654,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6684,7 +6684,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -6714,7 +6714,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6744,7 +6744,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6774,7 +6774,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6804,7 +6804,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6834,7 +6834,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6864,7 +6864,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6894,7 +6894,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -6924,7 +6924,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6954,7 +6954,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -6984,7 +6984,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -7014,7 +7014,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7044,7 +7044,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7074,7 +7074,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7105,7 +7105,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7135,7 +7135,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7166,7 +7166,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7196,7 +7196,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -7226,7 +7226,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7256,7 +7256,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7286,7 +7286,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -7316,7 +7316,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -7346,7 +7346,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 1,
@@ -7376,7 +7376,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7406,7 +7406,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7436,7 +7436,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -7466,7 +7466,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7496,7 +7496,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7526,7 +7526,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -7559,7 +7559,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7589,7 +7589,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7622,7 +7622,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7652,7 +7652,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -7682,7 +7682,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7712,7 +7712,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7742,7 +7742,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7772,7 +7772,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -7802,7 +7802,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -7833,7 +7833,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -7863,7 +7863,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7894,7 +7894,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -7924,7 +7924,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -7954,7 +7954,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -7984,7 +7984,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8014,7 +8014,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8044,7 +8044,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8074,7 +8074,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8104,7 +8104,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -8137,7 +8137,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8167,7 +8167,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8197,7 +8197,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -8227,7 +8227,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -8257,7 +8257,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8287,7 +8287,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8317,7 +8317,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8347,7 +8347,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -8377,7 +8377,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8407,7 +8407,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8437,7 +8437,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8467,7 +8467,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8497,7 +8497,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8527,7 +8527,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -8558,7 +8558,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8588,7 +8588,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -8618,7 +8618,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8648,7 +8648,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8682,7 +8682,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -8716,7 +8716,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8750,7 +8750,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8780,7 +8780,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -8810,7 +8810,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8840,7 +8840,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8871,7 +8871,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -8901,7 +8901,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8931,7 +8931,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8961,7 +8961,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -8994,7 +8994,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -9024,7 +9024,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -9055,7 +9055,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9085,7 +9085,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -9115,7 +9115,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9145,7 +9145,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9175,7 +9175,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9205,7 +9205,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9235,7 +9235,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -9270,7 +9270,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9304,7 +9304,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9334,7 +9334,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9367,7 +9367,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9402,7 +9402,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9432,7 +9432,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9465,7 +9465,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9495,7 +9495,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -9525,7 +9525,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9560,7 +9560,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9590,7 +9590,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9621,7 +9621,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9652,7 +9652,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9682,7 +9682,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9712,7 +9712,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9745,7 +9745,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9776,7 +9776,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9806,7 +9806,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9836,7 +9836,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9866,7 +9866,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9896,7 +9896,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -9930,7 +9930,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -9960,7 +9960,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -9990,7 +9990,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10021,7 +10021,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10051,7 +10051,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10081,7 +10081,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10111,7 +10111,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10141,7 +10141,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10171,7 +10171,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -10201,7 +10201,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10231,7 +10231,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -10262,7 +10262,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -10293,7 +10293,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10324,7 +10324,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10354,7 +10354,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -10384,7 +10384,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10414,7 +10414,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10445,7 +10445,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 1,
@@ -10475,7 +10475,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -10505,7 +10505,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 1,
@@ -10538,7 +10538,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10568,7 +10568,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10599,7 +10599,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10629,7 +10629,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10659,7 +10659,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10689,7 +10689,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10719,7 +10719,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10749,7 +10749,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -10779,7 +10779,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -10809,7 +10809,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10839,7 +10839,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -10870,7 +10870,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10900,7 +10900,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -10930,7 +10930,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10960,7 +10960,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -10990,7 +10990,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11020,7 +11020,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11050,7 +11050,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11084,7 +11084,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11115,7 +11115,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11145,7 +11145,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11176,7 +11176,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11206,7 +11206,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11236,7 +11236,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11266,7 +11266,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11296,7 +11296,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11326,7 +11326,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11356,7 +11356,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11386,7 +11386,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11416,7 +11416,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11450,7 +11450,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11480,7 +11480,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11510,7 +11510,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11540,7 +11540,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11570,7 +11570,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -11601,7 +11601,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -11635,7 +11635,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11666,7 +11666,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11696,7 +11696,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11726,7 +11726,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11756,7 +11756,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11786,7 +11786,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11819,7 +11819,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11849,7 +11849,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11879,7 +11879,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11910,7 +11910,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11943,7 +11943,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -11974,7 +11974,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12004,7 +12004,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12034,7 +12034,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12064,7 +12064,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12094,7 +12094,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12127,7 +12127,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12157,7 +12157,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12187,7 +12187,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12217,7 +12217,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -12247,7 +12247,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12277,7 +12277,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12307,7 +12307,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12339,7 +12339,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -12372,7 +12372,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12402,7 +12402,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -12433,7 +12433,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12463,7 +12463,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12497,7 +12497,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -12528,7 +12528,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 1,
@@ -12558,7 +12558,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12589,7 +12589,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12623,7 +12623,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12653,7 +12653,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -12685,7 +12685,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12715,7 +12715,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -12747,7 +12747,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -12778,7 +12778,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -12808,7 +12808,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -12839,7 +12839,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12869,7 +12869,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12902,7 +12902,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -12932,7 +12932,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12962,7 +12962,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -12992,7 +12992,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13022,7 +13022,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13052,7 +13052,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13082,7 +13082,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13112,7 +13112,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -13144,7 +13144,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13175,7 +13175,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13205,7 +13205,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13235,7 +13235,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13265,7 +13265,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13297,7 +13297,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13328,7 +13328,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13359,7 +13359,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -13390,7 +13390,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -13420,7 +13420,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13450,7 +13450,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13480,7 +13480,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -13511,7 +13511,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -13541,7 +13541,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13574,7 +13574,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -13608,7 +13608,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 1,
@@ -13640,7 +13640,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13671,7 +13671,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13702,7 +13702,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13733,7 +13733,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13764,7 +13764,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13795,7 +13795,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13830,7 +13830,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -13860,7 +13860,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -13891,7 +13891,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -13921,7 +13921,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -13952,7 +13952,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -13983,7 +13983,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14016,7 +14016,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14047,7 +14047,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -14077,7 +14077,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14107,7 +14107,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14137,7 +14137,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14168,7 +14168,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14203,7 +14203,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14235,7 +14235,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -14265,7 +14265,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14296,7 +14296,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14326,7 +14326,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14357,7 +14357,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14387,7 +14387,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14420,7 +14420,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14450,7 +14450,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14481,7 +14481,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14512,7 +14512,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -14542,7 +14542,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -14574,7 +14574,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14605,7 +14605,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14636,7 +14636,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14669,7 +14669,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14701,7 +14701,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14732,7 +14732,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14764,7 +14764,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14795,7 +14795,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -14825,7 +14825,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -14855,7 +14855,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -14888,7 +14888,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 1,
@@ -14919,7 +14919,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -14949,7 +14949,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -14979,7 +14979,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15010,7 +15010,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15041,7 +15041,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 1,
             "Analogical": 0,
@@ -15072,7 +15072,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 1,
             "Analogical": 0,
@@ -15104,7 +15104,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15136,7 +15136,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15166,7 +15166,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15196,7 +15196,7 @@
         "query_type": {
             "Specific": 1,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15226,7 +15226,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 1,
             "Negated": 0,
             "Analogical": 0,
@@ -15256,7 +15256,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15286,7 +15286,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 1,
+            "Commonsense": 1,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
@@ -15317,7 +15317,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 1,
@@ -15348,7 +15348,7 @@
         "query_type": {
             "Specific": 0,
             "Subjective": 1,
-            "Indirect": 0,
+            "Commonsense": 0,
             "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
