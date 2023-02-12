@@ -65,9 +65,9 @@ class Sparse_Baseline():
         return self.descriptions
     
     def get_results(self, score_fcn):
-        correct = 0
+        # correct = 0
         total = len(self.data)
-
+        predictions = []
         for d in self.data:
             try:
                 options = [val for val in d['options'].values()]
@@ -85,14 +85,11 @@ class Sparse_Baseline():
             
             doc_scores, options = shuffle(doc_scores, options, random_state=0)
             ind = np.argmax(doc_scores) 
+            predictions.append(options[ind])
 
-            if (options[ind]) == answer:
-                correct += 1
-                for key in d['query_type']:
-                    if d['query_type'][key] == 1:
-                        self.type_correct[key] += 1
 
-        return correct, total, self.type_correct, self.type_count
+
+        return predictions
 
 class OWC(Sparse_Baseline):
     def __init__(self, data):
@@ -102,8 +99,10 @@ class OWC(Sparse_Baseline):
         s1_list = s1.split(' ')
         s2_list = s2.split(' ')
         return len(list(set(s1_list)&set(s2_list)))
-    
-    def owc_score(self, query, options_str):
+    def fit(self, docs):
+        return 
+
+    def sparse_score(self, query, options_str):
         overlap = []
         for option in options_str:    
             num_overlap = self._calc_overlap(query, option)
@@ -117,7 +116,7 @@ class TFIDF(Sparse_Baseline):
         super().__init__(data)
 
     # calculate document frequency for terms based on corpus of descriptions
-    def calc_df(self, docs):
+    def fit(self, docs):
         for doc in docs:
             words = doc.split(' ')
             words = list(set(words))
@@ -127,7 +126,7 @@ class TFIDF(Sparse_Baseline):
                 else:
                     self.doc_freq.update({w:1})
     
-    def tfidf_score(self, query, options_str):
+    def sparse_score(self, query, options_str):
         doc_scores = []
         query_str = query.split(' ')
 
@@ -149,6 +148,10 @@ class TFIDF(Sparse_Baseline):
 
         return doc_scores
 
+
+
+
+
 class BM25(Sparse_Baseline):
     def __init__(self, data, b=0.75, k1=1.6):
         self.vectorizer = TfidfVectorizer(norm=None, smooth_idf=False)
@@ -162,7 +165,7 @@ class BM25(Sparse_Baseline):
         y = super(TfidfVectorizer, self.vectorizer).transform(X)
         self.avdl = y.sum(1).mean()
 
-    def bm25_score(self, q, X):
+    def sparse_score(self, q, X):
         """ Calculate BM25 between query q and documents X """
         b, k1, avdl = self.b, self.k1, self.avdl
 
@@ -178,3 +181,29 @@ class BM25(Sparse_Baseline):
         idf = self.vectorizer._tfidf.idf_[None, q.indices] - 1.
         numer = X.multiply(np.broadcast_to(idf, X.shape)) * (k1 + 1)
         return (numer / denom).sum(1).A1
+
+sparse_types = {'BM25':BM25,'TFIDF':TFIDF,'OWC':OWC}
+
+
+# def sparse_pred(name, method):
+#     results = []
+#     for i in range(len(train_splits)):
+#         test_data = test_splits[i]
+#         correct, total, type_correct, type_count = method(test_data)
+
+#         for key, val in type_correct.items():
+#             type_correct[key] = val*100/type_count[key]
+#         type_correct.update({"All":correct*100/total})
+#         results.append(type_correct)
+
+#     df = pd.DataFrame(results)
+#     df.to_csv(name+".csv")
+
+
+def sparse_pred(test_data,sparse_type=BM25):
+    sparse_baseline = sparse_type(test_data)
+    score_fcn = sparse_baseline.sparse_score
+    cleaned_descriptions = sparse_baseline.clean_data()
+    sparse_baseline.fit(cleaned_descriptions)
+
+    return sparse_baseline.get_results(score_fcn)
