@@ -41,7 +41,7 @@ class Aspect_Sparse_Baseline(Sparse_Baseline):
     def get_results(self, score_fcn, agg_fcn, aspect_dict=None):
         correct = 0
         total = len(self.data)
-
+        predictions = []
         for d in self.data:
             try:
                 options = [val for val in d['options'].values()]
@@ -55,9 +55,9 @@ class Aspect_Sparse_Baseline(Sparse_Baseline):
                 print(e)
                 continue
         
-            for key in d['query_type']:
-                if d['query_type'][key] == 1:
-                    self.type_count[key] += 1
+            # for key in d['query_type']:
+            #     if d['query_type'][key] == 1:
+            #         self.type_count[key] += 1
             
             options_str = [str(i) for i in options]
             all_scores = []
@@ -68,14 +68,17 @@ class Aspect_Sparse_Baseline(Sparse_Baseline):
             agg_scores = aggregate(all_scores, agg_fcn)
             agg_scores, options = shuffle(agg_scores, options, random_state=0)
             ind = np.argmax(agg_scores) 
+            
 
-            if (options[ind]) == answer:
-                correct += 1
-                for key in d['query_type']:
-                    if d['query_type'][key] == 1:
-                        self.type_correct[key] += 1
+            predictions.append(options[ind])
+        #     if (options[ind]) == answer:
+        #         correct += 1
+        #         for key in d['query_type']:
+        #             if d['query_type'][key] == 1:
+        #                 self.type_correct[key] += 1
 
-        return correct, total, self.type_correct, self.type_count
+        # return correct, total, self.type_correct, self.type_count
+        return predictions
 
 class OWC(Aspect_Sparse_Baseline):
     def __init__(self, data):
@@ -85,8 +88,9 @@ class OWC(Aspect_Sparse_Baseline):
         s1_list = s1.split(' ')
         s2_list = s2.split(' ')
         return len(list(set(s1_list)&set(s2_list)))
-    
-    def owc_score(self, aspect, options_str):
+    def fit(self, X):
+        return 
+    def sparse_score(self, aspect, options_str):
         overlap = []
         for option in options_str:    
             num_overlap = self._calc_overlap(aspect, option)
@@ -100,7 +104,7 @@ class TFIDF(Aspect_Sparse_Baseline):
         super().__init__(data)
 
     # calculate document frequency for terms based on corpus of descriptions
-    def calc_df(self, docs):
+    def fit(self, docs):
         for doc in docs:
             words = doc.split(' ')
             words = list(set(words))
@@ -110,7 +114,7 @@ class TFIDF(Aspect_Sparse_Baseline):
                 else:
                     self.doc_freq.update({w:1})
     
-    def tfidf_score(self, aspect, options_str):
+    def sparse_score(self, aspect, options_str):
         doc_scores = []
         a_words = aspect.split(' ')
 
@@ -145,7 +149,7 @@ class BM25(Aspect_Sparse_Baseline):
         y = super(TfidfVectorizer, self.vectorizer).transform(X)
         self.avdl = y.sum(1).mean()
 
-    def bm25_score(self, q, X):
+    def sparse_score(self, q, X):
         """ Calculate BM25 between query q and documents X """
         b, k1, avdl = self.b, self.k1, self.avdl
 
@@ -161,3 +165,15 @@ class BM25(Aspect_Sparse_Baseline):
         idf = self.vectorizer._tfidf.idf_[None, q.indices] - 1.
         numer = X.multiply(np.broadcast_to(idf, X.shape)) * (k1 + 1)
         return (numer / denom).sum(1).A1
+
+
+
+aspect_sparse_types = {'BM25':BM25,'TFIDF':TFIDF,'OWC':OWC}
+
+def aspect_sparse_pred(test_data, agg_fcn, sparse_method=BM25):
+    sparse_baseline = sparse_method(test_data)
+    score_fcn = sparse_baseline.sparse_score
+    cleaned_descriptions = sparse_baseline.clean_data()
+    sparse_baseline.fit(cleaned_descriptions)
+    
+    return sparse_baseline.get_results(score_fcn, agg_fcn)

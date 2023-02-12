@@ -1,4 +1,6 @@
 import json
+from transformers import OPTForCausalLM, AutoTokenizer, GPT2LMHeadModel, GPT2Tokenizer
+import numpy as np
 
 def load_config(config_path='../config.json'):
 	with open(config_path) as cf:
@@ -45,3 +47,14 @@ def aggregate(scores, fcn):
     agg_scores.append(val)
 
   return agg_scores
+
+
+def get_model_and_tokenizer(model_name):
+  model_config = {
+		"facebook/opt-1.3b": [OPTForCausalLM, AutoTokenizer], 
+		"gpt2": [GPT2LMHeadModel, GPT2Tokenizer]
+	}
+  print(model_name)
+  model = model_config[model_name][0]
+  tokenier = model_config[model_name][1]
+  return  model, tokenier

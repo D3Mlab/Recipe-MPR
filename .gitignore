@@ -1,5 +1,8 @@
 .ipynb_checkpoints
 
+
+mapm_env/*
+
 #text
 *.txt
 
@@ -164,7 +167,7 @@ nCrunchTemp_*
 # MightyMoose
 *.mm.*
 AutoTest.Net/
-
+main.py
 # Web workbench (sass)
 .sass-cache/
 
