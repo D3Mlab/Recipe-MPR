@@ -730,7 +730,7 @@
             "0c52081cd3": "It is a breakfast recipe but doesn't contain bacon"
         },
         "correctness_explanation": {
-            "bacon": "Bacon",
+            "Bacon": "Bacon",
             "breakfast": "<INFERRED>",
             "for beginners": "using premade biscuits"
         }
@@ -3451,7 +3451,7 @@
             "3a75634dee": "Guacamole is not similar to Chipotle food"
         },
         "correctness_explanation": {
-            "Chiptole": "Chipotle",
+            "similar to Chipotle": "Chipotle",
             "healthy": "low in cholestrol and high in protein"
         }
     },
@@ -3481,7 +3481,7 @@
             "17a3e20c58": "Not guacamole"
         },
         "correctness_explanation": {
-            "Guacamole": "Guacamole",
+            "guacamole": "Guacamole",
             "healthy": "<INFERRED>"
         }
     },
@@ -3541,7 +3541,7 @@
             "8d1a538445": "Sausage snacks made of pork is not halal"
         },
         "correctness_explanation": {
-            "Halal": "Halal",
+            "halal": "Halal",
             "American snacks": "marshmallow peanut popcorn bars"
         }
     },
@@ -3631,7 +3631,7 @@
             "09ee5027f6": "Chili contains hot red pepper flakes so it's spicy"
         },
         "correctness_explanation": {
-            "Chili": "Chili",
+            "chili": "Chili",
             "not spicy": "<INFERRED>"
         }
     },
@@ -3844,7 +3844,7 @@
             "04b58d651c": "Not a loaded potato salad"
         },
         "correctness_explanation": {
-            "Loaded potato salad": "loaded potato salad",
+            "loaded potato salad": "loaded potato salad",
             "without sour cream": "<INFERRED>"
         }
     },
@@ -3935,7 +3935,7 @@
         },
         "correctness_explanation": {
             "pizza": "tropical pizza",
-            "like Boston Pizza": "Boston Pizza-style"
+            "Boston Pizza": "Boston Pizza-style"
         }
     },
     {
@@ -4236,7 +4236,7 @@
         },
         "correctness_explanation": {
             "dessert": "Popsicle",
-            "dulche de leche": "dulche de leche"
+            "dulce de leche": "dulche de leche"
         }
     },
     {
@@ -4719,7 +4719,7 @@
         },
         "correctness_explanation": {
             "halal": "Muslim",
-            "chinese": "Chinese",
+            "Chinese": "Chinese",
             "stir-fried": "stir fry"
         }
     },
@@ -4871,7 +4871,7 @@
         },
         "correctness_explanation": {
             "Japanese": "Japanese",
-            "savory lunch": ["tuna", "nori"]
+            "savory": ["tuna", "nori"]
         }
     },
     {
@@ -4961,7 +4961,7 @@
             "00a51e9ef5": "Shrimp is not vegan"
         },
         "correctness_explanation": {
-            "Vegan": "<INFERRED>",
+            "vegan": "<INFERRED>",
             "sushi": "sushi"
         }
     },
@@ -5021,7 +5021,7 @@
             "9797471b30": "Contains kimichi"
         },
         "correctness_explanation": {
-            "Korean": "Korean",
+            "korean": "Korean",
             "no kimchi": "<INFERRED>"
         }
     },
@@ -5083,7 +5083,7 @@
             "60c1533589": "Doesn't contain seafood"
         },
         "correctness_explanation": {
-            "Korean dish": "Korean",
+            "korean dish": "Korean",
             "seafood": "fried fish"
         }
     },
@@ -5445,7 +5445,7 @@
             "388c0507d5": "Cheese chicken is not a snack"
         },
         "correctness_explanation": {
-            "Italian": "Italian",
+            "italian": "Italian",
             "snack": "cracker similar to a pretzel"
         }
     },
@@ -6174,7 +6174,7 @@
         "correctness_explanation": {
             "chocolate": "chocolate",
             "drink": "hot chocolate",
-            "cozy": "hot"
+            "cosy": "hot"
         }
     },
     {
@@ -7036,7 +7036,7 @@
         },
         "correctness_explanation": {
             "sandwiches": "sandwich",
-            "does not make a huge mess": "<INFERRED>"
+            "huge mess": "<INFERRED>"
         }
     },
     {
@@ -7398,7 +7398,7 @@
         },
         "correctness_explanation": {
             "Christmas": "gingerbread",
-            "keeps the kids busy": "gingerbread house"
+            "keep the kids busy": "gingerbread house"
         }
     },
     {
@@ -7674,7 +7674,7 @@
         },
         "correctness_explanation": {
             "punch": "punch",
-            "I don't think I am able to find actual passionfruits": "passionfruit syrup"
+            "I don't think I'm able to find actual passionfruits": "passionfruit syrup"
         }
     },
     {
@@ -7798,7 +7798,7 @@
         }
     },
     {
-        "query": "My daughter told me she wants a cake with a lots of cream for her birthday, but my oven is broken - what should I do?",
+        "query": "My daughter told me she wants a cake with lots of cream for her birthday, but my oven is broken - what should I do?",
         "query_type": {
             "Specific": 0,
             "Subjective": 0,
@@ -8095,7 +8095,7 @@
             "a0d64772d7": "This will cause weight gain."
         },
         "correctness_explanation": {
-            "prevent weight gain": "almonds",
+            "gain weight": "almonds",
             "light": "almonds"
         }
     },
@@ -8218,8 +8218,8 @@
             "05823563d4": "This is low in protein."
         },
         "correctness_explanation": {
-            "increase protein intake": "chicken breast",
-            "cut down on fat intake": "chicken breast"
+            "increase my protein intake": "chicken breast",
+            "cut down on my fat intake": "chicken breast"
         }
     },
     {
@@ -8610,7 +8610,7 @@
         },
         "correctness_explanation": {
             "for my dog": "dog food",
-            "sensitive to pesticides often found in commercially produced leafy greens": "<INFERRED>"
+            "sensitive to pesticides often found in commercially produced leafy vegetables": "<INFERRED>"
         }
     },
     {
@@ -8674,7 +8674,7 @@
                 "Mexican",
                 "Filipino"
             ],
-            "difficult to find in other restaurants in Toronto": "<INFERRED>"
+            "difficult to find at other restaurants in Toronto": "<INFERRED>"
         }
     },
     {
@@ -9167,7 +9167,7 @@
         },
         "correctness_explanation": {
             "uncommon": "beurre rouge",
-            "only the best ingredients": "beurre rouge sauce"
+            "only uses the best ingredients": "beurre rouge sauce"
         }
     },
     {
@@ -10073,7 +10073,7 @@
         },
         "correctness_explanation": {
             "lunch": "soup",
-            "buddhist monk": "<INFERRED>"
+            "Buddhist monk": "<INFERRED>"
         }
     },
     {
@@ -10102,7 +10102,7 @@
             "a11b8ada78": "Pork isn't kosher"
         },
         "correctness_explanation": {
-            "kosher meat": "beef",
+            "Kosher meat": "beef",
             "Shabbat": "cholent"
         }
     },
@@ -10223,7 +10223,7 @@
         },
         "correctness_explanation": {
             "keto": "Low carb",
-            "dessert": "chessecake"
+            "cheesecake": "cheesecake"
         }
     },
     {
@@ -10497,7 +10497,7 @@
         },
         "correctness_explanation": {
             "snack": "Almonds",
-            "savoury": "salt"
+            "salty": "salt"
         }
     },
     {
@@ -10771,7 +10771,7 @@
         },
         "correctness_explanation": {
             "sushi": "sushi",
-            "Not comfortable with eating raw fish": "vegetarian"
+            "not comfortable with eating raw fish": "vegetarian"
         }
     },
     {
@@ -11042,7 +11042,7 @@
         },
         "correctness_explanation": {
             "breakfast": "<INFERRED>",
-            "people with Dysphagia": "puree"
+            "people with dysphagia": "puree"
         }
     },
     {
@@ -11871,7 +11871,7 @@
         },
         "correctness_explanation": {
             "drink": "soup",
-            "high blood pressue": "low sodium"
+            "high blood pressure": "low sodium"
         }
     },
     {
@@ -12550,7 +12550,7 @@
         },
         "correctness_explanation": {
             "similar to the leftover night dinner scene": "Meatloaf",
-            "incredibles themed birthday party": "<INFERRED>"
+            "Incredibles themed birthday party": "<INFERRED>"
         }
     },
     {
@@ -12580,7 +12580,7 @@
         },
         "correctness_explanation": {
             "sandwich": "sandwich",
-            "can leave in heat": "<INFERRED>",
+            "can leave in the heat": "<INFERRED>",
             "keep me full during work": ["sandwich", "chicken"]
         }
     },
@@ -12984,7 +12984,7 @@
         },
         "correctness_explanation": {
             "vegetables": "kale",
-            "alternatives": ["baked kale with cheese", "<INFERRED>"]
+            "alternative": ["baked kale with cheese", "<INFERRED>"]
         }
     },
     {
@@ -13103,7 +13103,7 @@
             "27311af4b5": "Isn't healthy and doesn't have vegetables"
         },
         "correctness_explanation": {
-            "cut down on weight": "low fat",
+            "cut down on my weight": "low fat",
             "vegetables": "vegetables"
         }
     },
@@ -13563,7 +13563,7 @@
         },
         "correctness_explanation": {
             "chicken wing": "chicken wings",
-            "can eat with my 83 year old grandpa who has a weak heart": [
+            "can eat with my 83 year old grandpa, who has a weak heart": [
                 "Low fat",
                 "<INFERRED>"
             ]
@@ -13943,7 +13943,7 @@
         },
         "correctness_explanation": {
             "breakfast": "Boiled oats",
-            "easy": "Boiled oats",
+            "quick": "Boiled oats",
             "can't eat lactose": "<INFERRED>"
         }
     },
@@ -14004,7 +14004,7 @@
             "0a77dac796": "Isn't a recipe for hash browns"
         },
         "correctness_explanation": {
-            "low calorie": "healthy",
+            "healthy": "healthy",
             "hash brown": [
                 "diced",
                 "potatoes"
@@ -14159,7 +14159,7 @@
         },
         "correctness_explanation": {
             "Asian": "Chinese",
-            "vegetables": "vegetables",
+            "vegetable": "vegetables",
             "platter": "mixture"
         }
     },
@@ -14504,7 +14504,7 @@
         "correctness_explanation": {
             "chocolate": "chocolate",
             "smoothie": "Smoothie",
-            "without any fruits, berries, grains": "<INFERRED>"
+            "without any fruits, berries, or grains": "<INFERRED>"
         }
     },
     {
