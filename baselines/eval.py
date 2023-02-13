@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-def evaluate(data_split, predictions, output_filename='eval.csv'):
+def evaluate(data_split, predictions):
     type_correct = {
             "Specific": 0,
             "Subjective": 0,
@@ -38,5 +38,5 @@ def evaluate(data_split, predictions, output_filename='eval.csv'):
     results['acc'] = correct*100/total
     df = pd.DataFrame.from_dict(results, orient="index")
     print(df)
-    df.to_csv(output_filename)
+    # df.to_csv(output_filename)
     return df

@@ -1,7 +1,7 @@
 {
     "K":1,
     "data_path":"../data/500QA.json",
-    "folds_path":"single_fold_inds.json",
+    "folds_path":"folds_20_random.json",
     "prompt_size":5,
     "use_extracted":false
 }
