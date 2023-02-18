@@ -15,14 +15,14 @@ def mean_confidence_interval(data, confidence=0.90):
 
 def gather_experiment_results(number_of_folds, experiments_path):
 
-    list_of_experiences = os.listdir(experiments_path)
+    list_of_experiments = os.listdir(experiments_path)
     types = ['Specific', 'Subjective', 'Commonsense', 'Compound', 'Negated', 'Analogical', 'Temporal', 'acc']
     experiments_results_aggregated = {}
-    for experience in list_of_experiences :
-        if experience != '.DS_Store':
-            config_address = experiments_path+'/'+experience+'/configs/'+ os.listdir(experiments_path+'/'+experience+'/configs/')[0]
+    for experiment in list_of_experiments :
+        if experiment != '.DS_Store':
+            config_address = experiments_path+'/'+experiment+'/configs/'+ os.listdir(experiments_path+'/'+experiment+'/configs/')[0]
             config = pd.read_csv(config_address).T.values
-        directory_path = experiments_path+'/'+experience+"/evals" + "/**/*.csv"
+        directory_path = experiments_path+'/'+experiment+"/evals" + "/**/*.csv"
         csv_file_pathes = [ csv_path for csv_path in glob.glob(directory_path, recursive = True)]
         cross_fold_numbers = [str(i) for i in range(number_of_folds)]
         csv_file_pathes_k_fold = [path for path in csv_file_pathes if path.split('/')[-1].split('_')[0] in cross_fold_numbers]
@@ -63,6 +63,6 @@ def make_df_all_results(experiments_results_aggregated,saving_path):
 def generate_csv_for_results(number_of_folds, experiments_path,saving_path='final_results.csv'):
 
     experiments_results_aggregated = gather_experiment_results(number_of_folds, experiments_path)
-    df = make_df_all_results(experiments_results_aggregated,saving_path='final_results.csv')
+    df = make_df_all_results(experiments_results_aggregated,saving_path)
     return df
 

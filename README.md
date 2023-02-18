@@ -100,14 +100,18 @@ After all queries have been generated, each query was labeled according to the q
 - Specific
   - Specific queries mention a certain dish or recipe name; by default, anything else is considered General
 
+<!--
 - Subjective
   - Subjective queries contain something that can be open to more than one interpretation, eg. "healthy"; by default, anything else is considered Objective
+-->
 
 - Indirect
   - Indirect queries contain terms requiring some level of common sense reasoning, eg. "not greasy"; by default, anything else is considered Direct
 
+<!--
 - Compound
   - Compound queries contain compound logic operators such as AND/OR; by default, anything else is considered Simple
+-->
 
 - Negated
   - Negated queries contain contradiction or denial of something, eg. using terms like "but not", "without", "doesn't", etc.
@@ -121,20 +125,20 @@ After all queries have been generated, each query was labeled according to the q
 | Label | Query Count |
 | -------- |-------- |
 | Specific | 181 |
-| Subjective | 186 |
+<!--| Subjective | 186 |-->
 | Indirect | 213 |
-| Compound | 73 |
+<!--| Compound | 73 |-->
 | Negated | 91 |
 | Analogical | 37 |
 | Temporal | 57 |
 
 Examples of queries and their corresponding labels:
 
-| Query | Specific | Subjective | Indirect | Compound | Negated | Analogical | Temporal |
-| -------- | -------- | -------- | ------- | ------- | -------- | ------- | -------- |
-| I would like a beef recipe but not stew | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| I would like a comforting recipe with mushrooms for a cold day | 0 | 1 | 1 | 0 | 1 | 0 | 0 |
-| Can I have a breakfast burrito that will last me until noon? | 1 | 1 | 1 | 0 | 0 | 0 | 1 |
+| Query | Specific | Indirect | Negated | Analogical | Temporal |
+| -------- | -------- | -------- | ------- | ------- | -------- |
+| I would like a beef recipe but not stew | 0 | 0 | 1 | 0 | 0 |
+| I would like a comforting recipe with mushrooms for a cold day | 0 | 1 | | 1 | 0 | 0 |
+| Can I have a breakfast burrito that will last me until noon? | 1 | 1 | 0 | 0 | 1 |
 
 ### Option Generation
 
@@ -218,7 +222,7 @@ Using the recipe text descriptions as a corpus, each of the five options were ra
 
 - The inverse document frequency used was adjusted to avoid division-by-zero: $idf(t,D) = log(N/(1 + df))$ where $N$ is the total number of recipe descriptions and $df$ is the document frequency of the term $t$ (number of descriptions containing the term).
 
-The code can be found in baselines/TFIDF.ipynb
+<!--The code can be found in baselines/TFIDF.ipynb
 
 Results:
 
@@ -229,7 +233,7 @@ Results:
 | H | 23/100 |
 | Z | 25/100|
 | N | 20/100 |
-| **Total** | **103/500 (20.6%)** |
+| **Total** | **103/500 (20.6%)** |-->
 
 ## 4) Neural IR (BERT, TAS-B)
 
@@ -237,7 +241,7 @@ This baseline uses the [TASB Neural IR model](https://huggingface.co/sebastian-h
 
 The code can be found in baselines/TASB.ipynb
 
-Results:
+<!--Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
@@ -246,13 +250,13 @@ Results:
 | H | 19/100 |
 | Z | 8/100|
 | N | 16/100 |
-| **Total** | **84/500 (16.8%)** |
+| **Total** | **84/500 (16.8%)** |-->
 
 ## 4) Zero-Shot QA with 
 
 This baseline applies a pretrained OPT-1.3b language model on the dataset for Question Answering (QA) using the [HuggingFace Transformers](https://arxiv.org/abs/1910.03771) library in Python.
 
-Results:
+<!--Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
@@ -261,10 +265,8 @@ Results:
 | H | 32/100 |
 | Z | 43/100|
 | N | 21/100 |
-| **Total** | **153/500 (30.6%)** |
+| **Total** | **153/500 (30.6%)** |-->
 
 # Evaluation Metrics
 
-- ## H@k, k < 5
-
-- ## MRR
+- ## Accuracy (hit@k k=1)
