@@ -32,7 +32,7 @@ One example of the data:
   "query_type": {
     "Specific": 1,
     "Subjective": 0,
-    "Indirect": 1,
+    "Commonsense": 1,
     "Compound": 0,
     "Negated": 0,
     "Analogical": 0,
@@ -105,8 +105,8 @@ After all queries have been generated, each query was labeled according to the q
   - Subjective queries contain something that can be open to more than one interpretation, eg. "healthy"; by default, anything else is considered Objective
 -->
 
-- Indirect
-  - Indirect queries contain terms requiring some level of common sense reasoning, eg. "not greasy"; by default, anything else is considered Direct
+- Commonsense
+  - Commonsense queries contain terms requiring some level of common sense reasoning, eg. "not greasy"; by default, anything else is considered Direct
 
 <!--
 - Compound
@@ -124,20 +124,21 @@ After all queries have been generated, each query was labeled according to the q
 
 | Label | Query Count |
 | -------- |-------- |
-| Specific | 181 |
+| Specific | 151 |
+| Commonsense | 268 |
+| Negated | 109 |
+| Analogical | 30 |
+| Temporal | 32 |
+
 <!--| Subjective | 186 |-->
-| Indirect | 213 |
 <!--| Compound | 73 |-->
-| Negated | 91 |
-| Analogical | 37 |
-| Temporal | 57 |
 
 Examples of queries and their corresponding labels:
 
-| Query | Specific | Indirect | Negated | Analogical | Temporal |
+| Query | Specific | Commonsense | Negated | Analogical | Temporal |
 | -------- | -------- | -------- | ------- | ------- | -------- |
 | I would like a beef recipe but not stew | 0 | 0 | 1 | 0 | 0 |
-| I would like a comforting recipe with mushrooms for a cold day | 0 | 1 | | 1 | 0 | 0 |
+| I would like a comforting recipe with mushrooms for a cold day | 0 | 1 | 1 | 0 | 0 |
 | Can I have a breakfast burrito that will last me until noon? | 1 | 1 | 0 | 0 | 1 |
 
 ### Option Generation
@@ -203,7 +204,7 @@ The simplest baseline chooses the option description containing the highest numb
 
 The code can be found in baselines/WordOverlap.ipynb
 
-Results:
+<!--Results:
 
 | Data Curator | H@1 (accuracy) |
 | -------- |-------- |
@@ -212,7 +213,7 @@ Results:
 | H | 17/100 |
 | Z | 15/100|
 | N | 18/100 |
-| **Total** | **85/500 (17%)** |
+| **Total** | **85/500 (17%)** |-->
 
 ## 2) TF-IDF Ranking
 
