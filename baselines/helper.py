@@ -8,11 +8,11 @@ def load_config(config_path='../config.json'):
 	
 	return config
 
-def load_data(config):
-  with open(config['folds_path'], 'r', encoding='utf-8') as f:
+def load_data(folds_path,data_path):
+  with open(folds_path, 'r', encoding='utf-8') as f:
     folds = json.load(f)
   
-  with open(config['data_path']) as f:
+  with open(data_path) as f:
     all_data = json.load(f)
 
   all_train = []

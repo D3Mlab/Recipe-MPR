@@ -57,7 +57,7 @@ def get_fewshot_NLL_score(model,tokenizer,condition,text,filler=' so I recommend
 
 
 
-def aspect_FS_pred(train_data,test_dataset, model_name, agg_fcn, normalize=True):
+def aspect_FS_pred(train_data,test_dataset, model_name, agg_fcn, normalize=True,prompt_size=5):
     model_class, tokenizer_class = get_model_and_tokenizer(model_name)
     model = model_class.from_pretrained(model_name).to('cuda')
     tokenizer = tokenizer_class.from_pretrained(model_name)
@@ -75,7 +75,7 @@ def aspect_FS_pred(train_data,test_dataset, model_name, agg_fcn, normalize=True)
         #     if sample['query_type'][key] == 1:
         #         type_count[key] += 1
         prompt = ''
-        prompt_size = 5
+        # prompt_size = 5
         # generate prompt sample
         for index in range(prompt_size):
             p = few_shot_prompt(train_data[index],True)

@@ -98,7 +98,7 @@ def fewshot(dataset, model, tokenizer, normalize, prompt):
     return predictions
 
 
-def FS_pred(train_splits, test_splits, model_name):
+def FS_pred(train_splits, test_splits, model_name,prompt_size=5):
     # results_file = "FewShot_" + name + "_" + str(prompt_size) + ".csv"
     model_class, tokenizer_class = get_model_and_tokenizer(model_name)
     model = model_class.from_pretrained(model_name).to('cuda')
@@ -106,7 +106,7 @@ def FS_pred(train_splits, test_splits, model_name):
     all_preds = []
 
     prompt = ''
-    prompt_size = 5
+    # prompt_size = 5
     # generate prompt sample
     for index in range(prompt_size):
         p = few_shot_prompt(train_splits[index], True)
