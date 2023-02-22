@@ -4,17 +4,17 @@ import pandas as pd
 def evaluate(data_split, predictions):
     type_correct = {
             "Specific": 0,
-            "Subjective": 0,
+            # "Subjective": 0,
             "Commonsense": 0,
-            "Compound": 0,
+            # "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
             "Temporal": 0}
     type_count = {
             "Specific": 0,
-            "Subjective": 0,
+            # "Subjective": 0,
             "Commonsense": 0,
-            "Compound": 0,
+            # "Compound": 0,
             "Negated": 0,
             "Analogical": 0,
             "Temporal": 0}

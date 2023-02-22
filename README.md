@@ -198,7 +198,8 @@ A number of different off-the-shelf baseline evaluation methods ranging from Spa
 To selectively run evaluation experiments, the [baselines/config.json](baselines/config.json) file can be modified and the shell scripts found under [baselines/scripts/](baselines/scripts/) can be run directly. For example,
 
 ```
-./single_runs.sh
+cd baselines
+./scripts/single_runs.sh
 ```
 
 To create random splits of the data into k-folds, the [utils/make_fold_inds.py](utils/make_fold_inds.py) script can be run to output the fold indices into a JSON file. The fold indices used in our experiments are found under [baselines/folds/](baselines/folds).
