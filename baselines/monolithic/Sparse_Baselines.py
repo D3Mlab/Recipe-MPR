@@ -25,17 +25,17 @@ class Sparse_Baseline():
         self.descriptions = []
         self.type_correct = {
             "Specific": 0,
-            "Subjective": 0,
+            #"Subjective": 0,
             "Commonsense": 0,
-            "Compound": 0,
+            #"Compound": 0,
             "Negated": 0,
             "Analogical": 0,
             "Temporal": 0}
         self.type_count = {
             "Specific": 0,
-            "Subjective": 0,
+            #"Subjective": 0,
             "Commonsense": 0,
-            "Compound": 0,
+            #"Compound": 0,
             "Negated": 0,
             "Analogical": 0,
             "Temporal": 0}

@@ -19,17 +19,7 @@
             "maximum": 1,
             "minimum": 0
           },
-          "Subjective": {
-            "type": "number",
-            "maximum": 1,
-            "minimum": 0
-          },
           "Indirect": {
-            "type": "number",
-            "maximum": 1,
-            "minimum": 0
-          },
-          "Compound": {
             "type": "number",
             "maximum": 1,
             "minimum": 0
@@ -50,7 +40,7 @@
             "minimum": 0
           }
         },
-        "required": ["Specific", "Subjective", "Commonsense", "Compound", "Negated", "Analogical", "Temporal"]
+        "required": ["Specific", "Commonsense", "Negated", "Analogical", "Temporal"]
       },
       "options": {
         "description": "Recipe ID and text description pairs",
@@ -66,17 +56,6 @@
       "answer": {
         "description": "Recipe ID of correct choice",
         "type": "string"
-      },
-      "incorrectness_explanations": {
-        "description": "Explanations for why incorrect options are wrong",
-        "type": "object",
-        "patternProperties": {
-          "^[a-zA-Z0-9]$": {
-            "type": "string"
-          }
-        },
-        "minProperties": 4,
-        "maxProperties": 4
       },
       "correctness_explanation": {
         "description": "Mapping of query terms to terms in the answer description that makes it correct",
