@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "title": "Recipe Recommendation",
+  "title": "Recipe-MPR",
   "description": "Recipe query, options, explanations, and correct answer",
   "type": "array",
   "items": {
@@ -50,7 +50,7 @@
             "minimum": 0
           }
         },
-        "required": ["Specific", "Subjective", "Indirect", "Compound", "Negated", "Analogical", "Temporal"]
+        "required": ["Specific", "Subjective", "Commonsense", "Compound", "Negated", "Analogical", "Temporal"]
       },
       "options": {
         "description": "Recipe ID and text description pairs",
