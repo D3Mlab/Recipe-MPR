@@ -160,7 +160,7 @@ A number of different off-the-shelf baseline evaluation methods ranging from Spa
 
 - Aspect-based setting: see [baselines/aspects/](baselines/aspects/) for evaluation code
 
-To selectively run evaluation experiments, the [baselines/config.json](baselines/config.json) file can be modified and the shell scripts found under [baselines/scripts/](baselines/scripts/) can be run directly. For example,
+The package requirements needed for evaluation can be found in [requirements.txt](requirements.txt). To run evaluation experiments, the [baselines/config.json](baselines/config.json) file can be modified and the shell scripts found under [baselines/scripts/](baselines/scripts/) can be run directly. For example,
 
 ```
 cd baselines
