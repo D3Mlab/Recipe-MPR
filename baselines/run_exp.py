@@ -5,11 +5,13 @@ from aspects.Aspect_Dense_Baselines import aspect_dense_pred
 from aspects.Aspect_Sparse_Baselines import aspect_sparse_pred,aspect_sparse_types 
 from aspects.Aspect_FewShot_Baselines import aspect_FS_pred 
 from aspects.Aspect_ZeroShot_Baselines import aspect_ZS_pred 
+from aspects.Aspect_GPT3_Text_Baseline import aspect_gpt3_pred
 from random import sample
 from monolithic.Dense_Baselines import dense_pred
 from monolithic.FewShot_Baselines import FS_pred
 from monolithic.Sparse_Baselines import sparse_pred, sparse_types
 from monolithic.ZeroShot_Baselines import ZS_pred
+from monolithic.GPT3_Text_Baseline import gpt3_pred
 import os
 import pandas as pd
 import numpy as np
@@ -92,7 +94,12 @@ def perform_experiment(fold,args):
         train_data = random.sample(train_data, exp_config['FS_num'])
 
     if exp_config['monolithic']:
-        if exp_config['type'] == 'sparse':
+        if exp_config['LM'] == 'DV3':
+            if exp_config['type']== 'FS':
+                predictions = gpt3_pred(train_data,test_data, prompt_size=exp_config['FS_num'],fewshot=True)
+            else:
+                predictions = gpt3_pred(train_data,test_data, prompt_size=0,fewshot=False)
+        elif exp_config['type'] == 'sparse':
             st = sparse_types[exp_config['sparse_type']]
             predictions = sparse_pred(test_data,st)
         elif exp_config['type'] == 'dense':
@@ -101,10 +108,13 @@ def perform_experiment(fold,args):
             predictions = ZS_pred(test_data,LM_names[exp_config['LM']])
         elif exp_config['type'] == 'FS':
             predictions = FS_pred(train_data,test_data,LM_names[exp_config['LM']], prompt_size=exp_config['FS_num'])
+        
 
     else: # aspect
         agg  = agg_fcns[exp_config['agg_func']]
-        if exp_config['type'] == 'sparse':
+        if exp_config['LM'] == 'DV3':
+            predictions = aspect_gpt3_pred(train_data,test_data, prompt_size=exp_config['FS_num'],fewshot=exp_config['type']=='FS')
+        elif exp_config['type'] == 'sparse':
             st = aspect_sparse_types[exp_config['sparse_type']]
             predictions = aspect_sparse_pred(test_data,sparse_method=st,agg_fcn=agg)
         elif exp_config['type'] == 'dense':
