@@ -113,7 +113,7 @@ def perform_experiment(fold,args):
     else: # aspect
         agg  = agg_fcns[exp_config['agg_func']]
         if exp_config['LM'] == 'DV3':
-            predictions = aspect_gpt3_pred(train_data,test_data, prompt_size=exp_config['FS_num'],fewshot=exp_config['type']=='FS')
+            predictions = aspect_gpt3_pred(train_data,test_data,agg_fcn=agg, prompt_size=exp_config['FS_num'],fewshot=exp_config['type']=='FS')
         elif exp_config['type'] == 'sparse':
             st = aspect_sparse_types[exp_config['sparse_type']]
             predictions = aspect_sparse_pred(test_data,sparse_method=st,agg_fcn=agg)

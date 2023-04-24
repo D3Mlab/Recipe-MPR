@@ -9,6 +9,7 @@ from string import whitespace
 from sklearn.utils import shuffle
 import requests
 from requests.exceptions import ConnectionError
+import json # ADDED FOR TESTING
 
 openai.api_key = 'API_KEY'
 
@@ -120,7 +121,24 @@ def parse_score_text(query, responses):
 
   return all_scores
 
-def aspect_gpt3_pred(train_data, test_data, agg_fcn,prompt_size=5, fewshot=False):
+def aspect_gpt3_pred(train_data, test_data, agg_fcn, prompt_size=5, fewshot=False):
+  ### ADDED FOR TESTING ###
+  if fewshot:
+    response_file = 'aspects/gpt3_fs_aspect_responses_0.txt'
+  else:
+    response_file = 'aspects/gpt3_zs_aspect_responses_0.txt'
+  
+  response_dict = {}
+  with open(response_file, 'r') as f:
+    lines = f.readlines()
+    for response in lines:
+      re_dict = json.loads(response)
+      query = list(re_dict.keys())[0]
+      query_re = re_dict[query]
+
+      response_dict.update({query:query_re})
+  ### 
+
   # prompt instruction
   prefix = "Given the preference aspect and five options, generate a list of scores for how well each option satisfies the query: \n\n"
   if fewshot:
@@ -139,13 +157,16 @@ def aspect_gpt3_pred(train_data, test_data, agg_fcn,prompt_size=5, fewshot=False
     correct_answer = sample['options'][sample['answer']]
     aspects = sample['correctness_explanation'].keys()
 
-    responses = []
+    ### CHANGED FOR TESTING ###
+    '''responses = []
     for a in aspects:
       prompt = create_prompt(prefix, a, options_list)
       
       # get API response
       response = get_response(prompt)
-      responses.append(response)
+      responses.append(response)'''
+    responses = response_dict[query]
+    ### 
 
     # parse text scores into float scores
     scores = parse_score_text(query, responses)

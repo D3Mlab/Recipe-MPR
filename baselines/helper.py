@@ -51,7 +51,7 @@ def aggregate(scores, fcn):
 
 def get_model_and_tokenizer(model_name):
   model_config = {
-		"facebook/opt-1.3b": [OPTForCausalLM, AutoTokenizer], 
+		# "facebook/opt-1.3b": [OPTForCausalLM, AutoTokenizer], 
 		"gpt2": [GPT2LMHeadModel, GPT2Tokenizer]
 	}
   print(model_name)
