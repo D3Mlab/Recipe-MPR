@@ -154,11 +154,11 @@ The second validator helped resolve conflicts and oversee suggested changes if n
 
 # Baseline Methods
 
-A number of different off-the-shelf baseline evaluation methods ranging from Sparse (OWC, TF-IDF, BM25), Dense ([BERT](https://huggingface.co/bert-base-uncased), [TAS-B](https://huggingface.co/sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco), [GPT-3 embeddings](https://platform.openai.com/docs/api-reference/embeddings)), Zero-Shot ([GPT-2](https://huggingface.co/gpt2), [OPT](https://huggingface.co/docs/transformers/model_doc/opt)), and Few-Shot (GPT-2, OPT) are provided. All baseline methods are provided for two evaluation settings: *Monolithic* and *Aspect-based*. Results from the baselines are automatically saved to .csv files with accuracy (hit@1) as the metric.
+A number of different off-the-shelf baseline evaluation methods ranging from Sparse (OWC, TF-IDF, BM25), Dense ([BERT](https://huggingface.co/bert-base-uncased), [TAS-B](https://huggingface.co/sebastian-hofstaetter/distilbert-dot-tas_b-b256-msmarco), [GPT-3 embeddings](https://platform.openai.com/docs/api-reference/embeddings)), Zero-Shot ([GPT-2](https://huggingface.co/gpt2), [GPT-3](https://platform.openai.com/docs/models/gpt-3-5), [OPT](https://huggingface.co/docs/transformers/model_doc/opt)), and Few-Shot (GPT-2, GPT-3, OPT) are provided. All baseline methods are provided for two evaluation settings: *Monolithic* and *Aspect-based*. Results from the baselines are automatically saved to .csv files with accuracy (hit@1) as the metric.
 
-- Monolithic setting: see [baselines/monolithic/](baselines/monolithic/) for evaluation code
+- Monolithic setting: see [baselines/monolithic/](baselines/monolithic/) for evaluation code and prompt formats
 
-- Aspect-based setting: see [baselines/aspects/](baselines/aspects/) for evaluation code
+- Aspect-based setting: see [baselines/aspects/](baselines/aspects/) for evaluation code and prompt formats
 
 The package requirements needed for evaluation can be found in [requirements.txt](requirements.txt). To run evaluation experiments, the [baselines/config.json](baselines/config.json) file can be modified and the shell scripts found under [baselines/scripts/](baselines/scripts/) can be run directly. For example,
 
