@@ -53,6 +53,4 @@ Option 1 Score: 0
 Option 2 Score: 1
 Option 3 Score: 0
 Option 4 Score: 0
-
-Option: Beef lasagna with whole wheat noodles, low-fat cottage cheese, and part-skim mozzarella cheese
 ```
